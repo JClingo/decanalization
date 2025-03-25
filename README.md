@@ -16,4 +16,4 @@ C:\Users\jingo\Documents\Unreal Projects\decanalization\Saved\StagedBuilds\Windo
 
 once there, in terminal:
 
-ue-canalization.exe Landscape -nullrhi -nosound -log -log=canalization.log
+./ue_canalization.exe Landscape -nullrhi -nosound -log -log=canalization.log
