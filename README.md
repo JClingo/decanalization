@@ -6,8 +6,8 @@ Tensorflow
 
 python -m pip install tensorboard
 
-cd C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\ThirdParty\Python3\Win64\Scripts
-./tensorboard --logdir=C:\Users\jingo\Documents\Unreal%Projects\decanalization\Intermediate\LearningAgents\Tensorboard\runs
+cd "C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\ThirdParty\Python3\Win64\Scripts"
+./tensorboard --logdir="C:\Users\jingo\Documents\Unreal Projects\decanalization\Intermediate\LearningAgents\Tensorboard\runs"
 
 <http://localhost:6006/>
 
@@ -17,3 +17,7 @@ C:\Users\jingo\Documents\Unreal Projects\decanalization\Saved\StagedBuilds\Windo
 once there, in terminal:
 
 ./ue_canalization.exe Landscape -nullrhi -nosound -log -log=canalization.log
+
+
+Jeff Zoom
+https://ucmerced.zoom.us/j/2091102020
