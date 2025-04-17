@@ -74,5 +74,5 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 # My own files
-training-results/
 screen-captures/
+logs/*
