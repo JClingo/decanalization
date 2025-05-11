@@ -1,0 +1,8 @@
+Iteration,Setpoint Average,Resources Harvested,Net Reward,Standard Deviation for Setpoints,Duration (seconds),,
+1,0,0,0.0,0,0,,
+2,-51,5,511.523176,0,15,,
+3,-49,4,424.067104,0,15,,
+4,-48,2,283.537404,0,12,,
+5,-57,1,52.784756,0,8,,
+6,-53,0,23.6,0,7,,
+7,-54,0,51.3,0,7,,

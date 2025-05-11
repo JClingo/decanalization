@@ -1,0 +1,58 @@
+---
+results:
+- id: 2023-10-01T00:00:00Z
+  reward-function: HRL
+  sequence-order: cdc
+  sequences:
+  - state: canalized
+    duration: 100
+    setpoint-avg: 0.0
+    loss-rate: 0.0
+    gains-harvested: 0
+    gain-rate: 0.0
+    setpoint-dev: 0.0
+    initial-setpoint: 0.0
+  - state: decanalized
+    duration: 100
+    setpoint-avg: 0.0
+    loss-rate: 0.0
+    gains-harvested: 0
+    gain-rate: 0.0
+    setpoint-dev: 0.0
+    initial-setpoint: 0.0
+  - state: recanalized
+    duration: 100
+    setpoint-avg: 0.0
+    loss-rate: 0.0
+    gains-harvested: 0
+    gain-rate: 0.0
+    setpoint-dev: 0.0
+    initial-setpoint: 0.0
+- id: 2023-10-01T00:00:00Z
+  reward-function: "LM"
+  type: ccc
+  sequences:
+  - state: canalized
+    duration: 100
+    setpoint-avg: 0.0
+    loss-rate: 0.0
+    gains-harvested: 0
+    gain-rate: 0.0
+    setpoint-dev: 0.0
+    initial-setpoint: 0.0
+  - state: decanalized
+    duration: 100
+    setpoint-avg: 0.0
+    loss-rate: 0.0
+    gains-harvested: 0
+    gain-rate: 0.0
+    setpoint-dev: 0.0
+    initial-setpoint: 0.0
+  - state: recanalized
+    duration: 100
+    setpoint-avg: 0.0
+    loss-rate: 0.0
+    gains-harvested: 0
+    gain-rate: 0.0
+    setpoint-dev: 0.0
+    initial-setpoint: 0.0

@@ -1,0 +1,14 @@
+---
+iterations:
+  - num: 1   
+    setpoint-avg: -31
+    resources-harvested: 0
+    net-reward: 0.0
+    setpoint-std-dev: 0
+    duration: 7
+  - num: 2   
+    setpoint-avg: -26
+    resources-harvested: 2
+    net-reward: 0.0
+    setpoint-std-dev: 0
+    duration: 6

@@ -75,5 +75,4 @@ DerivedDataCache/*
 
 # My own files
 screen-captures/
-logs/*
 .DS_Store

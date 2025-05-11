@@ -1,0 +1,4532 @@
+---
+iterations:
+  - num: 1   
+    setpoint-avg: 0
+    resources-harvested: 0
+    net-reward: 0.0
+    setpoint-std-dev: 0
+    duration: 0
+  - num: 2   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 524.117815
+    setpoint-std-dev: 90
+    duration: 40
+  - num: 3   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -472.512675
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 4   
+    setpoint-avg: -54
+    resources-harvested: 1
+    net-reward: 254.160156
+    setpoint-std-dev: 101
+    duration: 39
+  - num: 5   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -208.939222
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 6   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 540.166339
+    setpoint-std-dev: 94
+    duration: 39
+  - num: 7   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -285.29148
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 8   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -310.365659
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 9   
+    setpoint-avg: -48
+    resources-harvested: 3
+    net-reward: 2049.13855
+    setpoint-std-dev: 97
+    duration: 50
+  - num: 10   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 571.270726
+    setpoint-std-dev: 105
+    duration: 40
+  - num: 11   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 440.820843
+    setpoint-std-dev: 108
+    duration: 39
+  - num: 12   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 1691.75949
+    setpoint-std-dev: 91
+    duration: 46
+  - num: 13   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -362.919673
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 14   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 789.781871
+    setpoint-std-dev: 100
+    duration: 40
+  - num: 15   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -172.46296
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 16   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 543.955733
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 17   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -257.025654
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 18   
+    setpoint-avg: -43
+    resources-harvested: 3
+    net-reward: 1409.52838
+    setpoint-std-dev: 130
+    duration: 50
+  - num: 19   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -397.550546
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 20   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 219.214297
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 21   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -327.942186
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 22   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -378.696874
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 23   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -352.240723
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 24   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -444.900455
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 25   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -451.671108
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 26   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -397.060412
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 27   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -213.274893
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 28   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -270.526492
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 29   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -367.928694
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 30   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -307.358895
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 31   
+    setpoint-avg: -38
+    resources-harvested: 3
+    net-reward: 2435.539125
+    setpoint-std-dev: 128
+    duration: 50
+  - num: 32   
+    setpoint-avg: -49
+    resources-harvested: 3
+    net-reward: 2145.852453
+    setpoint-std-dev: 97
+    duration: 50
+  - num: 33   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -356.057524
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 34   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 96.004898
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 35   
+    setpoint-avg: -37
+    resources-harvested: 4
+    net-reward: 2299.530477
+    setpoint-std-dev: 132
+    duration: 50
+  - num: 36   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -399.754809
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 37   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -252.973235
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 38   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -436.555958
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 39   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -441.076334
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 40   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 979.915832
+    setpoint-std-dev: 98
+    duration: 40
+  - num: 41   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 346.620882
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 42   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -237.740702
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 43   
+    setpoint-avg: -51
+    resources-harvested: 3
+    net-reward: 1473.318136
+    setpoint-std-dev: 95
+    duration: 50
+  - num: 44   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -398.371121
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 45   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1305.530008
+    setpoint-std-dev: 95
+    duration: 46
+  - num: 46   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -388.554548
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 47   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -99.479621
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 48   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -407.883425
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 49   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 433.875069
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 50   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 427.933787
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 51   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 664.096179
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 52   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -337.685345
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 53   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -325.84288
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 54   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 668.699272
+    setpoint-std-dev: 118
+    duration: 46
+  - num: 55   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -380.609909
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 56   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -408.790889
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 57   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 239.91105
+    setpoint-std-dev: 111
+    duration: 40
+  - num: 58   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -404.055104
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 59   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -305.536066
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 60   
+    setpoint-avg: -51
+    resources-harvested: 4
+    net-reward: 2870.308372
+    setpoint-std-dev: 86
+    duration: 50
+  - num: 61   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 353.257444
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 62   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1072.839288
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 63   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -404.926772
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 64   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 270.20129
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 65   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 917.774529
+    setpoint-std-dev: 104
+    duration: 46
+  - num: 66   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 453.699657
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 67   
+    setpoint-avg: -47
+    resources-harvested: 2
+    net-reward: 1118.936454
+    setpoint-std-dev: 111
+    duration: 46
+  - num: 68   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: -80.199596
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 69   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -448.733809
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 70   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -325.046544
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 71   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -422.553998
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 72   
+    setpoint-avg: -44
+    resources-harvested: 4
+    net-reward: 3064.908325
+    setpoint-std-dev: 87
+    duration: 50
+  - num: 73   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -438.86182
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 74   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 47.813803
+    setpoint-std-dev: 94
+    duration: 40
+  - num: 75   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -433.214363
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 76   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 952.359005
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 77   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1348.376297
+    setpoint-std-dev: 97
+    duration: 46
+  - num: 78   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1873.820434
+    setpoint-std-dev: 114
+    duration: 46
+  - num: 79   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -275.396725
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 80   
+    setpoint-avg: -36
+    resources-harvested: 4
+    net-reward: 3789.367603
+    setpoint-std-dev: 83
+    duration: 50
+  - num: 81   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -445.678101
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 82   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -222.35775
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 83   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -299.509142
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 84   
+    setpoint-avg: -44
+    resources-harvested: 2
+    net-reward: 913.011852
+    setpoint-std-dev: 116
+    duration: 46
+  - num: 85   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: -87.012049
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 86   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1351.25518
+    setpoint-std-dev: 101
+    duration: 46
+  - num: 87   
+    setpoint-avg: -49
+    resources-harvested: 3
+    net-reward: 2588.362378
+    setpoint-std-dev: 90
+    duration: 50
+  - num: 88   
+    setpoint-avg: -42
+    resources-harvested: 2
+    net-reward: 752.083402
+    setpoint-std-dev: 125
+    duration: 46
+  - num: 89   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 426.926961
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 90   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -194.832453
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 91   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -433.337737
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 92   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 480.728689
+    setpoint-std-dev: 110
+    duration: 39
+  - num: 93   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -369.047565
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 94   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -194.613208
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 95   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -277.746861
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 96   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -375.759314
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 97   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 74.455944
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 98   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -397.721848
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 99   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 297.676271
+    setpoint-std-dev: 102
+    duration: 40
+  - num: 100   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 279.365611
+    setpoint-std-dev: 94
+    duration: 40
+  - num: 101   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -407.790099
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 102   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 341.821544
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 103   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -405.016564
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 104   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -135.211617
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 105   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -279.600786
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 106   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 546.736214
+    setpoint-std-dev: 94
+    duration: 39
+  - num: 107   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -459.98613
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 108   
+    setpoint-avg: -44
+    resources-harvested: 3
+    net-reward: 2075.175394
+    setpoint-std-dev: 84
+    duration: 50
+  - num: 109   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 757.281524
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 110   
+    setpoint-avg: -46
+    resources-harvested: 4
+    net-reward: 2567.384261
+    setpoint-std-dev: 94
+    duration: 50
+  - num: 111   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -428.652289
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 112   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 1504.792192
+    setpoint-std-dev: 107
+    duration: 46
+  - num: 113   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 667.80554
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 114   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -274.772031
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 115   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -353.155331
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 116   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 246.676952
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 117   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 186.940793
+    setpoint-std-dev: 100
+    duration: 40
+  - num: 118   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 742.398741
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 119   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -218.443724
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 120   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -452.923603
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 121   
+    setpoint-avg: -33
+    resources-harvested: 5
+    net-reward: 2716.847618
+    setpoint-std-dev: 91
+    duration: 50
+  - num: 122   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -375.723124
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 123   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -380.638193
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 124   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -261.594147
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 125   
+    setpoint-avg: -54
+    resources-harvested: 2
+    net-reward: 737.79009
+    setpoint-std-dev: 99
+    duration: 46
+  - num: 126   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -411.607305
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 127   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -337.734094
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 128   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 386.044493
+    setpoint-std-dev: 111
+    duration: 40
+  - num: 129   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: -92.585028
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 130   
+    setpoint-avg: -47
+    resources-harvested: 3
+    net-reward: 2232.156587
+    setpoint-std-dev: 102
+    duration: 50
+  - num: 131   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 263.20381
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 132   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 238.952655
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 133   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 661.079296
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 134   
+    setpoint-avg: -41
+    resources-harvested: 4
+    net-reward: 3383.737535
+    setpoint-std-dev: 74
+    duration: 50
+  - num: 135   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 1161.899029
+    setpoint-std-dev: 109
+    duration: 46
+  - num: 136   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 209.514423
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 137   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -455.538706
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 138   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -369.412068
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 139   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -328.070998
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 140   
+    setpoint-avg: -50
+    resources-harvested: 3
+    net-reward: 2094.339919
+    setpoint-std-dev: 86
+    duration: 50
+  - num: 141   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -392.872479
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 142   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -210.685409
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 143   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 639.28918
+    setpoint-std-dev: 96
+    duration: 39
+  - num: 144   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -417.001458
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 145   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -391.511089
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 146   
+    setpoint-avg: -46
+    resources-harvested: 5
+    net-reward: 3720.423133
+    setpoint-std-dev: 64
+    duration: 50
+  - num: 147   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -375.320271
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 148   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -452.193461
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 149   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -24.456074
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 150   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -400.215582
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 151   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -465.322561
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 152   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -312.368883
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 153   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -464.717763
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 154   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -435.707439
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 155   
+    setpoint-avg: -43
+    resources-harvested: 3
+    net-reward: 2543.260382
+    setpoint-std-dev: 102
+    duration: 50
+  - num: 156   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1098.138603
+    setpoint-std-dev: 114
+    duration: 46
+  - num: 157   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 615.471038
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 158   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -383.545634
+    setpoint-std-dev: 92
+    duration: 34
+  - num: 159   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 751.752836
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 160   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -411.348945
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 161   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -383.296888
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 162   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 381.352852
+    setpoint-std-dev: 110
+    duration: 39
+  - num: 163   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -389.318378
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 164   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 595.389108
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 165   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 223.163953
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 166   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -311.259379
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 167   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -376.208316
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 168   
+    setpoint-avg: -39
+    resources-harvested: 4
+    net-reward: 3384.790679
+    setpoint-std-dev: 69
+    duration: 50
+  - num: 169   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -349.013721
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 170   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 952.065019
+    setpoint-std-dev: 94
+    duration: 46
+  - num: 171   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 985.89975
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 172   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -396.267481
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 173   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -452.498826
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 174   
+    setpoint-avg: -41
+    resources-harvested: 3
+    net-reward: 2135.639443
+    setpoint-std-dev: 122
+    duration: 50
+  - num: 175   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -351.56291
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 176   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -358.176171
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 177   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -461.533785
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 178   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -358.961456
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 179   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 536.110743
+    setpoint-std-dev: 93
+    duration: 46
+  - num: 180   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1591.67379
+    setpoint-std-dev: 102
+    duration: 46
+  - num: 181   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -140.576337
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 182   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 365.119431
+    setpoint-std-dev: 97
+    duration: 46
+  - num: 183   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 197.833161
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 184   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: -282.33703
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 185   
+    setpoint-avg: -45
+    resources-harvested: 4
+    net-reward: 2371.521798
+    setpoint-std-dev: 102
+    duration: 50
+  - num: 186   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -365.391133
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 187   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -279.574683
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 188   
+    setpoint-avg: -49
+    resources-harvested: 0
+    net-reward: 0.1001
+    setpoint-std-dev: 105
+    duration: 50
+  - num: 189   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 815.09179
+    setpoint-std-dev: 113
+    duration: 40
+  - num: 190   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 685.11818
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 191   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 198.86742
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 192   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -372.726543
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 193   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 317.318102
+    setpoint-std-dev: 99
+    duration: 40
+  - num: 194   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -135.356956
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 195   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -414.279949
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 196   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 224.202084
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 197   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -207.763563
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 198   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 276.636517
+    setpoint-std-dev: 96
+    duration: 39
+  - num: 199   
+    setpoint-avg: -38
+    resources-harvested: 4
+    net-reward: 2961.551332
+    setpoint-std-dev: 77
+    duration: 50
+  - num: 200   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 849.568041
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 201   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -392.36653
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 202   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -394.039953
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 203   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 393.865771
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 204   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 548.98898
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 205   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -450.453359
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 206   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -366.519504
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 207   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -335.971
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 208   
+    setpoint-avg: -47
+    resources-harvested: 2
+    net-reward: 1203.005721
+    setpoint-std-dev: 98
+    duration: 46
+  - num: 209   
+    setpoint-avg: -55
+    resources-harvested: 2
+    net-reward: 1231.94682
+    setpoint-std-dev: 105
+    duration: 46
+  - num: 210   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 55.743054
+    setpoint-std-dev: 104
+    duration: 39
+  - num: 211   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 613.436829
+    setpoint-std-dev: 87
+    duration: 39
+  - num: 212   
+    setpoint-avg: -45
+    resources-harvested: 3
+    net-reward: 1440.189943
+    setpoint-std-dev: 94
+    duration: 50
+  - num: 213   
+    setpoint-avg: -52
+    resources-harvested: 3
+    net-reward: 2152.16705
+    setpoint-std-dev: 108
+    duration: 50
+  - num: 214   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 217.208077
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 215   
+    setpoint-avg: -36
+    resources-harvested: 4
+    net-reward: 2772.5418
+    setpoint-std-dev: 79
+    duration: 50
+  - num: 216   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -411.903322
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 217   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -374.283569
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 218   
+    setpoint-avg: -54
+    resources-harvested: 1
+    net-reward: 52.906416
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 219   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 278.934311
+    setpoint-std-dev: 105
+    duration: 39
+  - num: 220   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -335.968868
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 221   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 363.960515
+    setpoint-std-dev: 99
+    duration: 39
+  - num: 222   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 750.852768
+    setpoint-std-dev: 94
+    duration: 40
+  - num: 223   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -380.001032
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 224   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 718.637162
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 225   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -342.496768
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 226   
+    setpoint-avg: -46
+    resources-harvested: 3
+    net-reward: 1816.685476
+    setpoint-std-dev: 110
+    duration: 50
+  - num: 227   
+    setpoint-avg: -40
+    resources-harvested: 4
+    net-reward: 2976.311738
+    setpoint-std-dev: 104
+    duration: 50
+  - num: 228   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 137.034043
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 229   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 379.052661
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 230   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 896.552545
+    setpoint-std-dev: 97
+    duration: 39
+  - num: 231   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 264.378855
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 232   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -375.4009
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 233   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -303.12793
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 234   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -386.797091
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 235   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -399.58501
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 236   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -386.686453
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 237   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -258.622678
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 238   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -367.522757
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 239   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -373.352487
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 240   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -368.700076
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 241   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -95.375977
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 242   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -367.479777
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 243   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -306.390838
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 244   
+    setpoint-avg: -54
+    resources-harvested: 2
+    net-reward: 1028.20207
+    setpoint-std-dev: 99
+    duration: 46
+  - num: 245   
+    setpoint-avg: -45
+    resources-harvested: 1
+    net-reward: 574.89571
+    setpoint-std-dev: 109
+    duration: 39
+  - num: 246   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -264.08568
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 247   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 559.217719
+    setpoint-std-dev: 101
+    duration: 39
+  - num: 248   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -443.417581
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 249   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -431.738818
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 250   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -373.351079
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 251   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -344.20611
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 252   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -292.301149
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 253   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -232.341625
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 254   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 675.668177
+    setpoint-std-dev: 101
+    duration: 40
+  - num: 255   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1479.82412
+    setpoint-std-dev: 95
+    duration: 46
+  - num: 256   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -434.207575
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 257   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 492.729611
+    setpoint-std-dev: 103
+    duration: 40
+  - num: 258   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -415.437621
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 259   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -387.346694
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 260   
+    setpoint-avg: -47
+    resources-harvested: 2
+    net-reward: 1207.963351
+    setpoint-std-dev: 97
+    duration: 46
+  - num: 261   
+    setpoint-avg: -43
+    resources-harvested: 3
+    net-reward: 1654.549919
+    setpoint-std-dev: 104
+    duration: 50
+  - num: 262   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 499.031478
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 263   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 266.441124
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 264   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 870.356054
+    setpoint-std-dev: 113
+    duration: 40
+  - num: 265   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -253.013897
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 266   
+    setpoint-avg: -54
+    resources-harvested: 1
+    net-reward: 405.648319
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 267   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -254.226836
+    setpoint-std-dev: 91
+    duration: 34
+  - num: 268   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 441.199585
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 269   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 563.357486
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 270   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -405.629442
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 271   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -403.901947
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 272   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -432.677076
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 273   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -449.512298
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 274   
+    setpoint-avg: -54
+    resources-harvested: 3
+    net-reward: 3126.667127
+    setpoint-std-dev: 103
+    duration: 50
+  - num: 275   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 510.468067
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 276   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1321.244578
+    setpoint-std-dev: 119
+    duration: 46
+  - num: 277   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 734.337002
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 278   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -240.556464
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 279   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: -59.141672
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 280   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 865.119603
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 281   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -373.952281
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 282   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -389.758446
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 283   
+    setpoint-avg: -45
+    resources-harvested: 3
+    net-reward: 1752.497766
+    setpoint-std-dev: 92
+    duration: 50
+  - num: 284   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -277.170028
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 285   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -338.184083
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 286   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1123.66191
+    setpoint-std-dev: 91
+    duration: 46
+  - num: 287   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -454.53826
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 288   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -314.100128
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 289   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 242.99384
+    setpoint-std-dev: 87
+    duration: 39
+  - num: 290   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -380.796211
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 291   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 97.607739
+    setpoint-std-dev: 106
+    duration: 39
+  - num: 292   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -375.695208
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 293   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 183.017243
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 294   
+    setpoint-avg: -45
+    resources-harvested: 1
+    net-reward: 100.151109
+    setpoint-std-dev: 110
+    duration: 39
+  - num: 295   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 1193.991705
+    setpoint-std-dev: 97
+    duration: 47
+  - num: 296   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 481.529606
+    setpoint-std-dev: 96
+    duration: 39
+  - num: 297   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1294.308631
+    setpoint-std-dev: 115
+    duration: 46
+  - num: 298   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -449.70349
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 299   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -481.448068
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 300   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 876.096924
+    setpoint-std-dev: 103
+    duration: 39
+  - num: 301   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -338.897535
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 302   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -413.458444
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 303   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 507.245225
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 304   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -226.356227
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 305   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 815.734804
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 306   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -488.497006
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 307   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1073.7048
+    setpoint-std-dev: 92
+    duration: 46
+  - num: 308   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 573.306795
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 309   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 793.476982
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 310   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -477.08264
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 311   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 371.991776
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 312   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -382.414403
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 313   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -231.812377
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 314   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1498.046843
+    setpoint-std-dev: 98
+    duration: 46
+  - num: 315   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -306.42922
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 316   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 375.312071
+    setpoint-std-dev: 116
+    duration: 46
+  - num: 317   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 1726.571389
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 318   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 654.018545
+    setpoint-std-dev: 107
+    duration: 39
+  - num: 319   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 499.680012
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 320   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -373.8505
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 321   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -343.510007
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 322   
+    setpoint-avg: -39
+    resources-harvested: 4
+    net-reward: 2751.882701
+    setpoint-std-dev: 71
+    duration: 50
+  - num: 323   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 582.91769
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 324   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -393.591394
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 325   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -402.204604
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 326   
+    setpoint-avg: -32
+    resources-harvested: 4
+    net-reward: 4143.602121
+    setpoint-std-dev: 104
+    duration: 50
+  - num: 327   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -292.326857
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 328   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 481.846467
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 329   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -321.570535
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 330   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 525.461762
+    setpoint-std-dev: 95
+    duration: 40
+  - num: 331   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -244.095625
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 332   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -456.50366
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 333   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1781.256769
+    setpoint-std-dev: 98
+    duration: 46
+  - num: 334   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 886.335975
+    setpoint-std-dev: 110
+    duration: 46
+  - num: 335   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -384.659289
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 336   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 437.318088
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 337   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -310.503787
+    setpoint-std-dev: 90
+    duration: 34
+  - num: 338   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -457.53736
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 339   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: -273.646977
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 340   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 655.005754
+    setpoint-std-dev: 97
+    duration: 39
+  - num: 341   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -248.356197
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 342   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: -41.061254
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 343   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 760.076198
+    setpoint-std-dev: 107
+    duration: 39
+  - num: 344   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -294.636723
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 345   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -415.185478
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 346   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 106.628068
+    setpoint-std-dev: 108
+    duration: 39
+  - num: 347   
+    setpoint-avg: -44
+    resources-harvested: 2
+    net-reward: 1089.599389
+    setpoint-std-dev: 110
+    duration: 46
+  - num: 348   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: -148.216422
+    setpoint-std-dev: 106
+    duration: 40
+  - num: 349   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -429.949846
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 350   
+    setpoint-avg: -42
+    resources-harvested: 2
+    net-reward: 1641.265831
+    setpoint-std-dev: 125
+    duration: 46
+  - num: 351   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -433.780335
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 352   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 581.43886
+    setpoint-std-dev: 94
+    duration: 39
+  - num: 353   
+    setpoint-avg: -44
+    resources-harvested: 4
+    net-reward: 2906.420673
+    setpoint-std-dev: 64
+    duration: 50
+  - num: 354   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -324.606512
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 355   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -325.73955
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 356   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 119.278721
+    setpoint-std-dev: 90
+    duration: 40
+  - num: 357   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 431.957879
+    setpoint-std-dev: 109
+    duration: 40
+  - num: 358   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 23.828571
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 359   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 540.887356
+    setpoint-std-dev: 103
+    duration: 40
+  - num: 360   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 163.584248
+    setpoint-std-dev: 87
+    duration: 39
+  - num: 361   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 517.653783
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 362   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 426.35705
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 363   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -137.065562
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 364   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 390.93547
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 365   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: -409.407482
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 366   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -388.516267
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 367   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -401.670046
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 368   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -406.562544
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 369   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: -16.006136
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 370   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -360.050704
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 371   
+    setpoint-avg: -40
+    resources-harvested: 4
+    net-reward: 3452.350827
+    setpoint-std-dev: 87
+    duration: 50
+  - num: 372   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 1072.809902
+    setpoint-std-dev: 110
+    duration: 46
+  - num: 373   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 639.46844
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 374   
+    setpoint-avg: -36
+    resources-harvested: 5
+    net-reward: 4362.272223
+    setpoint-std-dev: 58
+    duration: 50
+  - num: 375   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 1430.67169
+    setpoint-std-dev: 91
+    duration: 46
+  - num: 376   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -382.242058
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 377   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 1435.611848
+    setpoint-std-dev: 108
+    duration: 46
+  - num: 378   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 724.830109
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 379   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 1407.083632
+    setpoint-std-dev: 92
+    duration: 46
+  - num: 380   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 24.230852
+    setpoint-std-dev: 100
+    duration: 40
+  - num: 381   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 188.283794
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 382   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -417.502505
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 383   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -194.177782
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 384   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -399.715913
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 385   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -364.849531
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 386   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -414.163139
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 387   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -386.607005
+    setpoint-std-dev: 91
+    duration: 34
+  - num: 388   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -384.563275
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 389   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -446.008564
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 390   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -294.90887
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 391   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 279.802405
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 392   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: -234.483741
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 393   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -159.56984
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 394   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -375.047767
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 395   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -410.005164
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 396   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 594.439159
+    setpoint-std-dev: 95
+    duration: 40
+  - num: 397   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -412.724475
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 398   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -430.553564
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 399   
+    setpoint-avg: -55
+    resources-harvested: 2
+    net-reward: 651.172639
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 400   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 1050.629085
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 401   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -329.961195
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 402   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -196.389465
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 403   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -439.40796
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 404   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -455.188747
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 405   
+    setpoint-avg: -54
+    resources-harvested: 1
+    net-reward: 331.928099
+    setpoint-std-dev: 101
+    duration: 39
+  - num: 406   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 1542.243326
+    setpoint-std-dev: 97
+    duration: 45
+  - num: 407   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 221.765957
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 408   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 395.92348
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 409   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 741.95067
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 410   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1362.69969
+    setpoint-std-dev: 111
+    duration: 46
+  - num: 411   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 1780.44419
+    setpoint-std-dev: 93
+    duration: 46
+  - num: 412   
+    setpoint-avg: -38
+    resources-harvested: 5
+    net-reward: 5139.684805
+    setpoint-std-dev: 51
+    duration: 50
+  - num: 413   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -322.040197
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 414   
+    setpoint-avg: -43
+    resources-harvested: 2
+    net-reward: 1114.868887
+    setpoint-std-dev: 121
+    duration: 46
+  - num: 415   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 63.84715
+    setpoint-std-dev: 99
+    duration: 39
+  - num: 416   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -314.651731
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 417   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 214.772302
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 418   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 535.83794
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 419   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -390.000888
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 420   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 671.305691
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 421   
+    setpoint-avg: -54
+    resources-harvested: 1
+    net-reward: 360.718582
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 422   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -427.492862
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 423   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 549.078414
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 424   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 1646.079274
+    setpoint-std-dev: 123
+    duration: 46
+  - num: 425   
+    setpoint-avg: -50
+    resources-harvested: 3
+    net-reward: 2498.817179
+    setpoint-std-dev: 98
+    duration: 50
+  - num: 426   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -465.838222
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 427   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -448.222301
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 428   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -431.109783
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 429   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 629.110956
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 430   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 219.572516
+    setpoint-std-dev: 103
+    duration: 39
+  - num: 431   
+    setpoint-avg: -50
+    resources-harvested: 3
+    net-reward: 2155.876568
+    setpoint-std-dev: 84
+    duration: 50
+  - num: 432   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -335.809472
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 433   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 656.547366
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 434   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 1109.928277
+    setpoint-std-dev: 107
+    duration: 39
+  - num: 435   
+    setpoint-avg: -54
+    resources-harvested: 1
+    net-reward: 704.538584
+    setpoint-std-dev: 103
+    duration: 40
+  - num: 436   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -406.306863
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 437   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -436.042825
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 438   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 166.051591
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 439   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -363.914619
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 440   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 347.545036
+    setpoint-std-dev: 98
+    duration: 40
+  - num: 441   
+    setpoint-avg: -44
+    resources-harvested: 2
+    net-reward: 1888.964625
+    setpoint-std-dev: 113
+    duration: 46
+  - num: 442   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 838.81205
+    setpoint-std-dev: 114
+    duration: 46
+  - num: 443   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 190.879296
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 444   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -291.468142
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 445   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -246.369449
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 446   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: -67.703365
+    setpoint-std-dev: 96
+    duration: 39
+  - num: 447   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -379.345562
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 448   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -333.948947
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 449   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -444.712333
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 450   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: -207.554776
+    setpoint-std-dev: 102
+    duration: 39
+  - num: 451   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -344.355932
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 452   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -417.18288
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 453   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 305.017315
+    setpoint-std-dev: 103
+    duration: 39
+  - num: 454   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -431.198692
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 455   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 255.994864
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 456   
+    setpoint-avg: -44
+    resources-harvested: 4
+    net-reward: 3445.345876
+    setpoint-std-dev: 62
+    duration: 50
+  - num: 457   
+    setpoint-avg: -47
+    resources-harvested: 4
+    net-reward: 2175.571367
+    setpoint-std-dev: 74
+    duration: 50
+  - num: 458   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 30.316433
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 459   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -235.969386
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 460   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -214.589319
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 461   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -372.428763
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 462   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -412.93822
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 463   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -401.029904
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 464   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 205.680856
+    setpoint-std-dev: 97
+    duration: 39
+  - num: 465   
+    setpoint-avg: -49
+    resources-harvested: 3
+    net-reward: 1827.947647
+    setpoint-std-dev: 117
+    duration: 50
+  - num: 466   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 893.26486
+    setpoint-std-dev: 92
+    duration: 46
+  - num: 467   
+    setpoint-avg: -42
+    resources-harvested: 2
+    net-reward: 1458.890485
+    setpoint-std-dev: 121
+    duration: 46
+  - num: 468   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -117.859401
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 469   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 530.400774
+    setpoint-std-dev: 89
+    duration: 39
+  - num: 470   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1287.506059
+    setpoint-std-dev: 98
+    duration: 48
+  - num: 471   
+    setpoint-avg: -49
+    resources-harvested: 3
+    net-reward: 2024.255596
+    setpoint-std-dev: 102
+    duration: 50
+  - num: 472   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 493.944699
+    setpoint-std-dev: 94
+    duration: 39
+  - num: 473   
+    setpoint-avg: -37
+    resources-harvested: 3
+    net-reward: 2060.999463
+    setpoint-std-dev: 141
+    duration: 50
+  - num: 474   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1683.060633
+    setpoint-std-dev: 91
+    duration: 46
+  - num: 475   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 551.622516
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 476   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -345.939842
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 477   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 447.569503
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 478   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -380.40567
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 479   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -400.030678
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 480   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -387.126516
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 481   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -187.033222
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 482   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -443.061778
+    setpoint-std-dev: 93
+    duration: 35
+  - num: 483   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -277.64706
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 484   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -342.949434
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 485   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 340.983742
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 486   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -290.770765
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 487   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -467.793135
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 488   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 516.754222
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 489   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 1407.574971
+    setpoint-std-dev: 99
+    duration: 46
+  - num: 490   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 683.933279
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 491   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 253.665807
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 492   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -411.575287
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 493   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 1737.277404
+    setpoint-std-dev: 97
+    duration: 46
+  - num: 494   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 832.35047
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 495   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -308.558294
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 496   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -454.718566
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 497   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 638.186631
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 498   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -176.724476
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 499   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 349.441898
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 500   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -361.881204
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 501   
+    setpoint-avg: -40
+    resources-harvested: 3
+    net-reward: 2180.061554
+    setpoint-std-dev: 116
+    duration: 50
+  - num: 502   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 546.279946
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 503   
+    setpoint-avg: -51
+    resources-harvested: 4
+    net-reward: 3065.592212
+    setpoint-std-dev: 82
+    duration: 50
+  - num: 504   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -440.750537
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 505   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -326.650916
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 506   
+    setpoint-avg: -44
+    resources-harvested: 3
+    net-reward: 1782.725084
+    setpoint-std-dev: 97
+    duration: 50
+  - num: 507   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -424.798618
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 508   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -290.618769
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 509   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: -119.971068
+    setpoint-std-dev: 105
+    duration: 39
+  - num: 510   
+    setpoint-avg: -54
+    resources-harvested: 2
+    net-reward: 1463.507113
+    setpoint-std-dev: 101
+    duration: 45
+  - num: 511   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 912.181804
+    setpoint-std-dev: 110
+    duration: 46
+  - num: 512   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 848.072613
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 513   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -387.433521
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 514   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -384.80558
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 515   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -390.596202
+    setpoint-std-dev: 87
+    duration: 33
+  - num: 516   
+    setpoint-avg: -53
+    resources-harvested: 3
+    net-reward: 2736.075945
+    setpoint-std-dev: 100
+    duration: 50
+  - num: 517   
+    setpoint-avg: -42
+    resources-harvested: 2
+    net-reward: 1229.419853
+    setpoint-std-dev: 124
+    duration: 46
+  - num: 518   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 431.514223
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 519   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -250.807229
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 520   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -358.335374
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 521   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -445.690142
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 522   
+    setpoint-avg: -49
+    resources-harvested: 4
+    net-reward: 4016.496688
+    setpoint-std-dev: 75
+    duration: 50
+  - num: 523   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 910.184304
+    setpoint-std-dev: 118
+    duration: 46
+  - num: 524   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -421.380827
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 525   
+    setpoint-avg: -47
+    resources-harvested: 4
+    net-reward: 2013.951789
+    setpoint-std-dev: 69
+    duration: 50
+  - num: 526   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -371.52119
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 527   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -236.786161
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 528   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -357.302682
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 529   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 319.956254
+    setpoint-std-dev: 105
+    duration: 39
+  - num: 530   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -319.911816
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 531   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -466.384489
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 532   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: -40.697891
+    setpoint-std-dev: 97
+    duration: 40
+  - num: 533   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -447.419428
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 534   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 342.19043
+    setpoint-std-dev: 92
+    duration: 40
+  - num: 535   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 267.231608
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 536   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -320.629744
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 537   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -414.666361
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 538   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 302.027809
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 539   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 425.445474
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 540   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 313.624988
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 541   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 324.637485
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 542   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 670.240205
+    setpoint-std-dev: 108
+    duration: 46
+  - num: 543   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -323.916432
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 544   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 1618.227352
+    setpoint-std-dev: 109
+    duration: 46
+  - num: 545   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -418.66602
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 546   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -332.614503
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 547   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -406.783371
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 548   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -405.784884
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 549   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -442.413131
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 550   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -396.333693
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 551   
+    setpoint-avg: -42
+    resources-harvested: 3
+    net-reward: 2404.526915
+    setpoint-std-dev: 139
+    duration: 50
+  - num: 552   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 508.494804
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 553   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -202.870728
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 554   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -395.63019
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 555   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 642.560492
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 556   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -283.095376
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 557   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -427.098397
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 558   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 250.093591
+    setpoint-std-dev: 101
+    duration: 40
+  - num: 559   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -445.203152
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 560   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -398.404219
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 561   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1249.163364
+    setpoint-std-dev: 121
+    duration: 45
+  - num: 562   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -293.085735
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 563   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 525.36953
+    setpoint-std-dev: 110
+    duration: 40
+  - num: 564   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1326.503447
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 565   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 851.249489
+    setpoint-std-dev: 99
+    duration: 46
+  - num: 566   
+    setpoint-avg: -40
+    resources-harvested: 3
+    net-reward: 3035.605129
+    setpoint-std-dev: 112
+    duration: 50
+  - num: 567   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1360.990555
+    setpoint-std-dev: 113
+    duration: 46
+  - num: 568   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -255.68607
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 569   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1544.622092
+    setpoint-std-dev: 110
+    duration: 46
+  - num: 570   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 607.988051
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 571   
+    setpoint-avg: -44
+    resources-harvested: 2
+    net-reward: 632.157159
+    setpoint-std-dev: 112
+    duration: 46
+  - num: 572   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 475.020358
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 573   
+    setpoint-avg: -42
+    resources-harvested: 3
+    net-reward: 1649.327948
+    setpoint-std-dev: 103
+    duration: 50
+  - num: 574   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -429.733708
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 575   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 1004.79953
+    setpoint-std-dev: 94
+    duration: 39
+  - num: 576   
+    setpoint-avg: -44
+    resources-harvested: 3
+    net-reward: 2031.993948
+    setpoint-std-dev: 93
+    duration: 50
+  - num: 577   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 414.71228
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 578   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 351.873484
+    setpoint-std-dev: 99
+    duration: 39
+  - num: 579   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 729.258513
+    setpoint-std-dev: 104
+    duration: 46
+  - num: 580   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 472.926189
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 581   
+    setpoint-avg: -44
+    resources-harvested: 4
+    net-reward: 3750.785541
+    setpoint-std-dev: 67
+    duration: 50
+  - num: 582   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 65.451354
+    setpoint-std-dev: 110
+    duration: 39
+  - num: 583   
+    setpoint-avg: -46
+    resources-harvested: 3
+    net-reward: 1919.538452
+    setpoint-std-dev: 98
+    duration: 50
+  - num: 584   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -426.121658
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 585   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -388.261716
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 586   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -280.232188
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 587   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 486.650619
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 588   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -424.292243
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 589   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -309.932751
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 590   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -402.224937
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 591   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -384.604407
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 592   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -347.931481
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 593   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 767.98391
+    setpoint-std-dev: 96
+    duration: 46
+  - num: 594   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 466.33167
+    setpoint-std-dev: 98
+    duration: 39
+  - num: 595   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1014.843382
+    setpoint-std-dev: 114
+    duration: 46
+  - num: 596   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -449.472406
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 597   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1205.838389
+    setpoint-std-dev: 104
+    duration: 46
+  - num: 598   
+    setpoint-avg: -45
+    resources-harvested: 1
+    net-reward: -277.734228
+    setpoint-std-dev: 107
+    duration: 39
+  - num: 599   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 508.763079
+    setpoint-std-dev: 108
+    duration: 39
+  - num: 600   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 530.683397
+    setpoint-std-dev: 91
+    duration: 40
+  - num: 601   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -432.789625
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 602   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -444.719504
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 603   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1233.002458
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 604   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1799.756024
+    setpoint-std-dev: 94
+    duration: 46
+  - num: 605   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 339.052967
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 606   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -353.877387
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 607   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 429.765939
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 608   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -330.645747
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 609   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 1365.919973
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 610   
+    setpoint-avg: -47
+    resources-harvested: 2
+    net-reward: 1415.357176
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 611   
+    setpoint-avg: -36
+    resources-harvested: 3
+    net-reward: 2795.532763
+    setpoint-std-dev: 139
+    duration: 50
+  - num: 612   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -368.593695
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 613   
+    setpoint-avg: -55
+    resources-harvested: 3
+    net-reward: 2213.691217
+    setpoint-std-dev: 105
+    duration: 50
+  - num: 614   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: -277.733365
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 615   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 788.599875
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 616   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 239.103331
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 617   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -443.033312
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 618   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -324.56115
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 619   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 1847.227001
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 620   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -433.528416
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 621   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -443.483606
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 622   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -377.798335
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 623   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -386.435001
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 624   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 710.393572
+    setpoint-std-dev: 93
+    duration: 46
+  - num: 625   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 349.17119
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 626   
+    setpoint-avg: -54
+    resources-harvested: 2
+    net-reward: 1608.561208
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 627   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 299.584274
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 628   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 184.867578
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 629   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1272.057495
+    setpoint-std-dev: 94
+    duration: 46
+  - num: 630   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1488.65073
+    setpoint-std-dev: 90
+    duration: 46
+  - num: 631   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 582.505702
+    setpoint-std-dev: 101
+    duration: 39
+  - num: 632   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1197.390281
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 633   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -327.777697
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 634   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 459.235937
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 635   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -396.593428
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 636   
+    setpoint-avg: -53
+    resources-harvested: 3
+    net-reward: 2424.923174
+    setpoint-std-dev: 96
+    duration: 50
+  - num: 637   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 807.09126
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 638   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -136.011333
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 639   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 1039.445028
+    setpoint-std-dev: 95
+    duration: 46
+  - num: 640   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 486.908132
+    setpoint-std-dev: 107
+    duration: 40
+  - num: 641   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -278.701098
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 642   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -353.394204
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 643   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -394.461723
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 644   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 361.371004
+    setpoint-std-dev: 99
+    duration: 40
+  - num: 645   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1125.22182
+    setpoint-std-dev: 121
+    duration: 46
+  - num: 646   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -337.551462
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 647   
+    setpoint-avg: -33
+    resources-harvested: 4
+    net-reward: 2813.780239
+    setpoint-std-dev: 101
+    duration: 50
+  - num: 648   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 364.307727
+    setpoint-std-dev: 94
+    duration: 40
+  - num: 649   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 254.52716
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 650   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -457.107589
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 651   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 801.514482
+    setpoint-std-dev: 99
+    duration: 40
+  - num: 652   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -427.345574
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 653   
+    setpoint-avg: -50
+    resources-harvested: 4
+    net-reward: 2312.691945
+    setpoint-std-dev: 100
+    duration: 50
+  - num: 654   
+    setpoint-avg: -50
+    resources-harvested: 0
+    net-reward: -309.122166
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 655   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -398.272474
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 656   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 326.084861
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 657   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -156.218402
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 658   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -273.774481
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 659   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -312.693203
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 660   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -413.164596
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 661   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 325.790703
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 662   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 1447.233622
+    setpoint-std-dev: 102
+    duration: 46
+  - num: 663   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 623.324181
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 664   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -196.935231
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 665   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -355.487859
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 666   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1096.963727
+    setpoint-std-dev: 101
+    duration: 46
+  - num: 667   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 320.381035
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 668   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 1424.4481
+    setpoint-std-dev: 102
+    duration: 46
+  - num: 669   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 529.942241
+    setpoint-std-dev: 90
+    duration: 40
+  - num: 670   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 54.179948
+    setpoint-std-dev: 105
+    duration: 39
+  - num: 671   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 972.577229
+    setpoint-std-dev: 90
+    duration: 40
+  - num: 672   
+    setpoint-avg: -52
+    resources-harvested: 2
+    net-reward: 873.632796
+    setpoint-std-dev: 92
+    duration: 46
+  - num: 673   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: -101.898884
+    setpoint-std-dev: 106
+    duration: 39
+  - num: 674   
+    setpoint-avg: -53
+    resources-harvested: 2
+    net-reward: 807.624315
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 675   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 999.282561
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 676   
+    setpoint-avg: -48
+    resources-harvested: 2
+    net-reward: 1093.846659
+    setpoint-std-dev: 120
+    duration: 46
+  - num: 677   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 894.148754
+    setpoint-std-dev: 110
+    duration: 46
+  - num: 678   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -431.30929
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 679   
+    setpoint-avg: -55
+    resources-harvested: 2
+    net-reward: 1574.317114
+    setpoint-std-dev: 104
+    duration: 46
+  - num: 680   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 530.471756
+    setpoint-std-dev: 104
+    duration: 39
+  - num: 681   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -363.888789
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 682   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 232.515388
+    setpoint-std-dev: 108
+    duration: 39
+  - num: 683   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 542.4101
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 684   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 539.888786
+    setpoint-std-dev: 94
+    duration: 40
+  - num: 685   
+    setpoint-avg: -46
+    resources-harvested: 4
+    net-reward: 2680.278124
+    setpoint-std-dev: 93
+    duration: 50
+  - num: 686   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 755.982947
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 687   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 222.936513
+    setpoint-std-dev: 102
+    duration: 40
+  - num: 688   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 158.612792
+    setpoint-std-dev: 93
+    duration: 39
+  - num: 689   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -365.209968
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 690   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 1155.742592
+    setpoint-std-dev: 102
+    duration: 46
+  - num: 691   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 224.405441
+    setpoint-std-dev: 103
+    duration: 40
+  - num: 692   
+    setpoint-avg: -43
+    resources-harvested: 3
+    net-reward: 2715.378126
+    setpoint-std-dev: 99
+    duration: 50
+  - num: 693   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -322.013538
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 694   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -353.615359
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 695   
+    setpoint-avg: -42
+    resources-harvested: 3
+    net-reward: 2523.379941
+    setpoint-std-dev: 109
+    duration: 50
+  - num: 696   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 144.156838
+    setpoint-std-dev: 97
+    duration: 40
+  - num: 697   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 326.680853
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 698   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -291.76852
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 699   
+    setpoint-avg: -46
+    resources-harvested: 3
+    net-reward: 1845.643968
+    setpoint-std-dev: 101
+    duration: 50
+  - num: 700   
+    setpoint-avg: -46
+    resources-harvested: 3
+    net-reward: 2034.341548
+    setpoint-std-dev: 95
+    duration: 50
+  - num: 701   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -421.804012
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 702   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -347.766073
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 703   
+    setpoint-avg: -50
+    resources-harvested: 1
+    net-reward: 415.622596
+    setpoint-std-dev: 87
+    duration: 39
+  - num: 704   
+    setpoint-avg: -35
+    resources-harvested: 3
+    net-reward: 2036.123331
+    setpoint-std-dev: 150
+    duration: 50
+  - num: 705   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 711.113752
+    setpoint-std-dev: 92
+    duration: 39
+  - num: 706   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 921.566602
+    setpoint-std-dev: 93
+    duration: 46
+  - num: 707   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 466.085157
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 708   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 819.894623
+    setpoint-std-dev: 99
+    duration: 46
+  - num: 709   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 1204.031274
+    setpoint-std-dev: 106
+    duration: 46
+  - num: 710   
+    setpoint-avg: -49
+    resources-harvested: 4
+    net-reward: 2378.504394
+    setpoint-std-dev: 84
+    duration: 50
+  - num: 711   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 400.448216
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 712   
+    setpoint-avg: -42
+    resources-harvested: 4
+    net-reward: 2936.30143
+    setpoint-std-dev: 80
+    duration: 50
+  - num: 713   
+    setpoint-avg: -34
+    resources-harvested: 4
+    net-reward: 2681.221605
+    setpoint-std-dev: 92
+    duration: 50
+  - num: 714   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 380.529907
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 715   
+    setpoint-avg: -46
+    resources-harvested: 1
+    net-reward: 502.573473
+    setpoint-std-dev: 110
+    duration: 39
+  - num: 716   
+    setpoint-avg: -53
+    resources-harvested: 4
+    net-reward: 2686.782409
+    setpoint-std-dev: 112
+    duration: 50
+  - num: 717   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -341.630838
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 718   
+    setpoint-avg: -45
+    resources-harvested: 2
+    net-reward: 1399.45223
+    setpoint-std-dev: 112
+    duration: 46
+  - num: 719   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -377.984413
+    setpoint-std-dev: 88
+    duration: 33
+  - num: 720   
+    setpoint-avg: -47
+    resources-harvested: 3
+    net-reward: 2719.51322
+    setpoint-std-dev: 85
+    duration: 50
+  - num: 721   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 549.235933
+    setpoint-std-dev: 96
+    duration: 39
+  - num: 722   
+    setpoint-avg: -48
+    resources-harvested: 1
+    net-reward: 293.184917
+    setpoint-std-dev: 97
+    duration: 39
+  - num: 723   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -412.037807
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 724   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -258.605909
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 725   
+    setpoint-avg: -55
+    resources-harvested: 2
+    net-reward: 1325.092005
+    setpoint-std-dev: 103
+    duration: 46
+  - num: 726   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 881.380375
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 727   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -415.165208
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 728   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -347.328689
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 729   
+    setpoint-avg: -54
+    resources-harvested: 3
+    net-reward: 2015.736281
+    setpoint-std-dev: 105
+    duration: 50
+  - num: 730   
+    setpoint-avg: -54
+    resources-harvested: 2
+    net-reward: 1420.024691
+    setpoint-std-dev: 100
+    duration: 46
+  - num: 731   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -253.148849
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 732   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 381.172247
+    setpoint-std-dev: 91
+    duration: 39
+  - num: 733   
+    setpoint-avg: -45
+    resources-harvested: 3
+    net-reward: 2246.080889
+    setpoint-std-dev: 92
+    duration: 50
+  - num: 734   
+    setpoint-avg: -46
+    resources-harvested: 2
+    net-reward: 1275.012766
+    setpoint-std-dev: 109
+    duration: 46
+  - num: 735   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -239.335579
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 736   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -422.614125
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 737   
+    setpoint-avg: -51
+    resources-harvested: 3
+    net-reward: 1983.159099
+    setpoint-std-dev: 98
+    duration: 50
+  - num: 738   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -339.026155
+    setpoint-std-dev: 90
+    duration: 33
+  - num: 739   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 361.484512
+    setpoint-std-dev: 88
+    duration: 39
+  - num: 740   
+    setpoint-avg: -54
+    resources-harvested: 2
+    net-reward: 1114.125018
+    setpoint-std-dev: 98
+    duration: 46
+  - num: 741   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -331.142069
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 742   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 1346.384561
+    setpoint-std-dev: 94
+    duration: 46
+  - num: 743   
+    setpoint-avg: -49
+    resources-harvested: 2
+    net-reward: 780.908014
+    setpoint-std-dev: 107
+    duration: 46
+  - num: 744   
+    setpoint-avg: -52
+    resources-harvested: 1
+    net-reward: 183.836191
+    setpoint-std-dev: 94
+    duration: 39
+  - num: 745   
+    setpoint-avg: -47
+    resources-harvested: 1
+    net-reward: 233.017725
+    setpoint-std-dev: 100
+    duration: 39
+  - num: 746   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 476.475644
+    setpoint-std-dev: 96
+    duration: 40
+  - num: 747   
+    setpoint-avg: -41
+    resources-harvested: 3
+    net-reward: 1439.011681
+    setpoint-std-dev: 115
+    duration: 50
+  - num: 748   
+    setpoint-avg: -50
+    resources-harvested: 2
+    net-reward: 689.872544
+    setpoint-std-dev: 112
+    duration: 46
+  - num: 749   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -334.04954
+    setpoint-std-dev: 89
+    duration: 33
+  - num: 750   
+    setpoint-avg: -49
+    resources-harvested: 0
+    net-reward: 29.352146
+    setpoint-std-dev: 105
+    duration: 50
+  - num: 751   
+    setpoint-avg: -51
+    resources-harvested: 1
+    net-reward: 475.443822
+    setpoint-std-dev: 90
+    duration: 39
+  - num: 752   
+    setpoint-avg: -47
+    resources-harvested: 2
+    net-reward: 1235.990906
+    setpoint-std-dev: 106
+    duration: 46
+  - num: 753   
+    setpoint-avg: -49
+    resources-harvested: 1
+    net-reward: 605.375714
+    setpoint-std-dev: 93
+    duration: 40
+  - num: 754   
+    setpoint-avg: -53
+    resources-harvested: 1
+    net-reward: 440.890375
+    setpoint-std-dev: 95
+    duration: 39
+  - num: 755   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -408.48038
+    setpoint-std-dev: 90
+    duration: 33
