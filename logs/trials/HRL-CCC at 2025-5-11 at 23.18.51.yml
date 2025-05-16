@@ -1,0 +1,330 @@
+---
+trials:
+ - id: 10 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 11 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 12 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 13 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 14 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 15 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 16 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 17 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 18 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 19 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 20 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 21 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 22 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 23 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 24 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 25 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 26 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 27 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 28 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 29 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 30 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 31 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 32 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 33 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 34 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 35 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 36 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 37 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 38 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 39 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 40 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 41 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 42 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 43 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 44 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 45 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 46 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 47 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 48 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 49 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 50 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 51 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 52 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 53 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 54 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 55 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 56 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 57 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 58 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 59 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 60 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 61 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 62 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 63 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 64 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 65 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 66 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 67 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 68 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 69 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 70 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 71 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 72 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 73 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 74 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 75 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 76 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 77 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 78 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 79 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 80 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 81 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 82 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 83 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 84 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 85 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 86 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 87 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 88 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 89 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 90 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+- id: 91 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
