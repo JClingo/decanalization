@@ -74,6 +74,5 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 # My own files
-screen-captures/
 logs/training/
 .DS_Store
