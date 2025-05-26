@@ -1,0 +1,33 @@
+---
+trials:
+- id: 0 
+  reward-function: HRL
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 3000
+    setpoint-avg: 43.106922
+    setpoint-dev: 3751.582219
+    loss-total: -172.55503
+    gains-harvested: 17
+    gain-total: 386.012299
+    sequence-idx: 1
+    reward-total: 6073.795545
+  - state: decanalized
+    duration: 3000
+    setpoint-avg: 607.395408
+    setpoint-dev: 28771.004845
+    loss-total: 0.0
+    gains-harvested: 26
+    gain-total: 1180.0
+    sequence-idx: 2
+    reward-total: -5103.598374
+  - state: recanalized
+    duration: 3000
+    setpoint-avg: 191.94343
+    setpoint-dev: 11849.641004
+    loss-total: -70.927055
+    gains-harvested: 15
+    gain-total: 520.473691
+    sequence-idx: 3
+    reward-total: 2693.544107
