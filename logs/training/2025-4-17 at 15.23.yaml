@@ -1,0 +1,104 @@
+---
+iterations:
+  - num: 1   
+    setpoint-avg: 0
+    resources-harvested: 0
+    net-reward: 0.0
+    setpoint-std-dev: 0
+    duration: 0
+  - num: 2   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -9.08
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 3   
+    setpoint-avg: -43
+    resources-harvested: 2
+    net-reward: 177.1678
+    setpoint-std-dev: 0
+    duration: 28
+  - num: 4   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 30.9198
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 5   
+    setpoint-avg: -51
+    resources-harvested: 0
+    net-reward: -9.8622
+    setpoint-std-dev: 0
+    duration: 23
+  - num: 6   
+    setpoint-avg: -51
+    resources-harvested: 2
+    net-reward: 174.7678
+    setpoint-std-dev: 0
+    duration: 28
+  - num: 7   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 1.9198
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 8   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: -0.8802
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 9   
+    setpoint-avg: -45
+    resources-harvested: 0
+    net-reward: 0.1028
+    setpoint-std-dev: 0
+    duration: 17
+  - num: 10   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: -2.881
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 11   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: -5.8802
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 12   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: -9.8802
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 13   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 0.1198
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 14   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 6.7198
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 15   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 5.6198
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 16   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 1.0198
+    setpoint-std-dev: 0
+    duration: 20
+  - num: 17   
+    setpoint-avg: -52
+    resources-harvested: 0
+    net-reward: 9.9198
+    setpoint-std-dev: 0
+    duration: 20
