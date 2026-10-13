@@ -1,5 +1,10 @@
 # README
 
+The homeostatic objective, live-state observation fix, project-local PPO adapter,
+and validation results are documented in [analysis/homeostatic/README.md](analysis/homeostatic/README.md).
+Start a fresh run with `start_headless_training.cmd`; evaluate mean absolute
+homeostatic error and the fraction of time within ±5 in TensorBoard.
+
 ## Learning Agents
 
 https://dev.epicgames.com/community/learning/courses/GAR/unreal-engine-learning-agents-5-5/bZnJ/unreal-engine-learning-agents-5-5
