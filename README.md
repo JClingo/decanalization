@@ -24,3 +24,13 @@ C:\Users\jingo\Documents\Unreal Projects\decanalization\Saved\StagedBuilds\Windo
 once there, in terminal:
 
 ./ue_canalization.exe Landscape -nullrhi -nosound -log -log=canalization.log
+
+
+## New build things
+Everything in analysis
+
+Run metadata (inc runId)
+D:\Dev\decanalization\Saved\HeadlessTraining
+
+To kill a run
+taskkill /PID <runId> /T /F
