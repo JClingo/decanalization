@@ -5,6 +5,22 @@ implement a shared, continuous homeostatic objective. Phase transitions and
 full resets between trials remain unchanged. Legacy HRL/NF reward branches
 remain available by disabling `UseHomeostaticReward` in BP_AgentTrainingEnv.
 
+The policy update also corrects UE's positive-advantage-only log-space clipping:
+it takes the minimum *after* multiplying each alternative by the advantage.
+Negative advantages therefore stop decreasing action probability once the lower
+clip boundary is reached. The previous inherited formula left this direction
+unbounded and produced non-finite policy gradients after roughly 1207 updates.
+Gradient/loss/weight checks reject invalid optimizer updates and network sends,
+so non-finite parameters cannot silently reach Unreal's inference assertion.
+Reported policy gradient norms are measured before clipping.
+
+The crash correction passed 12 regression tests and a standalone headless run
+through reported optimizer iteration 1280 (past the original failing interval).
+All recorded policy/critic losses and gradients were finite, and the validation
+process stopped cleanly. `crash_validation.json` records the metrics; logs and
+the isolated test copy are under Saved/TrainingCrashFix. Existing user Blueprint
+edits were preserved. Restart training to load the corrected Python module.
+
 ## Reward
 
 Every decision receives:

@@ -8,9 +8,55 @@ import torch
 
 engine=pathlib.Path('D:/Dev/UE_5.5/Engine/Plugins/Experimental')
 sys.path.extend([str(engine/'LearningAgents/Content/Python'),str(engine/'NNERuntimeBasicCpu/Content/Python')])
-from homeostatic_ppo import gae, setpoint_column, HomeostaticPPOTrainer
+from homeostatic_ppo import gae, setpoint_column, HomeostaticPPOTrainer, clipped_log_surrogate, require_finite
 
 class AdvantagesTests(unittest.TestCase):
+    def make_trainer(self):
+        policy=torch.nn.Linear(2,3);policy.device='cpu'
+        critic=torch.nn.Linear(2,1)
+        return HomeostaticPPOTrainer({},
+            {'Type':'Continuous','VectorSize':1,'DistributionSize':2,'EncodedSize':2},
+            policy,critic,torch.nn.Identity(),torch.nn.Identity(),
+            torch.optim.Adam(policy.parameters(),lr=1e-4),
+            torch.optim.Adam(critic.parameters(),lr=1e-3),
+            advantage_min=-10.,use_grad_norm_max_clipping=True)
+
+    def test_recurrent_policy_update_with_mixed_advantages_stays_finite(self):
+        t=self.make_trainer()
+        result=t.train_policy(torch.ones(3,2),torch.zeros(3,2,1),torch.zeros(3,2,1),
+            torch.zeros(3,2,1),torch.tensor([[1.,1.],[-1.,-1.],[.5,-.5]]),torch.zeros(3,2),2)
+        self.assertTrue(np.isfinite(result).all())
+        self.assertTrue(all(torch.isfinite(p).all() for p in t.policy.parameters()))
+
+    def test_critic_optimizer_rejects_bad_gradient_before_mutating_weights(self):
+        t=self.make_trainer()
+        parameters=list(t.critic.parameters())
+        before=[p.detach().clone() for p in parameters]
+        for p in parameters:p.grad=torch.full_like(p,float('nan'))
+        with self.assertRaises(FloatingPointError):t.optim_critic.step()
+        for p,previous in zip(parameters,before):self.assertTrue(torch.equal(p,previous))
+
+    def test_clipping_stops_decreasing_bad_action_probability_past_limit(self):
+        ratio=torch.tensor([-5.0],requires_grad=True)
+        loss=-clipped_log_surrogate(ratio,torch.tensor([-1.]),-.2,.2).sum()
+        loss.backward()
+        self.assertAlmostEqual(loss.item(),-.2,places=6)
+        self.assertEqual(ratio.grad.item(),0.0)
+
+    def test_clipping_stops_increasing_good_action_probability_past_limit(self):
+        ratio=torch.tensor([5.0],requires_grad=True)
+        loss=-clipped_log_surrogate(ratio,torch.tensor([1.]),-.2,.2).sum()
+        loss.backward()
+        self.assertAlmostEqual(loss.item(),-.2,places=6)
+        self.assertEqual(ratio.grad.item(),0.0)
+
+    def test_bad_action_still_has_correct_gradient_inside_clip(self):
+        ratio=torch.tensor([0.0],requires_grad=True)
+        (-clipped_log_surrogate(ratio,torch.tensor([-1.]),-.2,.2).sum()).backward()
+        self.assertEqual(ratio.grad.item(),1.0)
+
+    def test_nonfinite_weights_are_rejected(self):
+        with self.assertRaises(FloatingPointError):require_finite('test',torch.tensor([float('nan')]))
     def test_single_terminal_transition_keeps_reward(self):
         a,r=gae(np.array([-1.]),np.array([0.]),np.array([20.]),
                 np.array([True]),np.array([False]),.99,.95)
