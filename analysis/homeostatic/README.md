@@ -130,3 +130,34 @@ Graph authoring utilities `add_reward_variables.py`, `patch_reward.py`,
 `compile_reward.py` and `configure_trainer.py` document how assets were made.
 They are development tools, not required to launch training. The patch script
 expects the exported variable-augmented asset at Saved/HomeostaticFix/env.variables.json.
+
+## Separate environment seeds for trials
+
+BP_GameMode Class Defaults exposes TrainingEnvironmentSeed (1) and
+TrialEnvironmentSeed (10001). BP_AgentManager.Run Inference selects the trial
+seed when true and the training seed when false. IsTrialMode does not select
+the seed, since it can also be enabled during training. ActiveEnvironmentSeed
+records the selected seed for inspection.
+
+The GameMode construction script initializes the shared RandomStream before
+BeginPlay, so the selection governs initial agent position/yaw, homeostatic
+randomness, and pellet values, locations and count. Initial pellet count now
+uses one seeded ShouldSpawn decision per grid cell: SpawnRate is the expected
+occupied fraction, rather than an exact fixed count. Placement still shuffles
+unique grid locations. Counts therefore vary between seeds; coincidentally
+equal counts are possible.
+
+Episode/trial resets and phase transitions do not rewind the stream. Successive
+resets produce varied environments reproducibly; phase continuity is preserved.
+The existing reset behavior repositions the current pellet population, so count
+is sampled at world startup. Restart the world after changing Run Inference or
+either seed. Seeding earlier and sampling occupancy changes legacy layouts even
+with training seed 1. PPO's separate training RNG seed is unchanged.
+
+`add_environment_seed_variables.py`, `patch_environment_seeds.py`,
+`patch_seeded_pellet_count.py`, and `compile_environment_seeds.py` document asset
+creation. Patch inputs are exported JSON under Saved/RngSeedFix. Runtime
+`validate_environment_seeds.py` is restricted to its isolated TestProject and
+captures initial state plus two full agent resets with manager ticking disabled.
+`environment_seed_validation.json` records reproducibility and differences;
+detailed layouts and Unreal logs remain under Saved/RngSeedFix.
