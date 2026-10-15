@@ -1,7 +1,7 @@
 # Homeostatic regulation
 
 The baseline project state is preserved in commit `e693150`. These changes
-implement a shared, continuous homeostatic objective. Phase transitions and
+implement distinct HRL and NF objectives. Phase transitions and
 full resets between trials remain unchanged. Legacy HRL/NF reward branches
 remain available by disabling `UseHomeostaticReward` in BP_AgentTrainingEnv.
 
@@ -23,7 +23,7 @@ edits were preserved. Restart training to load the corrected Python module.
 
 ## Reward
 
-Every decision receives:
+In HRL mode (`GameMode.IsHRL=true`), every decision receives:
 
 ```text
 reward = dt * HomeostaticRewardRate / (1 + (h / RewardDistanceScale)^2)
@@ -43,6 +43,27 @@ minimization. Reward scale is independent of the existing failure boundary.
 the manager resets the episode. Episode reward and step counts use the existing
 reset bookkeeping. Scale is floored at 0.001, reward rate at zero, and failure
 reward capped at zero to keep accidentally edited settings well-defined.
+
+In NF mode (`IsHRL=false`), the resulting homeostatic state must be strictly
+below zero. Only a reduction in absolute distance earns reward:
+
+```text
+NF reward = max(abs(previous decision h) - abs(current h), 0)
+            * HomeostaticRewardRate / RewardDistanceScale
+```
+
+At or above zero, NF reward is zero, including reaching exactly zero or
+overshooting into positive values. Unchanged and worsening negative states
+also receive zero. Failure still terminates the episode, but NF gets no failure
+penalty. Unlike HRL's reward rate per simulated second, NF is a scaled state
+improvement and is not multiplied by dt. At scale=25 and rate=1, -40 -> -20
+earns 0.8 once; repeating the same state earns zero.
+
+PreviousRewardState is cached once per reward decision in both modes, so it
+survives intentional phase changes. Initialize invalidates and clears the cache
+on episode/trial reset. The first decision uses the seeded previous homeostatic
+history value; later calls use the decision cache, avoiding repeated rewards
+from a history that updates only every five simulation ticks.
 
 At dt=0.05, rewards at h=0, ±25 and ±50 are 0.05, 0.025 and 0.01.
 The near-zero region is tunable through RewardDistanceScale, without changing
@@ -76,12 +97,19 @@ from the legacy objective are not numerically comparable to the new reward.
 
 ## Validation and operation
 
-`validate_reward.py` invokes the actual Blueprint callback in isolated PIE,
+`validate_nf_reward.py` invokes the actual Blueprint callback in isolated PIE,
 covering unchanged anticipated net, unchanged distance, sign symmetry,
 improvement, worsening overshoot, both legacy mode flags, terminal reward and
 reset. `test_ppo.py` checks final-transition credit, truncation bootstrapping,
 episode separation and negative normalized advantages. Logs and detailed
 runtime results are in Saved/HomeostaticFix.
+
+The latest NF validation passed 22 real cases covering both modes, current-state
+gating, zero/positive overshoot, worsening, repeated calls, failure, phase
+continuity and cache reset. Results are in `nf_validation.json`, with compiler
+and runtime logs under Saved/NFRewardFix. `validate_reward.py` delegates to the
+current mode-aware validator. The earlier shared-objective validation remains
+in validation.json as historical evidence.
 
 Use the existing project-root `start_headless_training.cmd` for a new run.
 Use a fresh training run for this changed objective; old frozen policies were
