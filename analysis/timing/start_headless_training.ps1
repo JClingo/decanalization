@@ -18,6 +18,7 @@ $logPath = Join-Path $runPath 'training.log'
 $arguments = @(
     ('"' + $projectFile + '"'),
     '/Game/Level/Landscape', '-game', '-nullrhi', '-nosound', '-unattended', '-nop4', '-NoVSync',
+    '-UseFixedTimeStep', '-FPS=20',
     ('-abslog="' + $logPath + '"')
 )
 $trainingProcess = Start-Process -FilePath $engineExe -ArgumentList $arguments `
@@ -28,16 +29,18 @@ $trainingProcess = Start-Process -FilePath $engineExe -ArgumentList $arguments `
     ConvertTo-Json | Set-Content -LiteralPath (Join-Path $runPath 'run.json')
 Write-Output "Headless training PID $($trainingProcess.Id)"
 Write-Output "Run directory: $runPath"
-Write-Output 'Waiting for the first PPO update (up to 120 seconds)...'
+Write-Output 'Simulation clock: uncapped, fixed 0.05-second steps (training and trials).'
+Write-Output 'Waiting for a PPO update or trial completion (up to 120 seconds)...'
 $deadline = (Get-Date).AddSeconds(120)
 while ((Get-Date) -lt $deadline) {
-    $trainingProcess.Refresh()
-    if ($trainingProcess.HasExited) {
-        if (Test-Path -LiteralPath $logPath) { Get-Content -LiteralPath $logPath -Tail 25 | Write-Host }
-        throw "Unreal exited with code $($trainingProcess.ExitCode). See $runPath"
-    }
     if (Test-Path -LiteralPath $logPath) {
         $tail = Get-Content -LiteralPath $logPath -Tail 250
+        $completion = $tail | Select-String -SimpleMatch '[TRIALS_COMPLETE]' | Select-Object -Last 1
+        if ($completion) {
+            Write-Output $completion.Line
+            Write-Output 'Trial run complete. A Windows completion dialog shows the results path.'
+            return
+        }
         if ($tail -match 'Training has failed|LogLearning: Error|Traceback \(most recent call last\)') {
             $tail | Select-Object -Last 25 | Write-Host
             throw "Training reported a failure. The process is still available as PID $($trainingProcess.Id); see $logPath"
@@ -48,6 +51,16 @@ while ((Get-Date) -lt $deadline) {
             return
         }
     }
+    $trainingProcess.Refresh()
+    if ($trainingProcess.HasExited) {
+        # Read once more after exit to include the final flushed log messages.
+        $completion = if (Test-Path -LiteralPath $logPath) {
+            Get-Content -LiteralPath $logPath -Tail 250 | Select-String -SimpleMatch '[TRIALS_COMPLETE]' | Select-Object -Last 1
+        }
+        if ($completion) { Write-Output $completion.Line; return }
+        if (Test-Path -LiteralPath $logPath) { Get-Content -LiteralPath $logPath -Tail 25 | Write-Host }
+        throw "Unreal exited before a PPO update or confirmed trial completion (code $($trainingProcess.ExitCode)). See $runPath"
+    }
     Start-Sleep -Seconds 2
 }
-Write-Warning "Unreal is running (PID $($trainingProcess.Id)), but the first PPO update was not confirmed within 120 seconds. Check $logPath"
+Write-Warning "Unreal is running (PID $($trainingProcess.Id)), but no PPO update or completed trial batch was confirmed within 120 seconds. Check $logPath"

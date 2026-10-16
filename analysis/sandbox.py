@@ -6,13 +6,19 @@ import matplotlib.pyplot as plt
 import yaml
 from scipy import stats
 import numpy as np
+from pathlib import Path
 
 # %%
 
-nf_cdr_filename = './data/NF-CDR.yml'
-nf_ccc_filename = './data/NF-CCC.yml'
-hrl_ccc_filename = './data/HRL-CCC.yml'
-hrl_cdr_filename = './data/HRL-CDR.yml'
+analysis_dir = Path(__file__).resolve().parent
+nf_cdr_filename = analysis_dir / 'data/Old Results/NF-CDR.yml'
+nf_ccc_filename = analysis_dir / 'data/Old Results/NF-CCC.yml'
+hrl_ccc_filename = analysis_dir / 'data/Old Results/HRL-CCC.yml'
+hrl_cdr_filename = analysis_dir / 'data/HRL-CDR-10000.yml'
+# This legacy comparison normalizes rewards separately within each dataset.
+# Use analyze_cdr.py for raw rewards and paired phase comparisons of the new run.
+plot_dir = analysis_dir / 'results/HRL-CDR-10000/legacy-comparison'
+plot_dir.mkdir(parents=True, exist_ok=True)
 
 # Read all YAML files
 with open(nf_cdr_filename, 'r') as file:
@@ -34,9 +40,11 @@ with open(hrl_cdr_filename, 'r') as file:
 
 
 data_dict = {
-    'NF-CDR': nf_cdr_data, 
-    'HRL-CDR': hrl_cdr_data
+    'NF-CDR (archived)': nf_cdr_data, 
+    'HRL-CDR-10000': hrl_cdr_data
 }
+print('Historical comparison only: archived NF versus new HRL; settings may differ. '
+      'Rewards are independently min-max normalized. See analyze_cdr.py for paired raw-metric analysis.')
 
 # data_dict = {
 #     'NF-CCC': nf_ccc_data, 
@@ -200,7 +208,7 @@ for metric, title in metrics_dict.items():
     plt.tight_layout(rect=(0, 0, 0.95, 1))
     
     # Save plot
-    plt.savefig(f'./plots/hrl-nf-cdr-{metric}.png', 
+    plt.savefig(plot_dir / f'hrl-nf-cdr-{metric}.png', 
                 bbox_inches='tight', dpi=300, pad_inches=0.5)
     plt.close()
 
@@ -238,11 +246,11 @@ for idx, (metric, title) in enumerate(metrics_dict.items()):
         axes[idx].get_legend().remove()
 
 # Adjust layout
-plt.suptitle('Decanalization by state across HRL and NF', fontsize=16, y=1.02)
+plt.suptitle('New HRL vs archived NF: historical comparison', fontsize=16, y=1.02)
 plt.tight_layout()
 
 # Save plot
-plt.savefig('./plots/all.png', bbox_inches='tight', dpi=300, pad_inches=0.5)
+plt.savefig(plot_dir / 'all.png', bbox_inches='tight', dpi=300, pad_inches=0.5)
 plt.close()
 
 

@@ -1,0 +1,337 @@
+D:\Dev\decanalization\analysis\sandbox.py:141: RuntimeWarning: invalid value encountered in scalar divide
+  cohens_d = mean_diff / pooled_se
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 19.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 7.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:195: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax.set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 37.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 19.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:195: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax.set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 16.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 22.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 13.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 41.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:195: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax.set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 49.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 10.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 46.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 73.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:195: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax.set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 14.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 12.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 58.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 79.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:195: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax.set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:195: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax.set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 28.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 12.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  axes[idx].set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 32.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 22.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 8.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  axes[idx].set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 32.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 22.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 12.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 10.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 46.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  axes[idx].set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 32.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 22.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 12.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 10.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 50.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 8.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 38.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 69.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  axes[idx].set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 32.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 22.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 12.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 10.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 50.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 34.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 67.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  axes[idx].set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 32.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 22.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 12.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 10.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 50.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 34.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 67.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\analysis\sandbox.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  axes[idx].set_xticklabels(['Canalized', 'Decanalized', 'Recanalized'])
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 21.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 6.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 41.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 26.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+D:\Dev\decanalization\Saved\AnalysisPython\seaborn\categorical.py:3399: UserWarning: 63.0% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
+  warnings.warn(msg, UserWarning)
+Historical comparison only: archived NF versus new HRL; settings may differ. Rewards are independently min-max normalized. See analyze_cdr.py for paired raw-metric analysis.
+
+=== T-Test Results for setpoint_avg ===
+
+State 1:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: -7.7090
+HRL-CDR-10000 mean: 18.9825
+Mean difference: -26.6915
+t-statistic: -7.7862
+p-value: 0.0000
+Cohen's d: -1.3486
+Significant: Yes
+
+State 2:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 290.6680
+HRL-CDR-10000 mean: 623.4892
+Mean difference: -332.8213
+t-statistic: -9.2148
+p-value: 0.0000
+Cohen's d: -1.5960
+Significant: Yes
+
+State 3:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 25.9183
+HRL-CDR-10000 mean: 35.4200
+Mean difference: -9.5017
+t-statistic: -1.8719
+p-value: 0.0632
+Cohen's d: -0.3242
+Significant: No
+
+=== T-Test Results for setpoint_dev ===
+
+State 1:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 1592.7738
+HRL-CDR-10000 mean: 3150.3707
+Mean difference: -1557.5969
+t-statistic: -8.5432
+p-value: 0.0000
+Cohen's d: -1.4797
+Significant: Yes
+
+State 2:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 14255.6490
+HRL-CDR-10000 mean: 31886.6659
+Mean difference: -17631.0169
+t-statistic: -9.0009
+p-value: 0.0000
+Cohen's d: -1.5590
+Significant: Yes
+
+State 3:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 2177.6976
+HRL-CDR-10000 mean: 3462.5687
+Mean difference: -1284.8711
+t-statistic: -5.1761
+p-value: 0.0000
+Cohen's d: -0.8965
+Significant: Yes
+
+=== T-Test Results for reward_total ===
+
+State 1:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 0.4884
+HRL-CDR-10000 mean: 0.7340
+Mean difference: -0.2456
+t-statistic: -15.1391
+p-value: 0.0000
+Cohen's d: -2.6222
+Significant: Yes
+
+State 2:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 0.7738
+HRL-CDR-10000 mean: 0.0208
+Mean difference: 0.7530
+t-statistic: 27.4704
+p-value: 0.0000
+Cohen's d: 4.7580
+Significant: Yes
+
+State 3:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 0.5582
+HRL-CDR-10000 mean: 0.5491
+Mean difference: 0.0091
+t-statistic: 0.4779
+p-value: 0.6334
+Cohen's d: 0.0828
+Significant: No
+
+=== T-Test Results for loss_total ===
+
+State 1:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: -205.5139
+HRL-CDR-10000 mean: -1382.1829
+Mean difference: 1176.6690
+t-statistic: 303.0957
+p-value: 0.0000
+Cohen's d: 52.4977
+Significant: Yes
+
+State 2:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 0.0000
+HRL-CDR-10000 mean: 0.0000
+Mean difference: 0.0000
+t-statistic: nan
+p-value: nan
+Cohen's d: nan
+Significant: No
+
+State 3:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: -173.2447
+HRL-CDR-10000 mean: -1075.0755
+Mean difference: 901.8308
+t-statistic: 76.6020
+p-value: 0.0000
+Cohen's d: 13.2679
+Significant: Yes
+
+=== T-Test Results for pellets_harvested ===
+
+State 1:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 23.9200
+HRL-CDR-10000 mean: 63.6600
+Mean difference: -39.7400
+t-statistic: -46.5459
+p-value: 0.0000
+Cohen's d: -8.0620
+Significant: Yes
+
+State 2:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 21.7200
+HRL-CDR-10000 mean: 21.1500
+Mean difference: 0.5700
+t-statistic: 0.3818
+p-value: 0.7031
+Cohen's d: 0.0661
+Significant: No
+
+State 3:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 22.3800
+HRL-CDR-10000 mean: 57.8000
+Mean difference: -35.4200
+t-statistic: -35.4615
+p-value: 0.0000
+Cohen's d: -6.1421
+Significant: Yes
+
+=== T-Test Results for gain_total ===
+
+State 1:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 449.0190
+HRL-CDR-10000 mean: 2024.4141
+Mean difference: -1575.3951
+t-statistic: -165.4889
+p-value: 0.0000
+Cohen's d: -28.6635
+Significant: Yes
+
+State 2:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 580.4000
+HRL-CDR-10000 mean: 1287.6500
+Mean difference: -707.2500
+t-statistic: -10.0829
+p-value: 0.0000
+Cohen's d: -1.7464
+Significant: Yes
+
+State 3:
+NF-CDR (archived) vs HRL-CDR-10000:
+NF-CDR (archived) mean: 469.3574
+HRL-CDR-10000 mean: 1726.3081
+Mean difference: -1256.9507
+t-statistic: -91.6605
+p-value: 0.0000
+Cohen's d: -15.8761
+Significant: Yes

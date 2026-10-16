@@ -1,0 +1,42 @@
+         metric       state   n         mean       median
+   setpoint-avg   canalized 100    18.982512    17.591111
+   setpoint-avg decanalized 100   623.489220   572.768468
+   setpoint-avg recanalized 100    35.420020    29.943289
+   setpoint-dev   canalized 100  3150.370701  3077.877973
+   setpoint-dev decanalized 100 31886.665938 30952.671451
+   setpoint-dev recanalized 100  3462.568723  3554.765311
+   reward-total   canalized 100    90.514647    89.388449
+   reward-total decanalized 100    -3.166580    -3.080147
+   reward-total recanalized 100    66.220247    64.597102
+     loss-total   canalized 100 -1382.182872 -1385.031271
+     loss-total decanalized 100     0.000000     0.000000
+     loss-total recanalized 100 -1075.075493 -1065.112065
+     gain-total   canalized 100  2024.414101  2023.296732
+     gain-total decanalized 100  1287.650000  1277.500000
+     gain-total recanalized 100  1726.308096  1725.372470
+gains-harvested   canalized 100    63.660000    63.000000
+gains-harvested decanalized 100    21.150000    16.000000
+gains-harvested recanalized 100    57.800000    58.000000
+
+Paired changes (after minus before):
+         metric      before       after   mean_change        p_holm
+   setpoint-avg   canalized decanalized    604.506708  9.838731e-42
+   setpoint-avg decanalized recanalized   -588.069199  1.432623e-40
+   setpoint-avg   canalized recanalized     16.437509  5.332627e-08
+   setpoint-dev   canalized decanalized  28736.295237  4.163360e-37
+   setpoint-dev decanalized recanalized -28424.097215  1.452274e-36
+   setpoint-dev   canalized recanalized    312.198022  8.099100e-02
+   reward-total   canalized decanalized    -93.681227  6.691402e-91
+   reward-total decanalized recanalized     69.386827  3.559624e-79
+   reward-total   canalized recanalized    -24.294400  4.465554e-28
+     loss-total   canalized decanalized   1382.182872 7.989403e-176
+     loss-total decanalized recanalized  -1075.075493 1.549842e-112
+     loss-total   canalized recanalized    307.107379  1.381328e-58
+     gain-total   canalized decanalized   -736.764101  2.909011e-26
+     gain-total decanalized recanalized    438.658096  1.189157e-13
+     gain-total   canalized recanalized   -298.106005  3.931256e-50
+gains-harvested   canalized decanalized    -42.510000  1.183858e-61
+gains-harvested decanalized recanalized     36.650000  7.421551e-51
+gains-harvested   canalized recanalized     -5.860000  4.456257e-17
+
+Saved results to D:\Dev\decanalization\analysis\results\HRL-CDR-10000
