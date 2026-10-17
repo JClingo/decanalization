@@ -1,5 +1,9 @@
 # README
 
+The corrected four-condition analysis and proposed paper revisions are in
+[the 17 October 2026 rerun package](analysis/paper-update-2026-10-17-reruns/README.md).
+This supersedes the earlier legacy primary analysis; supplementary traversal experiments remain separately labeled.
+
 The homeostatic objective, live-state observation fix, project-local PPO adapter,
 and validation results are documented in [analysis/homeostatic/README.md](analysis/homeostatic/README.md).
 Start a fresh run with `start_headless_training.cmd`; evaluate mean absolute

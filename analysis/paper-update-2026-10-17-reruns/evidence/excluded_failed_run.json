@@ -1,0 +1,7 @@
+{
+  "stage": "failed",
+  "updated_at": "2026-10-17T18:56:29.137774+00:00",
+  "cdr": "D:\\Dev\\decanalization\\Saved\\TrialResults\\NF-CDR-46379CD74E30DFBAC6A712BBC252E36A.metrics.json",
+  "cdr_trials_complete": 185,
+  "error": "Traceback (most recent call last):\n  File \"D:\\Dev\\decanalization\\analysis\\trial_metrics\\finish_nf_runs.py\", line 22, in <module>\n    assert d['status']!='failed',d.get('error')\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [WinError 5] Access is denied: 'D:\\\\Dev\\\\decanalization\\\\Saved\\\\TrialResults\\\\NF-CDR-46379CD74E30DFBAC6A712BBC252E36A.metrics.json.tmp' -> 'D:\\\\Dev\\\\decanalization\\\\Saved\\\\TrialResults\\\\NF-CDR-46379CD74E30DFBAC6A712BBC252E36A.metrics.json'\n"
+}

@@ -28,7 +28,9 @@ def load(run_id,family,order):
     assert data['duration-unit']=='simulation-seconds' and data['reward-source']=='TrainingEnv.GatherAgentReward'
     assert data['setpoint-dev-definition']=='population-standard-deviation'
     v=run['provenance'];record=v['matched-training-record']
-    for name,h in v['logger-sha256'].items():assert sha(ROOT/'evidence'/name)==h,'Logger evidence mismatch'
+    for name,h in v['logger-sha256'].items():
+        legacy=ROOT/'evidence'/name;version=ROOT/'evidence/logger_versions'/h/name
+        assert (legacy.exists() and sha(legacy)==h) or (version.exists() and sha(version)==h),'Logger evidence mismatch'
     assert record and v['training-record-match-count']==1 and record['reward-family']==family,'Loaded snapshot family mismatch'
     assert record['snapshot-update-label']==(10000 if family=='HRL' else 5000)
     assert v['environment']['IsHRL']==(family=='HRL') and v['environment']['TrialSequenceOrder']==order

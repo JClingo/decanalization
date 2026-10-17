@@ -4,16 +4,21 @@ Status is atomically written under Saved/NFControl20261017. Does not commit:
 analysis, editorial review, and publication are completed by the owning chat.
 """
 from pathlib import Path
-import datetime,json,subprocess,time,traceback
+import datetime,json,subprocess,time,traceback,sys
 from collect_primary import collect
 ROOT=Path(__file__).resolve().parents[2];WORK=ROOT/'Saved/NFControl20261017'
-CDR=ROOT/'Saved/TrialResults/NF-CDR-46379CD74E30DFBAC6A712BBC252E36A.metrics.json'
+CDR=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT/'Saved/TrialResults/NF-CDR-46379CD74E30DFBAC6A712BBC252E36A.metrics.json'
 EXE=Path('D:/Dev/UE_5.5/Engine/Binaries/Win64/UnrealEditor-Cmd.exe')
 PROJECT=WORK/'TestProject/ue_canalization.uproject'
 status={}
 def write(stage,**kw):
     status.update(stage=stage,updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),**kw)
-    p=WORK/'workflow_status.json';tmp=p.with_suffix('.tmp');tmp.write_text(json.dumps(status,indent=2));tmp.replace(p)
+    p=WORK/'workflow_status.json';tmp=p.with_suffix('.tmp')
+    for attempt in range(20):
+        try:tmp.write_text(json.dumps(status,indent=2));tmp.replace(p);break
+        except PermissionError:
+            if attempt==19:raise
+            time.sleep(.1)
 try:
     write('waiting-for-cdr',cdr=str(CDR))
     while True:

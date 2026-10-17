@@ -1,0 +1,16 @@
+[
+  {
+    "file": "Saved/NFRecovery20261017/cdr.log",
+    "sha256": "6d3abbcb02f0d3c5f12c59f407c663e8760f688149931cebe77435200cda6320",
+    "completion": [
+      "[2026.10.17-20.01.00:169][501]LogPython: [TRIALS_COMPLETE] All 250/250 trials are complete.  Results saved to: D:\\Dev\\decanalization\\Saved\\NFRecovery20261017\\TestProject\\Saved\\TrialResults\\NF-CDR-530BED5D490A8446975BA4A62D01FF8B.yml"
+    ]
+  },
+  {
+    "file": "Saved/NFControl20261017/ccc.log",
+    "sha256": "25f1f9112f322f5fa46d6c1be62296d1da538c6a50f1df2a98d65de04c8eda82",
+    "completion": [
+      "[2026.10.17-21.03.23:045][501]LogPython: [TRIALS_COMPLETE] All 250/250 trials are complete.  Results saved to: D:\\Dev\\decanalization\\Saved\\NFControl20261017\\TestProject\\Saved\\TrialResults\\NF-CCC-231FD6EC46C680D5E2717183D5BA294C.yml"
+    ]
+  }
+]

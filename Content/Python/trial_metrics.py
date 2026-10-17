@@ -3,7 +3,7 @@
 Blueprints compute reward through TrainingEnv.GatherAgentReward at every decision.
 Python runs only at phase boundaries and YAML checkpoints, never per decision.
 """
-import datetime,gzip,hashlib,json,math,os,struct,subprocess
+import datetime,gzip,hashlib,json,math,os,struct,subprocess,time
 from pathlib import Path
 import unreal
 
@@ -13,7 +13,17 @@ def get(o,name):return o.get_editor_property(name)
 def digest(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def packed(value):return json.dumps(value,sort_keys=True,separators=(',',':'),allow_nan=False).encode('utf-8')
 def atomic(path,value):
-    tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(value,indent=2,allow_nan=False),encoding='utf-8');os.replace(tmp,path)
+    tmp=path.with_suffix(path.suffix+'.tmp')
+    payload=json.dumps(value,indent=2,allow_nan=False)
+    # Windows readers/antivirus can briefly prevent replacing an open file.
+    # Retry only access conflicts; a persistent failure still aborts the run.
+    for attempt in range(20):
+        try:
+            tmp.write_text(payload,encoding='utf-8');os.replace(tmp,path)
+            return
+        except PermissionError:
+            if attempt==19:raise
+            time.sleep(min(.05 * 2**attempt,.5))
 def actors(world,folder,name):
     return unreal.GameplayStatics.get_all_actors_of_class(world,unreal.load_class(None,f'/Game/{folder}/{name}.{name}_C'))
 def context():

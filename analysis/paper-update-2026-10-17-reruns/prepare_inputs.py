@@ -21,5 +21,8 @@ for name in ['CHANGE_INVENTORY.md','MANUSCRIPT_EDITS.md']:
     copy(old/name,ROOT/'historical-audit'/name)
 copy(PROJECT/'Content/Python/trial_training_manifests.json',ROOT/'evidence/trial_training_manifests.json')
 for name in ['trial_metrics.py','trial_notifications.py']:
-    copy(PROJECT/'Content/Python'/name,ROOT/'evidence'/name)
+    current=PROJECT/'Content/Python'/name;old=ROOT/'evidence'/name
+    if old.exists():copy(old,ROOT/'evidence/logger_versions'/sha(old)/name)
+    else:copy(current,old)
+    copy(current,ROOT/'evidence/logger_versions'/sha(current)/name)
 print('Frozen selected inputs, paper baseline, and separately labeled legacy supplement.')

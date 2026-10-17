@@ -1,0 +1,4 @@
+# Preserve exact bytes for hashed scientific inputs and packaged evidence.
+analysis/data/*.yml -text
+analysis/data/*.json -text
+analysis/paper-update-2026-10-17-reruns/** -text
