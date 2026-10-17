@@ -1,0 +1,37 @@
+[
+  {
+    "input": "HRL-CCC-10000.yml",
+    "original": "Saved\\TrialResults\\HRL-CCC-0E9679DD457872F2ECD9899E66826EA8.yml",
+    "sha256": "0c2421bc7ce911843865612b02d27c0c3d0a50e61334d808015cdce84c6ddd99"
+  },
+  {
+    "input": "HRL-CDR-10000.yml",
+    "original": "Saved\\TrialResults\\HRL-CDR-0-plasticity.yml",
+    "sha256": "018088023978d8d0f6284d47138a3469bda198179b457a3d3252793c862cfec4"
+  },
+  {
+    "input": "HRL-CDR-4-plasticity.yml",
+    "original": "Saved\\TrialResults\\HRL-CDR-47B2AF9749A1918198D416A1D90C85DE.yml",
+    "sha256": "bd4dd51a466281dcae05a65bae374c5bf7a6eb9733a9ee212965aedb273600b9"
+  },
+  {
+    "input": "HRL-CDR-6-plasticity.yml",
+    "original": "Saved\\TrialResults\\HRL-CDR-6-plasticity.yml",
+    "sha256": "ebb288353dfb5fe2327f9e034e69bf6c3f745bc600396855000a9e94c4010157"
+  },
+  {
+    "input": "HRL-CDR-7-plasticity.yml",
+    "original": "Saved\\TrialResults\\HRL-CDR-7-plasticity.yml",
+    "sha256": "9cdd749dc7f8b8894ab5e167afcdc576b8a42b1846cd6495e2e63f00fb4973dc"
+  },
+  {
+    "input": "NF-CCC-5000.yml",
+    "original": "Saved\\TrialResults\\NF-CCC-5E60A86A48D0CBD9014631B195AB088F.yml",
+    "sha256": "3fd14851df4009f6786448c45ea03e6136f0fb6dfc4ca1602f571f74be6bd995"
+  },
+  {
+    "input": "NF-CDR-5000.yml",
+    "original": "Saved\\TrialResults\\NF-CDR-8292E67F4DFB27F80BD434A5BDFC9C92.yml",
+    "sha256": "25cb88ce0a236b5885e5ef060cfeacf4a368c01b85cab6b2015bca57f5631cb3"
+  }
+]

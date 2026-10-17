@@ -1,0 +1,511 @@
+{
+  "date": "2026-10-17",
+  "project_commit": "2351160a50fae4775ae79d06dd62367009b7133c",
+  "sources": [
+    {
+      "source": "D:\\Dev\\decanalization\\README.md",
+      "copy": "evidence\\source_records\\README.md",
+      "sha256": "983042253e23d1174737bc694a11998f7d9d53bae1e2eb3ae0f4efd7e880ad16"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Config\\DefaultEngine.ini",
+      "copy": "evidence\\source_records\\Config\\DefaultEngine.ini",
+      "sha256": "74760cc1b43540ae9c6687f8c06091afa063c187653603f3665b991378a41df1"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Python\\nf_training.py",
+      "copy": "evidence\\source_records\\Content\\Python\\nf_training.py",
+      "sha256": "a2a6945a47839b034151606ac0d0c1ed9abf477b6139e66180deedc3b787210a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\add_environment_seed_variables.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\add_environment_seed_variables.py",
+      "sha256": "64af6d056fc7fd5c20dea2ed73ada48dfa624e7c18c0e77aa8a18a17b8e6508a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\add_reward_variables.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\add_reward_variables.py",
+      "sha256": "726822d3f1636ef176d0dd6d0f8c1bd683ad24abdf8afb51319f7d9cfb1f8d0a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\compile_environment_seeds.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\compile_environment_seeds.py",
+      "sha256": "51f59ef4fb92aabe37e1fe7723887aafd0fd3776d6c7f6daf955671a52be4255"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\compile_nf_routing.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\compile_nf_routing.py",
+      "sha256": "41f88bf53f0eda4e817f04a9c69be249e928881e9a3df7beb957e9e08ff34c57"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\compile_reward.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\compile_reward.py",
+      "sha256": "2ec58157f8c6446833c465f98701fb957a66ffbd57a5cc205310e2d963d8a2b8"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\configure_trainer.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\configure_trainer.py",
+      "sha256": "b0cd22ef3c497f63cecf7a0cf481a453fe13295f9589d413997a1355220ff42b"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\homeostatic_ppo.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\homeostatic_ppo.py",
+      "sha256": "69501736dcd58bd5bbc13083f602980b0dc9188072228f8446622430f9f5cba1"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\nf_ppo.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\nf_ppo.py",
+      "sha256": "42e4732d8f0a9912d35ec9a3df377d0bbd1d0c0138ee94b0cc4b595cac3de86e"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\patch_environment_seeds.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\patch_environment_seeds.py",
+      "sha256": "456138a89c8a95354d4196240484be02cc5082670b851d8b3b4cc3c0083eccad"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\patch_nf_reward.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\patch_nf_reward.py",
+      "sha256": "857f2fb4fd06d98b237ac9e43902e7859c58d21fb1cfe6c76f4c478b1538e1c1"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\patch_nf_routing.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\patch_nf_routing.py",
+      "sha256": "523eaf6ca43f79f71b71083106e176836656ee4ba8464baf8319c94ffceb8bda"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\patch_observation.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\patch_observation.py",
+      "sha256": "c599262724d83517375f48386cc2186840b9389be34e7fa0d6afd9ed9b90437a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\patch_reward.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\patch_reward.py",
+      "sha256": "2ac68b1693d7b359090a34aa7d4e69599677ff77adb17bd1277329077e5d114c"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\patch_seeded_pellet_count.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\patch_seeded_pellet_count.py",
+      "sha256": "b3e89b247183308ee116238f858f941a16c0f47a6c618390e598b171f3bd8a2b"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\smoke_training.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\smoke_training.py",
+      "sha256": "90dfa18ef00b867fe81132424ad2a73af4f53ecaf32df430e4ff919bf15e09fd"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\test_nf_ppo.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\test_nf_ppo.py",
+      "sha256": "cf548044c8a1ab0f99d0cb86974d48ad586c2cd6f06d4c68ae118e08237608a4"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\test_ppo.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\test_ppo.py",
+      "sha256": "2d26c70fd09e4cf3fffc16b85cf0e7ac8731fcb802c625422fec50be49536f19"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\validate_environment_seeds.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\validate_environment_seeds.py",
+      "sha256": "fd575c05fb730556c4d252a0897af0f5e12f2575f3ae08a6a2e2fdbae57f527e"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\validate_long_training.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\validate_long_training.py",
+      "sha256": "fa6e33dc8a5d680caec092b71654c43a9774213ed2676f626efbecf4e7b4f9ef"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\validate_nf_reward.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\validate_nf_reward.py",
+      "sha256": "9d1c7e1e75ae1ca08d15e13f78f41d323e2b2c85d3c56c0141c5919a16df6b03"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\validate_reward.py",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\validate_reward.py",
+      "sha256": "cf7f7804fa6099278395581c658a713e72d16fe560f77dc8410ad3c807dd750c"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\crash_validation.json",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\crash_validation.json",
+      "sha256": "5e75c380203417676f3740e0e8bcea5b22066319f77be985a3569ca293c321f1"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\environment_seed_validation.json",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\environment_seed_validation.json",
+      "sha256": "7c26af8fbe5a987e00acf5b2a78b89473f7c94deb59727c8827be39aa58a6a86"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\nf_stability_validation.json",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\nf_stability_validation.json",
+      "sha256": "f3b9bc1a49590c3263699ceb70e0b4a47fab8b50d47e796ac5efc33a5d671dad"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\nf_validation.json",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\nf_validation.json",
+      "sha256": "ccee0adc648bb121bd84c3a9b7bcc20812e4d5d76928f03ad621c0cb755fb8b9"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\validation.json",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\validation.json",
+      "sha256": "bd118eb63a0ad574a8438315a3b80951249f18e0f5cccb5ff2d019bafa777f29"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\homeostatic\\README.md",
+      "copy": "evidence\\source_records\\analysis\\homeostatic\\README.md",
+      "sha256": "b15a194571a6ee5383787a510188223d49f894ee8dc79c36c5db01b2fd77d773"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\add_trial_homeostasis_variable.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\add_trial_homeostasis_variable.py",
+      "sha256": "4562943df6f617bb12e824363ca676a495c7c68efa2eadec6609569b5b53de91"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\add_trial_startup_variable.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\add_trial_startup_variable.py",
+      "sha256": "ed6b0e90e9344084173a2ff978ab78490d7f5cf13b9f3fcf30fe60f82e0899ca"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compare_movement_audit.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compare_movement_audit.py",
+      "sha256": "7cf2e134653dc591a735daa64f92a4d39351ca877d425c1da64864a5ccc67eb3"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compare_traces.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compare_traces.py",
+      "sha256": "38058e5d7dbe102ebcec638cba2ffe033df37e4af4a87d4250d6b15f16589aab"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_phase_velocity.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_phase_velocity.py",
+      "sha256": "2ddfdc60663a2d2fd5ec2b2a9d9447ae34cf4d6552c4c7f4d15d698200d00c2f"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_resets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_resets.py",
+      "sha256": "7000d38114cc7b43ac94354951d42f712131a7f9ebb2419f4608bbacb056e7ca"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_trial_resets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_trial_resets.py",
+      "sha256": "88baf6973377162a4e3b45fdc17a1c98229462b85040401219257a617ab99025"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_trial_startup.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_trial_startup.py",
+      "sha256": "8b0abda2bf7381ca480e59661bbd9528261c8cfb7c78b879ceee999ef8b8838d"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_trial_world_reset.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_trial_world_reset.py",
+      "sha256": "ed5d02edf9d28fc9fbde02c7b1738745a07e6ac4cc1c185fea3e70a89d9b13a6"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_trial_yaml.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_trial_yaml.py",
+      "sha256": "0df30e942d73e4d34d2e20eb6dd141a3d4d1d4cf7c71ead8449d43a4cc81e760"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\compile_unreal.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\compile_unreal.py",
+      "sha256": "2a986fb15ec19f8d7f88b72ab314400bfc77967e2d93530b302045b5d5e619ed"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\configure_phase_velocity_test.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\configure_phase_velocity_test.py",
+      "sha256": "1d87763e621aa99aff4bb19d4c7dd5b751ac2cd470e257bed68e4db8a911dd50"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\configure_reset_comparison.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\configure_reset_comparison.py",
+      "sha256": "b81ffed752bf1483f4217966e9a3ceb888d262d235d52b79a81c7d1db6f6131c"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\fetch_openmp_runtime.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\fetch_openmp_runtime.py",
+      "sha256": "e999ce1e79f1e6c947fe43b905356bc0372786d07d28858b9c123a1311662a80"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\graph_asset.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\graph_asset.py",
+      "sha256": "a08dffc50796d07007b681cb80f86b6d42025bd355ed69e24a3fc67168a23803"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\inspect_unreal.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\inspect_unreal.py",
+      "sha256": "4fc7d1509c0e0d6e56bbd503a59448bd7e205e9a22057ac3f86dad39f7ee2292"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_graphs.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_graphs.py",
+      "sha256": "5357568f71b0f527a158f32eee9663b3328cddc0203afe40dbc0de433d20d21c"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_phase_homeostasis.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_phase_homeostasis.py",
+      "sha256": "34d00755deec57dd9e1c9a283340c33cfe8b8d1e369d374b34c9117bafc96591"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_phase_velocity.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_phase_velocity.py",
+      "sha256": "9d491a5e744422d103f6c924051456fc18fecd4a55b59c14cd443f49def2dd6b"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_resets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_resets.py",
+      "sha256": "10040c3e2be00c81af7af180cdc4dbc6b3c07d1980da51507458dbe5b03bc989"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_trial_completion.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_trial_completion.py",
+      "sha256": "599d0e682b7a3beacec3caf3b815fa7b0effd5cbded4b1a0840bd13ab39cb3b5"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_trial_resets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_trial_resets.py",
+      "sha256": "dd66eeb66fea1ec3f45f51855da826275c3c2d8a279f7f26f6a733ce4ad9b4ae"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_trial_startup.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_trial_startup.py",
+      "sha256": "9b508386e3b4b02e00da5ed02251b8557c511829527c25a55942d3dbcae608ee"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_trial_world_reset.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_trial_world_reset.py",
+      "sha256": "f2f577f01de968cbaa3073c217306c0882cba4db750c74d823084a962bfb3ef5"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\patch_trial_yaml.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\patch_trial_yaml.py",
+      "sha256": "a63197fc3d60eab1d338e2f89837b8e050b7aba7e16c8d7dd2c4bc2900705ca7"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\restore_test_assets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\restore_test_assets.py",
+      "sha256": "cf87edf86ef409c9f60b70422c0278f7aa4019ceaa10eec4fb49d8c86d5116b7"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\setup_movement_audit.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\setup_movement_audit.py",
+      "sha256": "5a78ac9a545a5ae434f93332881e4ebaec823e6cdc2c5a2c4e62cf2ffe1b7cff"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\summarize_graphs.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\summarize_graphs.py",
+      "sha256": "dd2773d2f459656708fc9df9c40844f15fe6643273fa1d95c3d8323049b0c661"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\summarize_phase_initialization.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\summarize_phase_initialization.py",
+      "sha256": "7e638fa41b7269c8df5e16ab3694d3daa4a8986c2ebc95ffe6b8d4094f844874"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\summarize_reset_comparison.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\summarize_reset_comparison.py",
+      "sha256": "d7a8a3e34e605081293dc1e7ddc90f2f9d09a81dee7b06587363c27ed4777661"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\test_trial_notifications.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\test_trial_notifications.py",
+      "sha256": "59d996170efec8142212960aa897da11f9737fcac9f2983f6550b6b6e1b31e6d"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trace_movement_audit.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\trace_movement_audit.py",
+      "sha256": "efa2979dbf7676f5d16b7aa8598bdc621fc623c9d628a1185a52e3b12f23bec9"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trace_pie.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\trace_pie.py",
+      "sha256": "c1a5807a731d7e48a2c75f380e9d02e1aaaf9f30041789b272a01b8aa784cc13"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\training_smoke.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\training_smoke.py",
+      "sha256": "9ceb031430095b35503318b1ba688577f5e0ad5666ab8558ae7e5658426798d2"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_natural_phase_velocity.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_natural_phase_velocity.py",
+      "sha256": "d8a95346897602e8c85449727f5c2d15127937679ded8059006679bb4aa8804a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_phase_velocity.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_phase_velocity.py",
+      "sha256": "0bc028744d03da60748ce5c22e632d4773d37fe55e3635fa98f777b9517495bc"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_resets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_resets.py",
+      "sha256": "b3b0dbadc6f74ca2c0b4081ec3de5f11da53bc110e895735a419ce4a49690d5b"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_reset_comparison.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_reset_comparison.py",
+      "sha256": "4b97634e9ac4fcd7f27fcedba79691d3e20c0ca61f5c26e1162b94d0dfb9bceb"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_trial_completion.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_trial_completion.py",
+      "sha256": "6f2b4c136237d11b8567c39e5274576ec0affdc69048d1e9bd4286afba945d84"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_trial_resets.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_trial_resets.py",
+      "sha256": "e0427ee246f6a1d4601627b26fcecf28c861e51c4ad781ae43ad4201546995bc"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_trial_speed.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_trial_speed.py",
+      "sha256": "9c5e87e789fca0243b221326089aa8d4e921a92bf6748c7530e9981c198b9ae1"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_trial_startup.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_trial_startup.py",
+      "sha256": "bd4bf8c73b295a08a59d158677d9fc131c800229637c8a06ce94e3c1c94f6818"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_trial_world_reset.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_trial_world_reset.py",
+      "sha256": "ce483c7f49ac233ace6240b1e8b5eb2e2008df86efb4d42a572b1be66545ca34"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validate_trial_yaml.py",
+      "copy": "evidence\\source_records\\analysis\\timing\\validate_trial_yaml.py",
+      "sha256": "923ac526ccde6c666a40e29f92222b4de4ae03764271c27562a95dd6d9cafb5c"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\phase_initialization_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\phase_initialization_validation.json",
+      "sha256": "16f978695de64f022918415ea0290e55f4243f5b5a6aac9601b9be5ba1489075"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\reset_performance_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\reset_performance_validation.json",
+      "sha256": "8e3fb339965b70c57e631ef932c7a0f870ac7c92b4eb60982c7e79ef960d3a29"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\reset_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\reset_validation.json",
+      "sha256": "9e81998f25fba4d299656fce138595354b020c6469b51a841bd04beaff1abae0"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trial_completion_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\trial_completion_validation.json",
+      "sha256": "c10206207d2464cbae0c006c7260d1f09d50092cb54b40ea8ca863e0ade9d3af"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trial_reset_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\trial_reset_validation.json",
+      "sha256": "26e3c247dda5af338f276d1758e39a050bc7435340495b36836c8fbef72879f3"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trial_speed_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\trial_speed_validation.json",
+      "sha256": "97a06504c506748b7f71875d0e50067f652ed323bc4f783f58435f00ea107b79"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trial_startup_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\trial_startup_validation.json",
+      "sha256": "11e7c763ac6d1421f966eef16281a735ca528f15b9b995b8e5553a8df39df448"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trial_world_reset_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\trial_world_reset_validation.json",
+      "sha256": "ae76724d25fdb1f6494ea41540d13d5b5452b14402b7fcf2ab7fec9de1864d8a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\trial_yaml_validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\trial_yaml_validation.json",
+      "sha256": "335fa71a76d405a339432da2e95ce87f015986aec31f102bb87b9ea12917c469"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\validation.json",
+      "copy": "evidence\\source_records\\analysis\\timing\\validation.json",
+      "sha256": "fe51cab49f005487a2bc71e220bc617b7d2c76bdbfc224103b63b569db31a977"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\analysis\\timing\\README.md",
+      "copy": "evidence\\source_records\\analysis\\timing\\README.md",
+      "sha256": "7b9d8d94da7ecaf267722a9c98725dc0e7011d989a0ad4b0ef79029401de050b"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Intermediate\\LearningAgents\\Configs\\Training_homeostatic_ppo_SharedMemory_2026-10-14_16-11-38.json",
+      "copy": "evidence\\source_records\\Intermediate\\LearningAgents\\Configs\\Training_homeostatic_ppo_SharedMemory_2026-10-14_16-11-38.json",
+      "sha256": "57f7445b1549defa7d0d0be798fc6c99d049a6c3fbdb5c19ceb7f3a6cccdda06"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Intermediate\\LearningAgents\\Configs\\Training_nf_ppo_SharedMemory_2026-10-16_12-08-21.json",
+      "copy": "evidence\\source_records\\Intermediate\\LearningAgents\\Configs\\Training_nf_ppo_SharedMemory_2026-10-16_12-08-21.json",
+      "sha256": "6fc22e18b2a7c749e9a5ad353c7f84faf6ca99b02825fd6b0f1fdff835cecdce"
+    },
+    {
+      "source": "D:\\Dev\\Modeling-Decanalization\\modelingDecanalization.tex",
+      "copy": "evidence\\source_records\\paper_baseline\\modelingDecanalization.tex",
+      "sha256": "cdbde808d6003c2a149972a66c9328caaafed24cd1db205d837bd2da3fecd259"
+    },
+    {
+      "source": "D:\\Dev\\Modeling-Decanalization\\appendix.tex",
+      "copy": "evidence\\source_records\\paper_baseline\\appendix.tex",
+      "sha256": "c34107c270b7879daf51ec8f8efe6ecc39d3fb16003bf334bafc189822fe387a"
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Libraries\\BFL_Common.uasset",
+      "copy": "evidence\\assets\\BFL_Common.uasset",
+      "sha256": "6234694b311124a9c34c72b13974d174d636760a3b473f2a4f763d4c289abb90",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Agent\\BP_Agent.uasset",
+      "copy": "evidence\\assets\\BP_Agent.uasset",
+      "sha256": "55587cbe320622be0ed231f4910e02e968af78a87fff8ff0f64e4f3238087a73",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Learning\\BP_AgentManager.uasset",
+      "copy": "evidence\\assets\\BP_AgentManager.uasset",
+      "sha256": "27e7389c705b1b04b385d3e11422cca5f57985b4b868a1c5e2e216c400a765f8",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Learning\\BP_AgentTrainingEnv.uasset",
+      "copy": "evidence\\assets\\BP_AgentTrainingEnv.uasset",
+      "sha256": "e08a1e037392d727509120a7778ea4a3c46d41526d1e46174bda339a5b4567f5",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Agent\\BP_GameMode.uasset",
+      "copy": "evidence\\assets\\BP_GameMode.uasset",
+      "sha256": "d255a6c6eed7f0558e35c963b596e57ee9026422c1a2ef6037661ee5ac78eb9f",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Resource\\BP_Resource.uasset",
+      "copy": "evidence\\assets\\BP_Resource.uasset",
+      "sha256": "a83beadabc14ef73e1dbecd1df28936e9a541bd250fec3e95c1be2a1e2cf3a1a",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Resource\\BP_ResourceSpawner.uasset",
+      "copy": "evidence\\assets\\BP_ResourceSpawner.uasset",
+      "sha256": "eef0bdb17466d9fe8e8e3cf4eac661104c21b0b6dd3c52e0f6934c5beb5359e2",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Level\\BP_Tile.uasset",
+      "copy": "evidence\\assets\\BP_Tile.uasset",
+      "sha256": "1c8b906ab5146fbd68cc6c669800858c320e8f76f1fdd862dca2a43bc410fac2",
+      "source_unchanged": true
+    },
+    {
+      "source": "D:\\Dev\\decanalization\\Content\\Level\\BP_TileSpawner.uasset",
+      "copy": "evidence\\assets\\BP_TileSpawner.uasset",
+      "sha256": "e43037be8473326f37337eba37f7e2dccacd085811d1df4447768b9290ca206f",
+      "source_unchanged": true
+    }
+  ],
+  "supplementary_rate_mapping": {
+    "HRL-CDR-4-plasticity.yml": 4,
+    "HRL-CDR-6-plasticity.yml": 6,
+    "HRL-CDR-7-plasticity.yml": 7
+  },
+  "mapping_source": "Explicit user clarification in this chat on 2026-10-17"
+}

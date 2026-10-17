@@ -1,0 +1,62 @@
+[
+  {
+    "family": "HRL",
+    "kind": "encoder",
+    "selected_copy": "analysis\\snapshots\\Winning HRL\\encoder_10000 - Copy.bin",
+    "sha256": "f665e9813bab08e6d79c52396856297c6aec7edfcc15d7c282e346d1a94fc0a0",
+    "matches": [
+      "analysis\\snapshots\\Winning HRL\\Training_ppo_sharedmemory_2026-10-14_16-11-38_encoder_10000.bin",
+      "Intermediate\\LearningAgents\\Snapshots\\Training_ppo_sharedmemory_2026-10-14_16-11-38_encoder_10000.bin"
+    ]
+  },
+  {
+    "family": "HRL",
+    "kind": "policy",
+    "selected_copy": "analysis\\snapshots\\Winning HRL\\policy_10000 - Copy.bin",
+    "sha256": "206f21537ea6b8efd78edd607a5826e5eed4e343069d1d91b312f1a7660df342",
+    "matches": [
+      "analysis\\snapshots\\Winning HRL\\Training_ppo_sharedmemory_2026-10-14_16-11-38_policy_10000.bin",
+      "Intermediate\\LearningAgents\\Snapshots\\Training_ppo_sharedmemory_2026-10-14_16-11-38_policy_10000.bin"
+    ]
+  },
+  {
+    "family": "HRL",
+    "kind": "decoder",
+    "selected_copy": "analysis\\snapshots\\Winning HRL\\decoder_10000 - Copy.bin",
+    "sha256": "84697c7565f7e79aa5fdec71cf08316c8c046ab11351dbb19a1b988fcd63274c",
+    "matches": [
+      "analysis\\snapshots\\Winning HRL\\Training_ppo_sharedmemory_2026-10-14_16-11-38_decoder_10000.bin",
+      "Intermediate\\LearningAgents\\Snapshots\\Training_ppo_sharedmemory_2026-10-14_16-11-38_decoder_10000.bin"
+    ]
+  },
+  {
+    "family": "NF",
+    "kind": "encoder",
+    "selected_copy": "analysis\\snapshots\\Winning NF\\encoder_5000 - Copy.bin",
+    "sha256": "1958f8f13d7d413eb475d2b6fa61bfd364914d69eda7bc89ee0daa5898c3a3b3",
+    "matches": [
+      "analysis\\snapshots\\Winning NF\\Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_encoder_5000.bin",
+      "Intermediate\\LearningAgents\\Snapshots\\Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_encoder_5000.bin"
+    ]
+  },
+  {
+    "family": "NF",
+    "kind": "policy",
+    "selected_copy": "analysis\\snapshots\\Winning NF\\policy_5000 - Copy.bin",
+    "sha256": "bc9392144dc10a862a795db90610ecf33f29a4ff6db484fe927aa783e83d4909",
+    "matches": [
+      "analysis\\snapshots\\Winning NF\\Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_policy_5000.bin",
+      "Intermediate\\LearningAgents\\Snapshots\\Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_policy_5000.bin"
+    ]
+  },
+  {
+    "family": "NF",
+    "kind": "decoder",
+    "selected_copy": "analysis\\snapshots\\Winning NF\\decoder_5000 - Copy.bin",
+    "sha256": "63c483826fc616c6e4acd429b71cd1f652e4c4939598f3a9549838d74882b1eb",
+    "matches": [
+      "analysis\\snapshots\\Winning NF\\Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_decoder_5000.bin",
+      "Intermediate\\LearningAgents\\Snapshots\\Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_decoder_5000.bin"
+    ]
+  }
+]

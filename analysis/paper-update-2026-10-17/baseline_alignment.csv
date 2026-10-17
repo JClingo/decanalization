@@ -1,0 +1,13 @@
+family,metric,identical_baseline_rows,n
+HRL,setpoint-avg,250,250
+HRL,setpoint-dev,250,250
+HRL,reward-total,249,250
+HRL,loss-total,250,250
+HRL,gain-total,250,250
+HRL,gains-harvested,250,250
+NF,setpoint-avg,250,250
+NF,setpoint-dev,250,250
+NF,reward-total,120,250
+NF,loss-total,250,250
+NF,gain-total,250,250
+NF,gains-harvested,250,250
