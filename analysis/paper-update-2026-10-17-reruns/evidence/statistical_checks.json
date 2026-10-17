@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Welch p agrees with scipy.stats.ttest_ind",
+    "paired p agrees with scipy.stats.ttest_rel",
+    "equal constant samples p=1",
+    "unequal constant samples p=0",
+    "Holm known three-test example"
+  ]
+}

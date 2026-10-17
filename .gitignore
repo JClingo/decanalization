@@ -76,3 +76,7 @@ DerivedDataCache/*
 # My own files
 logs/training/
 .DS_Store
+
+# Python analysis caches
+__pycache__/
+*.py[cod]

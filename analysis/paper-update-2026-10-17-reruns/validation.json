@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "conditions": [
+    {
+      "run": "HRL-CDR-6C224C4240886C1BAEB3EF9EFCE7DE7E",
+      "family": "HRL",
+      "order": "cdr",
+      "trials": 250,
+      "phases": 750,
+      "loaded_snapshot_family": "HRL",
+      "snapshot_update": 10000,
+      "tile_rate_factors": [
+        0.0
+      ],
+      "sample_count_min": 2402,
+      "sample_count_max": 2447,
+      "yaml_sha256": "efb44a933ceab1f3123ab0f027b883664387366826235f2d142724a2a43997ad",
+      "metrics_sha256": "dcda4c9c08ccf13bcdd7c8b2b3dbe8f921a82f98a33be4277f942e368b3f18d9",
+      "all_scene_hashes_verified": true
+    },
+    {
+      "run": "HRL-CCC-A137EBFA4FB0CC61D2F3D6AD20FCE332",
+      "family": "HRL",
+      "order": "ccc",
+      "trials": 250,
+      "phases": 750,
+      "loaded_snapshot_family": "HRL",
+      "snapshot_update": 10000,
+      "tile_rate_factors": [
+        0.0
+      ],
+      "sample_count_min": 2425,
+      "sample_count_max": 2447,
+      "yaml_sha256": "e5ac1bb36f026f6dd6bd62a04d203a99bd0cf5650ca9242e74215d30934c563d",
+      "metrics_sha256": "583d091057be49b1eaf77972d6c5a9b729e56734ee55b3d59e447f4680ea8e82",
+      "all_scene_hashes_verified": true
+    }
+  ],
+  "baseline_alignment": [
+    {
+      "family": "HRL",
+      "n": 250,
+      "exact_scene_matches": 230,
+      "other_start_matches": {
+        "rng-start": 250,
+        "policy-memory-start": 250,
+        "initial-homeostatic-state": 250,
+        "observed-start-h": 250
+      },
+      "scene_difference_fields": {
+        "respawn_timer_active": 21,
+        "respawn_timer_remaining": 21,
+        "OverlapCount": 6,
+        "hidden": 6
+      },
+      "identical_baseline_rows": {
+        "homeostatic-mae": 250,
+        "setpoint-dev": 250,
+        "reward-total": 250,
+        "homeostatic-fraction-within-5": 250,
+        "homeostatic-rms": 250,
+        "setpoint-avg": 250,
+        "loss-total": 250,
+        "gain-total": 250,
+        "gains-harvested": 250
+      }
+    }
+  ]
+}
