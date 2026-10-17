@@ -1,5 +1,7 @@
 # Recomputed results from the selected files
 
+**Historical audit:** This document describes the frozen pre-fix inputs and assets. See OPEN_ITEMS.md and rerun-update/IMPLEMENTATION.md for the subsequent authorized fixes. Existing reward and dispersion results have not been retroactively corrected.
+
 The four primary conditions each contain 250 trials (IDs 0–249), three complete phases, and logged duration 1000 throughout. Statistics below use the frozen bytes in `inputs/`. No separate dataset normalization, absolute-value transformation of signed means, or post hoc exclusions was applied.
 
 ## Primary post-intervention results

@@ -1,6 +1,6 @@
 # Proposed manuscript revisions
 
-These are reviewable replacements for the specified sections of `modelingDecanalization.tex` and `appendix.tex`. They use the manuscript's terminology while narrowing claims to the available evidence. The proposed text deliberately distinguishes completed analyses from additional measurements still needed. Numerical timing and selected-run attribution should be finalized using OPEN_ITEMS.md before submission.
+These are reviewable replacements for the specified sections of `modelingDecanalization.tex` and `appendix.tex`. They use the manuscript's terminology while narrowing claims to the available evidence. The proposed text deliberately distinguishes completed analyses from additional measurements still needed. The author-confirmed decisions and rerun requirements are recorded in OPEN_ITEMS.md. Historical results below remain provisional until the four primary conditions are rerun with schema-2 logging.
 
 ## 1. Abstract: replace the comparison and finding sentences
 
@@ -53,7 +53,7 @@ Delete the obsolete five-case commented formula and the currently active punishm
 
 > The policy observes 11 values: a pellet-collision indicator, seven resource-ray proportions, anticipated gain and loss, and the current signed homeostatic state. A correction replaced a stale agent-local state observation with the live GameMode value while preserving the observation schema and its scale. The policy maintains 64 recurrent memory values and selects a continuous steering action. Policy weights are fixed during evaluation.
 
-Replace the appendix PPO table with the HRL and effective NF columns in CHANGE_INVENTORY.md. Preserve the distinction between configured iteration limits, snapshot update labels, and actual collected transitions. Replace the historical 50-candidate/visual-plateau selection statement with selected-2026-run evidence when confirmed; do not silently present the historical selection account as applying to the new checkpoints.
+Replace the appendix PPO table with the HRL and effective NF columns in CHANGE_INVENTORY.md. Preserve the distinction between configured iteration limits, snapshot update labels, and actual collected transitions. Replace the historical selection statement with: “Snapshots were selected on the basis of their performance relative to other snapshots. For HRL, selection favored mean homeostatic state closer to zero and the highest mean reward; for NF, selection favored the highest mean reward. The selected snapshot update labels were 10000 and 5000, respectively.” This selection account is author-confirmed; no new candidate ranking is inferred.
 
 ## 6. Protocol: replace trial counts, phase resets, and pairing claims
 
@@ -63,7 +63,7 @@ Replace the appendix PPO table with the HRL and effective NF columns in CHANGE_I
 
 > The environment uses separate training and inference random seeds and a continuing seeded stream across successive trials. Baseline physical summaries agree exactly for corresponding trial IDs in the selected CDR and CCC files. Some baseline evaluation scores differ, however, and the phase summaries do not include full scenario manifests. We therefore do not infer exact cross-condition pairing solely from trial IDs.
 
-Do not retain the old 6000/12000/18000 tick diagram or substitute 2000/4000/6000 as if verified for these files. Current assets and older validations differ; the logged duration is a constant. Add a finalized timing diagram only after linking the selected logs to their executed graph.
+Replace the old timing diagram with boundaries at 2000/4000/6000 decisions, corresponding to 100/200/300 s. The author confirms dt = 0.05 s and 100 s per phase. The archived duration field of 1000 is a legacy constant; it should not be interpreted as elapsed time. Rerun logging now checks 2000 reward decisions and records 100 s per phase.
 
 In the intervention paragraph, replace pellet value 20 with the verified selected-run value (current implementation: 35), and replace the old mandatory threefold count increment with ordinary counting for the primary HRL-CDR setting if run provenance confirms the retained 0-plasticity mapping. The interventions still change actual gains/losses as well as observations; do not call them perception-only.
 
@@ -109,3 +109,15 @@ Global replacements/checks:
 - “optimal policy” / “escaped an attractor” / “greedy or exploratory strategy” -> hypothesis unless supported by trajectories or explicit benchmarks.
 - “perception-only intervention” -> composite environment and observation intervention.
 - Update abstract, Results summary, Discussion, Conclusion, figure captions, and early-phase appendix together. Remove superseded TODO comments after resolving their substantive questions, not merely because replacement prose exists.
+
+## 11. Replacement Methods for the corrected reruns
+
+The following supersedes the legacy measurement descriptions when the primary analyses have been regenerated from schema-2 runs. The numerical Results and abstract findings above must then be refreshed rather than carried forward without verification.
+
+> Each evaluation trial comprised three phases of 2,000 decision steps at a fixed interval of 0.05 s, giving 100 s per phase. Evaluation reward was the sum of the outputs of the same objective callback used during training: r = 0.05/[1 + (h/25)²] for HRL, and r = max(|h_previous| − |h|, 0)/25 when h < 0, otherwise zero, for NF. Evaluation continued for the full phase even when |h| exceeded the training failure boundary. The terminal penalty and episode cutoff were applied only during training. The NF reward history was initialized at the start of each phase so that resetting the homeostatic state did not generate progress reward.
+
+> Homeostatic dispersion was calculated as the population standard deviation, sqrt(sum((h − mean(h))²)/N), over the recorded homeostatic history. We also recorded mean absolute homeostatic deviation, root mean square homeostatic deviation, and the fraction of recorded samples within ±5 of the setpoint. Because this history includes event and update samples, these measures describe the recorded sample distribution rather than a uniformly sampled time distribution. Reward was accumulated separately once per decision.
+
+> Each run retained the loaded policy, encoder, and decoder snapshots and their hashes, the executed asset and logger hashes, runtime parameters, and a matching effective training configuration where available. Phase records included initial scene state, recurrent policy memory, and random-stream state. Trials constitute repeated evaluations of selected policies; the analysis does not estimate variation across independently trained policies.
+
+For the appendix, use the effective PPO values in `rerun-update/trial_training_manifests.json`; configured pre-override NF values are retained there only as provenance. Keep the supplementary traversal-rate experiments separate from the primary comparison. If using their archived results, explicitly call their reward measure the legacy evaluation score.

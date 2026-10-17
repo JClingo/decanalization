@@ -1,0 +1,70 @@
+---
+trials:
+- id: 0 
+  reward-function: NF
+  sequence-order: ccc
+  sequences:
+  - state: canalized
+    duration: 100
+    setpoint-avg: -16.790666
+    setpoint-dev: 9.241123
+    loss-total: -507.250008
+    gains-harvested: 32
+    gain-total: 713.792385
+    sequence-idx: 1
+    reward-total: 20.050079
+  - state: canalized
+    duration: 100
+    setpoint-avg: -13.393343
+    setpoint-dev: 8.929695
+    loss-total: -458.38334
+    gains-harvested: 33
+    gain-total: 651.602015
+    sequence-idx: 2
+    reward-total: 15.136018
+  - state: canalized
+    duration: 100
+    setpoint-avg: -11.529045
+    setpoint-dev: 12.336293
+    loss-total: -424.726197
+    gains-harvested: 27
+    gain-total: 618.36677
+    sequence-idx: 3
+    reward-total: 15.794352
+- id: 1 
+  reward-function: NF
+  sequence-order: ccc
+  sequences:
+  - state: canalized
+    duration: 100
+    setpoint-avg: -13.649644
+    setpoint-dev: 9.901097
+    loss-total: -511.583341
+    gains-harvested: 30
+    gain-total: 698.699884
+    sequence-idx: 1
+    reward-total: 16.426995
+  - state: canalized
+    duration: 100
+    setpoint-avg: -11.455605
+    setpoint-dev: 12.225415
+    loss-total: -467.191674
+    gains-harvested: 27
+    gain-total: 641.387352
+    sequence-idx: 2
+    reward-total: 12.409475
+  - state: canalized
+    duration: 100
+    setpoint-avg: -13.784441
+    setpoint-dev: 9.413527
+    loss-total: -415.541673
+    gains-harvested: 35
+    gain-total: 608.563458
+    sequence-idx: 3
+    reward-total: 16.630502
+
+schema-version: 2
+duration-unit: simulation-seconds
+reward-source: TrainingEnv.GatherAgentReward
+setpoint-dev-definition: population-standard-deviation
+metadata-file: "NF-CCC-6B31570A454459496D6DF0A5053A6D0E.metrics.json"

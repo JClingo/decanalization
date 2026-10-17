@@ -57,8 +57,14 @@ def notify_completed_trials():
         return
     expected = gm.get_editor_property('TrialYML').replace('\r\n', '\n')
     try:
-        saved = results.read_text(encoding='utf-8-sig') == expected
-    except OSError:
+        actual = results.read_text(encoding='utf-8-sig')
+        if '\nschema-version: 2\n' in actual:
+            from trial_metrics import metadata_suffix
+            metrics = json.loads(results.with_suffix('.metrics.json').read_text(encoding='utf-8'))
+            saved = actual == expected + metadata_suffix(results) and metrics.get('status') == 'complete'
+        else:
+            saved = actual == expected
+    except (OSError, ValueError):
         saved = False
     receipt = {
         'status': 'completed',

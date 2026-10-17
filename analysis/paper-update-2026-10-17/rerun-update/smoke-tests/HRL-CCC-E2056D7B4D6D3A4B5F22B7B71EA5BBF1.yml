@@ -1,0 +1,70 @@
+---
+trials:
+- id: 0 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+  - state: canalized
+    duration: 100
+    setpoint-avg: 7.905931
+    setpoint-dev: 20.369022
+    loss-total: -497.091674
+    gains-harvested: 27
+    gain-total: 700.238867
+    sequence-idx: 1
+    reward-total: 69.098028
+  - state: canalized
+    duration: 100
+    setpoint-avg: 0.596554
+    setpoint-dev: 13.86224
+    loss-total: -460.075007
+    gains-harvested: 25
+    gain-total: 654.728293
+    sequence-idx: 2
+    reward-total: 81.411877
+  - state: canalized
+    duration: 100
+    setpoint-avg: 60.311398
+    setpoint-dev: 38.655006
+    loss-total: -433.30834
+    gains-harvested: 23
+    gain-total: 678.107465
+    sequence-idx: 3
+    reward-total: 29.211409
+- id: 1 
+  reward-function: HRL
+  sequence-order: ccc
+  sequences:
+  - state: canalized
+    duration: 100
+    setpoint-avg: 34.858211
+    setpoint-dev: 61.542573
+    loss-total: -497.200007
+    gains-harvested: 33
+    gain-total: 839.699587
+    sequence-idx: 1
+    reward-total: 49.132392
+  - state: canalized
+    duration: 100
+    setpoint-avg: 9.36647
+    setpoint-dev: 16.51689
+    loss-total: -448.978578
+    gains-harvested: 23
+    gain-total: 683.822639
+    sequence-idx: 2
+    reward-total: 72.819367
+  - state: canalized
+    duration: 100
+    setpoint-avg: 11.26689
+    setpoint-dev: 17.730978
+    loss-total: -440.505562
+    gains-harvested: 25
+    gain-total: 621.765321
+    sequence-idx: 3
+    reward-total: 67.874525
+
+schema-version: 2
+duration-unit: simulation-seconds
+reward-source: TrainingEnv.GatherAgentReward
+setpoint-dev-definition: population-standard-deviation
+metadata-file: "HRL-CCC-E2056D7B4D6D3A4B5F22B7B71EA5BBF1.metrics.json"

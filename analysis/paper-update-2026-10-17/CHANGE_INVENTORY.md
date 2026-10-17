@@ -1,5 +1,7 @@
 # Consolidated project changes
 
+**Historical audit:** This document describes the frozen pre-fix inputs and assets. See OPEN_ITEMS.md and rerun-update/IMPLEMENTATION.md for the subsequent authorized fixes. Existing reward and dispersion results have not been retroactively corrected.
+
 Reporting basis: inspection began at commit `4cf19d5` with the user's data changes present. During preparation the repository advanced to `2351160` ("renamed"); final provenance captures that revision. All seven analyzed source files were rechecked against their frozen hashes and remained identical. The primary HRL-CDR file has changed since the existing comparison report. Its bytes now match `Saved/TrialResults/HRL-CDR-0-plasticity.yml`; the file named `HRL-CDR-4-plasticity.yml` matches the original standard-rate run. Use the frozen files and hashes in this package, not an older report bearing the same filename.
 
 Evidence categories below distinguish current saved assets, implemented Python behavior, historical validation, and data-supported facts. These are not interchangeable with run-specific provenance.

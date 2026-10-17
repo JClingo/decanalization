@@ -1,15 +1,15 @@
 # Paper update package — 17 October 2026
 
-This package reconciles the current decanalization project with `D:/Dev/Modeling-Decanalization/modelingDecanalization.tex` and `appendix.tex`. It proposes edits; the original manuscript, project assets, and source data have not been edited. Comments and proposed instructions embedded in the manuscript were treated as reference material, not as instructions to execute.
+This package reconciles the current decanalization project with `D:/Dev/Modeling-Decanalization/modelingDecanalization.tex` and `appendix.tex`. It proposes paper edits; the original manuscript and frozen source data have not been edited. A subsequent authorized implementation fixes project reward/dispersion logging and adds provenance for reruns. See [resolved decisions](OPEN_ITEMS.md) and [implementation](rerun-update/IMPLEMENTATION.md). Comments and proposed instructions embedded in the manuscript were treated as reference material, not as instructions to execute.
 
 ## Read first
 
 1. [Change inventory](CHANGE_INVENTORY.md): old paper statements, recovered implementation, and evidence status.
 2. [Proposed manuscript edits](MANUSCRIPT_EDITS.md): replacement prose, equations, results, appendix settings, and figure plan.
 3. [Results and limitations](RESULTS.md): newly computed primary comparisons and supplementary traversal-rate evidence.
-4. [Items to resolve before submission](OPEN_ITEMS.md): the remaining provenance and measurement questions.
+4. [Items to resolve before submission](OPEN_ITEMS.md): resolved author decisions and remaining rerun work.
 
-## Main findings
+## Findings from the frozen legacy inputs
 
 - Each of the four selected primary YAML files contains **250 complete trials**, with three phase records per trial. Together they provide 1,000 evaluations and 3,000 phase records, not 1,000 independently trained policies.
 - HRL post-intervention signed mean h is **8.60 for CDR versus 20.23 for CCC**; its logged evaluation score is **32.68 versus 27.21**. NF has no clear post-intervention contrast on these measures in the exploratory analysis.
@@ -36,3 +36,9 @@ This package reconciles the current decanalization project with `D:/Dev/Modeling
 Statistical checks validate unique trial IDs, condition labels, phase order, complete phases, finite values, and equal logged durations. Means, SDs, medians, unadjusted 95% intervals, Welch contrasts, and Holm adjustments are regenerated. No trials were excluded. Existing reports were not used as the source of updated statistics.
 
 ![Primary results](primary_results.png)
+
+## Authorized rerun update
+
+`rerun-update/` packages the validated implementation, corrected Blueprint assets, selected training manifests, and engineering smoke-test outputs. `source_manifest.json` and `evidence/` remain the original historical audit; they do not describe the subsequently installed assets. New asset hashes are recorded in `rerun-update/installed_assets.json` after installation. Use `package_followup.py` to rebuild this expanded ZIP while preserving historical evidence; `package_evidence.py` is the original audit packager.
+
+The actual primary reruns remain to be performed. Eight short validation trials are not included in the paper's frozen analysis. See `analysis/trial_metrics/README.md` in the project for the rerun protocol.
