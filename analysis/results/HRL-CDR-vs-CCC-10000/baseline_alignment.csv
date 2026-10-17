@@ -1,0 +1,7 @@
+metric,exactly_equal_trials,n,max_absolute_difference
+setpoint-avg,250,250,0.0
+setpoint-dev,250,250,0.0
+reward-total,249,250,0.019282000000004018
+loss-total,250,250,0.0
+gain-total,250,250,0.0
+gains-harvested,250,250,0.0

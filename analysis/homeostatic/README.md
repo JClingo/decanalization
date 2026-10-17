@@ -161,3 +161,43 @@ creation. Patch inputs are exported JSON under Saved/RngSeedFix. Runtime
 captures initial state plus two full agent resets with manager ticking disabled.
 `environment_seed_validation.json` records reproducibility and differences;
 detailed layouts and Unreal logs remain under Saved/RngSeedFix.
+
+## NF-only stabilization (NFStable1)
+
+When `IsHRL=false`, BP_AgentManager selects `nf_ppo` immediately before spawning
+the training process. With `IsHRL=true` it keeps the original trainer and settings.
+The runtime helper is `Content/Python/nf_training.py`; class defaults, rewards,
+trial setup, movement and existing frozen snapshots are preserved. Python must
+remain enabled, as it already is for the project's reset helpers. Configuration
+failure logs an error and stops the run.
+
+The NF trainer uses standard probability-ratio PPO clipping, caps policy learning
+rate at 0.00003, critic learning rate at 0.0003, updates per gather at 8, PPO clip
+at 0.1 and global gradient norm at 0.25. Actor updates are skipped once the
+sampled approximate KL exceeds 0.015. This checks each minibatch before its
+update; it is not a strict bound on post-update KL. Critic updates use detached
+encoder features so they cannot change the actor outside that check.
+
+NF exploration standard deviation is fixed at 0.15 in the existing serialized
+decoder parameters. Removing entropy and action-size regularization prevents
+the previous combination of exploding variance and suppressed mean steering.
+The first rollout is discarded without actor or critic learning, then the normal
+network publication protocol sends the bounded decoder before further collection.
+The first eight iteration numbers therefore represent bootstrap, not learning.
+Snapshots retain the native layout and require no special inference code.
+
+New run and snapshot names contain `Training_NFStable1_ppo_`. TensorBoard adds
+`nf/action_std`, `nf/log_std_max`, `nf/approx_kl`, accepted/skipped actor updates,
+and mean-action diagnostics, including observations with negative homeostasis.
+Those diagnostics use replay observations and stored recurrent memory; use
+complete held-out deterministic trials to assess time near zero.
+
+Start a fresh NF training run. Changing the trainer does not repair a previously
+collapsed frozen policy. Continue loading matching encoder, policy and decoder
+snapshots from the same new run and iteration for trials. This change targets
+training stability; convergence and useful NF behavior still need longer training
+and held-out evaluation. The NF reward gate remains unchanged.
+
+Run regression checks with the project Python:
+`Intermediate/PipInstall/Scripts/python.exe -m unittest discover -s analysis/homeostatic -p "test*ppo.py"`.
+`nf_stability_validation.json` records the isolated native smoke checks.

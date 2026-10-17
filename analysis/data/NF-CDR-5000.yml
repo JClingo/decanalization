@@ -1,0 +1,7752 @@
+---
+trials:
+- id: 0 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.790666
+    setpoint-dev: 456.197073
+    loss-total: -507.250008
+    gains-harvested: 32
+    gain-total: 713.792385
+    sequence-idx: 1
+    reward-total: 40.178884
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2801.618835
+    setpoint-dev: 119152.303567
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 6545.0
+    sequence-idx: 2
+    reward-total: 6.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.575492
+    setpoint-dev: 513.231989
+    loss-total: -475.817638
+    gains-harvested: 33
+    gain-total: 649.07207
+    sequence-idx: 3
+    reward-total: 38.792026
+- id: 1 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.649644
+    setpoint-dev: 488.877611
+    loss-total: -511.583341
+    gains-harvested: 30
+    gain-total: 698.699884
+    sequence-idx: 1
+    reward-total: 30.947939
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 77.108493
+    setpoint-dev: 2368.412319
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: -0.590198
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.446343
+    setpoint-dev: 561.744386
+    loss-total: -473.039238
+    gains-harvested: 28
+    gain-total: 648.00685
+    sequence-idx: 3
+    reward-total: 36.296266
+- id: 2 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.782433
+    setpoint-dev: 661.11453
+    loss-total: -505.625008
+    gains-harvested: 31
+    gain-total: 688.20097
+    sequence-idx: 1
+    reward-total: 61.267546
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -6.493782
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 21.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.570446
+    setpoint-dev: 542.710843
+    loss-total: -492.274061
+    gains-harvested: 36
+    gain-total: 679.496027
+    sequence-idx: 3
+    reward-total: 43.769022
+- id: 3 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.374163
+    setpoint-dev: 575.03305
+    loss-total: -518.666674
+    gains-harvested: 32
+    gain-total: 709.329803
+    sequence-idx: 1
+    reward-total: 45.76719
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 282.482644
+    setpoint-dev: 26507.466707
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 1680.0
+    sequence-idx: 2
+    reward-total: 151.55
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.804375
+    setpoint-dev: 592.558937
+    loss-total: -470.690559
+    gains-harvested: 33
+    gain-total: 671.237601
+    sequence-idx: 3
+    reward-total: 42.559652
+- id: 4 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.336153
+    setpoint-dev: 479.733662
+    loss-total: -517.083341
+    gains-harvested: 31
+    gain-total: 705.007051
+    sequence-idx: 1
+    reward-total: 31.472665
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 209.512384
+    setpoint-dev: 5902.576866
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 280.0
+    sequence-idx: 2
+    reward-total: -0.820244
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.045477
+    setpoint-dev: 524.865861
+    loss-total: -498.25207
+    gains-harvested: 30
+    gain-total: 678.71477
+    sequence-idx: 3
+    reward-total: 36.860806
+- id: 5 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -27.34193
+    setpoint-dev: 1276.989795
+    loss-total: -475.829977
+    gains-harvested: 27
+    gain-total: 680.650747
+    sequence-idx: 1
+    reward-total: 44.311376
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1228.567286
+    setpoint-dev: 41521.032583
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 1960.0
+    sequence-idx: 2
+    reward-total: 334.425
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.544559
+    setpoint-dev: 593.114853
+    loss-total: -494.46883
+    gains-harvested: 32
+    gain-total: 675.63552
+    sequence-idx: 3
+    reward-total: 56.737513
+- id: 6 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.201895
+    setpoint-dev: 443.465913
+    loss-total: -507.291674
+    gains-harvested: 30
+    gain-total: 684.899164
+    sequence-idx: 1
+    reward-total: 40.009834
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 368.285862
+    setpoint-dev: 18375.438439
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 875.0
+    sequence-idx: 2
+    reward-total: -0.676937
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.335646
+    setpoint-dev: 495.7816
+    loss-total: -495.35008
+    gains-harvested: 32
+    gain-total: 717.868003
+    sequence-idx: 3
+    reward-total: 44.998371
+- id: 7 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.106241
+    setpoint-dev: 470.907216
+    loss-total: -498.258341
+    gains-harvested: 31
+    gain-total: 681.159769
+    sequence-idx: 1
+    reward-total: 40.900139
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 218.185968
+    setpoint-dev: 5611.162922
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 280.0
+    sequence-idx: 2
+    reward-total: -0.895669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.433862
+    setpoint-dev: 497.287188
+    loss-total: -479.908668
+    gains-harvested: 29
+    gain-total: 669.520217
+    sequence-idx: 3
+    reward-total: 37.239949
+- id: 8 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.016445
+    setpoint-dev: 543.761095
+    loss-total: -510.916674
+    gains-harvested: 33
+    gain-total: 677.760572
+    sequence-idx: 1
+    reward-total: 44.276084
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 516.353097
+    setpoint-dev: 43994.723878
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 3150.0
+    sequence-idx: 2
+    reward-total: 18.2
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.867459
+    setpoint-dev: 525.338879
+    loss-total: -479.792993
+    gains-harvested: 32
+    gain-total: 667.660801
+    sequence-idx: 3
+    reward-total: 39.568467
+- id: 9 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -127.625781
+    setpoint-dev: 3701.696522
+    loss-total: -155.055299
+    gains-harvested: 5
+    gain-total: 99.218648
+    sequence-idx: 1
+    reward-total: 14.83565
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 126.822876
+    setpoint-dev: 1541.145624
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.640337
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.219633
+    setpoint-dev: 443.573198
+    loss-total: -477.696468
+    gains-harvested: 33
+    gain-total: 667.587608
+    sequence-idx: 3
+    reward-total: 36.549618
+- id: 10 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.900955
+    setpoint-dev: 636.057576
+    loss-total: -503.450008
+    gains-harvested: 33
+    gain-total: 668.761825
+    sequence-idx: 1
+    reward-total: 44.404443
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 15.380586
+    setpoint-dev: 1296.752338
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: 14.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.115555
+    setpoint-dev: 502.807571
+    loss-total: -476.357202
+    gains-harvested: 32
+    gain-total: 710.366379
+    sequence-idx: 3
+    reward-total: 40.671903
+- id: 11 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.381619
+    setpoint-dev: 433.651832
+    loss-total: -505.583341
+    gains-harvested: 35
+    gain-total: 683.739265
+    sequence-idx: 1
+    reward-total: 35.289309
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 9.533096
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: -0.758018
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.986755
+    setpoint-dev: 501.393951
+    loss-total: -473.360514
+    gains-harvested: 33
+    gain-total: 647.29177
+    sequence-idx: 3
+    reward-total: 38.422212
+- id: 12 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.762043
+    setpoint-dev: 465.136344
+    loss-total: -491.958341
+    gains-harvested: 32
+    gain-total: 675.197642
+    sequence-idx: 1
+    reward-total: 37.523608
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 149.376221
+    setpoint-dev: 3490.857378
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: -0.806102
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.764011
+    setpoint-dev: 489.009369
+    loss-total: -472.084949
+    gains-harvested: 31
+    gain-total: 644.085223
+    sequence-idx: 3
+    reward-total: 38.130606
+- id: 13 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.902006
+    setpoint-dev: 538.330031
+    loss-total: -514.708341
+    gains-harvested: 33
+    gain-total: 695.129072
+    sequence-idx: 1
+    reward-total: 44.584843
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1287.86025
+    setpoint-dev: 43038.771949
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 2065.0
+    sequence-idx: 2
+    reward-total: 315.7
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.065371
+    setpoint-dev: 490.20062
+    loss-total: -471.654458
+    gains-harvested: 30
+    gain-total: 657.117874
+    sequence-idx: 3
+    reward-total: 37.526772
+- id: 14 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.483108
+    setpoint-dev: 552.178332
+    loss-total: -500.375007
+    gains-harvested: 29
+    gain-total: 709.305542
+    sequence-idx: 1
+    reward-total: 34.291131
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 84.825115
+    setpoint-dev: 2981.664117
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 305.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.329895
+    setpoint-dev: 563.588825
+    loss-total: -483.903926
+    gains-harvested: 33
+    gain-total: 687.607294
+    sequence-idx: 3
+    reward-total: 42.645025
+- id: 15 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.214372
+    setpoint-dev: 479.998818
+    loss-total: -514.875008
+    gains-harvested: 32
+    gain-total: 707.90032
+    sequence-idx: 1
+    reward-total: 38.036174
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1615.38871
+    setpoint-dev: 36724.213272
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 2135.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -19.776432
+    setpoint-dev: 506.926361
+    loss-total: -492.345511
+    gains-harvested: 29
+    gain-total: 688.973137
+    sequence-idx: 3
+    reward-total: 47.169941
+- id: 16 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -24.352819
+    setpoint-dev: 763.202009
+    loss-total: -507.333341
+    gains-harvested: 30
+    gain-total: 689.232532
+    sequence-idx: 1
+    reward-total: 60.061699
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1844.963311
+    setpoint-dev: 39700.529799
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2415.0
+    sequence-idx: 2
+    reward-total: -0.66468
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 1022.925112
+    setpoint-dev: 18722.664569
+    loss-total: -18.203988
+    gains-harvested: 1
+    gain-total: 1350.440678
+    sequence-idx: 3
+    reward-total: -0.66468
+- id: 17 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.407732
+    setpoint-dev: 528.063925
+    loss-total: -506.775008
+    gains-harvested: 33
+    gain-total: 679.298866
+    sequence-idx: 1
+    reward-total: 42.910047
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 34.052024
+    setpoint-dev: 85.624998
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.583186
+    setpoint-dev: 423.822
+    loss-total: -488.846652
+    gains-harvested: 32
+    gain-total: 664.75158
+    sequence-idx: 3
+    reward-total: 39.584403
+- id: 18 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.257937
+    setpoint-dev: 640.804221
+    loss-total: -503.166674
+    gains-harvested: 30
+    gain-total: 748.416931
+    sequence-idx: 1
+    reward-total: 35.359316
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 74.612122
+    setpoint-dev: 3426.802408
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 10.15
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.277589
+    setpoint-dev: 665.836873
+    loss-total: -479.734577
+    gains-harvested: 28
+    gain-total: 677.97921
+    sequence-idx: 3
+    reward-total: 41.236335
+- id: 19 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.484816
+    setpoint-dev: 525.236623
+    loss-total: -511.375008
+    gains-harvested: 36
+    gain-total: 683.311747
+    sequence-idx: 1
+    reward-total: 41.665499
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1474.593363
+    setpoint-dev: 58992.450873
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2730.0
+    sequence-idx: 2
+    reward-total: -0.733505
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.488683
+    setpoint-dev: 461.592718
+    loss-total: -479.758982
+    gains-harvested: 28
+    gain-total: 657.127566
+    sequence-idx: 3
+    reward-total: 35.141273
+- id: 20 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.85733
+    setpoint-dev: 435.264546
+    loss-total: -515.208341
+    gains-harvested: 38
+    gain-total: 698.722046
+    sequence-idx: 1
+    reward-total: 37.917803
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 136.901332
+    setpoint-dev: 3168.571593
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.730677
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.814416
+    setpoint-dev: 471.729128
+    loss-total: -481.682572
+    gains-harvested: 29
+    gain-total: 654.899861
+    sequence-idx: 3
+    reward-total: 32.804356
+- id: 21 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.472684
+    setpoint-dev: 622.949761
+    loss-total: -509.625008
+    gains-harvested: 34
+    gain-total: 696.462717
+    sequence-idx: 1
+    reward-total: 35.04196
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 77.700503
+    setpoint-dev: 222.867338
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: -0.833443
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.404519
+    setpoint-dev: 496.922973
+    loss-total: -487.882973
+    gains-harvested: 32
+    gain-total: 653.922714
+    sequence-idx: 3
+    reward-total: 35.281691
+- id: 22 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.853211
+    setpoint-dev: 461.876255
+    loss-total: -488.858341
+    gains-harvested: 31
+    gain-total: 658.481558
+    sequence-idx: 1
+    reward-total: 36.837691
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 98.14016
+    setpoint-dev: 2175.131382
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.379009
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.88294
+    setpoint-dev: 457.805437
+    loss-total: -486.193304
+    gains-harvested: 30
+    gain-total: 657.978859
+    sequence-idx: 3
+    reward-total: 38.622965
+- id: 23 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.853414
+    setpoint-dev: 509.037665
+    loss-total: -507.208341
+    gains-harvested: 32
+    gain-total: 683.452189
+    sequence-idx: 1
+    reward-total: 45.357057
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 164.882517
+    setpoint-dev: 2687.037565
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.814587
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.831487
+    setpoint-dev: 539.485829
+    loss-total: -491.432613
+    gains-harvested: 31
+    gain-total: 651.013533
+    sequence-idx: 3
+    reward-total: 46.077723
+- id: 24 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.765462
+    setpoint-dev: 496.081424
+    loss-total: -489.216674
+    gains-harvested: 31
+    gain-total: 680.373772
+    sequence-idx: 1
+    reward-total: 44.216158
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 82.042725
+    setpoint-dev: 3805.984843
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 9.1
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.193622
+    setpoint-dev: 445.306541
+    loss-total: -474.497943
+    gains-harvested: 33
+    gain-total: 667.660101
+    sequence-idx: 3
+    reward-total: 36.380521
+- id: 25 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -20.732908
+    setpoint-dev: 511.978638
+    loss-total: -512.375008
+    gains-harvested: 33
+    gain-total: 694.321141
+    sequence-idx: 1
+    reward-total: 43.80092
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 131.164246
+    setpoint-dev: 1373.47248
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 341.775
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.585024
+    setpoint-dev: 654.52345
+    loss-total: -486.435278
+    gains-harvested: 35
+    gain-total: 687.344683
+    sequence-idx: 3
+    reward-total: 39.011688
+- id: 26 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.32427
+    setpoint-dev: 496.961647
+    loss-total: -497.316674
+    gains-harvested: 29
+    gain-total: 663.6771
+    sequence-idx: 1
+    reward-total: 37.779689
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 158.748155
+    setpoint-dev: 20157.424919
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 2030.0
+    sequence-idx: 2
+    reward-total: -0.720306
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -11.343363
+    setpoint-dev: 704.173626
+    loss-total: -475.386532
+    gains-harvested: 34
+    gain-total: 654.613314
+    sequence-idx: 3
+    reward-total: 28.96973
+- id: 27 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.63608
+    setpoint-dev: 515.834178
+    loss-total: -505.833341
+    gains-harvested: 31
+    gain-total: 680.649459
+    sequence-idx: 1
+    reward-total: 38.242797
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 41.22867
+    setpoint-dev: 276.244591
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.957894
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.870896
+    setpoint-dev: 413.103856
+    loss-total: -496.673477
+    gains-harvested: 32
+    gain-total: 670.278646
+    sequence-idx: 3
+    reward-total: 35.667074
+- id: 28 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -26.897351
+    setpoint-dev: 773.179637
+    loss-total: -485.674809
+    gains-harvested: 29
+    gain-total: 688.795505
+    sequence-idx: 1
+    reward-total: 46.544492
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 82.629892
+    setpoint-dev: 3678.775215
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 240.1
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -31.180429
+    setpoint-dev: 1345.672433
+    loss-total: -457.929
+    gains-harvested: 28
+    gain-total: 644.84055
+    sequence-idx: 3
+    reward-total: 48.475457
+- id: 29 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.944615
+    setpoint-dev: 776.836407
+    loss-total: -501.216674
+    gains-harvested: 28
+    gain-total: 674.408618
+    sequence-idx: 1
+    reward-total: 52.643043
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 538.79572
+    setpoint-dev: 21319.324061
+    loss-total: 0.0
+    gains-harvested: 7
+    gain-total: 945.0
+    sequence-idx: 2
+    reward-total: 133.049461
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 104.131354
+    setpoint-dev: 6591.049638
+    loss-total: -284.629925
+    gains-harvested: 20
+    gain-total: 703.16677
+    sequence-idx: 3
+    reward-total: 25.153194
+- id: 30 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.860568
+    setpoint-dev: 495.136104
+    loss-total: -497.316674
+    gains-harvested: 29
+    gain-total: 674.724562
+    sequence-idx: 1
+    reward-total: 42.081225
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 24.21552
+    setpoint-dev: 857.642578
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.691079
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -9.997907
+    setpoint-dev: 719.74108
+    loss-total: -482.219224
+    gains-harvested: 30
+    gain-total: 664.516581
+    sequence-idx: 3
+    reward-total: 33.319496
+- id: 31 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.804954
+    setpoint-dev: 555.151182
+    loss-total: -512.425008
+    gains-harvested: 32
+    gain-total: 749.237198
+    sequence-idx: 1
+    reward-total: 41.874617
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 277.194978
+    setpoint-dev: 27170.359779
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1715.0
+    sequence-idx: 2
+    reward-total: 18.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.152721
+    setpoint-dev: 413.81418
+    loss-total: -475.383976
+    gains-harvested: 32
+    gain-total: 677.57775
+    sequence-idx: 3
+    reward-total: 34.528279
+- id: 32 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.819529
+    setpoint-dev: 467.209327
+    loss-total: -500.900007
+    gains-harvested: 31
+    gain-total: 682.105565
+    sequence-idx: 1
+    reward-total: 36.836809
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 90.563688
+    setpoint-dev: 8323.544717
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 945.0
+    sequence-idx: 2
+    reward-total: -0.658081
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.113725
+    setpoint-dev: 584.594302
+    loss-total: -484.02742
+    gains-harvested: 31
+    gain-total: 658.596984
+    sequence-idx: 3
+    reward-total: 36.763836
+- id: 33 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.098787
+    setpoint-dev: 745.633155
+    loss-total: -504.375008
+    gains-harvested: 33
+    gain-total: 676.173841
+    sequence-idx: 1
+    reward-total: 51.523567
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 226.228262
+    setpoint-dev: 8766.229708
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: -0.857956
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.552132
+    setpoint-dev: 742.429193
+    loss-total: -476.337069
+    gains-harvested: 28
+    gain-total: 639.73719
+    sequence-idx: 3
+    reward-total: 44.310246
+- id: 34 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.737142
+    setpoint-dev: 608.609082
+    loss-total: -512.000008
+    gains-harvested: 32
+    gain-total: 708.020401
+    sequence-idx: 1
+    reward-total: 52.106896
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 94.958034
+    setpoint-dev: 3179.146901
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 5.25
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.791864
+    setpoint-dev: 576.51908
+    loss-total: -469.233882
+    gains-harvested: 33
+    gain-total: 663.510078
+    sequence-idx: 3
+    reward-total: 54.836171
+- id: 35 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.412125
+    setpoint-dev: 476.495581
+    loss-total: -508.958341
+    gains-harvested: 32
+    gain-total: 675.634711
+    sequence-idx: 1
+    reward-total: 37.97437
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1463.204654
+    setpoint-dev: 52650.747334
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2520.0
+    sequence-idx: 2
+    reward-total: 278.95
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.235142
+    setpoint-dev: 546.362556
+    loss-total: -497.351856
+    gains-harvested: 29
+    gain-total: 691.624482
+    sequence-idx: 3
+    reward-total: 38.504208
+- id: 36 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -10.703026
+    setpoint-dev: 799.15174
+    loss-total: -501.842865
+    gains-harvested: 31
+    gain-total: 678.839563
+    sequence-idx: 1
+    reward-total: 31.908089
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1137.779623
+    setpoint-dev: 27914.466833
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1470.0
+    sequence-idx: 2
+    reward-total: 78.365324
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.639111
+    setpoint-dev: 549.967472
+    loss-total: -501.152808
+    gains-harvested: 27
+    gain-total: 670.562853
+    sequence-idx: 3
+    reward-total: 41.37883
+- id: 37 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.465775
+    setpoint-dev: 477.792748
+    loss-total: -499.625007
+    gains-harvested: 30
+    gain-total: 685.894451
+    sequence-idx: 1
+    reward-total: 43.41861
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 343.734908
+    setpoint-dev: 12360.803884
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 560.0
+    sequence-idx: 2
+    reward-total: 291.025
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.176819
+    setpoint-dev: 524.412617
+    loss-total: -497.979046
+    gains-harvested: 39
+    gain-total: 677.094491
+    sequence-idx: 3
+    reward-total: 40.429489
+- id: 38 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.308763
+    setpoint-dev: 420.548443
+    loss-total: -493.316674
+    gains-harvested: 30
+    gain-total: 692.785933
+    sequence-idx: 1
+    reward-total: 43.352898
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 231.545353
+    setpoint-dev: 21385.810446
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 1260.0
+    sequence-idx: 2
+    reward-total: 21.175
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.844127
+    setpoint-dev: 495.432228
+    loss-total: -453.094122
+    gains-harvested: 33
+    gain-total: 629.714546
+    sequence-idx: 3
+    reward-total: 35.330227
+- id: 39 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.251702
+    setpoint-dev: 583.102406
+    loss-total: -498.050007
+    gains-harvested: 28
+    gain-total: 688.581217
+    sequence-idx: 1
+    reward-total: 40.412919
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -4.797145
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 13.3
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.797416
+    setpoint-dev: 502.449928
+    loss-total: -448.43334
+    gains-harvested: 32
+    gain-total: 641.078024
+    sequence-idx: 3
+    reward-total: 38.277727
+- id: 40 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.75181
+    setpoint-dev: 522.621944
+    loss-total: -505.375008
+    gains-harvested: 29
+    gain-total: 681.093225
+    sequence-idx: 1
+    reward-total: 48.089004
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 196.172612
+    setpoint-dev: 5552.31332
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 280.0
+    sequence-idx: 2
+    reward-total: 87.302188
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -20.095384
+    setpoint-dev: 660.342902
+    loss-total: -466.996138
+    gains-harvested: 29
+    gain-total: 609.306546
+    sequence-idx: 3
+    reward-total: 37.219578
+- id: 41 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.838248
+    setpoint-dev: 551.944553
+    loss-total: -505.733341
+    gains-harvested: 28
+    gain-total: 707.294791
+    sequence-idx: 1
+    reward-total: 42.498563
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 315.62285
+    setpoint-dev: 28226.075875
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 1680.0
+    sequence-idx: 2
+    reward-total: 19.25
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.374961
+    setpoint-dev: 547.635364
+    loss-total: -457.529502
+    gains-harvested: 29
+    gain-total: 647.995831
+    sequence-idx: 3
+    reward-total: 51.937533
+- id: 42 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.382368
+    setpoint-dev: 483.981685
+    loss-total: -510.616674
+    gains-harvested: 31
+    gain-total: 667.864478
+    sequence-idx: 1
+    reward-total: 39.845026
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 45.791622
+    setpoint-dev: 49.476864
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.628854
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.768816
+    setpoint-dev: 541.114143
+    loss-total: -481.757906
+    gains-harvested: 28
+    gain-total: 655.263973
+    sequence-idx: 3
+    reward-total: 47.228937
+- id: 43 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.473815
+    setpoint-dev: 429.985455
+    loss-total: -503.716674
+    gains-harvested: 30
+    gain-total: 717.992533
+    sequence-idx: 1
+    reward-total: 42.722275
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 95.361939
+    setpoint-dev: 3686.513276
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 283.5
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.678224
+    setpoint-dev: 446.116988
+    loss-total: -460.039907
+    gains-harvested: 32
+    gain-total: 662.66409
+    sequence-idx: 3
+    reward-total: 36.417278
+- id: 44 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.731654
+    setpoint-dev: 515.247995
+    loss-total: -495.625007
+    gains-harvested: 28
+    gain-total: 666.140715
+    sequence-idx: 1
+    reward-total: 45.094997
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 39.284244
+    setpoint-dev: 573.515606
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.752362
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.0025
+    setpoint-dev: 472.642788
+    loss-total: -492.082491
+    gains-harvested: 30
+    gain-total: 659.464446
+    sequence-idx: 3
+    reward-total: 41.632214
+- id: 45 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.469513
+    setpoint-dev: 563.845988
+    loss-total: -510.666674
+    gains-harvested: 33
+    gain-total: 667.427182
+    sequence-idx: 1
+    reward-total: 33.793815
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 116.970989
+    setpoint-dev: 3061.075521
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 67.805316
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -10.376652
+    setpoint-dev: 754.677032
+    loss-total: -477.310078
+    gains-harvested: 34
+    gain-total: 663.971928
+    sequence-idx: 3
+    reward-total: 30.723123
+- id: 46 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.616968
+    setpoint-dev: 468.697013
+    loss-total: -507.125008
+    gains-harvested: 35
+    gain-total: 685.272614
+    sequence-idx: 1
+    reward-total: 43.080089
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 73.475695
+    setpoint-dev: 1997.823559
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.970533
+    setpoint-dev: 440.142771
+    loss-total: -462.677857
+    gains-harvested: 34
+    gain-total: 650.717453
+    sequence-idx: 3
+    reward-total: 40.563079
+- id: 47 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.561701
+    setpoint-dev: 517.106136
+    loss-total: -502.183341
+    gains-harvested: 32
+    gain-total: 674.785652
+    sequence-idx: 1
+    reward-total: 46.183782
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 168.740175
+    setpoint-dev: 19079.714461
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1680.0
+    sequence-idx: 2
+    reward-total: -0.690136
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.45445
+    setpoint-dev: 739.364561
+    loss-total: -458.269967
+    gains-harvested: 26
+    gain-total: 626.81803
+    sequence-idx: 3
+    reward-total: 40.983577
+- id: 48 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.297269
+    setpoint-dev: 517.586405
+    loss-total: -509.616674
+    gains-harvested: 31
+    gain-total: 678.387686
+    sequence-idx: 1
+    reward-total: 39.321749
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 211.006527
+    setpoint-dev: 10362.432877
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 525.0
+    sequence-idx: 2
+    reward-total: -0.895669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.237768
+    setpoint-dev: 819.739894
+    loss-total: -486.40885
+    gains-harvested: 24
+    gain-total: 658.736542
+    sequence-idx: 3
+    reward-total: 33.028254
+- id: 49 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.061064
+    setpoint-dev: 511.223223
+    loss-total: -509.541674
+    gains-harvested: 35
+    gain-total: 693.086703
+    sequence-idx: 1
+    reward-total: 36.226343
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1706.8097
+    setpoint-dev: 33000.73623
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 2065.0
+    sequence-idx: 2
+    reward-total: -0.648653
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -25.800627
+    setpoint-dev: 1068.275475
+    loss-total: -456.880555
+    gains-harvested: 31
+    gain-total: 613.397802
+    sequence-idx: 3
+    reward-total: 45.78436
+- id: 50 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.627316
+    setpoint-dev: 470.639744
+    loss-total: -511.833341
+    gains-harvested: 36
+    gain-total: 683.48584
+    sequence-idx: 1
+    reward-total: 44.692101
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 78.154984
+    setpoint-dev: 2474.552103
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: -0.857956
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.032481
+    setpoint-dev: 772.699251
+    loss-total: -468.995067
+    gains-harvested: 25
+    gain-total: 595.691237
+    sequence-idx: 3
+    reward-total: 47.114867
+- id: 51 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.181233
+    setpoint-dev: 531.053908
+    loss-total: -506.791674
+    gains-harvested: 32
+    gain-total: 686.850459
+    sequence-idx: 1
+    reward-total: 45.469251
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 585.255818
+    setpoint-dev: 7341.407545
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 630.0
+    sequence-idx: 2
+    reward-total: -0.833443
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.871145
+    setpoint-dev: 747.356563
+    loss-total: -499.373284
+    gains-harvested: 30
+    gain-total: 683.908949
+    sequence-idx: 3
+    reward-total: 41.491334
+- id: 52 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.177991
+    setpoint-dev: 799.633175
+    loss-total: -496.216674
+    gains-harvested: 32
+    gain-total: 719.48218
+    sequence-idx: 1
+    reward-total: 35.069359
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 62.812888
+    setpoint-dev: 2554.889455
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.772161
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.167177
+    setpoint-dev: 541.748952
+    loss-total: -462.57084
+    gains-harvested: 31
+    gain-total: 644.192601
+    sequence-idx: 3
+    reward-total: 40.268038
+- id: 53 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.752276
+    setpoint-dev: 381.777681
+    loss-total: -517.416674
+    gains-harvested: 34
+    gain-total: 698.071141
+    sequence-idx: 1
+    reward-total: 33.449822
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 194.03164
+    setpoint-dev: 4512.341418
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 245.0
+    sequence-idx: 2
+    reward-total: 37.868366
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.401716
+    setpoint-dev: 509.690249
+    loss-total: -494.943967
+    gains-harvested: 35
+    gain-total: 680.013138
+    sequence-idx: 3
+    reward-total: 45.813645
+- id: 54 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.711451
+    setpoint-dev: 471.170252
+    loss-total: -510.500008
+    gains-harvested: 34
+    gain-total: 718.044652
+    sequence-idx: 1
+    reward-total: 39.029359
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 167.91911
+    setpoint-dev: 10292.241071
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 455.0
+    sequence-idx: 2
+    reward-total: 4.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.217181
+    setpoint-dev: 502.699888
+    loss-total: -476.823956
+    gains-harvested: 31
+    gain-total: 662.999811
+    sequence-idx: 3
+    reward-total: 35.765468
+- id: 55 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.75132
+    setpoint-dev: 501.212665
+    loss-total: -516.541674
+    gains-harvested: 33
+    gain-total: 683.367118
+    sequence-idx: 1
+    reward-total: 37.439481
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 109.969897
+    setpoint-dev: 2872.71977
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.268701
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -11.651762
+    setpoint-dev: 492.139474
+    loss-total: -475.189029
+    gains-harvested: 30
+    gain-total: 637.389601
+    sequence-idx: 3
+    reward-total: 27.241437
+- id: 56 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -63.534276
+    setpoint-dev: 2924.758185
+    loss-total: -346.595162
+    gains-harvested: 22
+    gain-total: 355.433237
+    sequence-idx: 1
+    reward-total: 23.423349
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 36.887754
+    setpoint-dev: 4976.792491
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 350.0
+    sequence-idx: 2
+    reward-total: 12.775
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.38835
+    setpoint-dev: 548.744454
+    loss-total: -453.921371
+    gains-harvested: 32
+    gain-total: 627.687115
+    sequence-idx: 3
+    reward-total: 40.682047
+- id: 57 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.998045
+    setpoint-dev: 446.858238
+    loss-total: -515.291674
+    gains-harvested: 30
+    gain-total: 680.458173
+    sequence-idx: 1
+    reward-total: 34.150676
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 487.067651
+    setpoint-dev: 23655.302717
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 1085.0
+    sequence-idx: 2
+    reward-total: -0.067882
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -50.181979
+    setpoint-dev: 2357.866991
+    loss-total: -386.135094
+    gains-harvested: 23
+    gain-total: 558.292853
+    sequence-idx: 3
+    reward-total: 41.26959
+- id: 58 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.649979
+    setpoint-dev: 493.875516
+    loss-total: -504.941674
+    gains-harvested: 30
+    gain-total: 669.142721
+    sequence-idx: 1
+    reward-total: 45.107764
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2486.890719
+    setpoint-dev: 52287.236895
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 3430.0
+    sequence-idx: 2
+    reward-total: 338.8
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.333484
+    setpoint-dev: 488.901787
+    loss-total: -495.371477
+    gains-harvested: 30
+    gain-total: 667.498773
+    sequence-idx: 3
+    reward-total: 39.625265
+- id: 59 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.74344
+    setpoint-dev: 649.751079
+    loss-total: -516.750008
+    gains-harvested: 31
+    gain-total: 712.786118
+    sequence-idx: 1
+    reward-total: 40.266693
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 177.522259
+    setpoint-dev: 3401.524329
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 113.088833
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.88735
+    setpoint-dev: 523.77696
+    loss-total: -490.019086
+    gains-harvested: 31
+    gain-total: 664.129101
+    sequence-idx: 3
+    reward-total: 40.822617
+- id: 60 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.986666
+    setpoint-dev: 482.390771
+    loss-total: -519.500008
+    gains-harvested: 34
+    gain-total: 723.180815
+    sequence-idx: 1
+    reward-total: 41.244828
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 72.166586
+    setpoint-dev: 3076.617378
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 9.8
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.665432
+    setpoint-dev: 400.382458
+    loss-total: -475.779437
+    gains-harvested: 32
+    gain-total: 654.311845
+    sequence-idx: 3
+    reward-total: 35.678906
+- id: 61 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.920336
+    setpoint-dev: 535.060383
+    loss-total: -519.250008
+    gains-harvested: 32
+    gain-total: 684.050342
+    sequence-idx: 1
+    reward-total: 40.600406
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1071.444422
+    setpoint-dev: 45255.731507
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 2065.0
+    sequence-idx: 2
+    reward-total: 4.025
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.987064
+    setpoint-dev: 480.452453
+    loss-total: -484.94934
+    gains-harvested: 32
+    gain-total: 670.41942
+    sequence-idx: 3
+    reward-total: 40.211464
+- id: 62 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.871779
+    setpoint-dev: 554.380898
+    loss-total: -478.252388
+    gains-harvested: 29
+    gain-total: 673.092457
+    sequence-idx: 1
+    reward-total: 50.924142
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 926.78936
+    setpoint-dev: 12077.703321
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1015.0
+    sequence-idx: 2
+    reward-total: -0.957894
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.803697
+    setpoint-dev: 494.809972
+    loss-total: -478.815888
+    gains-harvested: 33
+    gain-total: 665.18968
+    sequence-idx: 3
+    reward-total: 38.266581
+- id: 63 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -20.70087
+    setpoint-dev: 603.169062
+    loss-total: -488.050007
+    gains-harvested: 26
+    gain-total: 669.31451
+    sequence-idx: 1
+    reward-total: 51.673232
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 143.266387
+    setpoint-dev: 2571.590951
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.34397
+    setpoint-dev: 446.049787
+    loss-total: -470.199826
+    gains-harvested: 32
+    gain-total: 676.358162
+    sequence-idx: 3
+    reward-total: 36.630946
+- id: 64 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -20.165762
+    setpoint-dev: 450.902123
+    loss-total: -514.958341
+    gains-harvested: 36
+    gain-total: 712.528161
+    sequence-idx: 1
+    reward-total: 45.300046
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 85.789665
+    setpoint-dev: 3100.581137
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.293214
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.857171
+    setpoint-dev: 508.906933
+    loss-total: -469.124606
+    gains-harvested: 31
+    gain-total: 645.048465
+    sequence-idx: 3
+    reward-total: 34.426519
+- id: 65 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.884833
+    setpoint-dev: 582.030545
+    loss-total: -508.125008
+    gains-harvested: 29
+    gain-total: 670.204467
+    sequence-idx: 1
+    reward-total: 40.414354
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 591.473249
+    setpoint-dev: 12046.074667
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 700.0
+    sequence-idx: 2
+    reward-total: -0.254558
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -11.50782
+    setpoint-dev: 574.741291
+    loss-total: -487.0425
+    gains-harvested: 28
+    gain-total: 661.09772
+    sequence-idx: 3
+    reward-total: 37.886296
+- id: 66 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.536486
+    setpoint-dev: 577.862473
+    loss-total: -507.750008
+    gains-harvested: 32
+    gain-total: 700.351262
+    sequence-idx: 1
+    reward-total: 54.783506
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 988.855819
+    setpoint-dev: 15883.004081
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1120.0
+    sequence-idx: 2
+    reward-total: -0.058454
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 165.86479
+    setpoint-dev: 3380.763831
+    loss-total: -46.655098
+    gains-harvested: 2
+    gain-total: 306.595486
+    sequence-idx: 3
+    reward-total: -0.058454
+- id: 67 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.165431
+    setpoint-dev: 610.899476
+    loss-total: -485.800007
+    gains-harvested: 27
+    gain-total: 680.496053
+    sequence-idx: 1
+    reward-total: 42.103966
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 91.636839
+    setpoint-dev: 6527.848673
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 280.0
+    sequence-idx: 2
+    reward-total: 166.95
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.065437
+    setpoint-dev: 497.885336
+    loss-total: -477.056237
+    gains-harvested: 30
+    gain-total: 675.678883
+    sequence-idx: 3
+    reward-total: 41.964042
+- id: 68 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.353702
+    setpoint-dev: 551.255842
+    loss-total: -513.241674
+    gains-harvested: 29
+    gain-total: 688.593302
+    sequence-idx: 1
+    reward-total: 43.011244
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1083.34748
+    setpoint-dev: 36715.815564
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1715.0
+    sequence-idx: 2
+    reward-total: -0.67128
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.775443
+    setpoint-dev: 442.169225
+    loss-total: -491.524181
+    gains-harvested: 32
+    gain-total: 665.203825
+    sequence-idx: 3
+    reward-total: 39.135914
+- id: 69 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.691639
+    setpoint-dev: 554.737706
+    loss-total: -500.833341
+    gains-harvested: 32
+    gain-total: 665.208494
+    sequence-idx: 1
+    reward-total: 45.334576
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 475.052769
+    setpoint-dev: 7576.038604
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 525.0
+    sequence-idx: 2
+    reward-total: -0.791017
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 1922.488187
+    setpoint-dev: 35594.867378
+    loss-total: -3.926281
+    gains-harvested: 1
+    gain-total: 2519.270172
+    sequence-idx: 3
+    reward-total: -0.791017
+- id: 70 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.781081
+    setpoint-dev: 502.842577
+    loss-total: -512.166674
+    gains-harvested: 34
+    gain-total: 696.735795
+    sequence-idx: 1
+    reward-total: 43.349298
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 101.330643
+    setpoint-dev: 3570.191173
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 282.45
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.249954
+    setpoint-dev: 565.608913
+    loss-total: -486.052747
+    gains-harvested: 28
+    gain-total: 671.394688
+    sequence-idx: 3
+    reward-total: 44.515092
+- id: 71 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: 1321.732628
+    setpoint-dev: 20025.148947
+    loss-total: -26.658953
+    gains-harvested: 2
+    gain-total: 1672.554844
+    sequence-idx: 1
+    reward-total: -0.708992
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 0.549524
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: -0.708992
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -9.404671
+    setpoint-dev: 819.693273
+    loss-total: -471.249441
+    gains-harvested: 29
+    gain-total: 659.416596
+    sequence-idx: 3
+    reward-total: 33.41866
+- id: 72 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.783448
+    setpoint-dev: 449.7089
+    loss-total: -514.041674
+    gains-harvested: 35
+    gain-total: 706.026331
+    sequence-idx: 1
+    reward-total: 37.12727
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 208.52276
+    setpoint-dev: 16029.491019
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 805.0
+    sequence-idx: 2
+    reward-total: 203.7
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -19.173537
+    setpoint-dev: 705.277525
+    loss-total: -451.978376
+    gains-harvested: 28
+    gain-total: 641.623457
+    sequence-idx: 3
+    reward-total: 36.123612
+- id: 73 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.165547
+    setpoint-dev: 555.990599
+    loss-total: -509.666674
+    gains-harvested: 35
+    gain-total: 688.054995
+    sequence-idx: 1
+    reward-total: 38.774571
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1422.208381
+    setpoint-dev: 32152.393974
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1855.0
+    sequence-idx: 2
+    reward-total: -0.236645
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.776813
+    setpoint-dev: 633.144659
+    loss-total: -498.829307
+    gains-harvested: 30
+    gain-total: 688.164817
+    sequence-idx: 3
+    reward-total: 48.674522
+- id: 74 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.115267
+    setpoint-dev: 505.385561
+    loss-total: -510.291674
+    gains-harvested: 35
+    gain-total: 687.742163
+    sequence-idx: 1
+    reward-total: 39.87115
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 123.810832
+    setpoint-dev: 16081.744222
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 1505.0
+    sequence-idx: 2
+    reward-total: 18.725
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.828205
+    setpoint-dev: 537.217305
+    loss-total: -460.939577
+    gains-harvested: 24
+    gain-total: 654.319895
+    sequence-idx: 3
+    reward-total: 41.45567
+- id: 75 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -21.207345
+    setpoint-dev: 694.18926
+    loss-total: -497.100007
+    gains-harvested: 33
+    gain-total: 697.732834
+    sequence-idx: 1
+    reward-total: 35.762006
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 174.439522
+    setpoint-dev: 3679.565022
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 1.05
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.45072
+    setpoint-dev: 523.455383
+    loss-total: -466.030217
+    gains-harvested: 31
+    gain-total: 641.298316
+    sequence-idx: 3
+    reward-total: 41.082782
+- id: 76 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.119625
+    setpoint-dev: 506.247993
+    loss-total: -514.083341
+    gains-harvested: 31
+    gain-total: 701.370445
+    sequence-idx: 1
+    reward-total: 36.143335
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 100.922702
+    setpoint-dev: 4019.971895
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 244.65
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.995614
+    setpoint-dev: 468.504992
+    loss-total: -472.598079
+    gains-harvested: 31
+    gain-total: 652.825068
+    sequence-idx: 3
+    reward-total: 32.142883
+- id: 77 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.546766
+    setpoint-dev: 615.709978
+    loss-total: -512.775008
+    gains-harvested: 34
+    gain-total: 657.419967
+    sequence-idx: 1
+    reward-total: 43.670147
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 14.5173
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 35.571449
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.904145
+    setpoint-dev: 697.251179
+    loss-total: -493.689902
+    gains-harvested: 32
+    gain-total: 671.228493
+    sequence-idx: 3
+    reward-total: 40.234043
+- id: 78 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.467264
+    setpoint-dev: 613.728772
+    loss-total: -491.041674
+    gains-harvested: 31
+    gain-total: 671.351842
+    sequence-idx: 1
+    reward-total: 39.168214
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 310.611349
+    setpoint-dev: 8336.749904
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 420.0
+    sequence-idx: 2
+    reward-total: 0.875
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.118463
+    setpoint-dev: 606.503924
+    loss-total: -474.377966
+    gains-harvested: 28
+    gain-total: 640.394463
+    sequence-idx: 3
+    reward-total: 33.795157
+- id: 79 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.6294
+    setpoint-dev: 541.694537
+    loss-total: -508.200008
+    gains-harvested: 32
+    gain-total: 696.470532
+    sequence-idx: 1
+    reward-total: 52.510898
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 37.490189
+    setpoint-dev: 524.733279
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.739162
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.161731
+    setpoint-dev: 454.263865
+    loss-total: -481.515372
+    gains-harvested: 32
+    gain-total: 673.925967
+    sequence-idx: 3
+    reward-total: 35.573
+- id: 80 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.389384
+    setpoint-dev: 466.068302
+    loss-total: -514.750008
+    gains-harvested: 36
+    gain-total: 705.284305
+    sequence-idx: 1
+    reward-total: 37.436723
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 97.699935
+    setpoint-dev: 1449.178665
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: -0.853242
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.863835
+    setpoint-dev: 479.358172
+    loss-total: -492.718359
+    gains-harvested: 27
+    gain-total: 685.851253
+    sequence-idx: 3
+    reward-total: 37.014545
+- id: 81 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -34.465672
+    setpoint-dev: 1755.217152
+    loss-total: -427.873576
+    gains-harvested: 25
+    gain-total: 596.362596
+    sequence-idx: 1
+    reward-total: 28.322917
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 395.909175
+    setpoint-dev: 4500.034558
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 420.0
+    sequence-idx: 2
+    reward-total: 141.572451
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.74449
+    setpoint-dev: 493.193147
+    loss-total: -489.176256
+    gains-harvested: 30
+    gain-total: 664.967872
+    sequence-idx: 3
+    reward-total: 42.182058
+- id: 82 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.671714
+    setpoint-dev: 535.265466
+    loss-total: -511.333341
+    gains-harvested: 30
+    gain-total: 709.997078
+    sequence-idx: 1
+    reward-total: 45.071596
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1935.367732
+    setpoint-dev: 47313.004424
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2660.0
+    sequence-idx: 2
+    reward-total: 283.409611
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.339191
+    setpoint-dev: 630.839889
+    loss-total: -503.633785
+    gains-harvested: 32
+    gain-total: 662.56601
+    sequence-idx: 3
+    reward-total: 40.546316
+- id: 83 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.076775
+    setpoint-dev: 443.177522
+    loss-total: -519.666674
+    gains-harvested: 33
+    gain-total: 708.814558
+    sequence-idx: 1
+    reward-total: 37.530903
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 66.446171
+    setpoint-dev: 2462.478207
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: 233.275
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -11.862515
+    setpoint-dev: 620.119969
+    loss-total: -481.924402
+    gains-harvested: 28
+    gain-total: 678.804616
+    sequence-idx: 3
+    reward-total: 50.046822
+- id: 84 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.85424
+    setpoint-dev: 532.105883
+    loss-total: -515.666674
+    gains-harvested: 36
+    gain-total: 710.492267
+    sequence-idx: 1
+    reward-total: 37.553226
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -10.258978
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 30.625
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.08867
+    setpoint-dev: 420.982365
+    loss-total: -445.748618
+    gains-harvested: 32
+    gain-total: 654.247736
+    sequence-idx: 3
+    reward-total: 41.027677
+- id: 85 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.535213
+    setpoint-dev: 508.808284
+    loss-total: -505.608341
+    gains-harvested: 30
+    gain-total: 688.637294
+    sequence-idx: 1
+    reward-total: 35.271892
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1087.307496
+    setpoint-dev: 16141.459861
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1225.0
+    sequence-idx: 2
+    reward-total: -0.853242
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.650187
+    setpoint-dev: 504.346951
+    loss-total: -476.724746
+    gains-harvested: 27
+    gain-total: 661.851846
+    sequence-idx: 3
+    reward-total: 38.81291
+- id: 86 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.00326
+    setpoint-dev: 479.982588
+    loss-total: -503.833341
+    gains-harvested: 33
+    gain-total: 688.344857
+    sequence-idx: 1
+    reward-total: 35.543376
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 402.806602
+    setpoint-dev: 4496.185843
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 420.0
+    sequence-idx: 2
+    reward-total: -0.74859
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.671673
+    setpoint-dev: 536.418978
+    loss-total: -500.375182
+    gains-harvested: 30
+    gain-total: 673.363409
+    sequence-idx: 3
+    reward-total: 36.087412
+- id: 87 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.275457
+    setpoint-dev: 558.841222
+    loss-total: -501.941674
+    gains-harvested: 31
+    gain-total: 692.427008
+    sequence-idx: 1
+    reward-total: 36.805507
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1512.299356
+    setpoint-dev: 65185.678791
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 3045.0
+    sequence-idx: 2
+    reward-total: -0.857956
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.271892
+    setpoint-dev: 474.517276
+    loss-total: -476.901842
+    gains-harvested: 32
+    gain-total: 650.364203
+    sequence-idx: 3
+    reward-total: 40.459707
+- id: 88 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.421899
+    setpoint-dev: 629.198887
+    loss-total: -520.041674
+    gains-harvested: 35
+    gain-total: 695.106074
+    sequence-idx: 1
+    reward-total: 37.046496
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1893.941327
+    setpoint-dev: 121352.517
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 7455.0
+    sequence-idx: 2
+    reward-total: 241.85
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -11.302228
+    setpoint-dev: 749.81768
+    loss-total: -480.551449
+    gains-harvested: 34
+    gain-total: 685.77833
+    sequence-idx: 3
+    reward-total: 54.112987
+- id: 89 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.846836
+    setpoint-dev: 487.253726
+    loss-total: -511.675008
+    gains-harvested: 33
+    gain-total: 712.717563
+    sequence-idx: 1
+    reward-total: 39.787014
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -6.786697
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 16.625
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.384536
+    setpoint-dev: 472.072719
+    loss-total: -454.925007
+    gains-harvested: 22
+    gain-total: 650.686965
+    sequence-idx: 3
+    reward-total: 30.983417
+- id: 90 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -11.498751
+    setpoint-dev: 693.333485
+    loss-total: -516.666674
+    gains-harvested: 35
+    gain-total: 684.95393
+    sequence-idx: 1
+    reward-total: 42.879096
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 13.898928
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: -0.834386
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.391849
+    setpoint-dev: 518.680805
+    loss-total: -494.491321
+    gains-harvested: 32
+    gain-total: 672.196816
+    sequence-idx: 3
+    reward-total: 34.176838
+- id: 91 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.589021
+    setpoint-dev: 441.58532
+    loss-total: -509.625008
+    gains-harvested: 35
+    gain-total: 708.043548
+    sequence-idx: 1
+    reward-total: 36.61344
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 95.198187
+    setpoint-dev: 3595.128019
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 269.85
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.903067
+    setpoint-dev: 511.638588
+    loss-total: -460.972601
+    gains-harvested: 31
+    gain-total: 684.715769
+    sequence-idx: 3
+    reward-total: 34.436298
+- id: 92 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.194029
+    setpoint-dev: 435.963316
+    loss-total: -498.916674
+    gains-harvested: 33
+    gain-total: 654.066189
+    sequence-idx: 1
+    reward-total: 36.540889
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 101.400486
+    setpoint-dev: 4180.680412
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 134.911512
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.271828
+    setpoint-dev: 609.847357
+    loss-total: -488.103122
+    gains-harvested: 33
+    gain-total: 649.15071
+    sequence-idx: 3
+    reward-total: 43.12294
+- id: 93 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.319328
+    setpoint-dev: 531.591291
+    loss-total: -515.191674
+    gains-harvested: 31
+    gain-total: 703.852618
+    sequence-idx: 1
+    reward-total: 43.957061
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -10.571959
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 36.925
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.369611
+    setpoint-dev: 584.556007
+    loss-total: -474.730327
+    gains-harvested: 30
+    gain-total: 657.743783
+    sequence-idx: 3
+    reward-total: 42.165211
+- id: 94 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.021727
+    setpoint-dev: 475.617001
+    loss-total: -509.333341
+    gains-harvested: 37
+    gain-total: 717.388981
+    sequence-idx: 1
+    reward-total: 35.881285
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2583.561655
+    setpoint-dev: 83746.856183
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 4550.0
+    sequence-idx: 2
+    reward-total: 325.85
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.194599
+    setpoint-dev: 456.643805
+    loss-total: -502.38859
+    gains-harvested: 32
+    gain-total: 711.075244
+    sequence-idx: 3
+    reward-total: 39.123379
+- id: 95 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.122691
+    setpoint-dev: 553.946956
+    loss-total: -501.875007
+    gains-harvested: 33
+    gain-total: 687.307413
+    sequence-idx: 1
+    reward-total: 41.038328
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 255.245524
+    setpoint-dev: 8737.677214
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: -0.833443
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.219762
+    setpoint-dev: 582.557853
+    loss-total: -490.892034
+    gains-harvested: 28
+    gain-total: 669.053469
+    sequence-idx: 3
+    reward-total: 40.23086
+- id: 96 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -6.172364
+    setpoint-dev: 1132.160592
+    loss-total: -449.063583
+    gains-harvested: 24
+    gain-total: 642.406385
+    sequence-idx: 1
+    reward-total: 30.026564
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2057.016912
+    setpoint-dev: 80473.243931
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 3850.0
+    sequence-idx: 2
+    reward-total: -0.046669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.551439
+    setpoint-dev: 465.606815
+    loss-total: -491.251095
+    gains-harvested: 34
+    gain-total: 674.372703
+    sequence-idx: 3
+    reward-total: 38.56317
+- id: 97 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.73751
+    setpoint-dev: 499.095646
+    loss-total: -494.766674
+    gains-harvested: 30
+    gain-total: 661.599847
+    sequence-idx: 1
+    reward-total: 35.548711
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 3348.085265
+    setpoint-dev: 140169.94659
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 8400.0
+    sequence-idx: 2
+    reward-total: -0.752362
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -29.887411
+    setpoint-dev: 1385.350958
+    loss-total: -420.573308
+    gains-harvested: 25
+    gain-total: 490.704403
+    sequence-idx: 3
+    reward-total: 36.062705
+- id: 98 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.836818
+    setpoint-dev: 496.210531
+    loss-total: -500.708341
+    gains-harvested: 32
+    gain-total: 669.767701
+    sequence-idx: 1
+    reward-total: 38.861306
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 470.959696
+    setpoint-dev: 29931.312542
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1400.0
+    sequence-idx: 2
+    reward-total: -0.33564
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 694.892031
+    setpoint-dev: 17554.259881
+    loss-total: -77.924784
+    gains-harvested: 7
+    gain-total: 1136.710897
+    sequence-idx: 3
+    reward-total: -0.33564
+- id: 99 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.414959
+    setpoint-dev: 542.418095
+    loss-total: -501.916674
+    gains-harvested: 32
+    gain-total: 684.209678
+    sequence-idx: 1
+    reward-total: 40.45672
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 454.798886
+    setpoint-dev: 6387.216343
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 490.0
+    sequence-idx: 2
+    reward-total: -0.801388
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -21.169973
+    setpoint-dev: 796.389968
+    loss-total: -489.046833
+    gains-harvested: 31
+    gain-total: 662.870796
+    sequence-idx: 3
+    reward-total: 46.093599
+- id: 100 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.822745
+    setpoint-dev: 439.743129
+    loss-total: -506.958341
+    gains-harvested: 34
+    gain-total: 688.804885
+    sequence-idx: 1
+    reward-total: 31.564085
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 25.890936
+    setpoint-dev: 763.556417
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.720306
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.144808
+    setpoint-dev: 549.810595
+    loss-total: -492.923753
+    gains-harvested: 33
+    gain-total: 674.073777
+    sequence-idx: 3
+    reward-total: 39.912835
+- id: 101 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.979594
+    setpoint-dev: 465.735625
+    loss-total: -507.416674
+    gains-harvested: 36
+    gain-total: 699.300386
+    sequence-idx: 1
+    reward-total: 39.753197
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 384.291663
+    setpoint-dev: 31723.274449
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 2030.0
+    sequence-idx: 2
+    reward-total: 245.875
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.166365
+    setpoint-dev: 531.337462
+    loss-total: -449.54446
+    gains-harvested: 28
+    gain-total: 646.938305
+    sequence-idx: 3
+    reward-total: 42.144569
+- id: 102 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.378113
+    setpoint-dev: 447.500697
+    loss-total: -494.150007
+    gains-harvested: 32
+    gain-total: 688.638113
+    sequence-idx: 1
+    reward-total: 41.291548
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 569.412301
+    setpoint-dev: 16989.0712
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 805.0
+    sequence-idx: 2
+    reward-total: 281.925
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.580947
+    setpoint-dev: 539.789984
+    loss-total: -502.886134
+    gains-harvested: 32
+    gain-total: 702.680485
+    sequence-idx: 3
+    reward-total: 45.491975
+- id: 103 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.730557
+    setpoint-dev: 468.371106
+    loss-total: -513.333341
+    gains-harvested: 31
+    gain-total: 694.819895
+    sequence-idx: 1
+    reward-total: 38.315445
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 501.169301
+    setpoint-dev: 25291.683363
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1260.0
+    sequence-idx: 2
+    reward-total: 10.15
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -20.132828
+    setpoint-dev: 613.624697
+    loss-total: -474.586446
+    gains-harvested: 32
+    gain-total: 616.932588
+    sequence-idx: 3
+    reward-total: 43.856458
+- id: 104 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -22.65678
+    setpoint-dev: 570.370611
+    loss-total: -499.883341
+    gains-harvested: 27
+    gain-total: 680.59835
+    sequence-idx: 1
+    reward-total: 44.963946
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2099.312163
+    setpoint-dev: 145178.451368
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 8890.0
+    sequence-idx: 2
+    reward-total: 3.5
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -31.638088
+    setpoint-dev: 1366.858023
+    loss-total: -447.022903
+    gains-harvested: 26
+    gain-total: 623.361862
+    sequence-idx: 3
+    reward-total: 46.63814
+- id: 105 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -23.825926
+    setpoint-dev: 1029.223077
+    loss-total: -491.349809
+    gains-harvested: 29
+    gain-total: 706.554543
+    sequence-idx: 1
+    reward-total: 45.379599
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 99.291407
+    setpoint-dev: 4454.068236
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 230.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.663478
+    setpoint-dev: 657.23196
+    loss-total: -471.191651
+    gains-harvested: 28
+    gain-total: 663.902988
+    sequence-idx: 3
+    reward-total: 55.833161
+- id: 106 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.411302
+    setpoint-dev: 483.651898
+    loss-total: -500.133341
+    gains-harvested: 30
+    gain-total: 677.584226
+    sequence-idx: 1
+    reward-total: 40.079521
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1433.622676
+    setpoint-dev: 25805.059286
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1785.0
+    sequence-idx: 2
+    reward-total: -0.739162
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.312735
+    setpoint-dev: 644.331625
+    loss-total: -484.428467
+    gains-harvested: 30
+    gain-total: 661.484708
+    sequence-idx: 3
+    reward-total: 41.32457
+- id: 107 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.483926
+    setpoint-dev: 523.62043
+    loss-total: -514.125008
+    gains-harvested: 37
+    gain-total: 708.662111
+    sequence-idx: 1
+    reward-total: 42.8434
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -12.332862
+    setpoint-dev: 298.339231
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 37.8
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.285185
+    setpoint-dev: 571.068897
+    loss-total: -453.216673
+    gains-harvested: 34
+    gain-total: 656.108592
+    sequence-idx: 3
+    reward-total: 34.423597
+- id: 108 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.653065
+    setpoint-dev: 589.078267
+    loss-total: -510.291674
+    gains-harvested: 30
+    gain-total: 682.90609
+    sequence-idx: 1
+    reward-total: 57.523805
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 143.174518
+    setpoint-dev: 2076.250157
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 16.096877
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.160511
+    setpoint-dev: 514.71944
+    loss-total: -480.596398
+    gains-harvested: 32
+    gain-total: 654.054091
+    sequence-idx: 3
+    reward-total: 35.865365
+- id: 109 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.930986
+    setpoint-dev: 440.328751
+    loss-total: -501.858341
+    gains-harvested: 32
+    gain-total: 693.927587
+    sequence-idx: 1
+    reward-total: 38.99306
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 118.771435
+    setpoint-dev: 4432.753699
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 2.975
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.188187
+    setpoint-dev: 398.166217
+    loss-total: -477.993008
+    gains-harvested: 33
+    gain-total: 670.760856
+    sequence-idx: 3
+    reward-total: 29.571251
+- id: 110 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.326477
+    setpoint-dev: 644.211513
+    loss-total: -509.291674
+    gains-harvested: 27
+    gain-total: 683.048645
+    sequence-idx: 1
+    reward-total: 29.234836
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 117.80464
+    setpoint-dev: 3436.987598
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.739162
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.840796
+    setpoint-dev: 738.52552
+    loss-total: -479.909841
+    gains-harvested: 33
+    gain-total: 661.781572
+    sequence-idx: 3
+    reward-total: 42.627929
+- id: 111 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -11.760554
+    setpoint-dev: 452.328479
+    loss-total: -499.416674
+    gains-harvested: 28
+    gain-total: 694.142876
+    sequence-idx: 1
+    reward-total: 29.839415
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1.898195
+    setpoint-dev: 1200.143619
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: 12.6
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.26957
+    setpoint-dev: 653.683296
+    loss-total: -449.619848
+    gains-harvested: 33
+    gain-total: 646.143181
+    sequence-idx: 3
+    reward-total: 59.850899
+- id: 112 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.811192
+    setpoint-dev: 630.700835
+    loss-total: -496.166674
+    gains-harvested: 34
+    gain-total: 657.445492
+    sequence-idx: 1
+    reward-total: 47.92665
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -6.513072
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 14.175
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.847379
+    setpoint-dev: 593.939845
+    loss-total: -470.319055
+    gains-harvested: 37
+    gain-total: 657.839665
+    sequence-idx: 3
+    reward-total: 41.576393
+- id: 113 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.2308
+    setpoint-dev: 537.943606
+    loss-total: -522.916674
+    gains-harvested: 30
+    gain-total: 695.375172
+    sequence-idx: 1
+    reward-total: 43.956698
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 804.685132
+    setpoint-dev: 23395.196219
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1120.0
+    sequence-idx: 2
+    reward-total: 280.492507
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.257052
+    setpoint-dev: 536.564538
+    loss-total: -496.795856
+    gains-harvested: 31
+    gain-total: 666.516848
+    sequence-idx: 3
+    reward-total: 37.596168
+- id: 114 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.987289
+    setpoint-dev: 478.281873
+    loss-total: -520.541674
+    gains-harvested: 36
+    gain-total: 696.761122
+    sequence-idx: 1
+    reward-total: 42.528193
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 46.223383
+    setpoint-dev: 2980.496926
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 11.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.612741
+    setpoint-dev: 499.44635
+    loss-total: -450.695778
+    gains-harvested: 33
+    gain-total: 643.825628
+    sequence-idx: 3
+    reward-total: 35.516007
+- id: 115 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.794979
+    setpoint-dev: 1029.903956
+    loss-total: -511.100008
+    gains-harvested: 33
+    gain-total: 718.571058
+    sequence-idx: 1
+    reward-total: 37.421205
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 68.126151
+    setpoint-dev: 3573.208111
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 8.4
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.414542
+    setpoint-dev: 430.711706
+    loss-total: -466.495216
+    gains-harvested: 32
+    gain-total: 672.888988
+    sequence-idx: 3
+    reward-total: 38.377254
+- id: 116 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.914307
+    setpoint-dev: 668.376594
+    loss-total: -510.541674
+    gains-harvested: 34
+    gain-total: 698.121491
+    sequence-idx: 1
+    reward-total: 50.189497
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 4779.096395
+    setpoint-dev: 157721.681134
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 8295.0
+    sequence-idx: 2
+    reward-total: -0.833443
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.094719
+    setpoint-dev: 614.255852
+    loss-total: -490.721486
+    gains-harvested: 31
+    gain-total: 661.694702
+    sequence-idx: 3
+    reward-total: 27.68618
+- id: 117 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.0138
+    setpoint-dev: 687.386579
+    loss-total: -497.900007
+    gains-harvested: 28
+    gain-total: 675.253617
+    sequence-idx: 1
+    reward-total: 53.968257
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1656.419303
+    setpoint-dev: 45819.228911
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2450.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.949389
+    setpoint-dev: 478.697379
+    loss-total: -494.653624
+    gains-harvested: 30
+    gain-total: 668.329136
+    sequence-idx: 3
+    reward-total: 39.6011
+- id: 118 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.870776
+    setpoint-dev: 497.885055
+    loss-total: -505.483341
+    gains-harvested: 33
+    gain-total: 713.482914
+    sequence-idx: 1
+    reward-total: 43.186255
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 123.330364
+    setpoint-dev: 1222.51286
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.716532
+    setpoint-dev: 442.982176
+    loss-total: -493.014011
+    gains-harvested: 37
+    gain-total: 703.619433
+    sequence-idx: 3
+    reward-total: 37.159194
+- id: 119 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.813389
+    setpoint-dev: 521.681792
+    loss-total: -505.125008
+    gains-harvested: 36
+    gain-total: 681.803191
+    sequence-idx: 1
+    reward-total: 39.190104
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 195.804992
+    setpoint-dev: 3992.25533
+    loss-total: 0.0
+    gains-harvested: 7
+    gain-total: 245.0
+    sequence-idx: 2
+    reward-total: -0.397865
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.988744
+    setpoint-dev: 529.205203
+    loss-total: -484.428906
+    gains-harvested: 30
+    gain-total: 669.344954
+    sequence-idx: 3
+    reward-total: 40.903766
+- id: 120 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -28.983433
+    setpoint-dev: 1440.294367
+    loss-total: -480.590682
+    gains-harvested: 29
+    gain-total: 648.488689
+    sequence-idx: 1
+    reward-total: 42.114652
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -6.199797
+    setpoint-dev: 370.740982
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 20.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.975079
+    setpoint-dev: 496.040607
+    loss-total: -468.462507
+    gains-harvested: 33
+    gain-total: 689.433976
+    sequence-idx: 3
+    reward-total: 41.611946
+- id: 121 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -22.044369
+    setpoint-dev: 599.728401
+    loss-total: -495.408341
+    gains-harvested: 30
+    gain-total: 694.664319
+    sequence-idx: 1
+    reward-total: 44.778908
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1158.687545
+    setpoint-dev: 28227.59277
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1505.0
+    sequence-idx: 2
+    reward-total: 0.35
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 268.990347
+    setpoint-dev: 8594.686731
+    loss-total: -125.702097
+    gains-harvested: 9
+    gain-total: 657.026486
+    sequence-idx: 3
+    reward-total: 5.507607
+- id: 122 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.834816
+    setpoint-dev: 484.046781
+    loss-total: -497.833341
+    gains-harvested: 31
+    gain-total: 682.258428
+    sequence-idx: 1
+    reward-total: 40.139925
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1438.591044
+    setpoint-dev: 30194.57568
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1820.0
+    sequence-idx: 2
+    reward-total: -0.895669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.002252
+    setpoint-dev: 539.724334
+    loss-total: -476.643995
+    gains-harvested: 29
+    gain-total: 644.637187
+    sequence-idx: 3
+    reward-total: 34.994867
+- id: 123 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -20.065479
+    setpoint-dev: 516.18539
+    loss-total: -513.125008
+    gains-harvested: 29
+    gain-total: 690.25062
+    sequence-idx: 1
+    reward-total: 48.534388
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1653.111765
+    setpoint-dev: 32398.034419
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2135.0
+    sequence-idx: 2
+    reward-total: -0.690136
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 1261.752039
+    setpoint-dev: 19613.154262
+    loss-total: -9.138675
+    gains-harvested: 1
+    gain-total: 1566.804459
+    sequence-idx: 3
+    reward-total: -0.690136
+- id: 124 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.396697
+    setpoint-dev: 492.950901
+    loss-total: -496.575007
+    gains-harvested: 27
+    gain-total: 679.658637
+    sequence-idx: 1
+    reward-total: 35.35334
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -8.285769
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 22.75
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.756852
+    setpoint-dev: 589.306394
+    loss-total: -370.935205
+    gains-harvested: 21
+    gain-total: 554.766669
+    sequence-idx: 3
+    reward-total: 29.346672
+- id: 125 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.945977
+    setpoint-dev: 489.484417
+    loss-total: -513.458341
+    gains-harvested: 33
+    gain-total: 686.36398
+    sequence-idx: 1
+    reward-total: 41.952553
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 86.52697
+    setpoint-dev: 3053.862685
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.795731
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.782189
+    setpoint-dev: 504.514189
+    loss-total: -473.343113
+    gains-harvested: 28
+    gain-total: 641.586246
+    sequence-idx: 3
+    reward-total: 35.890503
+- id: 126 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -27.873726
+    setpoint-dev: 836.131859
+    loss-total: -457.473221
+    gains-harvested: 22
+    gain-total: 582.760404
+    sequence-idx: 1
+    reward-total: 42.354368
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 179.437789
+    setpoint-dev: 2756.059906
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 340.725
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 175.108426
+    setpoint-dev: 21678.462064
+    loss-total: -392.015939
+    gains-harvested: 24
+    gain-total: 2417.608774
+    sequence-idx: 3
+    reward-total: 31.542966
+- id: 127 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.480367
+    setpoint-dev: 506.03876
+    loss-total: -500.066674
+    gains-harvested: 26
+    gain-total: 685.673414
+    sequence-idx: 1
+    reward-total: 41.575544
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 72.541759
+    setpoint-dev: 4453.703724
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 188.65
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -21.737927
+    setpoint-dev: 1018.752749
+    loss-total: -416.626935
+    gains-harvested: 26
+    gain-total: 530.934076
+    sequence-idx: 3
+    reward-total: 30.327221
+- id: 128 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.129534
+    setpoint-dev: 613.289937
+    loss-total: -508.983341
+    gains-harvested: 32
+    gain-total: 698.073547
+    sequence-idx: 1
+    reward-total: 44.408349
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 43.254297
+    setpoint-dev: 235.097549
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.708992
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.04969
+    setpoint-dev: 523.64106
+    loss-total: -494.198968
+    gains-harvested: 33
+    gain-total: 672.072021
+    sequence-idx: 3
+    reward-total: 29.85105
+- id: 129 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.35473
+    setpoint-dev: 905.562831
+    loss-total: -490.31469
+    gains-harvested: 25
+    gain-total: 652.680063
+    sequence-idx: 1
+    reward-total: 40.628561
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 129.822929
+    setpoint-dev: 3071.764084
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.407294
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -23.24285
+    setpoint-dev: 1067.07396
+    loss-total: -456.471858
+    gains-harvested: 29
+    gain-total: 647.619249
+    sequence-idx: 3
+    reward-total: 38.161322
+- id: 130 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.681155
+    setpoint-dev: 452.321441
+    loss-total: -490.058341
+    gains-harvested: 28
+    gain-total: 671.328832
+    sequence-idx: 1
+    reward-total: 35.083557
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -0.135671
+    setpoint-dev: 764.96919
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: 69.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.578103
+    setpoint-dev: 561.458219
+    loss-total: -457.900007
+    gains-harvested: 28
+    gain-total: 647.441134
+    sequence-idx: 3
+    reward-total: 40.20373
+- id: 131 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.812567
+    setpoint-dev: 479.116175
+    loss-total: -499.816674
+    gains-harvested: 34
+    gain-total: 703.162996
+    sequence-idx: 1
+    reward-total: 32.894718
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -3.054435
+    setpoint-dev: 981.132191
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 16.8
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -10.684308
+    setpoint-dev: 759.912971
+    loss-total: -450.909531
+    gains-harvested: 23
+    gain-total: 642.676688
+    sequence-idx: 3
+    reward-total: 38.8507
+- id: 132 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.805581
+    setpoint-dev: 694.788607
+    loss-total: -512.258341
+    gains-harvested: 29
+    gain-total: 686.501147
+    sequence-idx: 1
+    reward-total: 45.253964
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -5.393547
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 13.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.86484
+    setpoint-dev: 570.130997
+    loss-total: -463.459206
+    gains-harvested: 33
+    gain-total: 658.934328
+    sequence-idx: 3
+    reward-total: 48.054896
+- id: 133 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.766988
+    setpoint-dev: 478.580574
+    loss-total: -511.000008
+    gains-harvested: 35
+    gain-total: 698.696096
+    sequence-idx: 1
+    reward-total: 43.722993
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 27.108984
+    setpoint-dev: 685.928508
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 284.2
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -19.037774
+    setpoint-dev: 535.255369
+    loss-total: -485.582356
+    gains-harvested: 27
+    gain-total: 684.830279
+    sequence-idx: 3
+    reward-total: 47.249151
+- id: 134 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.12663
+    setpoint-dev: 441.105541
+    loss-total: -507.625008
+    gains-harvested: 35
+    gain-total: 706.617872
+    sequence-idx: 1
+    reward-total: 37.622056
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 12.010558
+    setpoint-dev: 1380.379101
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: 19.775
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.427461
+    setpoint-dev: 436.636506
+    loss-total: -469.475007
+    gains-harvested: 32
+    gain-total: 675.064944
+    sequence-idx: 3
+    reward-total: 41.084508
+- id: 135 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -62.24302
+    setpoint-dev: 2243.584197
+    loss-total: -334.203016
+    gains-harvested: 13
+    gain-total: 515.528481
+    sequence-idx: 1
+    reward-total: 31.027528
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 356.616012
+    setpoint-dev: 18465.632852
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 840.0
+    sequence-idx: 2
+    reward-total: -0.795731
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.722461
+    setpoint-dev: 475.950706
+    loss-total: -468.503841
+    gains-harvested: 31
+    gain-total: 646.056997
+    sequence-idx: 3
+    reward-total: 39.038357
+- id: 136 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.626651
+    setpoint-dev: 462.296752
+    loss-total: -503.500008
+    gains-harvested: 38
+    gain-total: 669.486398
+    sequence-idx: 1
+    reward-total: 38.302542
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 24.050069
+    setpoint-dev: 825.275469
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 140.401369
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.299025
+    setpoint-dev: 505.507207
+    loss-total: -463.401466
+    gains-harvested: 29
+    gain-total: 647.317687
+    sequence-idx: 3
+    reward-total: 36.549281
+- id: 137 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.250283
+    setpoint-dev: 463.833156
+    loss-total: -515.375008
+    gains-harvested: 30
+    gain-total: 708.536111
+    sequence-idx: 1
+    reward-total: 37.433996
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1566.958147
+    setpoint-dev: 51492.405009
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2485.0
+    sequence-idx: 2
+    reward-total: -0.676937
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -9.593849
+    setpoint-dev: 673.491617
+    loss-total: -484.434799
+    gains-harvested: 28
+    gain-total: 694.414075
+    sequence-idx: 3
+    reward-total: 39.354363
+- id: 138 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.593999
+    setpoint-dev: 642.691041
+    loss-total: -503.391674
+    gains-harvested: 30
+    gain-total: 691.262862
+    sequence-idx: 1
+    reward-total: 45.767242
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 83.435219
+    setpoint-dev: 3690.224629
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.64771
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.045197
+    setpoint-dev: 460.296249
+    loss-total: -467.678942
+    gains-harvested: 30
+    gain-total: 661.062405
+    sequence-idx: 3
+    reward-total: 36.527402
+- id: 139 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.814231
+    setpoint-dev: 576.928862
+    loss-total: -504.791674
+    gains-harvested: 31
+    gain-total: 686.433163
+    sequence-idx: 1
+    reward-total: 46.088617
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 149.397466
+    setpoint-dev: 2907.527093
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.422378
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.793801
+    setpoint-dev: 442.441838
+    loss-total: -481.456185
+    gains-harvested: 31
+    gain-total: 654.078759
+    sequence-idx: 3
+    reward-total: 35.440087
+- id: 140 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.616352
+    setpoint-dev: 600.501604
+    loss-total: -512.066674
+    gains-harvested: 32
+    gain-total: 753.523591
+    sequence-idx: 1
+    reward-total: 38.11257
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -4.180605
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 8.575
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.039239
+    setpoint-dev: 620.399811
+    loss-total: -465.976197
+    gains-harvested: 29
+    gain-total: 633.250554
+    sequence-idx: 3
+    reward-total: 53.440564
+- id: 141 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.224341
+    setpoint-dev: 475.15889
+    loss-total: -511.316674
+    gains-harvested: 30
+    gain-total: 680.945975
+    sequence-idx: 1
+    reward-total: 40.494473
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 60.633606
+    setpoint-dev: 1204.935344
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: -0.460091
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -22.931411
+    setpoint-dev: 802.766959
+    loss-total: -448.12833
+    gains-harvested: 31
+    gain-total: 622.207103
+    sequence-idx: 3
+    reward-total: 36.711218
+- id: 142 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.556485
+    setpoint-dev: 531.305916
+    loss-total: -507.083341
+    gains-harvested: 31
+    gain-total: 667.650496
+    sequence-idx: 1
+    reward-total: 45.39724
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2156.710954
+    setpoint-dev: 74819.371433
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 3850.0
+    sequence-idx: 2
+    reward-total: -0.8391
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.682847
+    setpoint-dev: 490.55153
+    loss-total: -490.098665
+    gains-harvested: 32
+    gain-total: 661.949984
+    sequence-idx: 3
+    reward-total: 39.15669
+- id: 143 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.704518
+    setpoint-dev: 471.938101
+    loss-total: -512.791674
+    gains-harvested: 34
+    gain-total: 705.274874
+    sequence-idx: 1
+    reward-total: 36.739121
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 308.858925
+    setpoint-dev: 27691.77847
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 1575.0
+    sequence-idx: 2
+    reward-total: 19.075
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.870388
+    setpoint-dev: 595.083867
+    loss-total: -447.027176
+    gains-harvested: 32
+    gain-total: 639.371151
+    sequence-idx: 3
+    reward-total: 58.48839
+- id: 144 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.395936
+    setpoint-dev: 754.685585
+    loss-total: -503.166674
+    gains-harvested: 28
+    gain-total: 721.84668
+    sequence-idx: 1
+    reward-total: 73.014245
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -2.200157
+    setpoint-dev: 703.119454
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: 32.725
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.668317
+    setpoint-dev: 499.51832
+    loss-total: -434.018657
+    gains-harvested: 25
+    gain-total: 620.029092
+    sequence-idx: 3
+    reward-total: 37.921188
+- id: 145 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.28503
+    setpoint-dev: 516.564688
+    loss-total: -502.166674
+    gains-harvested: 34
+    gain-total: 671.445817
+    sequence-idx: 1
+    reward-total: 36.310587
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1262.714206
+    setpoint-dev: 47253.684001
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 2170.0
+    sequence-idx: 2
+    reward-total: 0.875
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -20.651282
+    setpoint-dev: 569.730229
+    loss-total: -490.359492
+    gains-harvested: 30
+    gain-total: 670.569127
+    sequence-idx: 3
+    reward-total: 43.635614
+- id: 146 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.31684
+    setpoint-dev: 527.982334
+    loss-total: -513.625008
+    gains-harvested: 34
+    gain-total: 685.735231
+    sequence-idx: 1
+    reward-total: 38.772165
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 20.598618
+    setpoint-dev: 851.317519
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 150.423542
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.848248
+    setpoint-dev: 514.429051
+    loss-total: -489.072811
+    gains-harvested: 31
+    gain-total: 670.758532
+    sequence-idx: 3
+    reward-total: 33.269593
+- id: 147 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.849737
+    setpoint-dev: 416.807493
+    loss-total: -513.208341
+    gains-harvested: 35
+    gain-total: 681.566903
+    sequence-idx: 1
+    reward-total: 34.454243
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 605.414749
+    setpoint-dev: 17509.638669
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 840.0
+    sequence-idx: 2
+    reward-total: -0.211189
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.687605
+    setpoint-dev: 670.795199
+    loss-total: -502.264813
+    gains-harvested: 33
+    gain-total: 662.002221
+    sequence-idx: 3
+    reward-total: 32.234529
+- id: 148 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.164316
+    setpoint-dev: 521.275539
+    loss-total: -500.183341
+    gains-harvested: 28
+    gain-total: 676.881048
+    sequence-idx: 1
+    reward-total: 35.017233
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 20.241464
+    setpoint-dev: 1592.351981
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: 4.55
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.174517
+    setpoint-dev: 487.234416
+    loss-total: -466.029769
+    gains-harvested: 32
+    gain-total: 671.085008
+    sequence-idx: 3
+    reward-total: 46.467261
+- id: 149 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.437847
+    setpoint-dev: 550.450913
+    loss-total: -509.833341
+    gains-harvested: 30
+    gain-total: 699.561456
+    sequence-idx: 1
+    reward-total: 54.440203
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 79.518604
+    setpoint-dev: 4304.692689
+    loss-total: 0.0
+    gains-harvested: 7
+    gain-total: 245.0
+    sequence-idx: 2
+    reward-total: 10.675
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.143732
+    setpoint-dev: 530.341807
+    loss-total: -464.97498
+    gains-harvested: 29
+    gain-total: 663.637329
+    sequence-idx: 3
+    reward-total: 47.988116
+- id: 150 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.670232
+    setpoint-dev: 649.823883
+    loss-total: -518.316674
+    gains-harvested: 35
+    gain-total: 702.674789
+    sequence-idx: 1
+    reward-total: 34.588003
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 5.824395
+    setpoint-dev: 2805.137544
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: 36.225
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.702942
+    setpoint-dev: 501.341617
+    loss-total: -455.693985
+    gains-harvested: 30
+    gain-total: 660.739839
+    sequence-idx: 3
+    reward-total: 41.771574
+- id: 151 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.355802
+    setpoint-dev: 510.45611
+    loss-total: -505.083341
+    gains-harvested: 34
+    gain-total: 694.573587
+    sequence-idx: 1
+    reward-total: 39.808961
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 227.708244
+    setpoint-dev: 4973.85939
+    loss-total: 0.0
+    gains-harvested: 8
+    gain-total: 280.0
+    sequence-idx: 2
+    reward-total: -0.086738
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -26.362784
+    setpoint-dev: 1192.749792
+    loss-total: -449.071248
+    gains-harvested: 29
+    gain-total: 641.659116
+    sequence-idx: 3
+    reward-total: 34.997668
+- id: 152 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.809892
+    setpoint-dev: 639.404677
+    loss-total: -512.525008
+    gains-harvested: 33
+    gain-total: 721.635698
+    sequence-idx: 1
+    reward-total: 48.258087
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 24.243665
+    setpoint-dev: 1725.259159
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: 166.95
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.296559
+    setpoint-dev: 424.541496
+    loss-total: -441.381766
+    gains-harvested: 33
+    gain-total: 622.371906
+    sequence-idx: 3
+    reward-total: 38.707423
+- id: 153 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -49.712911
+    setpoint-dev: 2035.981168
+    loss-total: -350.453028
+    gains-harvested: 18
+    gain-total: 401.511682
+    sequence-idx: 1
+    reward-total: 25.188004
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 55.729198
+    setpoint-dev: 1128.8177
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 70.0
+    sequence-idx: 2
+    reward-total: -0.122122
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -21.188333
+    setpoint-dev: 888.750884
+    loss-total: -454.692133
+    gains-harvested: 26
+    gain-total: 622.019572
+    sequence-idx: 3
+    reward-total: 33.632218
+- id: 154 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.324838
+    setpoint-dev: 588.209987
+    loss-total: -515.500008
+    gains-harvested: 35
+    gain-total: 690.356312
+    sequence-idx: 1
+    reward-total: 44.175331
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1205.443091
+    setpoint-dev: 42827.40679
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1960.0
+    sequence-idx: 2
+    reward-total: -0.857956
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.756583
+    setpoint-dev: 530.098113
+    loss-total: -488.200767
+    gains-harvested: 29
+    gain-total: 657.914533
+    sequence-idx: 3
+    reward-total: 35.076751
+- id: 155 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -21.356969
+    setpoint-dev: 681.167694
+    loss-total: -497.883341
+    gains-harvested: 30
+    gain-total: 682.549123
+    sequence-idx: 1
+    reward-total: 39.408163
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 723.583537
+    setpoint-dev: 39398.486013
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 1820.0
+    sequence-idx: 2
+    reward-total: -0.522316
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -9.776582
+    setpoint-dev: 684.504684
+    loss-total: -459.915507
+    gains-harvested: 28
+    gain-total: 639.229546
+    sequence-idx: 3
+    reward-total: 31.424483
+- id: 156 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.255927
+    setpoint-dev: 449.836927
+    loss-total: -510.541674
+    gains-harvested: 33
+    gain-total: 703.693695
+    sequence-idx: 1
+    reward-total: 36.256801
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -6.588621
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 17.325
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.519396
+    setpoint-dev: 440.442665
+    loss-total: -474.343004
+    gains-harvested: 32
+    gain-total: 667.032072
+    sequence-idx: 3
+    reward-total: 40.961308
+- id: 157 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.533485
+    setpoint-dev: 479.672908
+    loss-total: -500.166674
+    gains-harvested: 28
+    gain-total: 676.556282
+    sequence-idx: 1
+    reward-total: 40.780701
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 125.028374
+    setpoint-dev: 4567.96062
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: -0.895669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -19.094612
+    setpoint-dev: 565.288895
+    loss-total: -498.064657
+    gains-harvested: 35
+    gain-total: 695.042162
+    sequence-idx: 3
+    reward-total: 40.482056
+- id: 158 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.152399
+    setpoint-dev: 554.539608
+    loss-total: -507.875008
+    gains-harvested: 32
+    gain-total: 694.972596
+    sequence-idx: 1
+    reward-total: 47.993488
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 32.259994
+    setpoint-dev: 60.583909
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 0.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.47105
+    setpoint-dev: 478.961779
+    loss-total: -483.188728
+    gains-harvested: 28
+    gain-total: 689.034146
+    sequence-idx: 3
+    reward-total: 38.539811
+- id: 159 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.737353
+    setpoint-dev: 405.073347
+    loss-total: -497.150007
+    gains-harvested: 35
+    gain-total: 684.457792
+    sequence-idx: 1
+    reward-total: 37.53851
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 29.287087
+    setpoint-dev: 660.584458
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 111.289717
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.832774
+    setpoint-dev: 475.274356
+    loss-total: -482.118635
+    gains-harvested: 31
+    gain-total: 663.766181
+    sequence-idx: 3
+    reward-total: 39.263978
+- id: 160 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.760796
+    setpoint-dev: 486.918859
+    loss-total: -503.075007
+    gains-harvested: 32
+    gain-total: 691.508885
+    sequence-idx: 1
+    reward-total: 35.14693
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1405.876489
+    setpoint-dev: 24631.298951
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 1715.0
+    sequence-idx: 2
+    reward-total: -0.609055
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.421901
+    setpoint-dev: 513.284554
+    loss-total: -496.949578
+    gains-harvested: 31
+    gain-total: 669.039223
+    sequence-idx: 3
+    reward-total: 49.776171
+- id: 161 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.471336
+    setpoint-dev: 494.707117
+    loss-total: -508.375008
+    gains-harvested: 28
+    gain-total: 673.62097
+    sequence-idx: 1
+    reward-total: 34.263952
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 551.695555
+    setpoint-dev: 24998.167807
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 1085.0
+    sequence-idx: 2
+    reward-total: 97.784503
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.397083
+    setpoint-dev: 524.768526
+    loss-total: -455.508223
+    gains-harvested: 29
+    gain-total: 637.303926
+    sequence-idx: 3
+    reward-total: 41.069089
+- id: 162 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.415576
+    setpoint-dev: 490.520206
+    loss-total: -515.583341
+    gains-harvested: 29
+    gain-total: 691.17471
+    sequence-idx: 1
+    reward-total: 37.53874
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -7.339032
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 22.05
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -20.339384
+    setpoint-dev: 536.904513
+    loss-total: -467.170718
+    gains-harvested: 33
+    gain-total: 671.351651
+    sequence-idx: 3
+    reward-total: 42.153585
+- id: 163 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.105872
+    setpoint-dev: 457.222431
+    loss-total: -501.650007
+    gains-harvested: 32
+    gain-total: 682.132761
+    sequence-idx: 1
+    reward-total: 30.897801
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 534.695775
+    setpoint-dev: 19613.346445
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 875.0
+    sequence-idx: 2
+    reward-total: 126.340146
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 766.201634
+    setpoint-dev: 12966.3076
+    loss-total: -11.737163
+    gains-harvested: 1
+    gain-total: 1015.369579
+    sequence-idx: 3
+    reward-total: 126.340146
+- id: 164 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.553939
+    setpoint-dev: 566.903954
+    loss-total: -515.875008
+    gains-harvested: 31
+    gain-total: 686.189916
+    sequence-idx: 1
+    reward-total: 39.531348
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 749.26832
+    setpoint-dev: 52290.801161
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 2940.0
+    sequence-idx: 2
+    reward-total: -0.776875
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.177328
+    setpoint-dev: 611.677563
+    loss-total: -489.518119
+    gains-harvested: 30
+    gain-total: 680.169335
+    sequence-idx: 3
+    reward-total: 44.463547
+- id: 165 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.153937
+    setpoint-dev: 538.566104
+    loss-total: -501.958341
+    gains-harvested: 24
+    gain-total: 671.557836
+    sequence-idx: 1
+    reward-total: 41.935279
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 101.813935
+    setpoint-dev: 3845.255096
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 7.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.746902
+    setpoint-dev: 590.599266
+    loss-total: -453.782365
+    gains-harvested: 29
+    gain-total: 648.268116
+    sequence-idx: 3
+    reward-total: 44.259221
+- id: 166 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.741031
+    setpoint-dev: 601.104024
+    loss-total: -506.016674
+    gains-harvested: 31
+    gain-total: 672.960862
+    sequence-idx: 1
+    reward-total: 50.873015
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 184.468221
+    setpoint-dev: 3319.888764
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 149.938124
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.928189
+    setpoint-dev: 555.580872
+    loss-total: -477.124519
+    gains-harvested: 31
+    gain-total: 652.10154
+    sequence-idx: 3
+    reward-total: 44.19013
+- id: 167 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.108305
+    setpoint-dev: 468.219336
+    loss-total: -494.458341
+    gains-harvested: 26
+    gain-total: 669.115152
+    sequence-idx: 1
+    reward-total: 37.048866
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 30.573684
+    setpoint-dev: 771.392277
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.776875
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.865359
+    setpoint-dev: 441.39031
+    loss-total: -490.401599
+    gains-harvested: 33
+    gain-total: 663.70287
+    sequence-idx: 3
+    reward-total: 37.688094
+- id: 168 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.556429
+    setpoint-dev: 581.294768
+    loss-total: -502.333341
+    gains-harvested: 31
+    gain-total: 689.654969
+    sequence-idx: 1
+    reward-total: 34.764674
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 13.649794
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: -0.769332
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.235371
+    setpoint-dev: 528.558477
+    loss-total: -490.123011
+    gains-harvested: 31
+    gain-total: 657.877611
+    sequence-idx: 3
+    reward-total: 37.553301
+- id: 169 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.360227
+    setpoint-dev: 542.272815
+    loss-total: -514.358341
+    gains-harvested: 30
+    gain-total: 704.802963
+    sequence-idx: 1
+    reward-total: 49.933044
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 156.033265
+    setpoint-dev: 1743.285185
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 1.05
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.565519
+    setpoint-dev: 544.70638
+    loss-total: -484.979872
+    gains-harvested: 30
+    gain-total: 687.643541
+    sequence-idx: 3
+    reward-total: 40.392327
+- id: 170 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.310126
+    setpoint-dev: 531.659959
+    loss-total: -498.416674
+    gains-harvested: 32
+    gain-total: 696.450347
+    sequence-idx: 1
+    reward-total: 40.214712
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2059.471646
+    setpoint-dev: 92690.312093
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 4830.0
+    sequence-idx: 2
+    reward-total: 263.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.868036
+    setpoint-dev: 509.926475
+    loss-total: -487.342214
+    gains-harvested: 29
+    gain-total: 682.425749
+    sequence-idx: 3
+    reward-total: 39.709035
+- id: 171 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: 473.183736
+    setpoint-dev: 23088.280547
+    loss-total: -238.758972
+    gains-harvested: 17
+    gain-total: 1383.968815
+    sequence-idx: 1
+    reward-total: 59.639428
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 134.720799
+    setpoint-dev: 1182.992637
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 70.589938
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.731717
+    setpoint-dev: 529.615821
+    loss-total: -504.454356
+    gains-harvested: 30
+    gain-total: 675.161121
+    sequence-idx: 3
+    reward-total: 43.397112
+- id: 172 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.415636
+    setpoint-dev: 675.036372
+    loss-total: -503.958341
+    gains-harvested: 29
+    gain-total: 669.026162
+    sequence-idx: 1
+    reward-total: 50.376557
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 14.088722
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 105.872407
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.701551
+    setpoint-dev: 697.186615
+    loss-total: -474.730825
+    gains-harvested: 31
+    gain-total: 637.281406
+    sequence-idx: 3
+    reward-total: 42.63006
+- id: 173 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.274317
+    setpoint-dev: 430.366363
+    loss-total: -506.875008
+    gains-harvested: 33
+    gain-total: 690.147412
+    sequence-idx: 1
+    reward-total: 42.906437
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 460.912539
+    setpoint-dev: 28771.907197
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 1330.0
+    sequence-idx: 2
+    reward-total: 217.525
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.538051
+    setpoint-dev: 550.156594
+    loss-total: -471.490577
+    gains-harvested: 27
+    gain-total: 656.118548
+    sequence-idx: 3
+    reward-total: 38.505986
+- id: 174 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.825798
+    setpoint-dev: 462.341423
+    loss-total: -507.725008
+    gains-harvested: 32
+    gain-total: 702.250535
+    sequence-idx: 1
+    reward-total: 35.345716
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 78.852309
+    setpoint-dev: 1931.100378
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: 1.925
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.840994
+    setpoint-dev: 727.057967
+    loss-total: -463.945835
+    gains-harvested: 28
+    gain-total: 663.414917
+    sequence-idx: 3
+    reward-total: 38.936461
+- id: 175 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -20.05861
+    setpoint-dev: 563.078185
+    loss-total: -486.409531
+    gains-harvested: 30
+    gain-total: 658.900453
+    sequence-idx: 1
+    reward-total: 40.135157
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 700.164681
+    setpoint-dev: 30947.754796
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1365.0
+    sequence-idx: 2
+    reward-total: 47.106406
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.021067
+    setpoint-dev: 501.145776
+    loss-total: -477.454925
+    gains-harvested: 32
+    gain-total: 677.386841
+    sequence-idx: 3
+    reward-total: 43.573725
+- id: 176 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.694813
+    setpoint-dev: 524.734297
+    loss-total: -504.833341
+    gains-harvested: 32
+    gain-total: 698.038734
+    sequence-idx: 1
+    reward-total: 42.901157
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 68.867123
+    setpoint-dev: 1865.296277
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: 3.15
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -20.223055
+    setpoint-dev: 430.091653
+    loss-total: -487.522031
+    gains-harvested: 30
+    gain-total: 658.376445
+    sequence-idx: 3
+    reward-total: 45.478846
+- id: 177 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.015859
+    setpoint-dev: 563.0241
+    loss-total: -499.016674
+    gains-harvested: 29
+    gain-total: 684.223806
+    sequence-idx: 1
+    reward-total: 40.714367
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 41.618071
+    setpoint-dev: 2880.097823
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 171.15
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -46.153416
+    setpoint-dev: 1959.381792
+    loss-total: -372.496734
+    gains-harvested: 20
+    gain-total: 436.639694
+    sequence-idx: 3
+    reward-total: 36.219455
+- id: 178 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.501516
+    setpoint-dev: 560.212259
+    loss-total: -522.791674
+    gains-harvested: 33
+    gain-total: 697.682839
+    sequence-idx: 1
+    reward-total: 47.520453
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 728.474551
+    setpoint-dev: 39603.226832
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 1855.0
+    sequence-idx: 2
+    reward-total: 295.225
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.483354
+    setpoint-dev: 490.856932
+    loss-total: -489.45811
+    gains-harvested: 31
+    gain-total: 664.308275
+    sequence-idx: 3
+    reward-total: 39.601022
+- id: 179 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.847353
+    setpoint-dev: 469.134416
+    loss-total: -510.958341
+    gains-harvested: 37
+    gain-total: 700.158403
+    sequence-idx: 1
+    reward-total: 42.454282
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 86.143787
+    setpoint-dev: 2829.836962
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 340.375
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.395341
+    setpoint-dev: 494.036117
+    loss-total: -455.570872
+    gains-harvested: 31
+    gain-total: 659.509249
+    sequence-idx: 3
+    reward-total: 40.354984
+- id: 180 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.213231
+    setpoint-dev: 563.147289
+    loss-total: -496.491674
+    gains-harvested: 29
+    gain-total: 676.486871
+    sequence-idx: 1
+    reward-total: 45.802764
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 289.91261
+    setpoint-dev: 14072.628258
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 595.0
+    sequence-idx: 2
+    reward-total: 2.975
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -12.907556
+    setpoint-dev: 460.240177
+    loss-total: -485.440483
+    gains-harvested: 36
+    gain-total: 681.059599
+    sequence-idx: 3
+    reward-total: 39.274546
+- id: 181 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.086832
+    setpoint-dev: 534.981539
+    loss-total: -520.500008
+    gains-harvested: 33
+    gain-total: 703.341293
+    sequence-idx: 1
+    reward-total: 41.257726
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 68.670086
+    setpoint-dev: 3746.675857
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 11.375
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.584109
+    setpoint-dev: 459.318533
+    loss-total: -462.96459
+    gains-harvested: 32
+    gain-total: 661.386521
+    sequence-idx: 3
+    reward-total: 38.787411
+- id: 182 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.332586
+    setpoint-dev: 510.304942
+    loss-total: -501.183341
+    gains-harvested: 30
+    gain-total: 682.850369
+    sequence-idx: 1
+    reward-total: 41.846707
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 118.619711
+    setpoint-dev: 3408.608631
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 0.35
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.855542
+    setpoint-dev: 743.290746
+    loss-total: -472.998492
+    gains-harvested: 29
+    gain-total: 674.702298
+    sequence-idx: 3
+    reward-total: 59.259516
+- id: 183 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.757873
+    setpoint-dev: 574.951457
+    loss-total: -510.391674
+    gains-harvested: 32
+    gain-total: 694.752476
+    sequence-idx: 1
+    reward-total: 48.582476
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 777.06005
+    setpoint-dev: 12617.004418
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 875.0
+    sequence-idx: 2
+    reward-total: -0.652424
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.807874
+    setpoint-dev: 470.369509
+    loss-total: -491.926815
+    gains-harvested: 32
+    gain-total: 661.729612
+    sequence-idx: 3
+    reward-total: 43.899129
+- id: 184 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.106961
+    setpoint-dev: 468.85293
+    loss-total: -511.166674
+    gains-harvested: 31
+    gain-total: 677.721032
+    sequence-idx: 1
+    reward-total: 45.694835
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 983.002276
+    setpoint-dev: 23702.51142
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 1260.0
+    sequence-idx: 2
+    reward-total: -0.747648
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.936222
+    setpoint-dev: 515.876289
+    loss-total: -504.341309
+    gains-harvested: 33
+    gain-total: 662.107606
+    sequence-idx: 3
+    reward-total: 38.697048
+- id: 185 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.4269
+    setpoint-dev: 541.898465
+    loss-total: -506.541674
+    gains-harvested: 31
+    gain-total: 694.897885
+    sequence-idx: 1
+    reward-total: 39.354925
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 113.545497
+    setpoint-dev: 11820.811692
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 665.0
+    sequence-idx: 2
+    reward-total: 129.325
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.309035
+    setpoint-dev: 530.658492
+    loss-total: -458.656256
+    gains-harvested: 28
+    gain-total: 671.658613
+    sequence-idx: 3
+    reward-total: 44.742572
+- id: 186 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.275887
+    setpoint-dev: 587.903968
+    loss-total: -507.475008
+    gains-harvested: 31
+    gain-total: 690.656025
+    sequence-idx: 1
+    reward-total: 45.384095
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 148.451466
+    setpoint-dev: 1157.002831
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.38938
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.115972
+    setpoint-dev: 504.920415
+    loss-total: -490.548249
+    gains-harvested: 29
+    gain-total: 662.00885
+    sequence-idx: 3
+    reward-total: 39.604793
+- id: 187 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.028752
+    setpoint-dev: 512.190861
+    loss-total: -502.083341
+    gains-harvested: 36
+    gain-total: 672.186703
+    sequence-idx: 1
+    reward-total: 39.797334
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 68.42569
+    setpoint-dev: 3781.429856
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 2.975
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.055489
+    setpoint-dev: 654.470397
+    loss-total: -452.989119
+    gains-harvested: 27
+    gain-total: 644.910141
+    sequence-idx: 3
+    reward-total: 66.582422
+- id: 188 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.46826
+    setpoint-dev: 507.699678
+    loss-total: -507.208341
+    gains-harvested: 33
+    gain-total: 663.879104
+    sequence-idx: 1
+    reward-total: 39.823734
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2161.300623
+    setpoint-dev: 52078.178598
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 3010.0
+    sequence-idx: 2
+    reward-total: -0.777817
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.039257
+    setpoint-dev: 469.986502
+    loss-total: -495.928964
+    gains-harvested: 34
+    gain-total: 673.818704
+    sequence-idx: 3
+    reward-total: 36.402164
+- id: 189 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -11.450874
+    setpoint-dev: 774.000868
+    loss-total: -505.148817
+    gains-harvested: 32
+    gain-total: 671.822858
+    sequence-idx: 1
+    reward-total: 31.213867
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 11.643673
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: -0.714649
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.778961
+    setpoint-dev: 565.609864
+    loss-total: -502.423558
+    gains-harvested: 29
+    gain-total: 644.816413
+    sequence-idx: 3
+    reward-total: 32.175219
+- id: 190 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.171964
+    setpoint-dev: 447.695489
+    loss-total: -508.791674
+    gains-harvested: 32
+    gain-total: 690.263618
+    sequence-idx: 1
+    reward-total: 36.481902
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1.549795
+    setpoint-dev: 753.380703
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 15.225
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.58126
+    setpoint-dev: 418.203181
+    loss-total: -466.970949
+    gains-harvested: 33
+    gain-total: 645.845858
+    sequence-idx: 3
+    reward-total: 38.449104
+- id: 191 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.963506
+    setpoint-dev: 517.299495
+    loss-total: -509.416674
+    gains-harvested: 31
+    gain-total: 712.994074
+    sequence-idx: 1
+    reward-total: 43.464379
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -12.797084
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 36.925
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.173554
+    setpoint-dev: 502.979621
+    loss-total: -450.479173
+    gains-harvested: 31
+    gain-total: 628.026103
+    sequence-idx: 3
+    reward-total: 38.522027
+- id: 192 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: 754.138923
+    setpoint-dev: 12103.576339
+    loss-total: -44.828693
+    gains-harvested: 1
+    gain-total: 998.278809
+    sequence-idx: 1
+    reward-total: -0.957894
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 482.328551
+    setpoint-dev: 8738.476384
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 560.0
+    sequence-idx: 2
+    reward-total: -0.957894
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.954346
+    setpoint-dev: 531.156111
+    loss-total: -504.858496
+    gains-harvested: 31
+    gain-total: 670.312494
+    sequence-idx: 3
+    reward-total: 34.091466
+- id: 193 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.131319
+    setpoint-dev: 563.880446
+    loss-total: -515.875008
+    gains-harvested: 28
+    gain-total: 704.8519
+    sequence-idx: 1
+    reward-total: 44.681985
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1786.697976
+    setpoint-dev: 38732.494247
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2310.0
+    sequence-idx: 2
+    reward-total: 273.878555
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 270.413648
+    setpoint-dev: 3515.488758
+    loss-total: -26.922434
+    gains-harvested: 1
+    gain-total: 394.403313
+    sequence-idx: 3
+    reward-total: 273.878555
+- id: 194 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.89645
+    setpoint-dev: 609.663085
+    loss-total: -507.541674
+    gains-harvested: 31
+    gain-total: 695.886193
+    sequence-idx: 1
+    reward-total: 37.498679
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 88.355821
+    setpoint-dev: 5005.854638
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 17.15
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.322587
+    setpoint-dev: 550.516824
+    loss-total: -480.83876
+    gains-harvested: 31
+    gain-total: 685.474942
+    sequence-idx: 3
+    reward-total: 44.863393
+- id: 195 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.61448
+    setpoint-dev: 698.23809
+    loss-total: -501.391674
+    gains-harvested: 30
+    gain-total: 688.89393
+    sequence-idx: 1
+    reward-total: 56.561261
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 82.51332
+    setpoint-dev: 3763.798737
+    loss-total: 0.0
+    gains-harvested: 6
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: 7.875
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.709298
+    setpoint-dev: 474.626993
+    loss-total: -452.823834
+    gains-harvested: 29
+    gain-total: 651.995861
+    sequence-idx: 3
+    reward-total: 41.485417
+- id: 196 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -23.154676
+    setpoint-dev: 1035.493052
+    loss-total: -485.417269
+    gains-harvested: 31
+    gain-total: 690.912009
+    sequence-idx: 1
+    reward-total: 48.254596
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 287.578751
+    setpoint-dev: 8311.389891
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 420.0
+    sequence-idx: 2
+    reward-total: 335.825
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.466818
+    setpoint-dev: 591.170418
+    loss-total: -488.569188
+    gains-harvested: 31
+    gain-total: 679.888523
+    sequence-idx: 3
+    reward-total: 42.749627
+- id: 197 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: 127.82916
+    setpoint-dev: 15914.746091
+    loss-total: -431.189169
+    gains-harvested: 30
+    gain-total: 1838.247552
+    sequence-idx: 1
+    reward-total: 33.207647
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -12.84075
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 34.825
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.614648
+    setpoint-dev: 447.718604
+    loss-total: -474.706952
+    gains-harvested: 33
+    gain-total: 664.296662
+    sequence-idx: 3
+    reward-total: 40.927147
+- id: 198 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.167961
+    setpoint-dev: 661.772271
+    loss-total: -507.391674
+    gains-harvested: 34
+    gain-total: 702.82358
+    sequence-idx: 1
+    reward-total: 43.817413
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 110.925039
+    setpoint-dev: 2493.582628
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 1.575
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.279932
+    setpoint-dev: 463.946295
+    loss-total: -500.918341
+    gains-harvested: 32
+    gain-total: 687.027995
+    sequence-idx: 3
+    reward-total: 40.215942
+- id: 199 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.443892
+    setpoint-dev: 530.192556
+    loss-total: -511.000008
+    gains-harvested: 29
+    gain-total: 687.472623
+    sequence-idx: 1
+    reward-total: 44.512803
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2055.872832
+    setpoint-dev: 54977.495603
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2905.0
+    sequence-idx: 2
+    reward-total: 158.696353
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -8.771917
+    setpoint-dev: 657.627738
+    loss-total: -502.522563
+    gains-harvested: 32
+    gain-total: 678.394537
+    sequence-idx: 3
+    reward-total: 40.962685
+- id: 200 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.860303
+    setpoint-dev: 428.785632
+    loss-total: -513.583341
+    gains-harvested: 36
+    gain-total: 695.535585
+    sequence-idx: 1
+    reward-total: 37.570756
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 273.816473
+    setpoint-dev: 8603.79836
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: -0.695793
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.139359
+    setpoint-dev: 423.269954
+    loss-total: -486.751216
+    gains-harvested: 34
+    gain-total: 661.733473
+    sequence-idx: 3
+    reward-total: 36.111182
+- id: 201 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -25.032822
+    setpoint-dev: 903.74238
+    loss-total: -439.014455
+    gains-harvested: 22
+    gain-total: 609.85475
+    sequence-idx: 1
+    reward-total: 42.10881
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 55.057987
+    setpoint-dev: 1858.236595
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.895669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.106483
+    setpoint-dev: 521.198372
+    loss-total: -484.395384
+    gains-harvested: 32
+    gain-total: 672.106219
+    sequence-idx: 3
+    reward-total: 37.971592
+- id: 202 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -5.59426
+    setpoint-dev: 1321.193909
+    loss-total: -503.675008
+    gains-harvested: 30
+    gain-total: 690.441497
+    sequence-idx: 1
+    reward-total: 28.273462
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -7.480509
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 18.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.172065
+    setpoint-dev: 756.24892
+    loss-total: -439.600484
+    gains-harvested: 32
+    gain-total: 621.562512
+    sequence-idx: 3
+    reward-total: 40.994547
+- id: 203 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.10941
+    setpoint-dev: 483.903764
+    loss-total: -506.666674
+    gains-harvested: 30
+    gain-total: 694.895476
+    sequence-idx: 1
+    reward-total: 46.267254
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 157.52063
+    setpoint-dev: 3748.183041
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: -0.148964
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.678792
+    setpoint-dev: 453.127643
+    loss-total: -488.805367
+    gains-harvested: 23
+    gain-total: 670.470643
+    sequence-idx: 3
+    reward-total: 41.934475
+- id: 204 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.425039
+    setpoint-dev: 532.314351
+    loss-total: -498.325007
+    gains-harvested: 28
+    gain-total: 667.72984
+    sequence-idx: 1
+    reward-total: 40.232503
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 100.614488
+    setpoint-dev: 1678.484287
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.767447
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.991392
+    setpoint-dev: 673.630381
+    loss-total: -459.538243
+    gains-harvested: 31
+    gain-total: 626.795526
+    sequence-idx: 3
+    reward-total: 58.695784
+- id: 205 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.684889
+    setpoint-dev: 668.08759
+    loss-total: -490.216674
+    gains-harvested: 27
+    gain-total: 640.109425
+    sequence-idx: 1
+    reward-total: 39.51041
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 2388.333007
+    setpoint-dev: 44999.024355
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 3080.0
+    sequence-idx: 2
+    reward-total: 203.592163
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 79.276583
+    setpoint-dev: 3733.25787
+    loss-total: -253.065264
+    gains-harvested: 11
+    gain-total: 421.200047
+    sequence-idx: 3
+    reward-total: 153.845212
+- id: 206 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -12.626398
+    setpoint-dev: 641.510617
+    loss-total: -493.675007
+    gains-harvested: 27
+    gain-total: 659.24831
+    sequence-idx: 1
+    reward-total: 43.51907
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 138.025842
+    setpoint-dev: 3971.244045
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 210.0
+    sequence-idx: 2
+    reward-total: -0.733505
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.986994
+    setpoint-dev: 518.731269
+    loss-total: -498.445543
+    gains-harvested: 33
+    gain-total: 672.488272
+    sequence-idx: 3
+    reward-total: 47.368294
+- id: 207 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.89788
+    setpoint-dev: 442.757074
+    loss-total: -506.166674
+    gains-harvested: 34
+    gain-total: 691.857988
+    sequence-idx: 1
+    reward-total: 40.587607
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 158.08897
+    setpoint-dev: 1959.738137
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.460091
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.124545
+    setpoint-dev: 657.999715
+    loss-total: -483.304494
+    gains-harvested: 27
+    gain-total: 668.026789
+    sequence-idx: 3
+    reward-total: 38.449586
+- id: 208 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.61938
+    setpoint-dev: 525.065717
+    loss-total: -506.983341
+    gains-harvested: 31
+    gain-total: 664.280639
+    sequence-idx: 1
+    reward-total: 39.42423
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 113.359453
+    setpoint-dev: 837.658489
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: -0.569457
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.197656
+    setpoint-dev: 449.000753
+    loss-total: -497.172271
+    gains-harvested: 30
+    gain-total: 669.604464
+    sequence-idx: 3
+    reward-total: 37.446949
+- id: 209 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.459086
+    setpoint-dev: 576.279222
+    loss-total: -512.083341
+    gains-harvested: 32
+    gain-total: 717.147197
+    sequence-idx: 1
+    reward-total: 37.851338
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 33.61622
+    setpoint-dev: 329.216389
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 1.05
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.93902
+    setpoint-dev: 583.420658
+    loss-total: -490.251565
+    gains-harvested: 33
+    gain-total: 664.033531
+    sequence-idx: 3
+    reward-total: 47.260642
+- id: 210 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -54.710154
+    setpoint-dev: 2495.470159
+    loss-total: -387.234857
+    gains-harvested: 21
+    gain-total: 567.943315
+    sequence-idx: 1
+    reward-total: 38.081255
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 116.347058
+    setpoint-dev: 2335.347014
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 240.326021
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.796458
+    setpoint-dev: 490.024387
+    loss-total: -480.315778
+    gains-harvested: 34
+    gain-total: 649.323448
+    sequence-idx: 3
+    reward-total: 40.727463
+- id: 211 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.739365
+    setpoint-dev: 483.607901
+    loss-total: -506.416674
+    gains-harvested: 34
+    gain-total: 674.124773
+    sequence-idx: 1
+    reward-total: 34.332085
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 114.891182
+    setpoint-dev: 2611.363429
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 186.616721
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -19.637183
+    setpoint-dev: 564.921125
+    loss-total: -486.577755
+    gains-harvested: 29
+    gain-total: 667.570412
+    sequence-idx: 3
+    reward-total: 40.53731
+- id: 212 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -23.498544
+    setpoint-dev: 1255.088188
+    loss-total: -471.585078
+    gains-harvested: 24
+    gain-total: 665.813409
+    sequence-idx: 1
+    reward-total: 57.745816
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 178.852306
+    setpoint-dev: 11313.697489
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 490.0
+    sequence-idx: 2
+    reward-total: 194.075
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.306692
+    setpoint-dev: 554.419142
+    loss-total: -474.502214
+    gains-harvested: 34
+    gain-total: 698.549605
+    sequence-idx: 3
+    reward-total: 36.62346
+- id: 213 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.818622
+    setpoint-dev: 614.417055
+    loss-total: -504.541674
+    gains-harvested: 29
+    gain-total: 699.023152
+    sequence-idx: 1
+    reward-total: 38.655975
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 46.102293
+    setpoint-dev: 2272.887282
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: -0.53363
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.907499
+    setpoint-dev: 488.870061
+    loss-total: -451.314024
+    gains-harvested: 27
+    gain-total: 635.423313
+    sequence-idx: 3
+    reward-total: 42.869359
+- id: 214 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: 767.160575
+    setpoint-dev: 12006.822473
+    loss-total: -40.250334
+    gains-harvested: 1
+    gain-total: 1008.984152
+    sequence-idx: 1
+    reward-total: -0.767447
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1430.889006
+    setpoint-dev: 59385.649216
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2765.0
+    sequence-idx: 2
+    reward-total: -0.767447
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.340606
+    setpoint-dev: 574.542885
+    loss-total: -473.609438
+    gains-harvested: 33
+    gain-total: 645.224849
+    sequence-idx: 3
+    reward-total: 32.298027
+- id: 215 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -54.947904
+    setpoint-dev: 2626.533587
+    loss-total: -363.109163
+    gains-harvested: 18
+    gain-total: 391.112809
+    sequence-idx: 1
+    reward-total: 31.693078
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 105.247879
+    setpoint-dev: 5795.748667
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 245.0
+    sequence-idx: 2
+    reward-total: 2.8
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.964502
+    setpoint-dev: 535.35818
+    loss-total: -474.460095
+    gains-harvested: 29
+    gain-total: 670.898026
+    sequence-idx: 3
+    reward-total: 51.966885
+- id: 216 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.945377
+    setpoint-dev: 515.232177
+    loss-total: -511.458341
+    gains-harvested: 28
+    gain-total: 706.770522
+    sequence-idx: 1
+    reward-total: 44.722653
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 693.24002
+    setpoint-dev: 50865.417892
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 3360.0
+    sequence-idx: 2
+    reward-total: 2.975
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -25.020357
+    setpoint-dev: 863.470126
+    loss-total: -465.415064
+    gains-harvested: 31
+    gain-total: 653.046443
+    sequence-idx: 3
+    reward-total: 51.483061
+- id: 217 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -10.418952
+    setpoint-dev: 815.674681
+    loss-total: -497.852388
+    gains-harvested: 28
+    gain-total: 691.711471
+    sequence-idx: 1
+    reward-total: 31.278806
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 103.632222
+    setpoint-dev: 2887.8151
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.182905
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: 584.23622
+    setpoint-dev: 18695.616966
+    loss-total: -119.803924
+    gains-harvested: 8
+    gain-total: 1120.038815
+    sequence-idx: 3
+    reward-total: 218.666344
+- id: 218 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.547372
+    setpoint-dev: 449.722562
+    loss-total: -516.958341
+    gains-harvested: 32
+    gain-total: 697.556881
+    sequence-idx: 1
+    reward-total: 37.872783
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1647.187412
+    setpoint-dev: 49193.915667
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 2590.0
+    sequence-idx: 2
+    reward-total: 316.05
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.026305
+    setpoint-dev: 569.796195
+    loss-total: -482.310135
+    gains-harvested: 34
+    gain-total: 672.870029
+    sequence-idx: 3
+    reward-total: 46.738418
+- id: 219 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.377494
+    setpoint-dev: 604.697194
+    loss-total: -506.072627
+    gains-harvested: 31
+    gain-total: 674.597133
+    sequence-idx: 1
+    reward-total: 45.081507
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 55.45643
+    setpoint-dev: 3260.820074
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 171.199248
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.175271
+    setpoint-dev: 478.744472
+    loss-total: -475.041482
+    gains-harvested: 34
+    gain-total: 642.895191
+    sequence-idx: 3
+    reward-total: 43.325181
+- id: 220 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.077575
+    setpoint-dev: 533.185974
+    loss-total: -519.333341
+    gains-harvested: 32
+    gain-total: 701.423779
+    sequence-idx: 1
+    reward-total: 33.466178
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 565.410978
+    setpoint-dev: 18372.020429
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 910.0
+    sequence-idx: 2
+    reward-total: -0.086738
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -18.497298
+    setpoint-dev: 552.614495
+    loss-total: -492.67801
+    gains-harvested: 31
+    gain-total: 664.455065
+    sequence-idx: 3
+    reward-total: 42.260053
+- id: 221 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -6.2533
+    setpoint-dev: 1180.40569
+    loss-total: -509.958341
+    gains-harvested: 34
+    gain-total: 711.596178
+    sequence-idx: 1
+    reward-total: 98.782951
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -10.446489
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 30.1
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.124098
+    setpoint-dev: 566.245748
+    loss-total: -477.822626
+    gains-harvested: 32
+    gain-total: 664.350581
+    sequence-idx: 3
+    reward-total: 31.607888
+- id: 222 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.192325
+    setpoint-dev: 521.154884
+    loss-total: -514.266674
+    gains-harvested: 31
+    gain-total: 688.511323
+    sequence-idx: 1
+    reward-total: 43.034695
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 316.025091
+    setpoint-dev: 15647.349721
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 805.0
+    sequence-idx: 2
+    reward-total: -0.627911
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.898276
+    setpoint-dev: 506.100785
+    loss-total: -489.82335
+    gains-harvested: 30
+    gain-total: 677.653905
+    sequence-idx: 3
+    reward-total: 35.086251
+- id: 223 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -7.781467
+    setpoint-dev: 1074.246377
+    loss-total: -511.041674
+    gains-harvested: 30
+    gain-total: 724.573421
+    sequence-idx: 1
+    reward-total: 63.574095
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 165.191895
+    setpoint-dev: 5198.858614
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 245.0
+    sequence-idx: 2
+    reward-total: 8.225
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -9.821305
+    setpoint-dev: 1009.307096
+    loss-total: -470.681413
+    gains-harvested: 28
+    gain-total: 662.565863
+    sequence-idx: 3
+    reward-total: 79.253205
+- id: 224 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -18.625175
+    setpoint-dev: 499.433728
+    loss-total: -509.833341
+    gains-harvested: 28
+    gain-total: 686.551015
+    sequence-idx: 1
+    reward-total: 47.530485
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 382.257229
+    setpoint-dev: 18066.944032
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 770.0
+    sequence-idx: 2
+    reward-total: -0.584542
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.125038
+    setpoint-dev: 510.794521
+    loss-total: -469.575342
+    gains-harvested: 32
+    gain-total: 633.248625
+    sequence-idx: 3
+    reward-total: 35.809704
+- id: 225 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.659357
+    setpoint-dev: 541.960284
+    loss-total: -511.541674
+    gains-harvested: 33
+    gain-total: 690.446229
+    sequence-idx: 1
+    reward-total: 43.061979
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 865.906475
+    setpoint-dev: 27110.751859
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 1365.0
+    sequence-idx: 2
+    reward-total: 79.228159
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.625629
+    setpoint-dev: 547.842211
+    loss-total: -487.245816
+    gains-harvested: 30
+    gain-total: 660.649225
+    sequence-idx: 3
+    reward-total: 57.244309
+- id: 226 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.484366
+    setpoint-dev: 509.146549
+    loss-total: -503.400008
+    gains-harvested: 28
+    gain-total: 686.910412
+    sequence-idx: 1
+    reward-total: 42.919614
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 174.233604
+    setpoint-dev: 8737.40844
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: 6.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.485299
+    setpoint-dev: 495.588465
+    loss-total: -454.599941
+    gains-harvested: 29
+    gain-total: 641.377096
+    sequence-idx: 3
+    reward-total: 48.956856
+- id: 227 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -31.815466
+    setpoint-dev: 1516.65212
+    loss-total: -443.162317
+    gains-harvested: 25
+    gain-total: 637.806086
+    sequence-idx: 1
+    reward-total: 38.748004
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 96.907368
+    setpoint-dev: 7889.798409
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: -0.857956
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.438004
+    setpoint-dev: 513.279934
+    loss-total: -478.321343
+    gains-harvested: 30
+    gain-total: 665.42612
+    sequence-idx: 3
+    reward-total: 39.043008
+- id: 228 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.188433
+    setpoint-dev: 463.38167
+    loss-total: -504.791674
+    gains-harvested: 31
+    gain-total: 685.365847
+    sequence-idx: 1
+    reward-total: 40.279237
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 766.975231
+    setpoint-dev: 54272.245909
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 3010.0
+    sequence-idx: 2
+    reward-total: 16.975
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.069723
+    setpoint-dev: 466.114811
+    loss-total: -475.273124
+    gains-harvested: 31
+    gain-total: 654.924701
+    sequence-idx: 3
+    reward-total: 39.987286
+- id: 229 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.542423
+    setpoint-dev: 595.276357
+    loss-total: -517.458341
+    gains-harvested: 31
+    gain-total: 694.96742
+    sequence-idx: 1
+    reward-total: 43.967372
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 64.303107
+    setpoint-dev: 2212.517216
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.627911
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.031828
+    setpoint-dev: 456.985053
+    loss-total: -465.364201
+    gains-harvested: 29
+    gain-total: 646.174562
+    sequence-idx: 3
+    reward-total: 41.5336
+- id: 230 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -86.46119
+    setpoint-dev: 3252.358062
+    loss-total: -255.657495
+    gains-harvested: 12
+    gain-total: 243.335453
+    sequence-idx: 1
+    reward-total: 25.325113
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 115.826655
+    setpoint-dev: 3577.897754
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.740776
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.93655
+    setpoint-dev: 588.625775
+    loss-total: -467.73178
+    gains-harvested: 29
+    gain-total: 638.790874
+    sequence-idx: 3
+    reward-total: 35.501878
+- id: 231 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -21.968576
+    setpoint-dev: 814.010136
+    loss-total: -496.773222
+    gains-harvested: 31
+    gain-total: 680.955402
+    sequence-idx: 1
+    reward-total: 39.230009
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 80.473303
+    setpoint-dev: 3909.961169
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: 203.0
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.035272
+    setpoint-dev: 519.161897
+    loss-total: -459.258656
+    gains-harvested: 30
+    gain-total: 661.151278
+    sequence-idx: 3
+    reward-total: 36.286475
+- id: 232 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.810341
+    setpoint-dev: 548.971977
+    loss-total: -506.958341
+    gains-harvested: 33
+    gain-total: 697.600063
+    sequence-idx: 1
+    reward-total: 33.329594
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 34.31503
+    setpoint-dev: 830.305212
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 22.068305
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.276553
+    setpoint-dev: 552.376988
+    loss-total: -496.130495
+    gains-harvested: 31
+    gain-total: 673.179515
+    sequence-idx: 3
+    reward-total: 45.372533
+- id: 233 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -19.742255
+    setpoint-dev: 490.189689
+    loss-total: -509.083341
+    gains-harvested: 33
+    gain-total: 679.632349
+    sequence-idx: 1
+    reward-total: 48.575319
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 20.613924
+    setpoint-dev: 2730.370837
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 385.0
+    sequence-idx: 2
+    reward-total: 4.9
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.300102
+    setpoint-dev: 429.524786
+    loss-total: -447.768525
+    gains-harvested: 30
+    gain-total: 619.956801
+    sequence-idx: 3
+    reward-total: 35.8711
+- id: 234 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.708531
+    setpoint-dev: 469.868587
+    loss-total: -512.666674
+    gains-harvested: 33
+    gain-total: 688.214942
+    sequence-idx: 1
+    reward-total: 39.615885
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 132.285005
+    setpoint-dev: 8122.898087
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 350.0
+    sequence-idx: 2
+    reward-total: 7.525
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.509086
+    setpoint-dev: 428.640009
+    loss-total: -486.220457
+    gains-harvested: 32
+    gain-total: 694.769255
+    sequence-idx: 3
+    reward-total: 34.447083
+- id: 235 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.832288
+    setpoint-dev: 479.920035
+    loss-total: -492.191674
+    gains-harvested: 28
+    gain-total: 668.887032
+    sequence-idx: 1
+    reward-total: 41.391764
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 125.672436
+    setpoint-dev: 5016.489039
+    loss-total: 0.0
+    gains-harvested: 5
+    gain-total: 245.0
+    sequence-idx: 2
+    reward-total: 251.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.064296
+    setpoint-dev: 457.103828
+    loss-total: -487.035988
+    gains-harvested: 34
+    gain-total: 690.094646
+    sequence-idx: 3
+    reward-total: 36.56314
+- id: 236 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.867227
+    setpoint-dev: 411.28713
+    loss-total: -496.875007
+    gains-harvested: 33
+    gain-total: 702.056804
+    sequence-idx: 1
+    reward-total: 32.170176
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 714.004938
+    setpoint-dev: 47687.707888
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 2415.0
+    sequence-idx: 2
+    reward-total: 0.7
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -20.250781
+    setpoint-dev: 597.08534
+    loss-total: -496.010642
+    gains-harvested: 36
+    gain-total: 687.720976
+    sequence-idx: 3
+    reward-total: 39.282429
+- id: 237 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.642071
+    setpoint-dev: 490.415517
+    loss-total: -513.625008
+    gains-harvested: 38
+    gain-total: 696.063982
+    sequence-idx: 1
+    reward-total: 42.363959
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 31.028149
+    setpoint-dev: 601.600566
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 36.252372
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.865813
+    setpoint-dev: 503.521609
+    loss-total: -501.437074
+    gains-harvested: 31
+    gain-total: 694.242541
+    sequence-idx: 3
+    reward-total: 37.996995
+- id: 238 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.521905
+    setpoint-dev: 490.722935
+    loss-total: -490.425007
+    gains-harvested: 29
+    gain-total: 697.90538
+    sequence-idx: 1
+    reward-total: 35.224924
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 35.625841
+    setpoint-dev: 7567.902689
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 875.0
+    sequence-idx: 2
+    reward-total: 104.3
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.141578
+    setpoint-dev: 594.721891
+    loss-total: -450.070382
+    gains-harvested: 26
+    gain-total: 659.037075
+    sequence-idx: 3
+    reward-total: 40.33999
+- id: 239 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -20.347175
+    setpoint-dev: 425.452633
+    loss-total: -503.100007
+    gains-harvested: 33
+    gain-total: 691.572449
+    sequence-idx: 1
+    reward-total: 46.812755
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 20.917695
+    setpoint-dev: 361.66651
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: 1.575
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -17.598626
+    setpoint-dev: 444.755681
+    loss-total: -492.870927
+    gains-harvested: 36
+    gain-total: 678.766701
+    sequence-idx: 3
+    reward-total: 39.830008
+- id: 240 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -15.623592
+    setpoint-dev: 450.950404
+    loss-total: -503.658341
+    gains-harvested: 31
+    gain-total: 673.178378
+    sequence-idx: 1
+    reward-total: 34.153267
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 36.26103
+    setpoint-dev: 538.298272
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 35.0
+    sequence-idx: 2
+    reward-total: -0.820244
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.274426
+    setpoint-dev: 464.505177
+    loss-total: -494.207832
+    gains-harvested: 30
+    gain-total: 677.203951
+    sequence-idx: 3
+    reward-total: 38.62164
+- id: 241 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.367282
+    setpoint-dev: 540.726284
+    loss-total: -505.625008
+    gains-harvested: 32
+    gain-total: 692.887975
+    sequence-idx: 1
+    reward-total: 42.393285
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 480.440157
+    setpoint-dev: 13827.118072
+    loss-total: 0.0
+    gains-harvested: 2
+    gain-total: 665.0
+    sequence-idx: 2
+    reward-total: 300.475
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.811947
+    setpoint-dev: 469.362787
+    loss-total: -504.473454
+    gains-harvested: 38
+    gain-total: 695.335149
+    sequence-idx: 3
+    reward-total: 39.040695
+- id: 242 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.196575
+    setpoint-dev: 555.007246
+    loss-total: -508.208341
+    gains-harvested: 29
+    gain-total: 690.038811
+    sequence-idx: 1
+    reward-total: 45.344965
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 102.751839
+    setpoint-dev: 1686.596261
+    loss-total: 0.0
+    gains-harvested: 3
+    gain-total: 105.0
+    sequence-idx: 2
+    reward-total: -0.758018
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.204404
+    setpoint-dev: 509.838756
+    loss-total: -482.622423
+    gains-harvested: 30
+    gain-total: 651.824217
+    sequence-idx: 3
+    reward-total: 44.660617
+- id: 243 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.13413
+    setpoint-dev: 547.582571
+    loss-total: -513.875008
+    gains-harvested: 33
+    gain-total: 697.525984
+    sequence-idx: 1
+    reward-total: 46.479772
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 424.011057
+    setpoint-dev: 27152.938607
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 1260.0
+    sequence-idx: 2
+    reward-total: 13.65
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -11.760815
+    setpoint-dev: 574.17231
+    loss-total: -451.420876
+    gains-harvested: 32
+    gain-total: 643.496884
+    sequence-idx: 3
+    reward-total: 28.953656
+- id: 244 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.253958
+    setpoint-dev: 449.761272
+    loss-total: -501.500007
+    gains-harvested: 32
+    gain-total: 678.346869
+    sequence-idx: 1
+    reward-total: 37.780669
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 157.237329
+    setpoint-dev: 2635.189768
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 175.0
+    sequence-idx: 2
+    reward-total: -0.833443
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.940763
+    setpoint-dev: 467.156309
+    loss-total: -497.351098
+    gains-harvested: 32
+    gain-total: 664.64297
+    sequence-idx: 3
+    reward-total: 44.285287
+- id: 245 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.355642
+    setpoint-dev: 601.93897
+    loss-total: -510.441674
+    gains-harvested: 27
+    gain-total: 673.941708
+    sequence-idx: 1
+    reward-total: 37.039803
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 130.847051
+    setpoint-dev: 2328.005991
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: -0.895669
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -15.931357
+    setpoint-dev: 563.89358
+    loss-total: -500.301026
+    gains-harvested: 28
+    gain-total: 661.746017
+    sequence-idx: 3
+    reward-total: 38.630415
+- id: 246 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -17.1669
+    setpoint-dev: 647.004877
+    loss-total: -494.775007
+    gains-harvested: 29
+    gain-total: 671.548677
+    sequence-idx: 1
+    reward-total: 39.360682
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: -6.46014
+    setpoint-dev: 0.0
+    loss-total: 0.0
+    gains-harvested: 0
+    gain-total: 0.0
+    sequence-idx: 2
+    reward-total: 16.45
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.596989
+    setpoint-dev: 582.879662
+    loss-total: -434.836587
+    gains-harvested: 30
+    gain-total: 621.960949
+    sequence-idx: 3
+    reward-total: 50.99348
+- id: 247 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -16.624294
+    setpoint-dev: 383.613688
+    loss-total: -511.458341
+    gains-harvested: 33
+    gain-total: 692.64732
+    sequence-idx: 1
+    reward-total: 39.659754
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 338.280238
+    setpoint-dev: 9457.857986
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 455.0
+    sequence-idx: 2
+    reward-total: -0.814587
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -14.020923
+    setpoint-dev: 430.022111
+    loss-total: -503.121456
+    gains-harvested: 27
+    gain-total: 691.687916
+    sequence-idx: 3
+    reward-total: 41.309328
+- id: 248 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -13.344749
+    setpoint-dev: 489.934348
+    loss-total: -498.920779
+    gains-harvested: 30
+    gain-total: 686.078883
+    sequence-idx: 1
+    reward-total: 45.592492
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 1781.986773
+    setpoint-dev: 37329.458013
+    loss-total: 0.0
+    gains-harvested: 1
+    gain-total: 2310.0
+    sequence-idx: 2
+    reward-total: -0.67128
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -13.456318
+    setpoint-dev: 510.915616
+    loss-total: -490.95768
+    gains-harvested: 36
+    gain-total: 681.823738
+    sequence-idx: 3
+    reward-total: 31.621668
+- id: 249 
+  reward-function: NF
+  sequence-order: cdr
+  sequences:
+  - state: canalized
+    duration: 1000
+    setpoint-avg: -14.443197
+    setpoint-dev: 519.246109
+    loss-total: -513.125008
+    gains-harvested: 35
+    gain-total: 693.28852
+    sequence-idx: 1
+    reward-total: 38.383264
+  - state: decanalized
+    duration: 1000
+    setpoint-avg: 39.524202
+    setpoint-dev: 2112.849083
+    loss-total: 0.0
+    gains-harvested: 4
+    gain-total: 140.0
+    sequence-idx: 2
+    reward-total: 4.375
+  - state: recanalized
+    duration: 1000
+    setpoint-avg: -16.092615
+    setpoint-dev: 450.436209
+    loss-total: -454.70834
+    gains-harvested: 30
+    gain-total: 636.980379
+    sequence-idx: 3
+    reward-total: 40.648941

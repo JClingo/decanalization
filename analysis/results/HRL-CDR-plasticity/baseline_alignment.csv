@@ -1,0 +1,19 @@
+metric,higher,lower,n,exact_matches,max_absolute_difference
+setpoint-avg,4x (standard),1x (0 plasticity),250,250,0.0
+setpoint-avg,7x (6 plasticity),1x (0 plasticity),250,250,0.0
+setpoint-avg,7x (6 plasticity),4x (standard),250,250,0.0
+setpoint-dev,4x (standard),1x (0 plasticity),250,250,0.0
+setpoint-dev,7x (6 plasticity),1x (0 plasticity),250,250,0.0
+setpoint-dev,7x (6 plasticity),4x (standard),250,250,0.0
+reward-total,4x (standard),1x (0 plasticity),250,249,0.018830000000001235
+reward-total,7x (6 plasticity),1x (0 plasticity),250,249,0.01411600000000135
+reward-total,7x (6 plasticity),4x (standard),250,249,0.004713999999999885
+loss-total,4x (standard),1x (0 plasticity),250,250,0.0
+loss-total,7x (6 plasticity),1x (0 plasticity),250,250,0.0
+loss-total,7x (6 plasticity),4x (standard),250,250,0.0
+gain-total,4x (standard),1x (0 plasticity),250,250,0.0
+gain-total,7x (6 plasticity),1x (0 plasticity),250,250,0.0
+gain-total,7x (6 plasticity),4x (standard),250,250,0.0
+gains-harvested,4x (standard),1x (0 plasticity),250,250,0.0
+gains-harvested,7x (6 plasticity),1x (0 plasticity),250,250,0.0
+gains-harvested,7x (6 plasticity),4x (standard),250,250,0.0
