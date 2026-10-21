@@ -1,0 +1,5 @@
+# Paper analysis only; Python 3.12. These versions define the reproduction environment.
+numpy==2.2.6
+scipy==1.15.3
+PyYAML==6.0.2
+matplotlib==3.10.3

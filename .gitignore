@@ -80,3 +80,7 @@ logs/training/
 # Python analysis caches
 __pycache__/
 *.py[cod]
+
+# Reproducible paper outputs and local Python environment
+.venv/
+analysis/generated/

@@ -1,0 +1,90 @@
+[
+  {
+    "file": ".gitignore",
+    "sha256": "81ef8cfb5c5142780434f08d8f4b908ba5cf71fb3a3d09af5aa977592948f8e5"
+  },
+  {
+    "file": "README.md",
+    "sha256": "9505931211523d167394a16f167880febba67bab3dd9d1d0337998db6343138f"
+  },
+  {
+    "file": "build_settings_evidence.py",
+    "sha256": "52686b8c24435a8544bc91d27d25574b40f5ee599fafc9f9296df348ebb45486"
+  },
+  {
+    "file": "checkpoint_architectures.json",
+    "sha256": "e0df82cb24aaf01171d1d7af889629e7160d1a88fc057a70a1293e403c01b6a5"
+  },
+  {
+    "file": "checkpoint_inventory.json",
+    "sha256": "66f4b1b71bbec982b7f8942aaca8acb39254a4cdd20f1dbabf7f744876fa0c49"
+  },
+  {
+    "file": "collect_evidence.py",
+    "sha256": "4df2b54398923635f2b3a886a23881befc680955f7647d34b71437a3b906d5ec"
+  },
+  {
+    "file": "evaluation_data_provenance.json",
+    "sha256": "bac2f8689fd4218a5a81fff29876aa9ef18f44cae1b3ff38f35a614fbc09ba64"
+  },
+  {
+    "file": "evidence_manifest.json",
+    "sha256": "83a3ab0dd971aa60c7bf36937ef9a3155f4f4b5e5b0518fddcb06c2da539f209"
+  },
+  {
+    "file": "export_unreal_settings.py",
+    "sha256": "595fef0cd7dd9e8f7c28cb5f0bfcf1af56e6a092290dc34f565c790a8b2fe8aa"
+  },
+  {
+    "file": "inspect_checkpoints.py",
+    "sha256": "21245b772c0c86d77d2bbac7d81b823ef39caa50d6f35ce235cbf1f1cdaad820"
+  },
+  {
+    "file": "inspect_training_events.py",
+    "sha256": "822d0cd2112c967736644f82777e558d2b25c8e962017576ffe8d1ce28b86b1e"
+  },
+  {
+    "file": "package_evidence.py",
+    "sha256": "1188a46e28112c0ce971621131a0395682c3cf379325f3e5bc8ef946a629b848"
+  },
+  {
+    "file": "prepare_committed_snapshot.py",
+    "sha256": "248dd28c95c44d13e8d25f49c2ef1cf940cb4f4ee82e27f570368bb4558b5025"
+  },
+  {
+    "file": "query_blueprint.py",
+    "sha256": "70b8a333ac54682e0bb6151e863308fb1a6a6e182a594138b432e0760ffab98e"
+  },
+  {
+    "file": "representative_training_dashboard.png",
+    "sha256": "a4f7df3fc665b66cc5839197e9758427d80ca28a732ef18bad26785643ca28b6"
+  },
+  {
+    "file": "run_exports.ps1",
+    "sha256": "2ae48ea8104a771f7a74ce5e51eea29941cee228141176393020a4ad5a23511e"
+  },
+  {
+    "file": "settings.json",
+    "sha256": "5ef5c3bd5c024a81075515c8becd9f0289cb5b6b2b227de2d48cc791bc91491e"
+  },
+  {
+    "file": "source_manifest.json",
+    "sha256": "5123de4763b539fbfa5a9c4f2b5b6cc663f54397527a62dad05dcf2df738e224"
+  },
+  {
+    "file": "summarize_blueprints.py",
+    "sha256": "454c6c88d9b4a8b4c066cf0bcb92da3d44e442d37e1f1c60930080ff641256be"
+  },
+  {
+    "file": "training_configs.json",
+    "sha256": "962af7b096685b40c238f2205e9b25060e3a071aee9fde54f17bb0b6dec9d87c"
+  },
+  {
+    "file": "training_event_summary.json",
+    "sha256": "1cdefa105bfe3ea1dbdacba85e1c52e8e5bbfd49e4fd3ba0159a3ce1fbd437b6"
+  },
+  {
+    "file": "unreal-settings-evidence.zip",
+    "sha256": "46a9a9cb330a394e5ad2b93736acda87c1da7b6f2c2eb413b42ac2472ccb135a"
+  }
+]
