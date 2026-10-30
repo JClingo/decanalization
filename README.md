@@ -1,96 +1,72 @@
 # Modeling decanalization with homeostatic reinforcement learning
 
-Unreal Engine simulation, frozen evaluation data, and analysis for the paper by
-Joshua Clingo and Jeff Yoshimi. Two selected trained policies (HRL and NF) are
-evaluated under CDR (canalization, decanalization, recanalization) and CCC
-(uninterrupted canalization). The study has 250 trials per
-condition, 1,000 trials and 3,000 phase records in total.
+Code, trained policies, and results for the paper by Joshua Clingo and Jeff
+Yoshimi.
 
-The preprint (since significantly revised) is available [on PsyArXive](https://doi.org/10.31234/osf.io/y4x29_v1).
+An agent manages a homeostatic setpoint while foraging. It learns a cognitive
+map, and with it, confidence about where food is. Trained in a stable world, it
+canalizes. When the world changes (familiar resources degrade and better ones
+appear elsewhere), that confidence traps it in failing patterns:
+hypercanalization.
 
-## Reproduce the paper analysis
+A temporary decanalization releases the agent and restores its regulation. It
+relaxes the precision of the agent's beliefs and raises the randomness of its
+choices, without touching its physiology. The intervention works best at an
+intermediate intensity, and it helps an agent trained with homeostatic
+reinforcement learning (HRL) far more than one trained with a one-sided
+negative-feedback (NF) objective. The results hold across four training seeds
+per objective.
 
-No Unreal installation, GPU, or commercial plugin is needed to analyze the data.
-Clone this repository, or download and extract its GitHub source ZIP:
+| | HRL | NF |
+|---|---|---|
+| Trapped after the change, undisturbed | 0.70 [0.66, 0.73] | 0.48 [0.44, 0.51] |
+| Decanalization (boost 1, d = 1): change in phase-3 mean absolute h | −83 [−89, −77] | −34 [−54, −14] |
 
-```sh
-git clone https://github.com/JClingo/decanalization.git
-cd decanalization
-python3 -m venv .venv
-# macOS/Linux:
-source .venv/bin/activate
-# Windows PowerShell instead: .venv\Scripts\Activate.ps1
-python -m pip install -r analysis/requirements-paper.txt
-python analysis/reproduce.py --paper-figures
+## Layout
+
+| Path | Contents |
+|---|---|
+| `model/` | Python simulation, training, evaluation (see `model/README.md`) |
+| `results/policies/` | Selected trained policies, selection records, training curves |
+| `results/evaluations/` | Evaluations per training seed; pooled results; lever decomposition |
+| `results/development/` | Outputs of the development stages reported in the supplement |
+| `results/figures/` | Paper figure sources (pgfplots) and data |
+| `docs/` | Findings summary, prototype specification, cognitive-map development log |
+| `archive/unreal/` | Earlier Unreal Engine implementation and its frozen paper analysis |
+
+## Quick check
+
+```bash
+python -m pip install "numpy>=1.24"
 ```
 
-Use Python 3.12. `--paper-figures` additionally needs R with `Rscript` on PATH
-(base R only). Omit the flag to regenerate all statistics, reports, and Python
-figures without R. Windows can use `py -3.12 -m venv .venv` for the first command.
-Outputs go to `analysis/generated/paper/`; an existing output directory is never
-overwritten. Choose another with `--output analysis/generated/another-run`.
-
-To independently verify raw records and primary statistics with Python's standard
-library only (no dependency installation):
-
-```sh
-python analysis/reproduce.py --verify-only
+```bash
+cd model && python smoke_test.py
 ```
 
-The runner checks every archived file against its SHA-256 manifest, verifies all
-scene and snapshot hashes, regenerates outputs in a separate directory, compares
-six primary/supplementary CSV tables numerically with the archive, and repeats the
-independent primary statistical verification. See [the analysis guide](docs/ANALYSIS.md)
-for definitions, provenance, output mapping, and limitations.
+## Archived Unreal implementation
 
-## Run or adapt the Unreal simulation
+The first version of this study used an Unreal Engine 5.5 sandbox. Its agents
+did not form persistent routes, so it could not test decanalization. The
+supplement to the paper explains why.
 
-Start with [the Unreal setup and experiment guide](docs/UNREAL.md). The project is
-`ue_canalization.uproject`, associated with Unreal Engine 5.5. The implementation
-is mainly Blueprint assets, supplemented by Python training and logging helpers.
-Engine and Marketplace dependencies must be installed separately. The reference
-execution workflow is Windows; statistical analysis runs independently of it.
+It is preserved in `archive/unreal/`, and as it was before this restructure at
+the tag `unreal-v1`. Its frozen analysis still reproduces from the repository
+root:
 
-## Repository map
+```bash
+python -m pip install -r archive/unreal/analysis/requirements-paper.txt
+```
 
-| Location | Purpose |
-| --- | --- |
-| `Content/`, `Config/`, `ue_canalization.uproject` | Editable Unreal project |
-| `Content/Python/` | Runtime logging, resets, NF trainer selection |
-| `analysis/reproduce.py` | Portable paper reproduction entry point |
-| `analysis/paper-update-2026-10-17-reruns/` | Frozen corrected data, scripts, results, selected weights, scene records, provenance |
-| `analysis/homeostatic/` | HRL/NF objectives, PPO adapters, implementation validation |
-| `analysis/trial_metrics/`, `analysis/timing/` | Evaluation protocol and timing/reset validation |
-| `analysis/implementation-audit-2026-09-14/` | Historical implementation audit, not current 2026 settings |
-| `analysis/paper-update-2026-10-17/`, `analysis/data/`, `logs/` | Earlier analyses and archived logs; superseded for primary results |
-| `analysis/generated/` | Local regenerated outputs (ignored by Git) |
+```bash
+python archive/unreal/analysis/reproduce.py
+```
 
-The earlier ZIP bundles are historical distribution copies. The unpacked corrected
-package above is the source used by the reproduction command. Do not mix legacy
-schema-1 scores or dispersion fields with corrected schema-2 measurements.
+See `archive/unreal/README.md` for details. Unreal's local caches (`Saved/`,
+`Intermediate/`, `DerivedDataCache/`) are not tracked. To open the project in
+the editor, use `archive/unreal/ue_canalization.uproject`, or check out
+`unreal-v1`.
 
-## Validation of this packaging change
+## License
 
-The frozen-file manifest and independent standard-library verification pass:
-1,000 trials, 3,000 phases/scenes, 12 loaded snapshot hashes, 108 descriptive rows,
-and 144 contrasts. Both R manuscript figures reproduce byte-for-byte.
-Full NumPy/SciPy regeneration was attempted with the pinned Python 3.12
-dependencies, but this machine's macOS 27 loader rejected SciPy 1.15.3's compiled
-PROPACK library on both ARM and x86 before analysis could run.
-The historical audit passes all 22 import hashes and 189 archived evidence-file
-checks, including 87 native exports. The included
-[CI workflow](.github/workflows/reproduce-paper.yml) runs reproduction on Windows,
-macOS, and Linux, plus manuscript figure generation on Linux; its results are
-pending. A fresh Unreal launch with the external plugins remains untested here.
-
-## Licensing and attribution
-
-Original project code, including original Blueprint logic, is licensed under
-[MIT](LICENSE). Author-produced evaluation data are licensed under
-[CC BY 4.0](LICENSE-DATA.md). Unreal Engine, plugins, and third-party assets retain
-their own licenses; see [license scope](docs/LICENSING.md). Cite the paper when
-reusing the study.
-
-The retained raw records identify the selected policies and executed settings.
-Repeated evaluations do not establish generalization across independently trained
-policies.
+Code: MIT (`LICENSE`). Data: CC BY 4.0 (`LICENSE-DATA.md`).

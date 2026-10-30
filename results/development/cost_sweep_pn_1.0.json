@@ -1,0 +1,149 @@
+{
+ "trials": 32,
+ "criterion": "Stage-A cost sweep: two-sided costs so canalization can be adaptive and decanalization dosed.\n\nBase: the run-2 CHOSEN setting. Grid: breadth_cost {0.5, 1, 2} x dec_noise {0.5, 1, 2}.\nCriteria, fixed before running (seeds 1000+, 32 paired trials):\n  S1  stable world (degrade = 0): CCC phase-3 mean MAE below WIDE (paired CI upper < 0),\n      i.e. canalization pays when ruts do not degrade.\n  G1' degrading world: CCC phase-3 trap rate above WIDE (paired CI lower > 0).\n  G2' degrading world: d = 1 for 100 s lowers phase-3 trap rate vs CCC (paired CI upper < 0).\n  G3U inverted U over d in {0.25, 0.5, 0.75, 1} (100 s): the lowest phase-3 trap rate is at\n      d = 0.5 or 0.75 and is at least 0.08 below both d = 0.25 and d = 1.\nChoice: among configs passing all four, the deepest U (min gap to the two ends).\n",
+ "rows": [
+  {
+   "cfg": {
+    "q_lo": 3,
+    "q_hi": 15,
+    "h_seek": -3,
+    "h_avoid": 8,
+    "prior_gain": 0.8,
+    "fov_narrow": 0.6,
+    "range_narrow": 0.5,
+    "beta": 0.008333333333333333,
+    "breadth_cost": 0,
+    "dec_noise": 1,
+    "perc_noise": 1.0
+   },
+   "S1": {
+    "mean": 11.76755400931918,
+    "ci": [
+     7.526855335296412,
+     16.86071435052278
+    ],
+    "n": 32
+   },
+   "G1": {
+    "mean": 0.71875,
+    "ci": [
+     0.5625,
+     0.875
+    ],
+    "n": 32
+   },
+   "G2": {
+    "mean": -0.21875,
+    "ci": [
+     -0.4375,
+     0.0
+    ],
+    "n": 32
+   },
+   "trap_by_dose": {
+    "0.25": 0.5625,
+    "0.5": 0.59375,
+    "0.75": 0.625,
+    "1.0": 0.53125
+   },
+   "ccc_trap3": 0.75,
+   "wide_trap3": 0.03125,
+   "stable_mae3": {
+    "CCC": 26.074916876758298,
+    "WIDE": 14.30736286743912
+   },
+   "mae2_by_dose": {
+    "0.25": 27.9270522141736,
+    "0.5": 27.47065383596241,
+    "0.75": 23.672321548414534,
+    "1.0": 18.428328314633774
+   },
+   "mae3_by_dose": {
+    "0.25": 42.515196159309156,
+    "0.5": 37.650897288425774,
+    "0.75": 37.89045429693664,
+    "1.0": 41.968984364376844
+   },
+   "best_dose": 1.0,
+   "u_gap": 0.0,
+   "pass": {
+    "S1": false,
+    "G1": true,
+    "G2": false,
+    "G3U": false
+   }
+  },
+  {
+   "cfg": {
+    "q_lo": 3,
+    "q_hi": 15,
+    "h_seek": -3,
+    "h_avoid": 8,
+    "prior_gain": 0.8,
+    "fov_narrow": 0.6,
+    "range_narrow": 0.5,
+    "beta": 0.008333333333333333,
+    "breadth_cost": 0,
+    "dec_noise": 2,
+    "perc_noise": 1.0
+   },
+   "S1": {
+    "mean": 11.76755400931918,
+    "ci": [
+     7.526855335296412,
+     16.86071435052278
+    ],
+    "n": 32
+   },
+   "G1": {
+    "mean": 0.71875,
+    "ci": [
+     0.5625,
+     0.875
+    ],
+    "n": 32
+   },
+   "G2": {
+    "mean": -0.21875,
+    "ci": [
+     -0.4375,
+     -0.03125
+    ],
+    "n": 32
+   },
+   "trap_by_dose": {
+    "0.25": 0.59375,
+    "0.5": 0.71875,
+    "0.75": 0.5625,
+    "1.0": 0.53125
+   },
+   "ccc_trap3": 0.75,
+   "wide_trap3": 0.03125,
+   "stable_mae3": {
+    "CCC": 26.074916876758298,
+    "WIDE": 14.30736286743912
+   },
+   "mae2_by_dose": {
+    "0.25": 27.33567184455297,
+    "0.5": 31.594868593022685,
+    "0.75": 27.271776021925174,
+    "1.0": 18.748800545948423
+   },
+   "mae3_by_dose": {
+    "0.25": 55.78473772419399,
+    "0.5": 60.814494980388616,
+    "0.75": 40.1809086565557,
+    "1.0": 40.7474694887225
+   },
+   "best_dose": 1.0,
+   "u_gap": 0.0,
+   "pass": {
+    "S1": false,
+    "G1": true,
+    "G2": true,
+    "G3U": false
+   }
+  }
+ ],
+ "choice": null
+}
