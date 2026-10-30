@@ -19,6 +19,7 @@ the full method.
 | `eval_policies.py` | Main evaluation: undisturbed, low-precision reference, decanalization cells. |
 | `pool_seeds.py` | Pools evaluations across training seeds (seed = unit of inference). |
 | `levers_learned.py` | Lever decomposition (entropy-only arms). |
+| `make_figure_data.py` | Regenerates the paper's figure data and figure PDFs. |
 | `smoke_test.py` | Quick check that the saved policies run. |
 | `gates.py`, `sweep.py`, `cost_sweep.py`, `confirm_dose.py` | Development stage A: imposed narrowing. |
 | `map_gates.py`, `trap_diag.py`, `map_levers.py`, `map_levers2.py`, `confirm_map.py`, `surface.py` | Development: cognitive map with the hand-written planner. |
@@ -70,7 +71,19 @@ python ppo_train.py HRL 60 _stable_s1 '{"degrade":0.0,"rich_patches":0}' 1
 python select_ckpt.py HRL _stable_s1 '{"degrade":0.0,"rich_patches":0}'
 ```
 
-**Pool the seeds and decompose the levers:**
+**Reproduce the paper's statistics and figures from the published outputs** (numpy only, seconds):
+
+```bash
+python pool_seeds.py --published
+```
+
+```bash
+python make_figure_data.py
+```
+
+Both write to `runs/`; their outputs match `../results/evaluations/pooled_seeds.json` and `../results/figures/*.dat` exactly.
+
+**Pool your own evaluations and decompose the levers:**
 
 ```bash
 python pool_seeds.py
