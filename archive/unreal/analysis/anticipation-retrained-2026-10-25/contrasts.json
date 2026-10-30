@@ -1,0 +1,38 @@
+[
+  {
+    "family": "HRL",
+    "metric": "mae",
+    "contrast": "mean(P3-P1, CDR) - mean(P3-P1, CCC)",
+    "estimate": -3.3315562944980335,
+    "ci95_low": -10.137130475533281,
+    "ci95_high": 1.9186699787391122,
+    "trials_per_condition": 250
+  },
+  {
+    "family": "HRL",
+    "metric": "reward",
+    "contrast": "mean(P3-P1, CDR) - mean(P3-P1, CCC)",
+    "estimate": 0.8375739742729928,
+    "ci95_low": -1.5578503337846983,
+    "ci95_high": 3.193478251863952,
+    "trials_per_condition": 250
+  },
+  {
+    "family": "NF",
+    "metric": "mae",
+    "contrast": "mean(P3-P1, CDR) - mean(P3-P1, CCC)",
+    "estimate": 24.625687751298294,
+    "ci95_low": -25.451003256271022,
+    "ci95_high": 88.0062858031114,
+    "trials_per_condition": 250
+  },
+  {
+    "family": "NF",
+    "metric": "reward",
+    "contrast": "mean(P3-P1, CDR) - mean(P3-P1, CCC)",
+    "estimate": 2.8021756461481964,
+    "ci95_low": 1.6311526052229466,
+    "ci95_high": 3.983969251308778,
+    "trials_per_condition": 250
+  }
+]

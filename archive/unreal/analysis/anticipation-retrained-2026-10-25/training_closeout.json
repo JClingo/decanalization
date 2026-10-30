@@ -1,0 +1,47 @@
+{
+  "closed_at": "2026-10-26T07:44:13.034554+00:00",
+  "runs": {
+    "HRL": {
+      "engine_result": {
+        "passed": true,
+        "error": null,
+        "wall_seconds": 4528.247943082941
+      },
+      "trainer_completion": {
+        "reason": "stop-request",
+        "steps": 2560000,
+        "gathers": 256,
+        "wall_seconds": 4528.230465666973
+      },
+      "trainer_error": null,
+      "transitions": 2560000,
+      "gathers": 256,
+      "best_screening_gather": 75,
+      "screening_mae": 11.06831508419941,
+      "screening_reward": 248.2233357980149,
+      "checks_without_material_improvement": 7,
+      "original_minimum_gathers": 320,
+      "reached_original_minimum": false
+    },
+    "NF": {
+      "engine_result": {
+        "passed": false,
+        "error": "Traceback (most recent call last):\n  File \"/tmp/anticipation-retrain/training_runtime.py\", line 22, in tick\n    if trainer and trainer.has_training_failed():raise RuntimeError('Native PPO training failed; inspect training.log')\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Native PPO training failed; inspect training.log\n",
+        "wall_seconds": 7183.916164833005
+      },
+      "trainer_completion": null,
+      "trainer_error": {
+        "error": "Traceback (most recent call last):\n  File \"/Users/jingo/Work/PhD/Dissertation Project/decanalization/Saved/AnticipationRetrain20261025/NF/TestProject/analysis/homeostatic/goal_ppo.py\", line 50, in train\n    try:trainer.train(settings,Recorder(communicator,effective))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/jingo/Work/PhD/Dissertation Project/decanalization/Saved/AnticipationRetrain20261025/NF/TestProject/analysis/homeostatic/nf_ppo.py\", line 208, in train\n    epic.train(settings, proxy)\n  File \"/Users/Shared/Epic Games/UE_5.5/Engine/Plugins/Experimental/LearningAgents/Content/Python/train_ppo.py\", line 224, in train\n    stats = ppo_trainer.train(\n            ^^^^^^^^^^^^^^^^^^\n  File \"/Users/jingo/Work/PhD/Dissertation Project/decanalization/Saved/AnticipationRetrain20261025/NF/TestProject/analysis/homeostatic/nf_ppo.py\", line 125, in train\n    return super().train(buffer, policy_batch_size, critic_batch_size, iterations, policy_window, update_func)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/Shared/Epic Games/UE_5.5/Engine/Plugins/Experimental/LearningAgents/Content/Python/ppo.py\", line 557, in train\n    update_func()\n  File \"/Users/Shared/Epic Games/UE_5.5/Engine/Plugins/Experimental/LearningAgents/Content/Python/train_ppo.py\", line 230, in <lambda>\n    update_func=lambda: communicator.send_ping())\n                        ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/Shared/Epic Games/UE_5.5/Engine/Plugins/Experimental/LearningAgents/Content/Python/train_common.py\", line 1068, in send_ping\n    return socket_send_ping(self.socket)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/Shared/Epic Games/UE_5.5/Engine/Plugins/Experimental/LearningAgents/Content/Python/train_common.py\", line 710, in socket_send_ping\n    socket_send_all(socket, b'%c' % UE_SOCKET_SIGNAL_RECEIVE_PING)\n  File \"/Users/Shared/Epic Games/UE_5.5/Engine/Plugins/Experimental/LearningAgents/Content/Python/train_common.py\", line 679, in socket_send_all\n    sent += sock.send(data[sent:])\n            ^^^^^^^^^^^^^^^^^^^^^^\nBrokenPipeError: [Errno 32] Broken pipe\n"
+      },
+      "transitions": 5380000,
+      "gathers": 538,
+      "best_screening_gather": 425,
+      "screening_mae": 16.871776779340603,
+      "screening_reward": 54.539968505665456,
+      "checks_without_material_improvement": 4,
+      "original_minimum_gathers": 640,
+      "reached_original_minimum": false
+    }
+  },
+  "decision": "Proceed to independent candidate confirmation after goal plateaus; NF ended with a retained transport failure before its originally planned 640-gather floor. All historical winners, fresh and refined candidates remain available."
+}

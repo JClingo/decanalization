@@ -1,0 +1,42 @@
+{
+ "rule": "Pick each family's checkpoint on held-out validation trials (seeds 20000+, 8 trials, no intervention),\nby its own objective: HRL minimum mean |h|, NF minimum mean deficit max(-h, 0). Candidates: every 5th\niteration from 20, plus the last. Writes runs/policy_{family}.npz and runs/selection_{family}.json.\n",
+ "table": {
+  "runs/ckpt_NF_stable_s2/it020.npz": {
+   "objective": 0.06848433135776837,
+   "mae": 70.89999573414138
+  },
+  "runs/ckpt_NF_stable_s2/it025.npz": {
+   "objective": 0.272272093722917,
+   "mae": 55.30375043444553
+  },
+  "runs/ckpt_NF_stable_s2/it030.npz": {
+   "objective": 0.06481422931209341,
+   "mae": 61.75327041465879
+  },
+  "runs/ckpt_NF_stable_s2/it035.npz": {
+   "objective": 0.08907189113611974,
+   "mae": 74.99393035080138
+  },
+  "runs/ckpt_NF_stable_s2/it040.npz": {
+   "objective": 0.27275119152974286,
+   "mae": 61.088232080473055
+  },
+  "runs/ckpt_NF_stable_s2/it045.npz": {
+   "objective": 0.7838897818131817,
+   "mae": 60.97619880390667
+  },
+  "runs/ckpt_NF_stable_s2/it050.npz": {
+   "objective": 0.0585006086681726,
+   "mae": 105.52632711383639
+  },
+  "runs/ckpt_NF_stable_s2/it055.npz": {
+   "objective": 0.14895130347266497,
+   "mae": 94.57500458592192
+  },
+  "runs/ckpt_NF_stable_s2/it059.npz": {
+   "objective": 0.052645955277883155,
+   "mae": 134.89292657290096
+  }
+ },
+ "selected": "runs/ckpt_NF_stable_s2/it059.npz"
+}

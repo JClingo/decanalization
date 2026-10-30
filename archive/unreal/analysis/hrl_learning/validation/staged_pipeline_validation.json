@@ -1,0 +1,1144 @@
+{
+  "protocol": {
+    "stage": "canalization-learning",
+    "purpose": "pipeline-validation",
+    "names": [
+      "baseline",
+      "canalization-aware"
+    ],
+    "profiles": {
+      "baseline": {
+        "name": "baseline",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.99,
+        "gae_lambda": 0.95,
+        "window": 16,
+        "policy_batch": 2056,
+        "critic_batch": 4096,
+        "updates": 32,
+        "policy_lr": 0.0001,
+        "critic_lr": 0.001,
+        "entropy_start": 0.001,
+        "entropy_end": 0.001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 1.0,
+        "guarded": false,
+        "objective": "log",
+        "target_kl": 0.015,
+        "clip": 0.2,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 1028,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      },
+      "canalization-aware": {
+        "name": "canalization-aware",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.9975,
+        "gae_lambda": 0.97,
+        "window": 64,
+        "policy_batch": 512,
+        "critic_batch": 4096,
+        "updates": 8,
+        "policy_lr": 3e-05,
+        "critic_lr": 0.0003,
+        "entropy_start": 0.001,
+        "entropy_end": 0.0001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 0.1,
+        "guarded": true,
+        "objective": "ratio",
+        "target_kl": 0.015,
+        "clip": 0.1,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 6000,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    },
+    "seeds": [
+      1201,
+      2301,
+      3401
+    ],
+    "max_gathers": 1,
+    "checkpoint_every": 1,
+    "minimum_gathers": 1,
+    "patience": 1,
+    "trials": 1,
+    "checkpoint_seed": 41001,
+    "confirmation_seed": null,
+    "final_test_seed_reserved": 61001,
+    "counting": "one per entry throughout; half-floor at recanalization",
+    "policy_selection": "CCC time-MAE only; CDR excluded",
+    "reward_from": "baseline",
+    "training_world_context": "canalization-persistent"
+  },
+  "results": [
+    {
+      "passed": true,
+      "trials": [
+        {
+          "trial": 0,
+          "time_mae": 137.04936519814268,
+          "fraction_within_5": 0.050833333333333335,
+          "phases": [
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 173.82406212466893,
+              "time_rmse": 210.71512964295593,
+              "time_mean_signed": -167.82059060315711,
+              "fraction_within_5": 0.018,
+              "fraction_above_100": 0.668,
+              "maximum_absolute_h": 352.07823183511357,
+              "completed_recoveries": 2,
+              "mean_completed_excursion_seconds": 6.000000089406967,
+              "censored_excursion_seconds": 86.2000012844801
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 38.56977288066327,
+              "time_rmse": 48.941374641358806,
+              "time_mean_signed": 26.5494064398773,
+              "fraction_within_5": 0.117,
+              "fraction_above_100": 0.0155,
+              "maximum_absolute_h": 110.48733353428534,
+              "completed_recoveries": 10,
+              "mean_completed_excursion_seconds": 8.03500011973083,
+              "censored_excursion_seconds": 7.9500001184642315
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 198.75426058909585,
+              "time_rmse": 223.48275738771747,
+              "time_mean_signed": -198.53409527816538,
+              "fraction_within_5": 0.0175,
+              "fraction_above_100": 0.772,
+              "maximum_absolute_h": 364.18491364208313,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.0000000149011612,
+              "censored_excursion_seconds": 97.25000144913793
+            }
+          ]
+        }
+      ],
+      "mean_time_mae": 137.04936519814268,
+      "mean_fraction_within_5": 0.050833333333333335,
+      "evaluation_seed": 41001,
+      "order": "ccc",
+      "checkpoint": {
+        "steps": 10000,
+        "gathers": 1,
+        "training_time_mae": 45.201978846682835,
+        "training_time_rmse": 53.18593572019357,
+        "training_fraction_within_5": 0.0532,
+        "training_fraction_above_100": 0.0043,
+        "terminated_transitions": 21,
+        "truncated_transitions": 1,
+        "native_reward_mean": 0.01644948906598147,
+        "wall_seconds": 10.009020249941386,
+        "snapshots": {
+          "policy": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201/checkpoints/gather-00001/policy.bin",
+            "sha256": "4ac3efaa579ba2d3cfcba8e13627eea93a52e2d644abba8eb75b0b85b604bbc1"
+          },
+          "critic": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201/checkpoints/gather-00001/critic.bin",
+            "sha256": "ee279c68a4c98fc6314dcad92ff2a1ce430fafbf4fd9875979141af4bf62aad3"
+          },
+          "encoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201/checkpoints/gather-00001/encoder.bin",
+            "sha256": "b1735a0dd48c70979ad6a06a394a1937c98457aa408036ef93f62887dacf37f0"
+          },
+          "decoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201/checkpoints/gather-00001/decoder.bin",
+            "sha256": "910178450c5ae9648c8de4ace6ae2e1c2e9c8a597666576943271e44dee2d846"
+          }
+        },
+        "profile": {
+          "name": "baseline",
+          "reward": "quality",
+          "distance_scale": 25.0,
+          "discount": 0.99,
+          "gae_lambda": 0.95,
+          "window": 16,
+          "policy_batch": 2056,
+          "critic_batch": 4096,
+          "updates": 32,
+          "policy_lr": 0.0001,
+          "critic_lr": 0.001,
+          "entropy_start": 0.001,
+          "entropy_end": 0.001,
+          "anneal_steps": 2000000,
+          "lr_end_fraction": 1.0,
+          "guarded": false,
+          "objective": "log",
+          "target_kl": 0.015,
+          "clip": 0.2,
+          "grad_norm": 0.5,
+          "dt": 0.05,
+          "failure_boundary": 100.0,
+          "failure_reward": -1.0,
+          "segment_steps": 1028,
+          "episode_seconds": 300.0,
+          "reset_world_on_update": false,
+          "terminal_reward": -1.0,
+          "failure_accounting": "native-terminal-penalty"
+        },
+        "policy_seed": 1201,
+        "environment_seed": 101201
+      },
+      "metrics": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201-validation-1/TrialResults/HRL-CCC-B28243751646ECD90F494C992B7E28FA.metrics.json",
+      "profile": {
+        "name": "baseline",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.99,
+        "gae_lambda": 0.95,
+        "window": 16,
+        "policy_batch": 2056,
+        "critic_batch": 4096,
+        "updates": 32,
+        "policy_lr": 0.0001,
+        "critic_lr": 0.001,
+        "entropy_start": 0.001,
+        "entropy_end": 0.001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 1.0,
+        "guarded": false,
+        "objective": "log",
+        "target_kl": 0.015,
+        "clip": 0.2,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 1028,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    },
+    {
+      "passed": true,
+      "trials": [
+        {
+          "trial": 0,
+          "time_mae": 123.24176094974564,
+          "fraction_within_5": 0.044333333333333336,
+          "phases": [
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 83.21895800157935,
+              "time_rmse": 101.22956521334459,
+              "time_mean_signed": -82.49512139377669,
+              "fraction_within_5": 0.0335,
+              "fraction_above_100": 0.396,
+              "maximum_absolute_h": 203.58468543662678,
+              "completed_recoveries": 5,
+              "mean_completed_excursion_seconds": 3.9500000588595867,
+              "censored_excursion_seconds": 76.9000011458993
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 165.292965963638,
+              "time_rmse": 186.4526164250628,
+              "time_mean_signed": -164.60966341361524,
+              "fraction_within_5": 0.023,
+              "fraction_above_100": 0.7575,
+              "maximum_absolute_h": 310.78235822902826,
+              "completed_recoveries": 2,
+              "mean_completed_excursion_seconds": 1.625000024214387,
+              "censored_excursion_seconds": 94.45000140741467
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 121.21335888401953,
+              "time_rmse": 146.55484139509068,
+              "time_mean_signed": -120.43088368405131,
+              "fraction_within_5": 0.0765,
+              "fraction_above_100": 0.617,
+              "maximum_absolute_h": 272.4413002087439,
+              "completed_recoveries": 4,
+              "mean_completed_excursion_seconds": 2.6625000396743417,
+              "censored_excursion_seconds": 81.70000121742487
+            }
+          ]
+        }
+      ],
+      "mean_time_mae": 123.24176094974564,
+      "mean_fraction_within_5": 0.044333333333333336,
+      "evaluation_seed": 41001,
+      "order": "ccc",
+      "checkpoint": {
+        "steps": 10000,
+        "gathers": 1,
+        "training_time_mae": 46.676619133000166,
+        "training_time_rmse": 54.09689644667772,
+        "training_fraction_within_5": 0.0482,
+        "training_fraction_above_100": 0.0045,
+        "terminated_transitions": 22,
+        "truncated_transitions": 1,
+        "native_reward_mean": 0.015226054986519738,
+        "wall_seconds": 8.338107750052586,
+        "snapshots": {
+          "policy": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301/checkpoints/gather-00001/policy.bin",
+            "sha256": "a0299b8c8dd727093c7a2d9eb253072bed11e1e950c47b92d6cea62f1f08dd30"
+          },
+          "critic": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301/checkpoints/gather-00001/critic.bin",
+            "sha256": "71c6be20155b522514b0235ccb8798eb2bc9e97695ba6a2fc9e50ece29930b7e"
+          },
+          "encoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301/checkpoints/gather-00001/encoder.bin",
+            "sha256": "84d9e1accf3de870d656886e101700a425dcf45e39bba96cf19c02a71f4edb4a"
+          },
+          "decoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301/checkpoints/gather-00001/decoder.bin",
+            "sha256": "0ecac1d8417eeffce72198dba38b9fe649193ea8c0c43429898e4c893e0ff1b0"
+          }
+        },
+        "profile": {
+          "name": "baseline",
+          "reward": "quality",
+          "distance_scale": 25.0,
+          "discount": 0.99,
+          "gae_lambda": 0.95,
+          "window": 16,
+          "policy_batch": 2056,
+          "critic_batch": 4096,
+          "updates": 32,
+          "policy_lr": 0.0001,
+          "critic_lr": 0.001,
+          "entropy_start": 0.001,
+          "entropy_end": 0.001,
+          "anneal_steps": 2000000,
+          "lr_end_fraction": 1.0,
+          "guarded": false,
+          "objective": "log",
+          "target_kl": 0.015,
+          "clip": 0.2,
+          "grad_norm": 0.5,
+          "dt": 0.05,
+          "failure_boundary": 100.0,
+          "failure_reward": -1.0,
+          "segment_steps": 1028,
+          "episode_seconds": 300.0,
+          "reset_world_on_update": false,
+          "terminal_reward": -1.0,
+          "failure_accounting": "native-terminal-penalty"
+        },
+        "policy_seed": 2301,
+        "environment_seed": 102301
+      },
+      "metrics": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301-validation-1/TrialResults/HRL-CCC-B7E572405B462854F2ADCA8AB1A94A89.metrics.json",
+      "profile": {
+        "name": "baseline",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.99,
+        "gae_lambda": 0.95,
+        "window": 16,
+        "policy_batch": 2056,
+        "critic_batch": 4096,
+        "updates": 32,
+        "policy_lr": 0.0001,
+        "critic_lr": 0.001,
+        "entropy_start": 0.001,
+        "entropy_end": 0.001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 1.0,
+        "guarded": false,
+        "objective": "log",
+        "target_kl": 0.015,
+        "clip": 0.2,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 1028,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    },
+    {
+      "passed": true,
+      "trials": [
+        {
+          "trial": 0,
+          "time_mae": 176.72412013291864,
+          "fraction_within_5": 0.022833333333333334,
+          "phases": [
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 211.41802190729558,
+              "time_rmse": 247.90634436631075,
+              "time_mean_signed": -210.73154469231102,
+              "fraction_within_5": 0.0145,
+              "fraction_above_100": 0.7595,
+              "maximum_absolute_h": 414.7128482796287,
+              "completed_recoveries": 2,
+              "mean_completed_excursion_seconds": 1.4750000219792128,
+              "censored_excursion_seconds": 95.60000142455101
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 194.4961698739716,
+              "time_rmse": 226.33813121024332,
+              "time_mean_signed": -194.2003828155532,
+              "fraction_within_5": 0.012,
+              "fraction_above_100": 0.71,
+              "maximum_absolute_h": 393.4907151337589,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.4000000208616257,
+              "censored_excursion_seconds": 97.4000014513731
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 124.25816861748872,
+              "time_rmse": 148.33663828166723,
+              "time_mean_signed": -123.93920279765989,
+              "fraction_within_5": 0.042,
+              "fraction_above_100": 0.578,
+              "maximum_absolute_h": 251.55515385230018,
+              "completed_recoveries": 3,
+              "mean_completed_excursion_seconds": 3.3666667168339095,
+              "censored_excursion_seconds": 85.70000127702951
+            }
+          ]
+        }
+      ],
+      "mean_time_mae": 176.72412013291864,
+      "mean_fraction_within_5": 0.022833333333333334,
+      "evaluation_seed": 41001,
+      "order": "ccc",
+      "checkpoint": {
+        "steps": 10000,
+        "gathers": 1,
+        "training_time_mae": 50.3497732724822,
+        "training_time_rmse": 56.87668259235017,
+        "training_fraction_within_5": 0.0237,
+        "training_fraction_above_100": 0.0046,
+        "terminated_transitions": 23,
+        "truncated_transitions": 1,
+        "native_reward_mean": 0.01294923321523238,
+        "wall_seconds": 7.823305333964527,
+        "snapshots": {
+          "policy": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401/checkpoints/gather-00001/policy.bin",
+            "sha256": "746abee7b6b22ef06797bb59606ef5cfc14757ce17795c3ed9b21848fa7cfeae"
+          },
+          "critic": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401/checkpoints/gather-00001/critic.bin",
+            "sha256": "8276df93274c5120023d05916270db493df817f7ae4e48ed19991f647df81d87"
+          },
+          "encoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401/checkpoints/gather-00001/encoder.bin",
+            "sha256": "1b5a03be57785a9c6ffdf8e7e0953e1655528317ca7cbbd52074f9229a681e83"
+          },
+          "decoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401/checkpoints/gather-00001/decoder.bin",
+            "sha256": "4850e9d696cfaced86025d2200aebb1b4d6a01bfc9677209e7d5387fdfde9e1a"
+          }
+        },
+        "profile": {
+          "name": "baseline",
+          "reward": "quality",
+          "distance_scale": 25.0,
+          "discount": 0.99,
+          "gae_lambda": 0.95,
+          "window": 16,
+          "policy_batch": 2056,
+          "critic_batch": 4096,
+          "updates": 32,
+          "policy_lr": 0.0001,
+          "critic_lr": 0.001,
+          "entropy_start": 0.001,
+          "entropy_end": 0.001,
+          "anneal_steps": 2000000,
+          "lr_end_fraction": 1.0,
+          "guarded": false,
+          "objective": "log",
+          "target_kl": 0.015,
+          "clip": 0.2,
+          "grad_norm": 0.5,
+          "dt": 0.05,
+          "failure_boundary": 100.0,
+          "failure_reward": -1.0,
+          "segment_steps": 1028,
+          "episode_seconds": 300.0,
+          "reset_world_on_update": false,
+          "terminal_reward": -1.0,
+          "failure_accounting": "native-terminal-penalty"
+        },
+        "policy_seed": 3401,
+        "environment_seed": 103401
+      },
+      "metrics": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401-validation-1/TrialResults/HRL-CCC-BD9BF6B8E34D47519A4E22B1AF90F7B2.metrics.json",
+      "profile": {
+        "name": "baseline",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.99,
+        "gae_lambda": 0.95,
+        "window": 16,
+        "policy_batch": 2056,
+        "critic_batch": 4096,
+        "updates": 32,
+        "policy_lr": 0.0001,
+        "critic_lr": 0.001,
+        "entropy_start": 0.001,
+        "entropy_end": 0.001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 1.0,
+        "guarded": false,
+        "objective": "log",
+        "target_kl": 0.015,
+        "clip": 0.2,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 1028,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    },
+    {
+      "passed": true,
+      "trials": [
+        {
+          "trial": 0,
+          "time_mae": 196.01158389266183,
+          "fraction_within_5": 0.021666666666666667,
+          "phases": [
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 265.878096544106,
+              "time_rmse": 309.8189839547865,
+              "time_mean_signed": -265.22163347232754,
+              "fraction_within_5": 0.017,
+              "fraction_above_100": 0.803,
+              "maximum_absolute_h": 553.0560867643595,
+              "completed_recoveries": 2,
+              "mean_completed_excursion_seconds": 1.4000000208616257,
+              "censored_excursion_seconds": 95.5000014230609
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 171.24924179669364,
+              "time_rmse": 207.74780059894863,
+              "time_mean_signed": -170.08552193715445,
+              "fraction_within_5": 0.0305,
+              "fraction_above_100": 0.645,
+              "maximum_absolute_h": 407.20027446187845,
+              "completed_recoveries": 3,
+              "mean_completed_excursion_seconds": 1.883333361397187,
+              "censored_excursion_seconds": 91.30000136047602
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 150.90741333718586,
+              "time_rmse": 178.84333410816498,
+              "time_mean_signed": -150.59828586431146,
+              "fraction_within_5": 0.0175,
+              "fraction_above_100": 0.5775,
+              "maximum_absolute_h": 332.21820752073745,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.5000000223517418,
+              "censored_excursion_seconds": 96.75000144168735
+            }
+          ]
+        }
+      ],
+      "mean_time_mae": 196.01158389266183,
+      "mean_fraction_within_5": 0.021666666666666667,
+      "evaluation_seed": 41001,
+      "order": "ccc",
+      "checkpoint": {
+        "steps": 10000,
+        "gathers": 1,
+        "training_time_mae": 45.201978846682835,
+        "training_time_rmse": 53.18593572019357,
+        "training_fraction_within_5": 0.0532,
+        "training_fraction_above_100": 0.0043,
+        "terminated_transitions": 21,
+        "truncated_transitions": 1,
+        "native_reward_mean": 0.01644948906598147,
+        "wall_seconds": 7.353089167037979,
+        "snapshots": {
+          "policy": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201/checkpoints/gather-00001/policy.bin",
+            "sha256": "df796378a26861760852a71dc13e9097cd77d2267cb17fc5acddceeb9cfebaa5"
+          },
+          "critic": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201/checkpoints/gather-00001/critic.bin",
+            "sha256": "da7422f7c662de47e63cbf49fe28f388f8b9caaae9684f5f29bdc846b2c4aeec"
+          },
+          "encoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201/checkpoints/gather-00001/encoder.bin",
+            "sha256": "79249585f5186209dba54919b1c59b9c2fb43a774d50e223499e7134f2045a47"
+          },
+          "decoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201/checkpoints/gather-00001/decoder.bin",
+            "sha256": "d4e47d2d627a3a2d244baacd849437066318abf549098f0526554d1aa4513ee2"
+          }
+        },
+        "profile": {
+          "name": "canalization-aware",
+          "reward": "quality",
+          "distance_scale": 25.0,
+          "discount": 0.9975,
+          "gae_lambda": 0.97,
+          "window": 64,
+          "policy_batch": 512,
+          "critic_batch": 4096,
+          "updates": 8,
+          "policy_lr": 3e-05,
+          "critic_lr": 0.0003,
+          "entropy_start": 0.001,
+          "entropy_end": 0.0001,
+          "anneal_steps": 2000000,
+          "lr_end_fraction": 0.1,
+          "guarded": true,
+          "objective": "ratio",
+          "target_kl": 0.015,
+          "clip": 0.1,
+          "grad_norm": 0.5,
+          "dt": 0.05,
+          "failure_boundary": 100.0,
+          "failure_reward": -1.0,
+          "segment_steps": 6000,
+          "episode_seconds": 300.0,
+          "reset_world_on_update": false,
+          "terminal_reward": -1.0,
+          "failure_accounting": "native-terminal-penalty"
+        },
+        "policy_seed": 1201,
+        "environment_seed": 101201
+      },
+      "metrics": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201-validation-1/TrialResults/HRL-CCC-80E7EEAD3740675092F6ACAECC6FA10B.metrics.json",
+      "profile": {
+        "name": "canalization-aware",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.9975,
+        "gae_lambda": 0.97,
+        "window": 64,
+        "policy_batch": 512,
+        "critic_batch": 4096,
+        "updates": 8,
+        "policy_lr": 3e-05,
+        "critic_lr": 0.0003,
+        "entropy_start": 0.001,
+        "entropy_end": 0.0001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 0.1,
+        "guarded": true,
+        "objective": "ratio",
+        "target_kl": 0.015,
+        "clip": 0.1,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 6000,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    },
+    {
+      "passed": true,
+      "trials": [
+        {
+          "trial": 0,
+          "time_mae": 181.46563168434855,
+          "fraction_within_5": 0.02266666666666667,
+          "phases": [
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 153.66138455096564,
+              "time_rmse": 187.27120403007493,
+              "time_mean_signed": -153.39965970696812,
+              "fraction_within_5": 0.0285,
+              "fraction_above_100": 0.579,
+              "maximum_absolute_h": 364.9678377596037,
+              "completed_recoveries": 2,
+              "mean_completed_excursion_seconds": 10.525000156834722,
+              "censored_excursion_seconds": 76.10000113397837
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 206.00221157044658,
+              "time_rmse": 241.11411035772088,
+              "time_mean_signed": -205.79095445718482,
+              "fraction_within_5": 0.015,
+              "fraction_above_100": 0.7635,
+              "maximum_absolute_h": 463.42495163707633,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.0000000149011612,
+              "censored_excursion_seconds": 97.50000145286322
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 184.73329893163347,
+              "time_rmse": 201.91805262490482,
+              "time_mean_signed": -184.506466953937,
+              "fraction_within_5": 0.0245,
+              "fraction_above_100": 0.825,
+              "maximum_absolute_h": 310.449241193013,
+              "completed_recoveries": 2,
+              "mean_completed_excursion_seconds": 0.7250000108033419,
+              "censored_excursion_seconds": 96.10000143200159
+            }
+          ]
+        }
+      ],
+      "mean_time_mae": 181.46563168434855,
+      "mean_fraction_within_5": 0.02266666666666667,
+      "evaluation_seed": 41001,
+      "order": "ccc",
+      "checkpoint": {
+        "steps": 10000,
+        "gathers": 1,
+        "training_time_mae": 46.676619133000166,
+        "training_time_rmse": 54.09689644667772,
+        "training_fraction_within_5": 0.0482,
+        "training_fraction_above_100": 0.0045,
+        "terminated_transitions": 22,
+        "truncated_transitions": 1,
+        "native_reward_mean": 0.015226054986519738,
+        "wall_seconds": 7.8248147499980405,
+        "snapshots": {
+          "policy": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301/checkpoints/gather-00001/policy.bin",
+            "sha256": "ee45473c4ff6c4f3e1bf111c33d354af44fce4dc10b81b247f18fb4e23132234"
+          },
+          "critic": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301/checkpoints/gather-00001/critic.bin",
+            "sha256": "5e7a7417bb749ff9ad708191ca510363e2c193cec5f4897ad378c20113f690dd"
+          },
+          "encoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301/checkpoints/gather-00001/encoder.bin",
+            "sha256": "09fed83e124bade09dae20d3234ade696df9fce86617973b1aa3448a9bc7fdbf"
+          },
+          "decoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301/checkpoints/gather-00001/decoder.bin",
+            "sha256": "82175b006f0f6f5f6fc71b92d2ca95570f0de19f1a39511f37532e826affca9a"
+          }
+        },
+        "profile": {
+          "name": "canalization-aware",
+          "reward": "quality",
+          "distance_scale": 25.0,
+          "discount": 0.9975,
+          "gae_lambda": 0.97,
+          "window": 64,
+          "policy_batch": 512,
+          "critic_batch": 4096,
+          "updates": 8,
+          "policy_lr": 3e-05,
+          "critic_lr": 0.0003,
+          "entropy_start": 0.001,
+          "entropy_end": 0.0001,
+          "anneal_steps": 2000000,
+          "lr_end_fraction": 0.1,
+          "guarded": true,
+          "objective": "ratio",
+          "target_kl": 0.015,
+          "clip": 0.1,
+          "grad_norm": 0.5,
+          "dt": 0.05,
+          "failure_boundary": 100.0,
+          "failure_reward": -1.0,
+          "segment_steps": 6000,
+          "episode_seconds": 300.0,
+          "reset_world_on_update": false,
+          "terminal_reward": -1.0,
+          "failure_accounting": "native-terminal-penalty"
+        },
+        "policy_seed": 2301,
+        "environment_seed": 102301
+      },
+      "metrics": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301-validation-1/TrialResults/HRL-CCC-3277DBAE1F4A2542F43270962E7EA2AF.metrics.json",
+      "profile": {
+        "name": "canalization-aware",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.9975,
+        "gae_lambda": 0.97,
+        "window": 64,
+        "policy_batch": 512,
+        "critic_batch": 4096,
+        "updates": 8,
+        "policy_lr": 3e-05,
+        "critic_lr": 0.0003,
+        "entropy_start": 0.001,
+        "entropy_end": 0.0001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 0.1,
+        "guarded": true,
+        "objective": "ratio",
+        "target_kl": 0.015,
+        "clip": 0.1,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 6000,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    },
+    {
+      "passed": true,
+      "trials": [
+        {
+          "trial": 0,
+          "time_mae": 222.7292642731862,
+          "fraction_within_5": 0.013833333333333335,
+          "phases": [
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 249.85884197180894,
+              "time_rmse": 286.32756217557994,
+              "time_mean_signed": -249.6488535746168,
+              "fraction_within_5": 0.0135,
+              "fraction_above_100": 0.8425,
+              "maximum_absolute_h": 516.6994225780156,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.0000000149011612,
+              "censored_excursion_seconds": 97.65000145509839
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 222.34736040754487,
+              "time_rmse": 253.24523363773417,
+              "time_mean_signed": -222.13203867693989,
+              "fraction_within_5": 0.014,
+              "fraction_above_100": 0.771,
+              "maximum_absolute_h": 421.5063758889798,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.0500000156462193,
+              "censored_excursion_seconds": 97.55000145360827
+            },
+            {
+              "decision_samples": 2000,
+              "duration_seconds": 100.00000149011612,
+              "time_mae": 195.98159044020474,
+              "time_rmse": 224.04022135600798,
+              "time_mean_signed": -195.73971256105202,
+              "fraction_within_5": 0.014,
+              "fraction_above_100": 0.72,
+              "maximum_absolute_h": 366.1992160050782,
+              "completed_recoveries": 1,
+              "mean_completed_excursion_seconds": 1.2500000186264515,
+              "censored_excursion_seconds": 97.35000145062804
+            }
+          ]
+        }
+      ],
+      "mean_time_mae": 222.7292642731862,
+      "mean_fraction_within_5": 0.013833333333333335,
+      "evaluation_seed": 41001,
+      "order": "ccc",
+      "checkpoint": {
+        "steps": 10000,
+        "gathers": 1,
+        "training_time_mae": 50.35012327334051,
+        "training_time_rmse": 56.87728932277383,
+        "training_fraction_within_5": 0.0237,
+        "training_fraction_above_100": 0.0047,
+        "terminated_transitions": 23,
+        "truncated_transitions": 1,
+        "native_reward_mean": 0.01294923321523238,
+        "wall_seconds": 7.448222916107625,
+        "snapshots": {
+          "policy": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401/checkpoints/gather-00001/policy.bin",
+            "sha256": "332a0b6afd87f7077e7905eb7f514a2c7e8c35d0d146aecad5e93fe6c900b757"
+          },
+          "critic": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401/checkpoints/gather-00001/critic.bin",
+            "sha256": "ff6d3bd8de95d17f41d8dc17336e4b65dca6971fe33ed6b214eab3184a99244f"
+          },
+          "encoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401/checkpoints/gather-00001/encoder.bin",
+            "sha256": "1e562c925f18e9229935c9a5ee986e654db26b2250b7407b7bdab56615353de0"
+          },
+          "decoder": {
+            "path": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401/checkpoints/gather-00001/decoder.bin",
+            "sha256": "555aa0c2ea2af757272fe29bb7e63f1abe63ca840595f1d057abb04ab7e3f02a"
+          }
+        },
+        "profile": {
+          "name": "canalization-aware",
+          "reward": "quality",
+          "distance_scale": 25.0,
+          "discount": 0.9975,
+          "gae_lambda": 0.97,
+          "window": 64,
+          "policy_batch": 512,
+          "critic_batch": 4096,
+          "updates": 8,
+          "policy_lr": 3e-05,
+          "critic_lr": 0.0003,
+          "entropy_start": 0.001,
+          "entropy_end": 0.0001,
+          "anneal_steps": 2000000,
+          "lr_end_fraction": 0.1,
+          "guarded": true,
+          "objective": "ratio",
+          "target_kl": 0.015,
+          "clip": 0.1,
+          "grad_norm": 0.5,
+          "dt": 0.05,
+          "failure_boundary": 100.0,
+          "failure_reward": -1.0,
+          "segment_steps": 6000,
+          "episode_seconds": 300.0,
+          "reset_world_on_update": false,
+          "terminal_reward": -1.0,
+          "failure_accounting": "native-terminal-penalty"
+        },
+        "policy_seed": 3401,
+        "environment_seed": 103401
+      },
+      "metrics": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401-validation-1/TrialResults/HRL-CCC-95287F9DDC47FDE82E6E5CA2FB59B2B6.metrics.json",
+      "profile": {
+        "name": "canalization-aware",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.9975,
+        "gae_lambda": 0.97,
+        "window": 64,
+        "policy_batch": 512,
+        "critic_batch": 4096,
+        "updates": 8,
+        "policy_lr": 3e-05,
+        "critic_lr": 0.0003,
+        "entropy_start": 0.001,
+        "entropy_end": 0.0001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 0.1,
+        "guarded": true,
+        "objective": "ratio",
+        "target_kl": 0.015,
+        "clip": 0.1,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 6000,
+        "episode_seconds": 300.0,
+        "reset_world_on_update": false,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "profile": "baseline",
+      "trained_seeds": 3,
+      "mean_time_mae": 145.671748760269,
+      "per_seed_mae": [
+        137.04936519814268,
+        123.24176094974564,
+        176.72412013291864
+      ]
+    },
+    {
+      "profile": "canalization-aware",
+      "trained_seeds": 3,
+      "mean_time_mae": 200.0688266167322,
+      "per_seed_mae": [
+        196.01158389266183,
+        181.46563168434855,
+        222.7292642731862
+      ]
+    }
+  ],
+  "preserved_policy_reference": {
+    "passed": true,
+    "trials": [
+      {
+        "trial": 0,
+        "time_mae": 9.305470733536415,
+        "fraction_within_5": 0.33433333333333337,
+        "phases": [
+          {
+            "decision_samples": 2000,
+            "duration_seconds": 100.00000149011612,
+            "time_mae": 9.696337993954625,
+            "time_rmse": 12.400569825276104,
+            "time_mean_signed": 3.057507493424544,
+            "fraction_within_5": 0.329,
+            "fraction_above_100": 0.0,
+            "maximum_absolute_h": 40.8397437358896,
+            "completed_recoveries": 33,
+            "mean_completed_excursion_seconds": 2.033333363632361,
+            "censored_excursion_seconds": 0.0
+          },
+          {
+            "decision_samples": 2000,
+            "duration_seconds": 100.00000149011612,
+            "time_mae": 8.447155961395877,
+            "time_rmse": 10.64526964593175,
+            "time_mean_signed": 5.219820282061609,
+            "fraction_within_5": 0.3715,
+            "fraction_above_100": 0.0,
+            "maximum_absolute_h": 35.41205000132322,
+            "completed_recoveries": 31,
+            "mean_completed_excursion_seconds": 1.962903255055989,
+            "censored_excursion_seconds": 2.0000000298023224
+          },
+          {
+            "decision_samples": 2000,
+            "duration_seconds": 100.00000149011612,
+            "time_mae": 9.772918245258744,
+            "time_rmse": 12.070482657366975,
+            "time_mean_signed": 6.952261719933725,
+            "fraction_within_5": 0.3025,
+            "fraction_above_100": 0.0,
+            "maximum_absolute_h": 33.341524781659274,
+            "completed_recoveries": 27,
+            "mean_completed_excursion_seconds": 2.57777781618966,
+            "censored_excursion_seconds": 0.15000000223517418
+          }
+        ]
+      }
+    ],
+    "mean_time_mae": 9.305470733536415,
+    "mean_fraction_within_5": 0.33433333333333337,
+    "evaluation_seed": 41001,
+    "order": "ccc",
+    "checkpoint": {
+      "snapshots": {
+        "encoder": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/encoder.bin",
+          "sha256": "4ed63c5db9b7e3d0851584078905a2f512b76e04b29676e277a3755c9dfcb695"
+        },
+        "policy": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/policy.bin",
+          "sha256": "603b2d613abbcce7061472c7c3099f7c7f6b31d3169fe94d1ab9ccc2633fa5a9"
+        },
+        "decoder": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/decoder.bin",
+          "sha256": "14ede3ffcdb0f263ac9caaa0db7f499e2d7e5320a832f75063cc83c715bb3a0d"
+        },
+        "critic": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/critic.bin",
+          "sha256": "6cf9b0508e9e3323b0b1d122e86ac8948e9e8c298566185733ad1315e64fda2b"
+        }
+      },
+      "steps": 750000,
+      "gathers": 75,
+      "profile": {
+        "name": "baseline",
+        "reward": "quality",
+        "distance_scale": 25.0,
+        "discount": 0.99,
+        "gae_lambda": 0.95,
+        "window": 16,
+        "policy_batch": 2056,
+        "critic_batch": 4096,
+        "updates": 32,
+        "policy_lr": 0.0001,
+        "critic_lr": 0.001,
+        "entropy_start": 0.001,
+        "entropy_end": 0.001,
+        "anneal_steps": 2000000,
+        "lr_end_fraction": 1.0,
+        "guarded": false,
+        "objective": "log",
+        "target_kl": 0.015,
+        "clip": 0.2,
+        "grad_norm": 0.5,
+        "dt": 0.05,
+        "failure_boundary": 100.0,
+        "failure_reward": -1.0,
+        "segment_steps": 1028,
+        "episode_seconds": 100.0,
+        "reset_world_on_update": true,
+        "terminal_reward": -1.0,
+        "failure_accounting": "native-terminal-penalty"
+      },
+      "policy_seed": 1234,
+      "environment_seed": 1,
+      "kind": "preserved selected HRL policy; fixed benchmark, not a new training replicate"
+    },
+    "metrics": "/private/tmp/hrl-study-pipeline-check-20261026/selected-reference-41001/TrialResults/HRL-CCC-756AFFA13E47B4F5F4E1DFAA6F9B7F24.metrics.json",
+    "profile": {
+      "name": "baseline",
+      "reward": "quality",
+      "distance_scale": 25.0,
+      "discount": 0.99,
+      "gae_lambda": 0.95,
+      "window": 16,
+      "policy_batch": 2056,
+      "critic_batch": 4096,
+      "updates": 32,
+      "policy_lr": 0.0001,
+      "critic_lr": 0.001,
+      "entropy_start": 0.001,
+      "entropy_end": 0.001,
+      "anneal_steps": 2000000,
+      "lr_end_fraction": 1.0,
+      "guarded": false,
+      "objective": "log",
+      "target_kl": 0.015,
+      "clip": 0.2,
+      "grad_norm": 0.5,
+      "dt": 0.05,
+      "failure_boundary": 100.0,
+      "failure_reward": -1.0,
+      "segment_steps": 1028,
+      "episode_seconds": 100.0,
+      "reset_world_on_update": true,
+      "terminal_reward": -1.0,
+      "failure_accounting": "native-terminal-penalty"
+    }
+  },
+  "complete": true,
+  "unit_of_training_replication": "independently initialized policy"
+}

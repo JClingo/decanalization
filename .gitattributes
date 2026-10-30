@@ -1,6 +1,6 @@
 # Preserve exact bytes for hashed scientific inputs and packaged evidence.
-analysis/data/*.yml -text
-analysis/data/*.json -text
-analysis/paper-update-2026-10-17-reruns/** -text
+archive/unreal/analysis/data/*.yml -text
+archive/unreal/analysis/data/*.json -text
+archive/unreal/analysis/paper-update-2026-10-17-reruns/** -text
 
-analysis/implementation-audit-2026-09-14/** -text
+archive/unreal/analysis/implementation-audit-2026-09-14/** -text

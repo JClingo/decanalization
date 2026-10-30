@@ -1,0 +1,4 @@
+# Simulation, evaluation and analysis
+numpy>=1.24
+# Training only (ppo_train.py)
+torch>=2.1
