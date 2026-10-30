@@ -1,9 +1,12 @@
 """Pool the distribution-shift evaluations across training seeds (seed = unit of inference).
-Per-seed effects are paired-trial means; pooled mean and a t-interval over seeds (df = n - 1)."""
+Per-seed effects are paired-trial means; pooled mean and a t-interval over seeds (df = n - 1).
+Reads runs/eval_policies*.json, or the published ../results/evaluations/ with --published.
+Writes runs/pooled_seeds.json."""
 import json,statistics as st,math,sys
 T={2:12.706,3:4.303,4:3.182,5:2.776}
 tags=['_stable','_stable_s1','_stable_s2','_stable_s3']
-E=[json.load(open(f'runs/eval_policies{t}.json')) for t in tags]
+SRC='../results/evaluations' if '--published' in sys.argv else 'runs'
+E=[json.load(open(f'{SRC}/eval_policies{t}.json')) for t in tags]
 def pooled(vals):
     n=len(vals);m=st.mean(vals);h=T[n]*st.stdev(vals)/math.sqrt(n) if n>1 else float('nan');return dict(mean=m,ci=[m-h,m+h],per_seed=vals,n=n)
 out={}
