@@ -1,0 +1,66 @@
+{
+  "anticipation_asset_sha256": "a023a6a5cc316e22395f8758cb06552fd616d34367e3c39e0c33cb3366d61cc4",
+  "engine": "Unreal Engine 5.5.4",
+  "policies": {
+    "HRL": {
+      "selected_candidate": "fresh",
+      "validation_trials": 32,
+      "validation_seed": 30001,
+      "validation_mae": 11.335430547379508,
+      "validation_reward": 249.03319533109243,
+      "training_manifest": "policies/HRL/training_manifest.json",
+      "snapshots": {
+        "policy": {
+          "file": "policies/HRL/policy.bin",
+          "sha256": "603b2d613abbcce7061472c7c3099f7c7f6b31d3169fe94d1ab9ccc2633fa5a9",
+          "bytes": 470056
+        },
+        "critic": {
+          "file": "policies/HRL/critic.bin",
+          "sha256": "6cf9b0508e9e3323b0b1d122e86ac8948e9e8c298566185733ad1315e64fda2b",
+          "bytes": 105752
+        },
+        "encoder": {
+          "file": "policies/HRL/encoder.bin",
+          "sha256": "4ed63c5db9b7e3d0851584078905a2f512b76e04b29676e277a3755c9dfcb695",
+          "bytes": 924
+        },
+        "decoder": {
+          "file": "policies/HRL/decoder.bin",
+          "sha256": "14ede3ffcdb0f263ac9caaa0db7f499e2d7e5320a832f75063cc83c715bb3a0d",
+          "bytes": 288
+        }
+      }
+    },
+    "NF": {
+      "selected_candidate": "preserved-winner",
+      "validation_trials": 32,
+      "validation_seed": 30001,
+      "validation_mae": 27.578272352665227,
+      "validation_reward": 65.05518787633093,
+      "training_manifest": "policies/NF/training_manifest.json",
+      "snapshots": {
+        "encoder": {
+          "file": "policies/NF/encoder.bin",
+          "sha256": "1958f8f13d7d413eb475d2b6fa61bfd364914d69eda7bc89ee0daa5898c3a3b3",
+          "bytes": 924
+        },
+        "policy": {
+          "file": "policies/NF/policy.bin",
+          "sha256": "bc9392144dc10a862a795db90610ecf33f29a4ff6db484fe927aa783e83d4909",
+          "bytes": 470056
+        },
+        "decoder": {
+          "file": "policies/NF/decoder.bin",
+          "sha256": "63c483826fc616c6e4acd429b71cd1f652e4c4939598f3a9549838d74882b1eb",
+          "bytes": 288
+        },
+        "critic": {
+          "file": "policies/NF/critic.bin",
+          "sha256": "a60711ff53522b57ced038ab600e9f760ce622e5c9c209ed1d8c82a3b303fcee",
+          "bytes": 105752
+        }
+      }
+    }
+  }
+}

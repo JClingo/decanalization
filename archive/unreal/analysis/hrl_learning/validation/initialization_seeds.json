@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "hashes": {
+    "1234": {
+      "policy": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "critic": "0e26075c58af88a2606459205a83596986e2d0491b8d71ad4df8b01fecab9fb5"
+    },
+    "2301": {
+      "policy": "c09c77b7173e9e4d11c88d2b60a5853f174aa27a753614c5a3f538eb5e6a9095",
+      "critic": "7e71fabe373c8887b7479e776805d34f01d2e2472a0aa30c6c7ecc863b574270"
+    }
+  }
+}

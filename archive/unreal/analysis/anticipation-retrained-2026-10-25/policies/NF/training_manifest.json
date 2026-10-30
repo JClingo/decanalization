@@ -1,0 +1,604 @@
+{
+  "reward-family": "NF",
+  "snapshot-update-label": 5000,
+  "snapshot-sha256": {
+    "encoder": "1958f8f13d7d413eb475d2b6fa61bfd364914d69eda7bc89ee0daa5898c3a3b3",
+    "policy": "bc9392144dc10a862a795db90610ecf33f29a4ff6db484fe927aa783e83d4909",
+    "decoder": "63c483826fc616c6e4acd429b71cd1f652e4c4939598f3a9549838d74882b1eb"
+  },
+  "source-config": "Intermediate\\LearningAgents\\Configs\\Training_nf_ppo_SharedMemory_2026-10-16_12-08-21.json",
+  "source-config-sha256": "6fc22e18b2a7c749e9a5ad353c7f84faf6ca99b02825fd6b0f1fdff835cecdce",
+  "configured-ppo": {
+    "IterationNum": 1000000,
+    "LearningRatePolicy": 9.999999747378752e-05,
+    "LearningRateCritic": 0.0010000000474974513,
+    "LearningRateDecay": 1,
+    "WeightDecay": 9.999999747378752e-05,
+    "PolicyBatchSize": 2056,
+    "CriticBatchSize": 4096,
+    "PolicyWindow": 16,
+    "IterationsPerGather": 32,
+    "CriticWarmupIterations": 8,
+    "EpsilonClip": 0.20000000298023224,
+    "ActionSurrogateWeight": 1,
+    "ActionRegularizationWeight": 0.0010000000474974513,
+    "ActionEntropyWeight": 0.0010000000474974513,
+    "ReturnRegularizationWeight": 9.999999747378752e-05,
+    "GaeLambda": 0.949999988079071,
+    "AdvantageNormalization": true,
+    "AdvantageMin": -10,
+    "AdvantageMax": 10,
+    "UseGradNormMaxClipping": true,
+    "GradNormMax": 0.5,
+    "TrimEpisodeStartStepNum": 0,
+    "TrimEpisodeEndStepNum": 0,
+    "Seed": 1234,
+    "DiscountFactor": 0.9900000095367432,
+    "Device": "GPU",
+    "UseTensorBoard": true,
+    "SaveSnapshots": true
+  },
+  "effective-ppo": {
+    "IterationNum": 1000000,
+    "LearningRatePolicy": 3e-05,
+    "LearningRateCritic": 0.0003,
+    "LearningRateDecay": 1,
+    "WeightDecay": 9.999999747378752e-05,
+    "PolicyBatchSize": 2056,
+    "CriticBatchSize": 4096,
+    "PolicyWindow": 16,
+    "IterationsPerGather": 8,
+    "CriticWarmupIterations": 0,
+    "EpsilonClip": 0.1,
+    "ActionSurrogateWeight": 1,
+    "ActionRegularizationWeight": 0.0,
+    "ActionEntropyWeight": 0.0,
+    "ReturnRegularizationWeight": 9.999999747378752e-05,
+    "GaeLambda": 0.949999988079071,
+    "AdvantageNormalization": true,
+    "AdvantageMin": -10,
+    "AdvantageMax": 10,
+    "UseGradNormMaxClipping": true,
+    "GradNormMax": 0.25,
+    "TrimEpisodeStartStepNum": 0,
+    "TrimEpisodeEndStepNum": 0,
+    "Seed": 1234,
+    "DiscountFactor": 0.9900000095367432,
+    "Device": "GPU",
+    "UseTensorBoard": true,
+    "SaveSnapshots": true
+  },
+  "trainer": "nf_ppo/NFStable1",
+  "nf-stability": {
+    "ActionStd": 0.15,
+    "TargetKL": 0.015,
+    "DiscardInitialActorRollout": true,
+    "CriticUpdatesEncoder": false
+  },
+  "selection-criterion": "Highest mean reward relative to other snapshots",
+  "selection-source": "Frozen historical winner included in corrected-anticipation candidate confirmation at seed 30001; final seed 10001 excluded",
+  "initialization": {
+    "kind": "preserved historical policy",
+    "original_update_label": 5000
+  },
+  "evaluation-anticipation-asset-sha256": "a023a6a5cc316e22395f8758cb06552fd616d34367e3c39e0c33cb3366d61cc4",
+  "held_out_selection": {
+    "trials": [
+      {
+        "trial": 0,
+        "mae": 21.08260897672993,
+        "reward": 64.98776281718165,
+        "phase_mae": [
+          21.685927128717108,
+          22.068642833118112,
+          19.49325696835457
+        ],
+        "phase_reward": [
+          22.841542313806713,
+          22.48021987453103,
+          19.666000628843904
+        ]
+      },
+      {
+        "trial": 1,
+        "mae": 22.165155851818387,
+        "reward": 64.01549001656531,
+        "phase_mae": [
+          25.018728130858815,
+          24.03037425895808,
+          17.44636516563827
+        ],
+        "phase_reward": [
+          23.966233879327774,
+          21.65006849169731,
+          18.399187645540223
+        ]
+      },
+      {
+        "trial": 2,
+        "mae": 20.017002081848535,
+        "reward": 64.49244591023307,
+        "phase_mae": [
+          21.169404590635,
+          21.715345257957708,
+          17.166256396952896
+        ],
+        "phase_reward": [
+          26.367661302443594,
+          20.480935432948172,
+          17.643849174841307
+        ]
+      },
+      {
+        "trial": 3,
+        "mae": 21.409017493385306,
+        "reward": 66.20827634492889,
+        "phase_mae": [
+          23.470411677448144,
+          19.65117751417399,
+          21.10546328853379
+        ],
+        "phase_reward": [
+          26.378692207857966,
+          21.286921486724168,
+          18.542662650346756
+        ]
+      },
+      {
+        "trial": 4,
+        "mae": 23.126352430293952,
+        "reward": 60.8821424471098,
+        "phase_mae": [
+          23.88802656519512,
+          20.660581211177696,
+          24.830449514509038
+        ],
+        "phase_reward": [
+          25.71070947078988,
+          21.259823408909142,
+          13.911609567410778
+        ]
+      },
+      {
+        "trial": 5,
+        "mae": 22.682944778944133,
+        "reward": 71.49149648321327,
+        "phase_mae": [
+          21.74433131830546,
+          25.98221599575002,
+          20.32228702277692
+        ],
+        "phase_reward": [
+          24.94670508883428,
+          24.832843848504126,
+          21.711947545874864
+        ]
+      },
+      {
+        "trial": 6,
+        "mae": 24.742508314216195,
+        "reward": 69.74344370909967,
+        "phase_mae": [
+          24.796733788111375,
+          26.121085264746068,
+          23.309705889791143
+        ],
+        "phase_reward": [
+          25.213008493185043,
+          22.243980136001483,
+          22.28645507991314
+        ]
+      },
+      {
+        "trial": 7,
+        "mae": 23.559113118778487,
+        "reward": 59.75890807504766,
+        "phase_mae": [
+          24.35246760245451,
+          24.510046790861065,
+          21.814824963019895
+        ],
+        "phase_reward": [
+          22.773708924185485,
+          17.680500170215964,
+          19.304698980646208
+        ]
+      },
+      {
+        "trial": 8,
+        "mae": 19.903686123746294,
+        "reward": 62.49522979313042,
+        "phase_mae": [
+          23.528661747816574,
+          18.001457405632465,
+          18.180939217789838
+        ],
+        "phase_reward": [
+          26.0746238976717,
+          17.714348509907722,
+          18.706257385550998
+        ]
+      },
+      {
+        "trial": 9,
+        "mae": 102.0225286273972,
+        "reward": 42.371187545824796,
+        "phase_mae": [
+          22.24339315649287,
+          17.927373237729665,
+          265.896819487969
+        ],
+        "phase_reward": [
+          21.373292858246714,
+          18.850303633138537,
+          2.1475910544395447
+        ]
+      },
+      {
+        "trial": 10,
+        "mae": 20.284685743512014,
+        "reward": 65.63234044776254,
+        "phase_mae": [
+          23.420213958191045,
+          19.327272876058846,
+          18.106570396286155
+        ],
+        "phase_reward": [
+          23.584802205019514,
+          21.750256118339166,
+          20.297282124403864
+        ]
+      },
+      {
+        "trial": 11,
+        "mae": 21.736477757080195,
+        "reward": 71.1097972560674,
+        "phase_mae": [
+          21.359180424795653,
+          24.634524374099907,
+          19.215728472345027
+        ],
+        "phase_reward": [
+          24.357682913541794,
+          25.723480507731438,
+          21.028633834794164
+        ]
+      },
+      {
+        "trial": 12,
+        "mae": 20.20294259341955,
+        "reward": 65.20564792590449,
+        "phase_mae": [
+          21.178992758180375,
+          21.263152502368,
+          18.166682519710275
+        ],
+        "phase_reward": [
+          23.84902311861515,
+          21.57839210476959,
+          19.778232702519745
+        ]
+      },
+      {
+        "trial": 13,
+        "mae": 23.594740177135083,
+        "reward": 63.6100481483154,
+        "phase_mae": [
+          29.026730550748677,
+          21.385572413182288,
+          20.37191756747429
+        ],
+        "phase_reward": [
+          23.574022384360433,
+          24.44069166481495,
+          15.595334099140018
+        ]
+      },
+      {
+        "trial": 14,
+        "mae": 22.89599655209487,
+        "reward": 68.03264965990093,
+        "phase_mae": [
+          21.633636424698174,
+          25.365125425163043,
+          21.6892278064234
+        ],
+        "phase_reward": [
+          23.137991194496863,
+          23.105821769684553,
+          21.78883669571951
+        ]
+      },
+      {
+        "trial": 15,
+        "mae": 111.42078298862852,
+        "reward": 55.95743438997306,
+        "phase_mae": [
+          22.015699008409413,
+          25.761808226948855,
+          286.4848417305273
+        ],
+        "phase_reward": [
+          23.874235525727272,
+          24.05794246890582,
+          8.025256395339966
+        ]
+      },
+      {
+        "trial": 16,
+        "mae": 20.627637662944892,
+        "reward": 65.82675889134407,
+        "phase_mae": [
+          25.36702451467399,
+          17.909321818025212,
+          18.606566656135474
+        ],
+        "phase_reward": [
+          25.363065539859235,
+          19.494935269467533,
+          20.968758082017303
+        ]
+      },
+      {
+        "trial": 17,
+        "mae": 20.383463883540276,
+        "reward": 61.90275002710405,
+        "phase_mae": [
+          18.595905560274183,
+          21.87588363565569,
+          20.678602454690964
+        ],
+        "phase_reward": [
+          19.586658490326954,
+          20.91767467954196,
+          21.398416857235134
+        ]
+      },
+      {
+        "trial": 18,
+        "mae": 23.79412601765256,
+        "reward": 63.948085555108264,
+        "phase_mae": [
+          29.47575593937987,
+          19.9998581917836,
+          21.90676392179421
+        ],
+        "phase_reward": [
+          21.229329576250166,
+          23.18784094415605,
+          19.530915034702048
+        ]
+      },
+      {
+        "trial": 19,
+        "mae": 23.839730115355675,
+        "reward": 70.60585344285937,
+        "phase_mae": [
+          24.98263960800423,
+          21.919832932776714,
+          24.616717805286076
+        ],
+        "phase_reward": [
+          26.370685862144455,
+          20.448857265582774,
+          23.78631031513214
+        ]
+      },
+      {
+        "trial": 20,
+        "mae": 21.835081091451908,
+        "reward": 67.840731826087,
+        "phase_mae": [
+          22.46266552729224,
+          23.758974692612288,
+          19.283603054451188
+        ],
+        "phase_reward": [
+          24.85623413324356,
+          24.31448721885681,
+          18.670010473986622
+        ]
+      },
+      {
+        "trial": 21,
+        "mae": 24.78737558855474,
+        "reward": 70.38758385542314,
+        "phase_mae": [
+          23.064731818462736,
+          22.02064609371734,
+          29.276748853484147
+        ],
+        "phase_reward": [
+          25.909325426095165,
+          22.085751064121723,
+          22.392507365206257
+        ]
+      },
+      {
+        "trial": 22,
+        "mae": 21.046208193007374,
+        "reward": 69.24654818815179,
+        "phase_mae": [
+          23.61155137657446,
+          21.700514215496593,
+          17.826558986951067
+        ],
+        "phase_reward": [
+          26.69318184070289,
+          23.549451142549515,
+          19.003915204899386
+        ]
+      },
+      {
+        "trial": 23,
+        "mae": 21.209779076344176,
+        "reward": 64.65732031688094,
+        "phase_mae": [
+          24.919087374047777,
+          18.910800313540296,
+          19.799449541444456
+        ],
+        "phase_reward": [
+          25.24267191113904,
+          20.530061983969063,
+          18.884586421772838
+        ]
+      },
+      {
+        "trial": 24,
+        "mae": 22.928752861732335,
+        "reward": 70.64502326800721,
+        "phase_mae": [
+          24.0318277739358,
+          21.283022926083675,
+          23.471407885177534
+        ],
+        "phase_reward": [
+          24.64897918701172,
+          24.06275842274772,
+          21.93328565824777
+        ]
+      },
+      {
+        "trial": 25,
+        "mae": 20.946670183650056,
+        "reward": 67.92889988562092,
+        "phase_mae": [
+          22.10305209249522,
+          19.982094166270986,
+          20.75486429218397
+        ],
+        "phase_reward": [
+          25.124476979486644,
+          21.30284625897184,
+          21.501576647162437
+        ]
+      },
+      {
+        "trial": 26,
+        "mae": 23.710220833894923,
+        "reward": 67.70876353117637,
+        "phase_mae": [
+          23.38770780737596,
+          25.925484428935953,
+          21.817470265372858
+        ],
+        "phase_reward": [
+          23.870171542279422,
+          23.640769535675645,
+          20.197822453221306
+        ]
+      },
+      {
+        "trial": 27,
+        "mae": 28.23042165473257,
+        "reward": 63.614880258450285,
+        "phase_mae": [
+          41.39324546018522,
+          22.54777202048094,
+          20.750247483531556
+        ],
+        "phase_reward": [
+          20.105406522750854,
+          23.304682105779648,
+          20.204791629919782
+        ]
+      },
+      {
+        "trial": 28,
+        "mae": 19.71820026222218,
+        "reward": 63.777240397408605,
+        "phase_mae": [
+          20.785637334588003,
+          19.070168490262553,
+          19.298794961815986
+        ],
+        "phase_reward": [
+          22.585170092992485,
+          19.327582894824445,
+          21.864487409591675
+        ]
+      },
+      {
+        "trial": 29,
+        "mae": 23.04583028947169,
+        "reward": 66.07769826799631,
+        "phase_mae": [
+          28.256488850500755,
+          21.538969970482075,
+          19.34203204743224
+        ],
+        "phase_reward": [
+          25.670907143503428,
+          22.057586517184973,
+          18.34920460730791
+        ]
+      },
+      {
+        "trial": 30,
+        "mae": 22.083528316695162,
+        "reward": 63.88776976498775,
+        "phase_mae": [
+          22.451586988786985,
+          22.061384528668547,
+          21.737613432629953
+        ],
+        "phase_reward": [
+          24.13544273073785,
+          19.130941221490502,
+          20.6213858127594
+        ]
+      },
+      {
+        "trial": 31,
+        "mae": 23.471145645008203,
+        "reward": 67.71580359572545,
+        "phase_mae": [
+          29.575783922089816,
+          22.607798700584237,
+          18.22985431235056
+        ],
+        "phase_reward": [
+          22.403828548267484,
+          23.708073794841766,
+          21.603901252616197
+        ]
+      }
+    ],
+    "mean_mae": 27.578272352665227,
+    "mean_reward": 65.05518787633093,
+    "family": "NF",
+    "order": "ccc",
+    "seed": 30001,
+    "gathers": 0,
+    "training_steps": 0,
+    "checkpoint": {
+      "gathers": 0,
+      "steps": 0,
+      "snapshots": {
+        "encoder": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/snapshots/Winning NF/Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_encoder_5000.bin",
+          "sha256": "1958f8f13d7d413eb475d2b6fa61bfd364914d69eda7bc89ee0daa5898c3a3b3"
+        },
+        "policy": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/snapshots/Winning NF/Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_policy_5000.bin",
+          "sha256": "bc9392144dc10a862a795db90610ecf33f29a4ff6db484fe927aa783e83d4909"
+        },
+        "decoder": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/snapshots/Winning NF/Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_decoder_5000.bin",
+          "sha256": "63c483826fc616c6e4acd429b71cd1f652e4c4939598f3a9549838d74882b1eb"
+        },
+        "critic": {
+          "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/snapshots/Winning NF/Training_NFStable1_ppo_sharedmemory_2026-10-16_12-08-22_critic_5000.bin",
+          "sha256": "a60711ff53522b57ced038ab600e9f760ce622e5c9c209ed1d8c82a3b303fcee"
+        }
+      },
+      "family": "NF",
+      "historical_update_label": 5000,
+      "frozen_historical_policy": true
+    },
+    "created_at": "2026-10-26T07:55:42.300027+00:00",
+    "metrics": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/Saved/AnticipationRetrain20261025/confirmation-results/NF/candidate-bc9392144dc10a86/TrialResults/NF-CCC-F06AC1826841A2757D6DB98D842238D4.metrics.json",
+    "candidate_kind": "preserved-winner"
+  }
+}

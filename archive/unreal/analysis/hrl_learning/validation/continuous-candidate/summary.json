@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "trials": [
+    {
+      "trial": 0,
+      "time_mae": 300.8350656102994,
+      "fraction_within_5": 0.004166666666666667,
+      "phases": [
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 112.8162529862414,
+          "time_rmse": 123.35236238864279,
+          "time_mean_signed": -112.5534272444586,
+          "fraction_within_5": 0.0125,
+          "fraction_above_100": 0.583,
+          "maximum_absolute_h": 202.60023166363422,
+          "completed_recoveries": 1,
+          "mean_completed_excursion_seconds": 1.2500000186264515,
+          "censored_excursion_seconds": 97.50000145286322
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 300.1207689894993,
+          "time_rmse": 304.96046043403754,
+          "time_mean_signed": -300.1207689894993,
+          "fraction_within_5": 0.0,
+          "fraction_above_100": 1.0,
+          "maximum_absolute_h": 389.3181748551625,
+          "completed_recoveries": 0,
+          "mean_completed_excursion_seconds": null,
+          "censored_excursion_seconds": 197.50000294297934
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 489.56817485515745,
+          "time_rmse": 492.9607594231157,
+          "time_mean_signed": -489.56817485515745,
+          "fraction_within_5": 0.0,
+          "fraction_above_100": 1.0,
+          "maximum_absolute_h": 589.3181748551625,
+          "completed_recoveries": 0,
+          "mean_completed_excursion_seconds": null,
+          "censored_excursion_seconds": 297.50000443309546
+        }
+      ]
+    },
+    {
+      "trial": 1,
+      "time_mae": 496.6483153970367,
+      "fraction_within_5": 0.004666666666666667,
+      "phases": [
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 176.34974372500722,
+          "time_rmse": 209.84964888894964,
+          "time_mean_signed": -175.13569277949796,
+          "fraction_within_5": 0.014,
+          "fraction_above_100": 0.7075,
+          "maximum_absolute_h": 413.474876269696,
+          "completed_recoveries": 1,
+          "mean_completed_excursion_seconds": 3.35000004991889,
+          "censored_excursion_seconds": 95.2500014193356
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 529.9564675266869,
+          "time_rmse": 537.1653080398005,
+          "time_mean_signed": -529.9564675266869,
+          "fraction_within_5": 0.0,
+          "fraction_above_100": 1.0,
+          "maximum_absolute_h": 648.1911872917199,
+          "completed_recoveries": 0,
+          "mean_completed_excursion_seconds": null,
+          "censored_excursion_seconds": 195.25000290945172
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 783.638734939416,
+          "time_rmse": 788.6790682215667,
+          "time_mean_signed": -783.638734939416,
+          "fraction_within_5": 0.0,
+          "fraction_above_100": 1.0,
+          "maximum_absolute_h": 976.245324836632,
+          "completed_recoveries": 0,
+          "mean_completed_excursion_seconds": null,
+          "censored_excursion_seconds": 295.25000439956784
+        }
+      ]
+    }
+  ],
+  "mean_time_mae": 398.74169050366805,
+  "mean_fraction_within_5": 0.004416666666666667,
+  "evaluation_seed": 71001,
+  "order": "ccc",
+  "checkpoint": {
+    "steps": 20000,
+    "gathers": 2,
+    "training_time_mae": 49.99918183914269,
+    "training_time_rmse": 56.66425540935569,
+    "training_fraction_within_5": 0.0324,
+    "training_fraction_above_100": 0.0045,
+    "terminated_transitions": 23,
+    "truncated_transitions": 1,
+    "native_reward_mean": 0.013210860213870183,
+    "wall_seconds": 22.331868499983102,
+    "snapshots": {
+      "policy": {
+        "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/policy.bin",
+        "sha256": "7968cd9a71b85249f15cc65526a27bfdb66f2fb7824b3a546f03b3c98ec08f5d"
+      },
+      "critic": {
+        "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/critic.bin",
+        "sha256": "03871a439d30d64688fa8718e2e230cc04a713b7295fecc8c9874b5ba2bf2ea7"
+      },
+      "encoder": {
+        "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/encoder.bin",
+        "sha256": "8589289486f603bc55aec7cd4349ffecf55fcfb3948ed8f63dc2449303a09c6b"
+      },
+      "decoder": {
+        "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/decoder.bin",
+        "sha256": "3d12403c66e42ae9adf6d4345088e21d39e734918d47f9daa685f9666240eb24"
+      }
+    },
+    "profile": {
+      "name": "canalization-aware",
+      "reward": "quality",
+      "distance_scale": 25.0,
+      "discount": 0.9975,
+      "gae_lambda": 0.97,
+      "window": 64,
+      "policy_batch": 512,
+      "critic_batch": 4096,
+      "updates": 8,
+      "policy_lr": 3e-05,
+      "critic_lr": 0.0003,
+      "entropy_start": 0.001,
+      "entropy_end": 0.0001,
+      "anneal_steps": 2000000,
+      "lr_end_fraction": 0.1,
+      "guarded": true,
+      "objective": "ratio",
+      "target_kl": 0.015,
+      "clip": 0.1,
+      "grad_norm": 0.5,
+      "dt": 0.05,
+      "failure_boundary": 100.0,
+      "failure_reward": -1.0,
+      "segment_steps": 6000,
+      "episode_seconds": 300.0,
+      "reset_world_on_update": false,
+      "terminal_reward": -1.0,
+      "failure_accounting": "native-terminal-penalty"
+    },
+    "policy_seed": 1234,
+    "environment_seed": 701
+  },
+  "metrics": "/private/tmp/hrl-learning-final-20261026/continuous-candidate-nopec/TrialResults/HRL-CCC-005920BABD447D91E1669CB4D216E307.metrics.json",
+  "profile": {
+    "name": "canalization-aware",
+    "reward": "quality",
+    "distance_scale": 25.0,
+    "discount": 0.9975,
+    "gae_lambda": 0.97,
+    "window": 64,
+    "policy_batch": 512,
+    "critic_batch": 4096,
+    "updates": 8,
+    "policy_lr": 3e-05,
+    "critic_lr": 0.0003,
+    "entropy_start": 0.001,
+    "entropy_end": 0.0001,
+    "anneal_steps": 2000000,
+    "lr_end_fraction": 0.1,
+    "guarded": true,
+    "objective": "ratio",
+    "target_kl": 0.015,
+    "clip": 0.1,
+    "grad_norm": 0.5,
+    "dt": 0.05,
+    "failure_boundary": 100.0,
+    "failure_reward": -1.0,
+    "segment_steps": 6000,
+    "episode_seconds": 300.0,
+    "reset_world_on_update": false,
+    "terminal_reward": -1.0,
+    "failure_accounting": "native-terminal-penalty"
+  },
+  "continuous_homeostasis": true
+}

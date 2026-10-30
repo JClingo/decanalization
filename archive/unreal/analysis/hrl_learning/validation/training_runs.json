@@ -1,0 +1,240 @@
+[
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-guarded-ratio-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 27.477534667006694
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-guarded-ratio-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 24.96618295798544
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-quality-10-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 28.305431041982956
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-quality-10-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-absolute-25-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 30.690086958929896
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-absolute-25-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-2301",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 22.592250625020824
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "c09c77b7173e9e4d11c88d2b60a5853f174aa27a753614c5a3f538eb5e6a9095",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-2301/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-baseline-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 31.05111904197838
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-baseline-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-guarded-annealed-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 22.304634665953927
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-guarded-annealed-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-learning-final-20261026/smoke-guarded-log-1234",
+    "transitions": 20000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 20000,
+        "gathers": 2,
+        "wall_seconds": 28.382346124970354
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "1b978b54bce60657a0f74f9613e5bb74725d26a734eeae01150d6f26b33418b8",
+      "checkpoints": 2,
+      "last_checkpoint": "/private/tmp/hrl-learning-final-20261026/smoke-guarded-log-1234/checkpoints/gather-00002/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401",
+    "transitions": 10000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 10000,
+        "gathers": 1,
+        "wall_seconds": 11.59497016610112
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "807cb87741696a0605bce109c86e582b526165d257898a28d562084e32606aeb",
+      "checkpoints": 1,
+      "last_checkpoint": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-3401/checkpoints/gather-00001/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201",
+    "transitions": 10000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 10000,
+        "gathers": 1,
+        "wall_seconds": 11.479580292012542
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "fd2791b8fd6e4092519c07364201bae75e836df559c3bbb501f262445c717522",
+      "checkpoints": 1,
+      "last_checkpoint": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-1201/checkpoints/gather-00001/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301",
+    "transitions": 10000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 10000,
+        "gathers": 1,
+        "wall_seconds": 12.386401625000872
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "c09c77b7173e9e4d11c88d2b60a5853f174aa27a753614c5a3f538eb5e6a9095",
+      "checkpoints": 1,
+      "last_checkpoint": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-canalization-aware-2301/checkpoints/gather-00001/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401",
+    "transitions": 10000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 10000,
+        "gathers": 1,
+        "wall_seconds": 15.48028483404778
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "807cb87741696a0605bce109c86e582b526165d257898a28d562084e32606aeb",
+      "checkpoints": 1,
+      "last_checkpoint": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-3401/checkpoints/gather-00001/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201",
+    "transitions": 10000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 10000,
+        "gathers": 1,
+        "wall_seconds": 20.134757666965015
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "fd2791b8fd6e4092519c07364201bae75e836df559c3bbb501f262445c717522",
+      "checkpoints": 1,
+      "last_checkpoint": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-1201/checkpoints/gather-00001/checkpoint.json"
+    }
+  },
+  {
+    "run": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301",
+    "transitions": 10000,
+    "verified": {
+      "passed": true,
+      "completion": {
+        "reason": "gather-budget",
+        "steps": 10000,
+        "gathers": 1,
+        "wall_seconds": 16.90618345804978
+      },
+      "policy_updated": true,
+      "initial_policy_sha256": "c09c77b7173e9e4d11c88d2b60a5853f174aa27a753614c5a3f538eb5e6a9095",
+      "checkpoints": 1,
+      "last_checkpoint": "/private/tmp/hrl-study-pipeline-check-final-20261026/canalization-learning-baseline-2301/checkpoints/gather-00001/checkpoint.json"
+    }
+  }
+]

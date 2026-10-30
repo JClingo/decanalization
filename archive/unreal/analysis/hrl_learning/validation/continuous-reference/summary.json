@@ -1,0 +1,188 @@
+{
+  "passed": true,
+  "trials": [
+    {
+      "trial": 0,
+      "time_mae": 10.144636516677583,
+      "fraction_within_5": 0.3363333333333334,
+      "phases": [
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 7.708018411501602,
+          "time_rmse": 9.91092350278938,
+          "time_mean_signed": 3.943489528022714,
+          "fraction_within_5": 0.4045,
+          "fraction_above_100": 0.0,
+          "maximum_absolute_h": 33.09844194476803,
+          "completed_recoveries": 35,
+          "mean_completed_excursion_seconds": 1.7014285967818328,
+          "censored_excursion_seconds": 0.0
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 9.847616041890323,
+          "time_rmse": 12.676130021551613,
+          "time_mean_signed": 3.06215308768466,
+          "fraction_within_5": 0.3315,
+          "fraction_above_100": 0.0,
+          "maximum_absolute_h": 42.210091233253465,
+          "completed_recoveries": 31,
+          "mean_completed_excursion_seconds": 2.1564516450368587,
+          "censored_excursion_seconds": 0.0
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 12.878275096640824,
+          "time_rmse": 16.953494117080265,
+          "time_mean_signed": 7.519655314118413,
+          "fraction_within_5": 0.273,
+          "fraction_above_100": 0.0,
+          "maximum_absolute_h": 50.93863902072463,
+          "completed_recoveries": 24,
+          "mean_completed_excursion_seconds": 3.0291667118047676,
+          "censored_excursion_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "trial": 1,
+      "time_mae": 11.901313900515502,
+      "fraction_within_5": 0.30933333333333335,
+      "phases": [
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 9.529864238587196,
+          "time_rmse": 13.422879835721098,
+          "time_mean_signed": 5.325354799563987,
+          "fraction_within_5": 0.3775,
+          "fraction_above_100": 0.0,
+          "maximum_absolute_h": 57.377326752990506,
+          "completed_recoveries": 32,
+          "mean_completed_excursion_seconds": 1.9140625285217538,
+          "censored_excursion_seconds": 1.0000000149011612
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 12.875945359252647,
+          "time_rmse": 16.791175306009123,
+          "time_mean_signed": 9.860880461585046,
+          "fraction_within_5": 0.2765,
+          "fraction_above_100": 0.0,
+          "maximum_absolute_h": 49.200842257589024,
+          "completed_recoveries": 23,
+          "mean_completed_excursion_seconds": 3.1891304823043556,
+          "censored_excursion_seconds": 0.0
+        },
+        {
+          "decision_samples": 2000,
+          "duration_seconds": 100.00000149011612,
+          "time_mae": 13.29813210370666,
+          "time_rmse": 17.93218561853677,
+          "time_mean_signed": 1.9582487309122092,
+          "fraction_within_5": 0.274,
+          "fraction_above_100": 0.0,
+          "maximum_absolute_h": 58.81428468041116,
+          "completed_recoveries": 27,
+          "mean_completed_excursion_seconds": 2.624074113175825,
+          "censored_excursion_seconds": 1.750000026077032
+        }
+      ]
+    }
+  ],
+  "mean_time_mae": 11.022975208596542,
+  "mean_fraction_within_5": 0.32283333333333336,
+  "evaluation_seed": 71001,
+  "order": "ccc",
+  "checkpoint": {
+    "snapshots": {
+      "encoder": {
+        "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/encoder.bin",
+        "sha256": "4ed63c5db9b7e3d0851584078905a2f512b76e04b29676e277a3755c9dfcb695"
+      },
+      "policy": {
+        "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/policy.bin",
+        "sha256": "603b2d613abbcce7061472c7c3099f7c7f6b31d3169fe94d1ab9ccc2633fa5a9"
+      },
+      "decoder": {
+        "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/decoder.bin",
+        "sha256": "14ede3ffcdb0f263ac9caaa0db7f499e2d7e5320a832f75063cc83c715bb3a0d"
+      },
+      "critic": {
+        "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/critic.bin",
+        "sha256": "6cf9b0508e9e3323b0b1d122e86ac8948e9e8c298566185733ad1315e64fda2b"
+      }
+    },
+    "steps": 750000,
+    "gathers": 75,
+    "profile": {
+      "name": "baseline",
+      "reward": "quality",
+      "distance_scale": 25.0,
+      "discount": 0.99,
+      "gae_lambda": 0.95,
+      "window": 16,
+      "policy_batch": 2056,
+      "critic_batch": 4096,
+      "updates": 32,
+      "policy_lr": 0.0001,
+      "critic_lr": 0.001,
+      "entropy_start": 0.001,
+      "entropy_end": 0.001,
+      "anneal_steps": 2000000,
+      "lr_end_fraction": 1.0,
+      "guarded": false,
+      "objective": "log",
+      "target_kl": 0.015,
+      "clip": 0.2,
+      "grad_norm": 0.5,
+      "dt": 0.05,
+      "failure_boundary": 100.0,
+      "failure_reward": -1.0,
+      "segment_steps": 1028,
+      "episode_seconds": 100.0,
+      "reset_world_on_update": true,
+      "terminal_reward": -1.0,
+      "failure_accounting": "native-terminal-penalty"
+    },
+    "policy_seed": 1234,
+    "environment_seed": 1,
+    "kind": "preserved selected HRL policy; fixed benchmark, not a new training replicate"
+  },
+  "metrics": "/private/tmp/hrl-learning-final-20261026/continuous-reference-nopec/TrialResults/HRL-CCC-10A5A6628045096B44252F9EF2F323FB.metrics.json",
+  "profile": {
+    "name": "baseline",
+    "reward": "quality",
+    "distance_scale": 25.0,
+    "discount": 0.99,
+    "gae_lambda": 0.95,
+    "window": 16,
+    "policy_batch": 2056,
+    "critic_batch": 4096,
+    "updates": 32,
+    "policy_lr": 0.0001,
+    "critic_lr": 0.001,
+    "entropy_start": 0.001,
+    "entropy_end": 0.001,
+    "anneal_steps": 2000000,
+    "lr_end_fraction": 1.0,
+    "guarded": false,
+    "objective": "log",
+    "target_kl": 0.015,
+    "clip": 0.2,
+    "grad_norm": 0.5,
+    "dt": 0.05,
+    "failure_boundary": 100.0,
+    "failure_reward": -1.0,
+    "segment_steps": 1028,
+    "episode_seconds": 100.0,
+    "reset_world_on_update": true,
+    "terminal_reward": -1.0,
+    "failure_accounting": "native-terminal-penalty"
+  },
+  "continuous_homeostasis": true
+}

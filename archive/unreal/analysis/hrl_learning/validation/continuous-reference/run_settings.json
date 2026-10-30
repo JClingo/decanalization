@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "name": "baseline",
+    "reward": "quality",
+    "distance_scale": 25.0,
+    "discount": 0.99,
+    "gae_lambda": 0.95,
+    "window": 16,
+    "policy_batch": 2056,
+    "critic_batch": 4096,
+    "updates": 32,
+    "policy_lr": 0.0001,
+    "critic_lr": 0.001,
+    "entropy_start": 0.001,
+    "entropy_end": 0.001,
+    "anneal_steps": 2000000,
+    "lr_end_fraction": 1.0,
+    "guarded": false,
+    "objective": "log",
+    "target_kl": 0.015,
+    "clip": 0.2,
+    "grad_norm": 0.5,
+    "dt": 0.05,
+    "failure_boundary": 100.0,
+    "failure_reward": -1.0,
+    "segment_steps": 1028,
+    "episode_seconds": 100.0,
+    "reset_world_on_update": true,
+    "terminal_reward": -1.0,
+    "failure_accounting": "native-terminal-penalty"
+  },
+  "mode": "evaluate",
+  "policy_seed": 1234,
+  "environment_seed": 1,
+  "evaluation_seed": 71001,
+  "trials": 2,
+  "order": "ccc",
+  "port": 48620,
+  "max_gathers": 2,
+  "checkpoint_every": 1,
+  "engine_guard_seconds": 1200,
+  "continuous_homeostasis": true,
+  "snapshots": {
+    "encoder": {
+      "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/encoder.bin",
+      "sha256": "4ed63c5db9b7e3d0851584078905a2f512b76e04b29676e277a3755c9dfcb695"
+    },
+    "policy": {
+      "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/policy.bin",
+      "sha256": "603b2d613abbcce7061472c7c3099f7c7f6b31d3169fe94d1ab9ccc2633fa5a9"
+    },
+    "decoder": {
+      "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/decoder.bin",
+      "sha256": "14ede3ffcdb0f263ac9caaa0db7f499e2d7e5320a832f75063cc83c715bb3a0d"
+    },
+    "critic": {
+      "path": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL/critic.bin",
+      "sha256": "6cf9b0508e9e3323b0b1d122e86ac8948e9e8c298566185733ad1315e64fda2b"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25",
+  "project": "/Users/jingo/Work/PhD/Dissertation Project/decanalization",
+  "asset": "Content/Agent/BP_Agent.uasset",
+  "before_sha256": "55587cbe320622be0ed231f4910e02e968af78a87fff8ff0f64e4f3238087a73",
+  "after_sha256": "a023a6a5cc316e22395f8758cb06552fd616d34367e3c39e0c33cb3366d61cc4",
+  "engine": "Unreal Engine 5.5.4 (40574608), macOS",
+  "runtime_tests": 23,
+  "runtime_passed": true,
+  "test_flags_saved": false,
+  "compiled_log_errors": [],
+  "assumptions": [
+    "straight motion at the supplied MaxSpeed",
+    "existing axis-aligned cube tiles; path intersections use world component bounds",
+    "current ray starts inside an already-entered tile; future tiles incur one extra visit",
+    "no prediction of turns, walls outside the ray hit set, pellet respawns, or other agents"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "HRL": {
+    "family": "HRL",
+    "gathers": 75,
+    "steps": 750000,
+    "candidate_kind": "fresh",
+    "validation_seed": 30001,
+    "validation_trials": 32,
+    "validation_mae": 11.335430547379508,
+    "validation_reward": 249.03319533109243,
+    "policy_directory": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/HRL"
+  },
+  "NF": {
+    "family": "NF",
+    "gathers": 0,
+    "steps": 0,
+    "candidate_kind": "preserved-winner",
+    "validation_seed": 30001,
+    "validation_trials": 32,
+    "validation_mae": 27.578272352665227,
+    "validation_reward": 65.05518787633093,
+    "policy_directory": "/Users/jingo/Work/PhD/Dissertation Project/decanalization/analysis/anticipation-retrained-2026-10-25/policies/NF"
+  }
+}

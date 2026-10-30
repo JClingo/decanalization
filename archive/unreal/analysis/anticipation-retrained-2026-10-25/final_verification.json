@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "total_trials": 1000,
+  "total_phases": 3000,
+  "total_decisions": 6000000,
+  "loader_smoke": {
+    "passed": true,
+    "checks": {
+      "HRL": {
+        "family_and_inference_correct": true,
+        "four_class_and_actor_snapshot_paths_correct": true,
+        "unique_provenance_record": true
+      },
+      "NF": {
+        "family_and_inference_correct": true,
+        "four_class_and_actor_snapshot_paths_correct": true,
+        "unique_provenance_record": true
+      }
+    }
+  },
+  "loader_sha256": "69cbd8bbada0e9c5d990e07bc5db6868d5f385051d6d1ba92267937766cf8764",
+  "checks": [
+    {
+      "family": "HRL",
+      "condition": "cdr",
+      "trials": 250,
+      "phases": 750,
+      "decisions": 1500000,
+      "metrics_sha256": "cfd89c5b616f0689c73dd6fd57f0fe0e4a14259bd2bba939e42f1b1bf073db59",
+      "receipt_sha256": "0d2d56ade67313030a40983908ed655f7449bd1f875baea943292346214f7a09",
+      "models_match": true,
+      "corrected_anticipation_asset_matches": true,
+      "final_seed_excluded_from_selection": true
+    },
+    {
+      "family": "HRL",
+      "condition": "ccc",
+      "trials": 250,
+      "phases": 750,
+      "decisions": 1500000,
+      "metrics_sha256": "1147139ae207cfba5fbedd2459c6ad2e5b61bc95d90f26ca0b57eab2dcedb578",
+      "receipt_sha256": "1834717592e2e3f7c7a9d926756dbb85325f4e5e399e905dc5776055cbfc47b2",
+      "models_match": true,
+      "corrected_anticipation_asset_matches": true,
+      "final_seed_excluded_from_selection": true
+    },
+    {
+      "family": "NF",
+      "condition": "cdr",
+      "trials": 250,
+      "phases": 750,
+      "decisions": 1500000,
+      "metrics_sha256": "e8d0e8cbff18e5bccac68998dc15cc473fb95d22ec28ee0d8cdba71a8e40fadf",
+      "receipt_sha256": "7e524a1251c35c9307736d927a444847a7511ff09e0b3ee1ab8b2a03ea9b3d22",
+      "models_match": true,
+      "corrected_anticipation_asset_matches": true,
+      "final_seed_excluded_from_selection": true
+    },
+    {
+      "family": "NF",
+      "condition": "ccc",
+      "trials": 250,
+      "phases": 750,
+      "decisions": 1500000,
+      "metrics_sha256": "9174526c3614906971f2cee5ac939467fdebca040011fd8b5dad79592fc93541",
+      "receipt_sha256": "613b147990142182f6d23cdb9e9df49da5a429dd872872854badd3e729979727",
+      "models_match": true,
+      "corrected_anticipation_asset_matches": true,
+      "final_seed_excluded_from_selection": true
+    }
+  ]
+}

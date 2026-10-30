@@ -1,0 +1,26 @@
+[
+  {
+    "family": "HRL",
+    "metric": "mae",
+    "contrast": "fresh best - preserved winner; independent trial-level bootstrap",
+    "estimate": -14.0693027742478,
+    "ci95": [
+      -16.741089678970447,
+      -11.40934170528188
+    ],
+    "trials_per_candidate": 32,
+    "seed": 30001
+  },
+  {
+    "family": "NF",
+    "metric": "reward",
+    "contrast": "fresh best - preserved winner; independent trial-level bootstrap",
+    "estimate": -13.8201495086048,
+    "ci95": [
+      -16.730415308854443,
+      -10.870604068025663
+    ],
+    "trials_per_candidate": 32,
+    "seed": 30001
+  }
+]

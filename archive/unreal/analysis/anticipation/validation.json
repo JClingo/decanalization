@@ -1,0 +1,275 @@
+{
+  "tests": [
+    {
+      "name": "empty resource ray",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "passive loss with no tiles",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "three real resource hits",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "sum all pellet values",
+      "actual": 21.0,
+      "expected": 21.0,
+      "passed": true
+    },
+    {
+      "name": "pellet sum independent of hit order",
+      "actual": 21.0,
+      "expected": 21.0,
+      "passed": true
+    },
+    {
+      "name": "pellet gain has no duplicated passive charge",
+      "actual": 21.0,
+      "expected": 21.0,
+      "passed": true
+    },
+    {
+      "name": "resource total resets on next call",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "three tiles with partial endpoints",
+      "actual": 14.5,
+      "expected": 14.5,
+      "passed": true
+    },
+    {
+      "name": "known 2.5-second tile plus passive loss",
+      "actual": 14.5,
+      "expected": 14.5,
+      "passed": true
+    },
+    {
+      "name": "short ray wholly inside one tile",
+      "actual": 1.1600000000000001,
+      "expected": 1.1600000000000001,
+      "passed": true
+    },
+    {
+      "name": "angled ray crossing tile edges",
+      "actual": 13.033879218947666,
+      "expected": 13.033878931461656,
+      "passed": true
+    },
+    {
+      "name": "reverse direction",
+      "actual": 16.76,
+      "expected": 16.759999999999998,
+      "passed": true
+    },
+    {
+      "name": "parallel to other axis",
+      "actual": 3.48,
+      "expected": 3.48,
+      "passed": true
+    },
+    {
+      "name": "different canalization on each tile",
+      "actual": 7.086666666666667,
+      "expected": 7.086666666666666,
+      "passed": true
+    },
+    {
+      "name": "speed scales travel time",
+      "actual": 14.173333333333334,
+      "expected": 14.173333333333332,
+      "passed": true
+    },
+    {
+      "name": "passive update period conversion",
+      "actual": 6.126666666666667,
+      "expected": 6.126666666666666,
+      "passed": true
+    },
+    {
+      "name": "different simulation timestep",
+      "actual": 6.126666666666667,
+      "expected": 6.126666666666666,
+      "passed": true
+    },
+    {
+      "name": "zero passive loss",
+      "actual": 5.166666666666667,
+      "expected": 5.166666666666666,
+      "passed": true
+    },
+    {
+      "name": "tile total resets between calls",
+      "actual": 0.8,
+      "expected": 0.8,
+      "passed": true
+    },
+    {
+      "name": "zero speed is finite",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "zero delta is finite",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tile actors do not contribute pellet gain",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "net prediction is pellet gain minus traversal loss",
+      "actual": 6.5,
+      "expected": 6.5,
+      "passed": true
+    }
+  ],
+  "resource_hit_count": 3,
+  "resource_hits": [
+    "(FaceIndex=-1,Time=0.125000,Distance=250.000015,Location=(X=250.000030,Y=0.000000,Z=200.000000),ImpactPoint=(X=250.000008,Y=0.000000,Z=200.000000),Normal=(X=-0.995185,Y=-0.098017,Z=0.000000),ImpactNormal=(X=-0.995185,Y=-0.098017,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=200.000000),TraceEnd=(X=2000.000000,Y=0.000000,Z=200.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Resource_C_0.Cylinder'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Resource_C_0.Cylinder'\",BoneName=\"\",MyBoneName=\"\")",
+    "(FaceIndex=-1,Time=0.375000,Distance=750.000000,Location=(X=750.000000,Y=0.000000,Z=200.000000),ImpactPoint=(X=750.000008,Y=0.000000,Z=200.000000),Normal=(X=-0.995185,Y=-0.098017,Z=0.000000),ImpactNormal=(X=-0.995185,Y=-0.098017,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=200.000000),TraceEnd=(X=2000.000000,Y=0.000000,Z=200.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Resource_C_1.Cylinder'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Resource_C_1.Cylinder'\",BoneName=\"\",MyBoneName=\"\")",
+    "(FaceIndex=-1,Time=0.625000,Distance=1250.000000,Location=(X=1250.000000,Y=0.000000,Z=200.000000),ImpactPoint=(X=1250.000008,Y=0.000000,Z=200.000000),Normal=(X=-0.995185,Y=-0.098017,Z=0.000000),ImpactNormal=(X=-0.995185,Y=-0.098017,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=200.000000),TraceEnd=(X=2000.000000,Y=0.000000,Z=200.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Resource_C_2.Cylinder'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Resource_C_2.Cylinder'\",BoneName=\"\",MyBoneName=\"\")"
+  ],
+  "tile_bounds": [
+    [
+      [
+        -500.0,
+        -500.0,
+        -100.0
+      ],
+      [
+        500.0,
+        500.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        500.0,
+        -500.0,
+        -100.0
+      ],
+      [
+        1500.0,
+        500.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1500.0,
+        -500.0,
+        -100.0
+      ],
+      [
+        2500.0,
+        500.0,
+        0.0
+      ]
+    ]
+  ],
+  "scenarios": [
+    {
+      "name": "three tiles with partial endpoints",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2500.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.200000,Distance=500.000000,Location=(X=500.000007,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2500.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.600000,Distance=1500.000000,Location=(X=1500.000060,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2500.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "short ray wholly inside one tile",
+      "hits": 1,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=100.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=100.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=100.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=300.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "angled ray crossing tile edges",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=-300.000000,Y=-400.000000,Z=-1.000000),ImpactPoint=(X=-300.000000,Y=-400.000000,Z=-1.000000),Normal=(X=-0.934488,Y=-0.355995,Z=-0.000000),ImpactNormal=(X=-0.934488,Y=-0.355995,Z=-0.000000),TraceStart=(X=-300.000000,Y=-400.000000,Z=-1.000000),TraceEnd=(X=1800.000000,Y=400.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.380952,Distance=856.083984,Location=(X=500.000015,Y=-95.238090,Z=-1.000000),ImpactPoint=(X=500.000000,Y=-95.238095,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=-300.000000,Y=-400.000000,Z=-1.000000),TraceEnd=(X=1800.000000,Y=400.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.857143,Distance=1926.188965,Location=(X=1500.000018,Y=285.714293,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=285.714286,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=-300.000000,Y=-400.000000,Z=-1.000000),TraceEnd=(X=1800.000000,Y=400.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "reverse direction",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=2400.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=2400.000000,Y=0.000000,Z=-1.000000),Normal=(X=1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=2400.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=200.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.409091,Distance=900.000000,Location=(X=1500.000006,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=2400.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=200.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.863636,Distance=1900.000000,Location=(X=499.999976,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=2400.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=200.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "parallel to other axis",
+      "hits": 1,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=100.000000,Y=-300.000000,Z=-1.000000),ImpactPoint=(X=100.000000,Y=-300.000000,Z=-1.000000),Normal=(X=-0.000000,Y=-1.000000,Z=-0.000000),ImpactNormal=(X=-0.000000,Y=-1.000000,Z=-0.000000),TraceStart=(X=100.000000,Y=-300.000000,Z=-1.000000),TraceEnd=(X=100.000000,Y=300.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "different canalization on each tile",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.208333,Distance=500.000000,Location=(X=499.999988,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.625000,Distance=1500.000000,Location=(X=1500.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "speed scales travel time",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.208333,Distance=500.000000,Location=(X=499.999988,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.625000,Distance=1500.000000,Location=(X=1500.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "passive update period conversion",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.208333,Distance=500.000000,Location=(X=499.999988,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.625000,Distance=1500.000000,Location=(X=1500.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "different simulation timestep",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.208333,Distance=500.000000,Location=(X=499.999988,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.625000,Distance=1500.000000,Location=(X=1500.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    },
+    {
+      "name": "zero passive loss",
+      "hits": 3,
+      "hit_text": [
+        "(FaceIndex=-1,Time=0.000000,Distance=0.000000,Location=(X=0.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=0.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=-0.000000,Z=-0.000000),ImpactNormal=(X=-1.000000,Y=-0.000000,Z=-0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=True,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_0.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.208333,Distance=500.000000,Location=(X=499.999988,Y=0.000000,Z=-1.000000),ImpactPoint=(X=500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_1.Cube'\",BoneName=\"\",MyBoneName=\"\")",
+        "(FaceIndex=-1,Time=0.625000,Distance=1500.000000,Location=(X=1500.000000,Y=0.000000,Z=-1.000000),ImpactPoint=(X=1500.000000,Y=0.000000,Z=-1.000000),Normal=(X=-1.000000,Y=0.000000,Z=0.000000),ImpactNormal=(X=-1.000000,Y=0.000000,Z=0.000000),TraceStart=(X=0.000000,Y=0.000000,Z=-1.000000),TraceEnd=(X=2400.000000,Y=0.000000,Z=-1.000000),PenetrationDepth=0.000000,MyItem=-1,Item=-1,ElementIndex=0,bBlockingHit=True,bStartPenetrating=False,PhysMaterial=\"/Script/PhysicsCore.PhysicalMaterial'/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial'\",HitObjectHandle=(ReferenceObject=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\"),Component=\"/Script/Engine.StaticMeshComponent'/Temp/Untitled_1.Untitled:PersistentLevel.BP_Tile_C_2.Cube'\",BoneName=\"\",MyBoneName=\"\")"
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,26 @@
+test_absorbing_failure_cannot_escape_a_stream_of_valid_error_costs (test_learning.LearningTests.test_absorbing_failure_cannot_escape_a_stream_of_valid_error_costs) ... ok
+test_both_objectives_stop_good_and_bad_actions_at_the_correct_clip_side (test_learning.LearningTests.test_both_objectives_stop_good_and_bad_actions_at_the_correct_clip_side) ... ok
+test_checkpoint_selection_uses_time_mae_and_waits_for_minimum (test_learning.LearningTests.test_checkpoint_selection_uses_time_mae_and_waits_for_minimum) ... ok
+test_count_resets_cannot_be_misreported_as_route_entries (test_learning.LearningTests.test_count_resets_cannot_be_misreported_as_route_entries) ... ok
+test_critic_cannot_change_actor_encoder (test_learning.LearningTests.test_critic_cannot_change_actor_encoder) ... ok
+test_guarded_training_handles_buffer_shorter_than_window (test_learning.LearningTests.test_guarded_training_handles_buffer_shorter_than_window) ... ok
+test_last_transition_and_short_episode_receive_training_coverage (test_learning.LearningTests.test_last_transition_and_short_episode_receive_training_coverage) ... ok
+test_learning_comparisons_hold_reward_and_canalizing_environment_fixed (test_learning.LearningTests.test_learning_comparisons_hold_reward_and_canalizing_environment_fixed) ... ok
+test_masked_padding_cannot_poison_kl (test_learning.LearningTests.test_masked_padding_cannot_poison_kl) ... ok
+test_post_update_kl_rejection_restores_weights_and_optimizer_state (test_learning.LearningTests.test_post_update_kl_rejection_restores_weights_and_optimizer_state) ... ok
+test_profile_rejects_unstable_or_silent_settings (test_learning.LearningTests.test_profile_rejects_unstable_or_silent_settings) ... ok
+test_ratio_surrogate_matches_probability_ratio_not_log_ratio (test_learning.LearningTests.test_ratio_surrogate_matches_probability_ratio_not_log_ratio) ... ok
+test_rollbacks_also_restore_existing_adam_momentum (test_learning.LearningTests.test_rollbacks_also_restore_existing_adam_momentum) ... ok
+test_route_entropy_distinguishes_uniform_and_concentrated_visitation (test_learning.LearningTests.test_route_entropy_distinguishes_uniform_and_concentrated_visitation) ... ok
+test_route_reuse_is_measured_relative_to_the_start_of_each_phase (test_learning.LearningTests.test_route_reuse_is_measured_relative_to_the_start_of_each_phase) ... ok
+test_schedule_has_explicit_endpoints_and_does_not_overshoot (test_learning.LearningTests.test_schedule_has_explicit_endpoints_and_does_not_overshoot) ... ok
+test_small_improvement_is_retained_without_resetting_plateau (test_learning.LearningTests.test_small_improvement_is_retained_without_resetting_plateau) ... ok
+test_time_metrics_reject_empty_data (test_learning.LearningTests.test_time_metrics_reject_empty_data) ... ok
+test_truncation_masks_next_episode_without_dropping_boundary (test_learning.LearningTests.test_truncation_masks_next_episode_without_dropping_boundary) ... ok
+test_world_duration_is_independent_of_experience_segment_length (test_learning.LearningTests.test_world_duration_is_independent_of_experience_segment_length) ... ok
+test_world_history_stage_preserves_the_original_control (test_learning.LearningTests.test_world_history_stage_preserves_the_original_control) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.350s
+
+OK

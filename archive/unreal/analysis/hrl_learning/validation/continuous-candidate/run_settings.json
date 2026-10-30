@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "name": "canalization-aware",
+    "reward": "quality",
+    "distance_scale": 25.0,
+    "discount": 0.9975,
+    "gae_lambda": 0.97,
+    "window": 64,
+    "policy_batch": 512,
+    "critic_batch": 4096,
+    "updates": 8,
+    "policy_lr": 3e-05,
+    "critic_lr": 0.0003,
+    "entropy_start": 0.001,
+    "entropy_end": 0.0001,
+    "anneal_steps": 2000000,
+    "lr_end_fraction": 0.1,
+    "guarded": true,
+    "objective": "ratio",
+    "target_kl": 0.015,
+    "clip": 0.1,
+    "grad_norm": 0.5,
+    "dt": 0.05,
+    "failure_boundary": 100.0,
+    "failure_reward": -1.0,
+    "segment_steps": 6000,
+    "episode_seconds": 300.0,
+    "reset_world_on_update": false,
+    "terminal_reward": -1.0,
+    "failure_accounting": "native-terminal-penalty"
+  },
+  "mode": "evaluate",
+  "policy_seed": 1234,
+  "environment_seed": 701,
+  "evaluation_seed": 71001,
+  "trials": 2,
+  "order": "ccc",
+  "port": 48620,
+  "max_gathers": 2,
+  "checkpoint_every": 1,
+  "engine_guard_seconds": 1200,
+  "continuous_homeostasis": true,
+  "snapshots": {
+    "policy": {
+      "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/policy.bin",
+      "sha256": "7968cd9a71b85249f15cc65526a27bfdb66f2fb7824b3a546f03b3c98ec08f5d"
+    },
+    "critic": {
+      "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/critic.bin",
+      "sha256": "03871a439d30d64688fa8718e2e230cc04a713b7295fecc8c9874b5ba2bf2ea7"
+    },
+    "encoder": {
+      "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/encoder.bin",
+      "sha256": "8589289486f603bc55aec7cd4349ffecf55fcfb3948ed8f63dc2449303a09c6b"
+    },
+    "decoder": {
+      "path": "/private/tmp/hrl-learning-final-20261026/smoke-canalization-aware-1234/checkpoints/gather-00002/decoder.bin",
+      "sha256": "3d12403c66e42ae9adf6d4345088e21d39e734918d47f9daa685f9666240eb24"
+    }
+  }
+}
