@@ -21,6 +21,8 @@ the full method.
 | `levers_learned.py` | Lever decomposition (entropy-only arms). |
 | `make_figure_data.py` | Regenerates the paper's figure data and figure PDFs. |
 | `smoke_test.py` | Quick check that the saved policies run. |
+| `example-trial-scan.py` | Picks the paper's example trial (evaluation seed 5020). |
+| `long-run-no-new-patches.py` | Exploratory: changing world without new patches, run to 1,200 s. |
 | `gates.py`, `sweep.py`, `cost_sweep.py`, `confirm_dose.py` | Development stage A: imposed narrowing. |
 | `map_gates.py`, `trap_diag.py`, `map_levers.py`, `map_levers2.py`, `confirm_map.py`, `surface.py` | Development: cognitive map with the hand-written planner. |
 
