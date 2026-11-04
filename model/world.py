@@ -1,4 +1,4 @@
-"""Canalization-as-perceptual-narrowing gridworld (prototype; see revisionPlan/canalizationModel/SPEC.md).
+"""Canalization-as-perceptual-narrowing gridworld (prototype; see docs/SPEC.md).
 
 Units: tiles (1 tile = 1,000 Unreal units), seconds. Toroidal 50x50 grid.
 One trial = a sequence of phases; the decanalization dose d(t) relaxes perception only.

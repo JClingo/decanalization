@@ -1,8 +1,7 @@
 # Canalization and decanalization: prototype findings — 30 October 2026
 
 This consolidates `SPEC.md` (imposed narrowing) and `COGNITIVE_MAP_BOOKMARK.md`
-(cognitive map, learned policies). Code is in `model/` (local
-only). Outputs are in `results/`.
+(cognitive map, learned policies). Code is in `model/`. Outputs are in `results/`.
 
 ## Summary
 

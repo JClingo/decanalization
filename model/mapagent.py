@@ -1,4 +1,4 @@
-"""Cognitive-map agent: canalization from learned precision (see revisionPlan/canalizationModel/COGNITIVE_MAP_BOOKMARK.md).
+"""Cognitive-map agent: canalization from learned precision (see docs/COGNITIVE_MAP_BOOKMARK.md).
 
 Same world as world.py; fixed perception (no imposed narrowing). The agent keeps a map of
 expected pellet value V and precision P per cell.

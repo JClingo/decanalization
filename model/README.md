@@ -19,10 +19,12 @@ the full method.
 | `eval_policies.py` | Main evaluation: undisturbed, low-precision reference, decanalization cells. |
 | `pool_seeds.py` | Pools evaluations across training seeds (seed = unit of inference). |
 | `levers_learned.py` | Lever decomposition (entropy-only arms). |
-| `make_figure_data.py` | Regenerates the paper's figure data and figure PDFs. |
+| `eval_phases.py` | Per-phase CCC vs CDR evaluation behind Table 2 and Figure 5. |
+| `make_figure_data.py` | Regenerates the data for Figures 2, 4, 5 and 6, prints Table 2, and builds the figure PDFs. |
 | `smoke_test.py` | Quick check that the saved policies run. |
 | `example-trial-scan.py` | Picks the paper's example trial (evaluation seed 5020). |
 | `long-run-no-new-patches.py` | Exploratory: changing world without new patches, run to 1,200 s. |
+| `path_wear_ablation.py` | Exploratory: evaluation with flat traversal costs, to test whether path wear contributes to trapping. |
 | `gates.py`, `sweep.py`, `cost_sweep.py`, `confirm_dose.py` | Development stage A: imposed narrowing. |
 | `map_gates.py`, `trap_diag.py`, `map_levers.py`, `map_levers2.py`, `confirm_map.py`, `surface.py` | Development: cognitive map with the hand-written planner. |
 
@@ -85,7 +87,7 @@ python make_figure_data.py
 
 Both write to `runs/`; their outputs match `../results/evaluations/pooled_seeds.json` and `../results/figures/*.dat` exactly.
 
-**Pool your own evaluations and decompose the levers:**
+**Pool your own evaluations, decompose the levers, and rerun the per-phase evaluation:**
 
 ```bash
 python pool_seeds.py
@@ -94,6 +96,12 @@ python pool_seeds.py
 ```bash
 python levers_learned.py
 ```
+
+```bash
+python eval_phases.py
+```
+
+`make_figure_data.py` then uses these outputs in `runs/` in place of the published ones.
 
 **Timing** on an 8-core laptop: training takes about 10 minutes per family
 and seed; one evaluation takes about 10 minutes.

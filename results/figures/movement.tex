@@ -1,0 +1,92 @@
+% Data from model/make_figure_data.py. Rebuild here: pdflatex -interaction=nonstopmode -halt-on-error FILE.tex
+\documentclass[border=2pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath}
+\usepackage{anyfontsize}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\definecolor{ink}{HTML}{28333F}
+\definecolor{muted}{HTML}{596673}
+\definecolor{rule}{HTML}{D7DDE2}
+\definecolor{ccc}{HTML}{2A78D6}
+\definecolor{cdr}{HTML}{C65B29}
+\definecolor{food}{HTML}{287C68}
+\definecolor{newp}{HTML}{A493C9}
+\input{movement-stats.tex}
+
+% One 50 x 50 world panel; patches come from movement-stats.tex.
+% #1 x, #2 y, #3 arm (ccc/cdr), #4 phase (1-3),
+% #5 path colour, #6 t from, #7 t to, #8 unused, #9 stats tag (e.g. cccA).
+% Frames are neutral; colour is kept to the path and the condition name.
+\newcommand{\world}[9]{%
+  \begin{axis}[at={(#1cm,#2cm)},anchor=south west,width=3.4cm,height=3.4cm,scale only axis,
+    xmin=0,xmax=50,ymin=0,ymax=50,ticks=none,axis line style={rule,line width=0.7pt},
+    axis background/.style={fill=black!2},clip=true,unbounded coords=jump]
+  \csname patches#9\endcsname
+  \addplot[#5,line width=0.45pt,opacity=0.55,line join=round,
+    restrict expr to domain={\thisrow{t}}{#6:#7}] table[x=x,y=y] {movement-#3.dat};
+  \edef\mvfrom{\csname start#9\endcsname}\edef\mvto{\csname stop#9\endcsname}\markends{\mvfrom}{\mvto}{#5}
+  \end{axis}}
+% Agent position at the start (open) and end (filled) of a phase, inside the current axis.
+\newcommand{\markends}[3]{%
+  \draw[fill=white,draw=#3,line width=0.8pt] (axis cs:#1) circle (1.2);
+  \filldraw[fill=#3,draw=white,line width=0.5pt] (axis cs:#2) circle (1.35);}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,
+  every node/.style={font=\fontsize{8.5}{10.5}\selectfont,text=ink,inner sep=0pt},
+  stat/.style={anchor=north west,align=left,font=\fontsize{7.5}{9}\selectfont,text=muted},
+  flow/.style={-{Stealth[length=2mm]},line width=0.8pt,draw=muted},
+  lab/.style={align=left,anchor=west,text width=1.8cm,font=\fontsize{7.5}{9}\selectfont}]
+\usetikzlibrary{arrows.meta,calc}
+\path[use as bounding box] (1.8,0.05) rectangle (14.1,11.0);
+
+\foreach \x/\n/\title/\timing in {
+  1.85/1/Canalization/{0--300\,s},
+  6.15/2/Intervention/{300--400\,s},
+  10.35/3/Recanalization/{400--700\,s}} {
+  \fill[ink] (\x+0.17,10.75) circle (0.17);
+  \node[text=white,font=\bfseries\fontsize{8}{9}\selectfont] at (\x+0.17,10.75) {\n};
+  \node[anchor=west,font=\bfseries\fontsize{9}{11}\selectfont] at (\x+0.42,10.75) {\title};
+  \node[anchor=west,text=muted] at (\x+0.42,10.39) {\timing};
+}
+% Condition names sit on top of every panel; phase 1 is shared.
+\node[anchor=south west,text=cdr,font=\bfseries\fontsize{7.5}{9}\selectfont] at (6.15,9.78) {CDR};
+\node[anchor=south west,text=ccc,font=\bfseries\fontsize{7.5}{9}\selectfont] at (6.15,4.88) {CCC};
+\node[anchor=south west,text=cdr,font=\bfseries\fontsize{7.5}{9}\selectfont] at (10.35,9.78) {CDR};
+\node[anchor=south west,text=ccc,font=\bfseries\fontsize{7.5}{9}\selectfont] at (10.35,4.88) {CCC};
+\node[anchor=south west,text=ink,font=\bfseries\fontsize{7.5}{9}\selectfont] at (1.85,7.33) {\textcolor{cdr}{CDR}\textcolor{muted}{\,/\,}\textcolor{ccc}{CCC}};
+
+\world{1.85}{3.85}{ccc}{1}{ink}{0}{300}{muted}{cccA}
+\world{6.15}{6.3}{cdr}{2}{cdr}{300}{400}{cdr}{cdrB}
+\world{10.35}{6.3}{cdr}{3}{cdr}{400}{700}{cdr}{cdrC}
+\world{6.15}{1.4}{ccc}{2}{ccc}{300}{400}{ccc}{cccB}
+\world{10.35}{1.4}{ccc}{3}{ccc}{400}{700}{ccc}{cccC}
+
+\node[stat] at (1.85,3.7) {Harvests: \oldcccA\ familiar\\Mean $|h|$: \maecccA};
+\node[stat] at (6.15,6.15) {Harvests: \oldcdrB\ familiar, \newcdrB\ new\\Mean $|h|$: \maecdrB};
+\node[stat] at (10.35,6.15) {Harvests: \oldcdrC\ familiar, \newcdrC\ new\\Mean $|h|$: \maecdrC};
+\node[stat] at (6.15,1.25) {Harvests: \oldcccB\ familiar, \newcccB\ new\\Mean $|h|$: \maecccB};
+\node[stat] at (10.35,1.25) {Harvests: \oldcccC\ familiar, \newcccC\ new\\Mean $|h|$: \maecccC};
+
+% Connectors meet each panel at its vertical centre.
+\draw[flow] (5.25,5.55) -- (5.7,5.55) |- (6.15,8.0);
+\draw[flow] (5.7,5.55) |- (6.15,3.1);
+\draw[flow] (9.55,8.0) -- (10.35,8.0);
+\draw[flow] (9.55,3.1) -- (10.35,3.1);
+
+% Legend; each entry is placed after the previous one.
+\begin{scope}[font=\fontsize{7}{8.5}\selectfont]
+  \fill[food] (1.85,0.2) rectangle +(0.2,0.2);
+  \node[anchor=west,text=muted] (l1) at (2.15,0.3) {familiar patch};
+  \filldraw[fill=newp,draw=newp!70!black,line width=0.7pt] ($(l1.east)+(0.45,-0.1)$) rectangle +(0.2,0.2);
+  \node[anchor=west,text=muted] (l2) at ($(l1.east)+(0.75,0)$) {new patch};
+  \draw[fill=white,draw=ink,line width=0.8pt] ($(l2.east)+(0.5,0)$) circle (0.075);
+  \fill[ink] ($(l2.east)+(0.75,0)$) circle (0.085);
+  \node[anchor=west,text=muted] (l3) at ($(l2.east)+(0.95,0)$) {phase start / end};
+  \filldraw[fill=newp!15,draw=newp,dashed,line width=0.8pt] ($(l3.east)+(0.45,-0.1)$) rectangle +(0.2,0.2);
+  \node[anchor=west,text=muted] at ($(l3.east)+(0.75,0)$) {new patch, before it appears};
+\end{scope}
+\end{tikzpicture}
+\end{document}
