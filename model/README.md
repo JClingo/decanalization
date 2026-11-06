@@ -20,6 +20,7 @@ the full method.
 | `pool_seeds.py` | Pools evaluations across training seeds (seed = unit of inference). |
 | `levers_learned.py` | Lever decomposition (entropy-only arms). |
 | `eval_phases.py` | Per-phase CCC vs CDR evaluation behind Table 2 and Figure 5. |
+| `eval_first_harvest.py` | When CCC and CDR agents first harvest from the new patches (same trials as `eval_phases.py`). |
 | `make_figure_data.py` | Regenerates the data for Figures 2, 4, 5 and 6, prints Table 2, and builds the figure PDFs. |
 | `smoke_test.py` | Quick check that the saved policies run. |
 | `example-trial-scan.py` | Picks the paper's example trial (evaluation seed 5020). |

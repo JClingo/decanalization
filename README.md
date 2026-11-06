@@ -45,6 +45,7 @@ training seeds per objective.
 | Checkpoint selection, training curves | `results/policies/selection_*.json`, `train_*.json` |
 | Choice of example trial (seed 5020) | `results/development/example-trial-scan.json` |
 | Long run without new patches, Results | `results/development/long-run-no-new-patches.json` |
+| First harvest from the new patches, Results and Limitations | `results/evaluations/first_harvest.json` (from `model/eval_first_harvest.py`) |
 | Path-wear ablation (not in the paper) | `results/development/path-wear-ablation.json` |
 | Development stages | `results/development/` |
 
